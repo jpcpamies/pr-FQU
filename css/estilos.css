@@ -102,7 +102,7 @@ section .secciones .salutaciones .salutacion .imagen{background-image:url("../im
 /* line 66 : /Users/jordiimac/Documents/FQU/css/bp1.styl */
 
 @media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp1\.styl}line{font-family:\0000366}}
-section .secciones .salutaciones .salutacion .imagen:after{color:#fff;content:'Núria Balagué Raga';font-style:italic;text-shadow:0 0 1px rgba(0,0,0,0.8);position:absolute;right:10px;top:5px}
+section .secciones .salutaciones .salutacion .imagen h3{color:#fff;content:'Núria Balagué Raga';font-style:italic;text-shadow:0 0 1px rgba(0,0,0,0.8);position:absolute;right:10px;top:5px}
 
 /* line 74 : /Users/jordiimac/Documents/FQU/css/bp1.styl */
 
