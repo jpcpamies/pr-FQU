@@ -32,27 +32,6 @@ section
 	.secciones
 		margin 0 10px
 		.salutaciones
-			.titulo
-				color gris
-				font-size .8em
-				font-weight 300
-				margin 10px 0
-				text-align center
-				text-transform uppercase
-				position relative
-				.linea
-					background gris
-					display block
-					height 1px
-					position absolute
-					top 10px
-					width 100%
-					z-index 1
-				.texto
-					background azul
-					padding 0 15px
-					position relative
-					z-index 2
 			.salutacion
 				box-shadow 0 0 10px rgba(black,.3)
 				margin 0 0 15px
@@ -63,6 +42,12 @@ section
 					background-position 0px 0px 
 					background-repeat no-repeat
 					background-size 100% auto
+				.enlace
+					position absolute
+					top 0
+					left 0
+					bottom 0
+					right 0
 				.pregonera
 					background-image url(../img/salutacions/pregonera.jpg)
 					background-position 0px 0px 
@@ -84,28 +69,6 @@ section
 						position absolute
 						right 10px
 						top 5px
-				.texto
-					background white
-					height auto
-					padding 10px
-					width 100%
-					h2
-						color titulo
-						font-size 1.2em
-						font-style italic
-						font-weight bigger
-						padding 0 0 10px
-						text-align center
-						text-transform uppercase
-					h3
-						border-top 1px solid rgba(titulo,.3)
-						color titulo
-						font-size .8em
-						font-weight 300
-						margin 0 5px
-						padding 5px 0 10px 0 
-						text-align center
-
 .bg 
 	background azul
 	height 100%
@@ -113,7 +76,7 @@ section
 	position fixed
 	top 0
 	width 100%
-	z-index -50
+	z-index -50						
 .invisible
 	display none
 .menu
@@ -202,6 +165,47 @@ section
 			width 49%
 			.twitter
 				margin 0 0 0 1.5em
-
+.texto
+	background white
+	height auto
+	padding 10px
+	width 100%
+	h2
+		color titulo
+		font-size 1.2em
+		font-style italic
+		font-weight bigger
+		padding 0 0 10px
+		text-align center
+		text-transform uppercase
+	h3
+		border-top 1px solid rgba(titulo,.3)
+		color titulo
+		font-size .8em
+		font-weight 300
+		margin 0 5px
+		padding 5px 0 10px 0 
+		text-align center
+.titulo
+	color gris
+	font-size .8em
+	font-weight 300
+	margin 10px 0
+	text-align center
+	text-transform uppercase
+	position relative
+	.linea
+		background gris
+		display block
+		height 1px
+		position absolute
+		top 10px
+		width 100%
+		z-index 1
+	.texto
+		background azul
+		padding 0 15px
+		position relative
+		z-index 2
 
 
