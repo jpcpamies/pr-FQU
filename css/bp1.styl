@@ -54,9 +54,23 @@ section
 					position relative
 					z-index 2
 			.salutacion
-				margin 0 10px 15pxK
+				position relative
 				width auto
 				.imagen
+					background-image url(../img/salutacions/alcaldesa.jpg)
+					background-position 0px 0px 
+					background-repeat no-repeat
+					background-size 100% auto
+					width auto
+					height 100px
+					&:after
+						color white
+						content 'Núria Balagué Raga'
+						font-style italic
+						text-shadow 0px 0px 1px rgba(black,.8)
+						position absolute
+						right 10px
+						top 5px
 				.texto
 					background white
 					height auto
@@ -75,6 +89,7 @@ section
 						color titulo
 						font-size .8em
 						font-weight 300
+						margin 0 5px
 						padding 5px 0 10px 0 
 						text-align center
 
