@@ -32,171 +32,199 @@ pre{white-space:pre-wrap}
 @media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/estilos\.styl}line{font-family:\0000345}}
 body{width:100%;height:100%;font-family:lato;font-size:20px;font-weight:100}
 
-/* line 5 : /Users/jordiimac/Documents/FQU/css/bp1.styl */
+/* line 3 : /Users/jordiimac/Documents/FQU/css/bp1.styl */
 
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp1\.styl}line{font-family:\000035}}
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp1\.styl}line{font-family:\000033}}
 
-/* line 5 : /Users/jordiimac/Documents/FQU/css/bp1.styl */
+/* line 3 : /Users/jordiimac/Documents/FQU/css/bp1.styl */
 
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp1\.styl}line{font-family:\000035}}
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp1\.styl}line{font-family:\000033}}
 header{background:#5a6171;height:50px;overflow:hidden;}
 
-/* line 9 : /Users/jordiimac/Documents/FQU/css/bp1.styl */
+/* line 7 : /Users/jordiimac/Documents/FQU/css/bp1.styl */
 
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp1\.styl}line{font-family:\000039}}
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp1\.styl}line{font-family:\000037}}
 header h1{color:#808080;font-size:.95em;font-weight:300;line-height:2.5em;margin:0;padding:0 0 0 70px;}
 
-/* line 16 : /Users/jordiimac/Documents/FQU/css/bp1.styl */
+/* line 14 : /Users/jordiimac/Documents/FQU/css/bp1.styl */
 
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp1\.styl}line{font-family:\0000316}}
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp1\.styl}line{font-family:\0000314}}
 header h1 span{color:#000;font-weight:400;margin:0}
 
-/* line 20 : /Users/jordiimac/Documents/FQU/css/bp1.styl */
+/* line 18 : /Users/jordiimac/Documents/FQU/css/bp1.styl */
 
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp1\.styl}line{font-family:\0000320}}
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp1\.styl}line{font-family:\0000318}}
 header p{color:#fff;font-weight:900;font-style:italic;margin:-37px 0 0 0;padding:0 0 0 290px}
 
-/* line 26 : /Users/jordiimac/Documents/FQU/css/bp1.styl */
+/* line 24 : /Users/jordiimac/Documents/FQU/css/bp1.styl */
 
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp1\.styl}line{font-family:\0000326}}
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp1\.styl}line{font-family:\0000324}}
 header .logo{background-image:url("../img/logo.png");background-position:0 0;background-repeat:no-repeat;background-size:auto 50px;width:600px;height:50px}
+
+/* line 31 : /Users/jordiimac/Documents/FQU/css/bp1.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp1\.styl}line{font-family:\0000331}}
+
+/* line 32 : /Users/jordiimac/Documents/FQU/css/bp1.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp1\.styl}line{font-family:\0000332}}
+section .secciones{margin:0 10px;}
 
 /* line 34 : /Users/jordiimac/Documents/FQU/css/bp1.styl */
 
 @media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp1\.styl}line{font-family:\0000334}}
+
+/* line 35 : /Users/jordiimac/Documents/FQU/css/bp1.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp1\.styl}line{font-family:\0000335}}
+section .secciones .salutaciones .titulo{color:rgba(0,0,0,0.5);font-size:.8em;font-weight:300;margin:10px 0;text-align:center;text-transform:uppercase;position:relative;}
+
+/* line 43 : /Users/jordiimac/Documents/FQU/css/bp1.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp1\.styl}line{font-family:\0000343}}
+section .secciones .salutaciones .titulo .linea{background:rgba(0,0,0,0.5);display:block;height:1px;position:absolute;top:10px;width:100%;z-index:1}
+
+/* line 51 : /Users/jordiimac/Documents/FQU/css/bp1.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp1\.styl}line{font-family:\0000351}}
+section .secciones .salutaciones .titulo .texto{background:#9fc1e0;padding:0 15px;position:relative;z-index:2}
+
+/* line 56 : /Users/jordiimac/Documents/FQU/css/bp1.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp1\.styl}line{font-family:\0000356}}
 .bg{background:#9fc1e0;height:100%;left:0;position:fixed;top:0;width:100%;z-index:-50}
-
-/* line 42 : /Users/jordiimac/Documents/FQU/css/bp1.styl */
-
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp1\.styl}line{font-family:\0000342}}
-.invisible{display:none}
-
-/* line 44 : /Users/jordiimac/Documents/FQU/css/bp1.styl */
-
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp1\.styl}line{font-family:\0000344}}
-.menu{background:#5a6171;border-radius:5px;bottom:0;color:#fff;left:0;margin:0 auto .4em auto;position:fixed;right:0;width:97%;z-index:20;animation:animacionMenu 1s 1;-webkit-animation:animacionMenu 1s 1;}
-
-/* line 57 : /Users/jordiimac/Documents/FQU/css/bp1.styl */
-
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp1\.styl}line{font-family:\0000357}}
-
-/* line 58 : /Users/jordiimac/Documents/FQU/css/bp1.styl */
-
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp1\.styl}line{font-family:\0000358}}
-.menu .botones .botonMenu{display:inline-block;line-height:2em;text-align:center;vertical-align:bottom;width:32%;}
 
 /* line 64 : /Users/jordiimac/Documents/FQU/css/bp1.styl */
 
 @media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp1\.styl}line{font-family:\0000364}}
-.menu .botones .botonMenu a{color:#fff;text-decoration:none}
+.invisible{display:none}
 
-/* line 67 : /Users/jordiimac/Documents/FQU/css/bp1.styl */
+/* line 66 : /Users/jordiimac/Documents/FQU/css/bp1.styl */
 
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp1\.styl}line{font-family:\0000367}}
-.menu .botones .botonMenu .compartir{font-size:1.2em;}
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp1\.styl}line{font-family:\0000366}}
+.menu{background:#5a6171;border-radius:5px;bottom:0;color:#fff;left:0;margin:0 auto .4em auto;position:fixed;right:0;width:97%;z-index:20;animation:animacionMenu 1s 1;-webkit-animation:animacionMenu 1s 1;}
 
-/* line 69 : /Users/jordiimac/Documents/FQU/css/bp1.styl */
+/* line 79 : /Users/jordiimac/Documents/FQU/css/bp1.styl */
 
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp1\.styl}line{font-family:\0000369}}
-.menu .botones .botonMenu .compartir:after{content:'\e602';font-family:icono;font-size:.9em}
-
-/* line 73 : /Users/jordiimac/Documents/FQU/css/bp1.styl */
-
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp1\.styl}line{font-family:\0000373}}
-.menu .botones .botonMenu .compartir:active{color:rgba(255,255,255,0.3)}
-
-/* line 75 : /Users/jordiimac/Documents/FQU/css/bp1.styl */
-
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp1\.styl}line{font-family:\0000375}}
-
-/* line 76 : /Users/jordiimac/Documents/FQU/css/bp1.styl */
-
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp1\.styl}line{font-family:\0000376}}
-.menu .botones .botonMenu .mapa:after{content:'\e600';font-family:icono;font-size:1.2em}
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp1\.styl}line{font-family:\0000379}}
 
 /* line 80 : /Users/jordiimac/Documents/FQU/css/bp1.styl */
 
 @media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp1\.styl}line{font-family:\0000380}}
-.menu .botones .botonMenu .mapa:active{color:rgba(255,255,255,0.3)}
-
-/* line 82 : /Users/jordiimac/Documents/FQU/css/bp1.styl */
-
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp1\.styl}line{font-family:\0000382}}
-.menu .botones .botonMenu .menuResizer{font-weight:400;}
-
-/* line 84 : /Users/jordiimac/Documents/FQU/css/bp1.styl */
-
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp1\.styl}line{font-family:\0000384}}
-.menu .botones .botonMenu .menuResizer:active{color:rgba(255,255,255,0.3)}
+.menu .botones .botonMenu{display:inline-block;line-height:2em;text-align:center;vertical-align:bottom;width:32%;}
 
 /* line 86 : /Users/jordiimac/Documents/FQU/css/bp1.styl */
 
 @media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp1\.styl}line{font-family:\0000386}}
+.menu .botones .botonMenu a{color:#fff;text-decoration:none}
 
-/* line 87 : /Users/jordiimac/Documents/FQU/css/bp1.styl */
+/* line 89 : /Users/jordiimac/Documents/FQU/css/bp1.styl */
 
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp1\.styl}line{font-family:\0000387}}
-.menu .botones .botonMenu .menuResizer .aumentar:after{content:'A';font-size:1em}
-
-/* line 90 : /Users/jordiimac/Documents/FQU/css/bp1.styl */
-
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp1\.styl}line{font-family:\0000390}}
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp1\.styl}line{font-family:\0000389}}
+.menu .botones .botonMenu .compartir{font-size:1.2em;}
 
 /* line 91 : /Users/jordiimac/Documents/FQU/css/bp1.styl */
 
 @media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp1\.styl}line{font-family:\0000391}}
-.menu .botones .botonMenu .menuResizer .disminuir:after{content:'A';font-size:.6em}
+.menu .botones .botonMenu .compartir:after{content:'\e602';font-family:icono;font-size:.9em}
 
-/* line 94 : /Users/jordiimac/Documents/FQU/css/bp1.styl */
+/* line 95 : /Users/jordiimac/Documents/FQU/css/bp1.styl */
 
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp1\.styl}line{font-family:\0000394}}
-.menu .resizer{background:rgba(0,0,0,0.2);border-top:1px solid rgba(40,49,72,0.4);box-shadow:0 1px 0 rgba(255,255,255,0.1);color:rgba(255,255,255,0.7);padding:.4em 0;}
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp1\.styl}line{font-family:\0000395}}
+.menu .botones .botonMenu .compartir:active{color:rgba(255,255,255,0.3)}
 
-/* line 100 : /Users/jordiimac/Documents/FQU/css/bp1.styl */
+/* line 97 : /Users/jordiimac/Documents/FQU/css/bp1.styl */
 
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp1\.styl}line{font-family:\00003100}}
-.menu .resizer .botonResizer{display:inline-block;font-weight:400;text-align:center;width:49%;}
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp1\.styl}line{font-family:\0000397}}
 
-/* line 105 : /Users/jordiimac/Documents/FQU/css/bp1.styl */
+/* line 98 : /Users/jordiimac/Documents/FQU/css/bp1.styl */
 
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp1\.styl}line{font-family:\00003105}}
-.menu .resizer .botonResizer .disminuir{border-right:1px solid rgba(40,49,72,0.4);box-shadow:1px 0 0 rgba(255,255,255,0.1);}
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp1\.styl}line{font-family:\0000398}}
+.menu .botones .botonMenu .mapa:after{content:'\e600';font-family:icono;font-size:1.2em}
+
+/* line 102 : /Users/jordiimac/Documents/FQU/css/bp1.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp1\.styl}line{font-family:\00003102}}
+.menu .botones .botonMenu .mapa:active{color:rgba(255,255,255,0.3)}
+
+/* line 104 : /Users/jordiimac/Documents/FQU/css/bp1.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp1\.styl}line{font-family:\00003104}}
+.menu .botones .botonMenu .menuResizer{font-weight:400;}
+
+/* line 106 : /Users/jordiimac/Documents/FQU/css/bp1.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp1\.styl}line{font-family:\00003106}}
+.menu .botones .botonMenu .menuResizer:active{color:rgba(255,255,255,0.3)}
 
 /* line 108 : /Users/jordiimac/Documents/FQU/css/bp1.styl */
 
 @media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp1\.styl}line{font-family:\00003108}}
-.menu .resizer .botonResizer .disminuir:after{content:'A';font-size:.7em}
 
-/* line 111 : /Users/jordiimac/Documents/FQU/css/bp1.styl */
+/* line 109 : /Users/jordiimac/Documents/FQU/css/bp1.styl */
 
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp1\.styl}line{font-family:\00003111}}
-.menu .resizer .botonResizer .disminuir:active{color:rgba(255,255,255,0.3)}
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp1\.styl}line{font-family:\00003109}}
+.menu .botones .botonMenu .menuResizer .aumentar:after{content:'A';font-size:1em}
+
+/* line 112 : /Users/jordiimac/Documents/FQU/css/bp1.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp1\.styl}line{font-family:\00003112}}
 
 /* line 113 : /Users/jordiimac/Documents/FQU/css/bp1.styl */
 
 @media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp1\.styl}line{font-family:\00003113}}
+.menu .botones .botonMenu .menuResizer .disminuir:after{content:'A';font-size:.6em}
 
-/* line 114 : /Users/jordiimac/Documents/FQU/css/bp1.styl */
+/* line 116 : /Users/jordiimac/Documents/FQU/css/bp1.styl */
 
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp1\.styl}line{font-family:\00003114}}
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp1\.styl}line{font-family:\00003116}}
+.menu .resizer{background:rgba(0,0,0,0.2);border-top:1px solid rgba(40,49,72,0.4);box-shadow:0 1px 0 rgba(255,255,255,0.1);color:rgba(255,255,255,0.7);padding:.4em 0;}
+
+/* line 122 : /Users/jordiimac/Documents/FQU/css/bp1.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp1\.styl}line{font-family:\00003122}}
+.menu .resizer .botonResizer{display:inline-block;font-weight:400;text-align:center;width:49%;}
+
+/* line 127 : /Users/jordiimac/Documents/FQU/css/bp1.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp1\.styl}line{font-family:\00003127}}
+.menu .resizer .botonResizer .disminuir{border-right:1px solid rgba(40,49,72,0.4);box-shadow:1px 0 0 rgba(255,255,255,0.1);}
+
+/* line 130 : /Users/jordiimac/Documents/FQU/css/bp1.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp1\.styl}line{font-family:\00003130}}
+.menu .resizer .botonResizer .disminuir:after{content:'A';font-size:.7em}
+
+/* line 133 : /Users/jordiimac/Documents/FQU/css/bp1.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp1\.styl}line{font-family:\00003133}}
+.menu .resizer .botonResizer .disminuir:active{color:rgba(255,255,255,0.3)}
+
+/* line 135 : /Users/jordiimac/Documents/FQU/css/bp1.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp1\.styl}line{font-family:\00003135}}
+
+/* line 136 : /Users/jordiimac/Documents/FQU/css/bp1.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp1\.styl}line{font-family:\00003136}}
 .menu .resizer .botonResizer .aumentar:after{content:'A';font-size:1.2em}
 
-/* line 117 : /Users/jordiimac/Documents/FQU/css/bp1.styl */
+/* line 139 : /Users/jordiimac/Documents/FQU/css/bp1.styl */
 
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp1\.styl}line{font-family:\00003117}}
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp1\.styl}line{font-family:\00003139}}
 .menu .resizer .botonResizer .aumentar:active{color:rgba(255,255,255,0.3)}
 
-/* line 119 : /Users/jordiimac/Documents/FQU/css/bp1.styl */
+/* line 141 : /Users/jordiimac/Documents/FQU/css/bp1.styl */
 
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp1\.styl}line{font-family:\00003119}}
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp1\.styl}line{font-family:\00003141}}
 .menu .social{background:rgba(0,0,0,0.2);border-top:1px solid rgba(40,49,72,0.45);padding:.8em 0 .6em 0;}
 
-/* line 123 : /Users/jordiimac/Documents/FQU/css/bp1.styl */
+/* line 145 : /Users/jordiimac/Documents/FQU/css/bp1.styl */
 
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp1\.styl}line{font-family:\00003123}}
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp1\.styl}line{font-family:\00003145}}
 .menu .social .botonSocial{display:inline-block;font-weight:400;text-align:center;width:49%;}
 
-/* line 128 : /Users/jordiimac/Documents/FQU/css/bp1.styl */
+/* line 150 : /Users/jordiimac/Documents/FQU/css/bp1.styl */
 
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp1\.styl}line{font-family:\00003128}}
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp1\.styl}line{font-family:\00003150}}
 .menu .social .botonSocial .twitter{margin:0 0 0 1.5em}
