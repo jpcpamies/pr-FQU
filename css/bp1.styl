@@ -1,12 +1,14 @@
 
 .bg 
-	background #9fc1e0
+	background azul
 	height 100%
 	left 0
 	position fixed
 	top 0
 	width 100%
 	z-index -50
+.invisible
+	display none
 .menu
 	background secundario
 	border-radius 5px
@@ -25,26 +27,24 @@
 			display inline-block
 			line-height 2em
 			text-align center
+			vertical-align bottom
 			width 32%
 			a
 				color white
 				text-decoration none
 			.compartir
-				// color rgba(#283148,1)
 				font-size 1.2em
 				&:after
 					content '\e602'
 					font-family icono
-					font-size .85em
+					font-size .9em
 				&:active
 					color rgba(white,.3)
 			.mapa
-				// color rgba(#283148,1)
-				font-size 1.15em
 				&:after
-					content '\e607'
+					content '\e600'
 					font-family icono
-					font-size .7em
+					font-size 1.2em
 				&:active
 					color rgba(white,.3)
 			.menuResizer
@@ -95,18 +95,3 @@
 			width 49%
 			.twitter
 				margin 0 0 0 1.5em
-.invisible
-	display none
-.patron
-	position fixed
-	top 0
-	bottom 0
-	right 0
-	left 0
-	width 100%
-	height 100%
-	background-image url(../img/patronBlanco.png)
-	background-repeat repeat
-	background-size 200px auto
-	z-index -5
-	opacity .3
