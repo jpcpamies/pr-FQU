@@ -102,12 +102,12 @@ section .secciones .salutaciones .salutacion .imagen,section .secciones .salutac
 /* line 65 : /Users/jordiimac/Documents/FQU/css/bp1.styl */
 
 @media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp1\.styl}line{font-family:\0000365}}
-section .secciones .salutaciones .salutacion .imagen h2,section .secciones .salutaciones .salutacion .texto h2{border-bottom:1px solid rgba(147,147,147,0.3);color:#939393;font-size:1.2em;font-style:italic;font-weight:bigger;padding:0 0 10px;text-align:center;text-transform:uppercase}
+section .secciones .salutaciones .salutacion .imagen h2,section .secciones .salutaciones .salutacion .texto h2{color:#939393;font-size:1.2em;font-style:italic;font-weight:bigger;padding:0 0 10px;text-align:center;text-transform:uppercase}
 
-/* line 74 : /Users/jordiimac/Documents/FQU/css/bp1.styl */
+/* line 73 : /Users/jordiimac/Documents/FQU/css/bp1.styl */
 
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp1\.styl}line{font-family:\0000374}}
-section .secciones .salutaciones .salutacion .imagen h3,section .secciones .salutaciones .salutacion .texto h3{color:#939393;font-size:.8em;font-weight:300;padding:5px 0 0 0;text-align:center}
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp1\.styl}line{font-family:\0000373}}
+section .secciones .salutaciones .salutacion .imagen h3,section .secciones .salutaciones .salutacion .texto h3{border-top:1px solid rgba(147,147,147,0.3);color:#939393;font-size:.8em;font-weight:300;padding:5px 0 10px 0;text-align:center}
 
 /* line 81 : /Users/jordiimac/Documents/FQU/css/bp1.styl */
 
