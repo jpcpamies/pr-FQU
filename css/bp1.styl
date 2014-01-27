@@ -48,15 +48,17 @@ section
 			line-height 2.5em
 			position relative
 			a
-				color titulo
-				position absolute
-				right 1em
-				text-decoration none
-				&:after
 					color titulo
-					content '\e603'
-					font-family icono
-					margin 0 0 0 5px
+					position absolute
+					right 40px
+					text-decoration none
+					&:after
+						color rgba(titulo,.8)
+						content '\e603'
+						font-family icono
+						font-size 2em
+						position absolute 
+						right -35px 
 	.pubillas
 		.contenidoPubilles
 			box-shadow 0 0 10px rgba(black,.3)
@@ -91,18 +93,21 @@ section
 				a
 					color titulo
 					position absolute
-					right 1em
+					right 40px
 					text-decoration none
 					&:after
-						color titulo
+						color rgba(titulo,.8)
 						content '\e603'
 						font-family icono
-						margin 0 0 0 5px
+						font-size 2em
+						position absolute 
+						right -35px 
 				span
 					&:after
-						color titulo
+						color rgba(titulo,.8)
 						content '\e601'
 						font-family icono
+						font-size 1.1em
 						margin 0 0 0 20px
 			.puntos
 				left 47%
