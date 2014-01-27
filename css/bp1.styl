@@ -59,6 +59,44 @@ section
 						font-size 2em
 						position absolute 
 						right -35px 
+	.salutaciones
+		.salutacion
+			box-shadow 0 0 10px rgba(black,.3)
+			margin 0 0 15px
+			position relative
+			width auto
+			.alcaldesa
+				background-image url(../img/salutacions/alcaldesa.jpg)
+				background-position 0px 0px 
+				background-repeat no-repeat
+				background-size 100% auto
+			.enlace
+				position absolute
+				top 0
+				left 0
+				bottom 0
+				right 0
+			.pregonera
+				background-image url(../img/salutacions/pregonera.jpg)
+				background-position 0px 0px 
+				background-repeat no-repeat
+				background-size 100% auto
+			.regidora
+				background-image url(../img/salutacions/regidora.jpg)
+				background-position 0px 0px 
+				background-repeat no-repeat
+				background-size 100% auto
+			.imagen
+				width auto
+				height 100px
+				h3
+					color white
+					content 'Núria Balagué Raga'
+					font-style italic
+					text-shadow 0px 0px 1px rgba(black,.8)
+					position absolute
+					right 10px
+					top 5px
 	.pubillas
 		.contenidoPubilles
 			box-shadow 0 0 10px rgba(black,.3)
@@ -254,5 +292,27 @@ section
 		padding 0 15px
 		position relative
 		z-index 2
+.volver
+	font-size .8em
+	font-weight 300
+	margin 10px 0
+	text-align left
+	text-transform uppercase
+	position relative
+	a
+		color gris
+		text-decoration none
+	.inicio
+		background azul
+		padding 0 15px
+		position relative
+		z-index 2
+		&:before
+			content '\e604'
+			font-family icono
+			font-size 2em
+			position absolute
+			top -5px
+			left -10px
 
 
