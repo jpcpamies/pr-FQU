@@ -373,21 +373,39 @@ header
 	z-index -50						
 .invisible
 	display none
-.menu
+.menuOff
+	position fixed
+	bottom 10px
+	height auto
+	right 10px
+	z-index 10
+	.mas
+		background rgba(secundario,.8)
+		border-radius 50%
+		height 40px
+		line-height 40px
+		text-align center
+		width 40px	
+		&:before
+			color white
+			content '\e608'
+			font-family icono
+			font-size 1.5em
+.menuOn
 	position fixed
 	bottom 0
 	height auto
 	left 10px
 	z-index 10
 	.gear
-		background rgba(secundario,0)
+		background rgba(secundario,.8)
 		// border 1px solid rgba(secundario,.45)
 		border-radius 50%
 		height 40px
 		text-align center
 		width 40px
 		&:after
-			color rgba(secundario,.7)
+			color rgba(white,1)
 			content '\e600'
 			font-size 1.5em
 			font-family icono
