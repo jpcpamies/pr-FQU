@@ -375,9 +375,9 @@ header
 	display none
 .menuOff
 	position fixed
-	bottom 10px
+	bottom 0
 	height auto
-	right 10px
+	right 0
 	z-index 10
 	.mas
 		background rgba(secundario,.8)
@@ -386,29 +386,15 @@ header
 		line-height 40px
 		text-align center
 		width 40px	
+		position relative
+		bottom 10px
+		right 10px
 		&:before
 			color white
 			content '\e608'
 			font-family icono
 			font-size 1.5em
 .menuOn
-	position fixed
-	bottom 0
-	height auto
-	left 10px
-	z-index 10
-	.gear
-		background rgba(secundario,.8)
-		// border 1px solid rgba(secundario,.45)
-		border-radius 50%
-		height 40px
-		text-align center
-		width 40px
-		&:after
-			color rgba(white,1)
-			content '\e600'
-			font-size 1.5em
-			font-family icono
 	.botones
 		.botonDisminuir
 			.disminuir
