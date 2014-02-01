@@ -164,6 +164,7 @@ section
 	z-index -50						
 .inicio
 	.programa
+		overflow-x hidden
 		.botonera
 			height auto
 			overflow-x auto
@@ -286,16 +287,27 @@ section
 				.llistaVisible
 					.event
 						border-bottom 1px solid gris
-						// .detallEvent
-						// 	.quan
-						// 		.hora
+						position relative
+						.detallEvent
+							.flecha
+								&:after
+									background
+									content '\e603'
+									font-family icono
+							.quan
+								.hora
+									position absolute
+									top 20px
+									left 175px
 						.Event
+							width 160px
 							p
 								color white
 								font-size 1em
 								font-weight 400
 							.detall
 								color rgba(white,.8)
+								display none
 								font-size 1em
 								font-weight 100
 							.lloc
@@ -303,7 +315,7 @@ section
 								font-size .8em
 								font-weight 100
 								&:after
-									content '\e604'
+									content '\e600'
 									font-family icono
 					
 
