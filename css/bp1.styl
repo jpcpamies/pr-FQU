@@ -164,6 +164,8 @@ section
 	z-index -50						
 .inicio
 	.programa
+		box-shadow 0 0 10px rgba(black,.3)
+		background white
 		overflow-x hidden
 		position relative
 		.botonera
@@ -203,7 +205,7 @@ section
 					.centrarMes
 						margin 0 0 0 .35em
 					.nomDia
-						color rgba(white,1)
+						color rgba(black,.2)
 						font-size .7em
 						font-weight 400
 						left 35%
@@ -224,9 +226,7 @@ section
 					font-size 1.2em
 					margin -22px 0 0 140px 
 					vertical-align bottom
-		
 		.eventActual
-			background white
 			color white
 			display block
 			font-size .9em
@@ -292,16 +292,18 @@ section
 			margin -10px 0 0 0
 			text-align center
 		.llista
+			background rgba(black,.07)
 			border-top 1px solid gris
 			border-bottom 1px solid gris
-			height 250px
+			height 150px
 			margin 20px 0 50px 0
 			overflow-y auto
 			.contenidoLista
-				padding 0 0 0 20px
+				padding 0 0 0 30px
 				.llistaVisible
+					padding 0 0 20px 0 
 					.event
-						border-bottom 1px solid gris
+						border-bottom 1px solid rgba(black,.1)
 						position relative
 						.detallEvent
 							.flecha
@@ -348,6 +350,15 @@ section
 										font-family icono
 										font-size 1em
 										margin 0 3px 0 0 
+			.scrollLista
+				height 10px
+				width 30px
+				transform rotateZ(90deg)
+				-ms-transform rotateZ(90deg)
+				-webkit-transform rotateZ(90deg)
+				&:before
+					content '\e60b'
+					font-family icono
 .invisible
 	display none
 .menu
