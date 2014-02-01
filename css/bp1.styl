@@ -205,7 +205,7 @@ section
 					.centrarMes
 						margin 0 0 0 .35em
 					.nomDia
-						color rgba(black,.2)
+						color rgba(black,.4)
 						font-size .7em
 						font-weight 400
 						left 35%
@@ -290,7 +290,7 @@ section
 			margin -10px 0 0 0
 			text-align center
 		.llista
-			background rgba(black,.07)
+			background rgba(#ebf0f4,1)
 			border-top 1px solid gris
 			border-bottom 1px solid gris
 			height 150px
@@ -305,22 +305,20 @@ section
 						position relative
 						.detallEvent
 							.flecha
-								background rgba(black,.7)
+								background none
+								border 1px solid rgba(rosa,1)
 								border-radius 50%
 								height 22px
+								line-height 21px
 								position absolute 
 								right 15px
 								text-align center
 								top 20px
 								width 22px
 								&:after
-									color azul
+									color rgba(rosa,1)
 									content '\e603'
 									font-family icono
-							.posterior
-								background blue
-							.prebi
-								background rosa
 							.quan
 								.hora
 									font-size .8em
@@ -348,15 +346,6 @@ section
 										font-family icono
 										font-size 1em
 										margin 0 3px 0 0 
-			.scrollLista
-				height 10px
-				width 30px
-				transform rotateZ(90deg)
-				-ms-transform rotateZ(90deg)
-				-webkit-transform rotateZ(90deg)
-				&:before
-					content '\e60b'
-					font-family icono
 .invisible
 	display none
 .menu
