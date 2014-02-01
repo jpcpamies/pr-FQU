@@ -105,7 +105,7 @@ section
 				background #ebf0f4
 				border-top 1px solid borde
 				border-bottom 1px solid borde
-				padding 35px 0 30px 0
+				padding 35px 0 20px 0
 				overflow-x auto
 				white-space nowrap
 				.cara
@@ -120,8 +120,10 @@ section
 						width 90px
 						height auto
 					.nombre
+						color rgba(black,.6)
 						font-size .7em
-						font-weight 300
+						font-weight 400
+						margin 10px 0 0 0 
 			.statusPubillas
 				background white
 				font-size .9em
@@ -147,13 +149,6 @@ section
 						font-family icono
 						font-size 1.1em
 						margin 0 0 0 20px
-			.puntos
-				left 47%
-				position absolute
-				&:after
-					color rgba(titulo,.5)
-					content '\e60b'
-					font-family icono
 .bg 
 	background azul
 	height 100%
@@ -172,7 +167,7 @@ section
 			height auto
 			overflow-x auto
 			overflow-y hidden
-			padding 20px 20px 0 10px 
+			padding 10px 20px 0 10px 
 			white-space nowrap
 			width 100%
 			position relative
@@ -188,7 +183,7 @@ section
 					width 55px
 					p
 						border-radius 50%
-						color rgba(black,.6)
+						color rgba(rosa,1)
 						height 35px
 						left 25%
 						font-weight 900
@@ -199,7 +194,7 @@ section
 						top 17px
 						width 35px 
 						&:hover
-							background rgba(secundario,1)
+							background rgba(rosa,1)
 							color rgba(white,1)
 							font-weight 400
 					.centrarMes
@@ -214,24 +209,26 @@ section
 					&:last-child
 						margin 0 2em 0 0
 		.desplegarLista
-			bottom 10px
+			bottom 15px
 			position absolute 
-			right 0
+			right 10px
 			span
+				color rgba(titulo,.8)
+				font-size .9em
 				&:after
-					color rgba(black,.6)
+					color rgba(titulo,.8)
 					content '\e604'
 					display block
 					font-family icono
 					font-size 1.2em
-					margin -22px 0 0 140px 
+					margin -20px 0 0 130px 
 					vertical-align bottom
 		.eventActual
 			display block
 			font-size .9em
 			font-weight 100
 			height auto
-			padding .7em 1em 1.2em 1em
+			padding 10px 1em 10px 1em
 			position relative
 			z-index 5
 			.contingutEventActual
@@ -258,12 +255,12 @@ section
 								font-family icono
 								margin 0 5px 0 0 
 				.hora
-					color rgba(secundario,1)
+					color titulo
 					display block
-					font-size .9em
+					font-size 1.2em
 					font-style italic
 					font-weight 900
-					margin .6em auto 0 auto
+					margin 0 auto 
 					text-align center
 					width 200px
 			.titol
@@ -286,9 +283,21 @@ section
 						content '\e603'
 						font-family icono
 		.indicadorMes
-			display block
-			margin -10px 0 0 0
-			text-align center
+			height 20px
+			position relative
+			p
+				color rgba(titulo,1)
+				font-style italic
+				position absolute
+				left 30px
+				top 0px
+			span
+				color rgba(titulo,.6)
+				font-style italic
+				font-weight 100
+				position absolute
+				left 90px
+				top 0px
 		.llista
 			background rgba(#ebf0f4,1)
 			border-top 1px solid gris
@@ -299,9 +308,9 @@ section
 			.contenidoLista
 				padding 0 0 0 30px
 				.llistaVisible
-					padding 0 0 20px 0 
 					.event
 						border-bottom 1px solid rgba(black,.1)
+						padding 5px 0
 						position relative
 						.detallEvent
 							.flecha
@@ -313,7 +322,7 @@ section
 								position absolute 
 								right 15px
 								text-align center
-								top 20px
+								top 12px
 								width 22px
 								&:after
 									color rgba(rosa,1)
@@ -321,10 +330,14 @@ section
 									font-family icono
 							.quan
 								.hora
-									font-size .8em
+									font-size .7em
 									position absolute
-									top 20px
-									left 175px
+									top 12px
+									right 60px
+									p
+										&:after
+											content 'h'
+											margin 0 0 0 2px
 						.Event
 							padding 5px 0
 							width 160px
@@ -337,10 +350,12 @@ section
 								font-size 1em
 								font-weight 100
 							.lloc
-								font-size .8em
+								font-size .7em
 								font-weight 100
-								margin 5px 0 0 0 
+								margin 8px 0 0 0 
+								text-transform uppercase
 								p
+									color rgba(black,.3)
 									&:before
 										content '\e606'
 										font-family icono
@@ -434,6 +449,21 @@ section
 			width 49%
 			.twitter
 				margin 0 0 0 1.5em
+.puntos
+	left 47%
+	position absolute
+	&:after
+		color rgba(titulo,.5)
+		content '\e60b'
+		font-family icono
+.puntosBotonera
+	left 48%
+	position relative
+	top 0px
+	&:after
+		color rgba(titulo,.5)
+		content '\e60b'
+		font-family icono
 .texto
 	background white
 	height auto
@@ -459,7 +489,7 @@ section
 	color gris
 	font-size .8em
 	font-weight 300
-	margin 10px 0
+	margin 20px 0 10px 0
 	text-align center
 	text-transform uppercase
 	position relative
