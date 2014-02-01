@@ -1,13 +1,13 @@
 
 body
 	margin 0 0 3em 0
-footer
-	background secundario
-	position absolute
-	top 100%
-	left 0
-	right 0
-	height 200px
+// footer
+// 	background secundario
+// 	position absolute
+// 	top 100%
+// 	left 0
+// 	right 0
+// 	height 200px
 header
 	background secundario
 	height 50px
@@ -374,91 +374,58 @@ header
 .invisible
 	display none
 .menu
-	background secundario
-	border-radius 5px
-	bottom 0
-	color white
-	left 0
-	margin 0 auto .4em auto
 	position fixed
+	bottom 0
+	left 0
+	height auto
 	right 0
-	width 97%
-	z-index 20
-	animation animacionMenu 1s 1
-	-webkit-animation animacionMenu 1s 1
+	z-index 10
 	.botones
-		.botonMenu
-			display inline-block
-			line-height 2em
-			text-align center
-			vertical-align bottom
-			width 32%
-			a
-				color white
-				text-decoration none
-			.compartir
-				font-size 1.2em
+		.botonDisminuir
+			.disminuir
+				background rgba(secundario,0)
+				border 1px solid rgba(secundario,.45)
+				border-radius 50%
+				height 31px
+				margin 0 0 20px 10px
+				text-align center
+				width 30px
 				&:after
+					color rgba(secundario,.2)
+					content 'A'
+					font-size .6em
+					font-weight 400
+		.botonAumentar
+			.aumentar
+				background rgba(secundario,0)
+				border 1px solid rgba(secundario,.45)
+				border-radius 50%
+				height 30px
+				line-height 27px
+				margin 0 0 20px 10px
+				text-align center
+				width 30px
+				&:after
+					color rgba(secundario,.2)
+					content 'A'
+					font-size .95em
+					font-weight 400
+		.botonSocial
+			.social
+				background rgba(secundario,0)
+				border 1px solid rgba(secundario,.45)
+				border-radius 50%
+				height 30px
+				line-height 25px
+				margin 0 0 20px 10px
+				text-align center
+				width 30px
+				&:after
+					color rgba(secundario,.2)
 					content '\e602'
 					font-family icono
-					font-size .9em
-				&:active
-					color rgba(white,.3)
-			.mapa
-				&:after
-					content '\e600'
-					font-family icono
-					font-size 1em
-				&:active
-					color rgba(white,.3)
-			.menuResizer
-				font-weight 400
-				&:active
-					color rgba(white,.3)
-				.aumentar
-					&:after
-						content 'A'
-						font-size 1em
-				.disminuir
-					&:after
-						content 'A'
-						font-size .6em
-	.resizer
-		background rgba(black,.2)
-		border-top 1px solid rgba(#283148,.4)
-		box-shadow 0px 1px 0px rgba(white,.1)
-		color rgba(white,.7)
-		padding .4em 0
-		.botonResizer
-			display inline-block
-			font-weight 400
-			text-align center
-			width 49%
-			.disminuir
-				border-right 1px solid rgba(#283148,.4)
-				box-shadow 1px 0px 0px rgba(white,.1)
-				&:after
-					content 'A'
-					font-size .7em
-				&:active
-					color rgba(white,.3)
-			.aumentar
-				&:after
-					content 'A'
-					font-size 1.2em
-				&:active
-						color rgba(white,.3)
-	.social
-		background rgba(black,.2)
-		border-top 1px solid rgba(#283148,.45)
-		padding .8em 0 .6em 0
-		.botonSocial
-			display inline-block
-			font-weight 400
-			text-align center
-			width 49%
-			.twitter
-				margin 0 0 0 1.5em
+					font-size .8em
+	
 .patron
 	background-image url(../img/patronnegro.png)
 	background-repeat repeat
