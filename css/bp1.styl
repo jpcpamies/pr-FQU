@@ -376,56 +376,67 @@ header
 .menu
 	position fixed
 	bottom 0
-	left 0
 	height auto
-	right 0
+	left 10px
 	z-index 10
+	.gear
+		background rgba(secundario,0)
+		// border 1px solid rgba(secundario,.45)
+		border-radius 50%
+		height 40px
+		text-align center
+		width 40px
+		&:after
+			color rgba(secundario,.7)
+			content '\e600'
+			font-size 1.5em
+			font-family icono
 	.botones
 		.botonDisminuir
 			.disminuir
-				background rgba(secundario,0)
-				border 1px solid rgba(secundario,.45)
+				background rgba(secundario,.5)
+				// border 1px solid rgba(secundario,1)
 				border-radius 50%
-				height 31px
+				height 40px
+				line-height 30px
 				margin 0 0 20px 10px
 				text-align center
-				width 30px
+				width 40px
 				&:after
-					color rgba(secundario,.2)
+					color rgba(white,1)
 					content 'A'
 					font-size .6em
 					font-weight 400
 		.botonAumentar
 			.aumentar
-				background rgba(secundario,0)
-				border 1px solid rgba(secundario,.45)
+				background rgba(secundario,.5)
+				// border 1px solid rgba(secundario,1)
 				border-radius 50%
-				height 30px
-				line-height 27px
+				height 40px
+				line-height 35px
 				margin 0 0 20px 10px
 				text-align center
-				width 30px
+				width 40px
 				&:after
-					color rgba(secundario,.2)
+					color rgba(white,1)
 					content 'A'
 					font-size .95em
 					font-weight 400
 		.botonSocial
-			.social
-				background rgba(secundario,0)
-				border 1px solid rgba(secundario,.45)
-				border-radius 50%
-				height 30px
-				line-height 25px
-				margin 0 0 20px 10px
-				text-align center
-				width 30px
-				&:after
-					color rgba(secundario,.2)
-					content '\e602'
-					font-family icono
-					font-size .8em
-	
+			// .social
+			// 	background rgba(secundario,0)
+			// 	border 1px solid rgba(secundario,.45)
+			// 	border-radius 50%
+			// 	height 30px
+			// 	line-height 25px
+			// 	margin 0 0 20px 10px
+			// 	text-align center
+			// 	width 30px
+			// 	&:after
+			// 		color rgba(secundario,.2)
+			// 		content '\e602'
+			// 		font-family icono
+			// 		font-size .8em
 .patron
 	background-image url(../img/patronnegro.png)
 	background-repeat repeat
