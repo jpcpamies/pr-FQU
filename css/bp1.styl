@@ -165,6 +165,7 @@ section
 .inicio
 	.programa
 		overflow-x hidden
+		position relative
 		.botonera
 			height auto
 			overflow-x auto
@@ -210,6 +211,20 @@ section
 						top -5px
 					&:last-child
 						margin 0 2em 0 0
+		.desplegarLista
+			bottom 10px
+			position absolute 
+			right 0
+			span
+				&:after
+					color rgba(black,.6)
+					content '\e604'
+					display block
+					font-family icono
+					font-size 1.2em
+					margin -22px 0 0 140px 
+					vertical-align bottom
+		
 		.eventActual
 			background white
 			color white
@@ -280,7 +295,7 @@ section
 			border-top 1px solid gris
 			border-bottom 1px solid gris
 			height 250px
-			margin 20px 0 30px 0
+			margin 20px 0 50px 0
 			overflow-y auto
 			.contenidoLista
 				padding 0 0 0 20px
@@ -302,6 +317,10 @@ section
 									color azul
 									content '\e603'
 									font-family icono
+							.posterior
+								background blue
+							.prebi
+								background rosa
 							.quan
 								.hora
 									font-size .8em
@@ -325,12 +344,10 @@ section
 								margin 5px 0 0 0 
 								p
 									&:before
-										content '\e600'
+										content '\e606'
 										font-family icono
-										font-size .8em
-										margin 0 5px 0 0 
-					
-
+										font-size 1em
+										margin 0 3px 0 0 
 .invisible
 	display none
 .menu
