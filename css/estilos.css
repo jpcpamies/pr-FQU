@@ -263,7 +263,7 @@ header .logo {
 }
 .inicio .llibret .pubillas .contenidoPubilles .statusPubillas span:after {
   color: rgba(147,147,147,0.8);
-  content: '\e601';
+  content: '\e600';
   font-family: icono;
   font-size: 1.1em;
   margin: 0 0 0 20px;
@@ -338,11 +338,11 @@ header .logo {
 }
 .inicio .programa .desplegarLista span:after {
   color: rgba(147,147,147,0.8);
-  content: '\e604';
+  content: '\e609';
   display: block;
   font-family: icono;
   font-size: 1.2em;
-  margin: -20px 0 0 130px;
+  margin: -20px 0 0 140px;
   vertical-align: bottom;
 }
 .inicio .programa .eventActual {
@@ -377,7 +377,7 @@ header .logo {
   text-transform: uppercase;
 }
 .inicio .programa .eventActual .contingutEventActual .event .lloc p:before {
-  content: '\e606';
+  content: '\e602';
   font-family: icono;
   margin: 0 5px 0 0;
 }
@@ -440,9 +440,6 @@ header .logo {
   margin: 20px 0 50px 0;
   overflow-y: auto;
 }
-.inicio .programa .llista .contenidoLista {
-  padding: 0 0 0 30px;
-}
 .inicio .programa .llista .contenidoLista .llistaVisible .event {
   border-bottom: 1px solid rgba(0,0,0,0.1);
   padding: 5px 0;
@@ -462,7 +459,7 @@ header .logo {
 }
 .inicio .programa .llista .contenidoLista .llistaVisible .event .detallEvent .flecha:after {
   color: #d1505f;
-  content: '\e603';
+  content: '\e608';
   font-family: icono;
 }
 .inicio .programa .llista .contenidoLista .llistaVisible .event .detallEvent .quan .hora {
@@ -477,8 +474,8 @@ header .logo {
   margin: 0 0 0 2px;
 }
 .inicio .programa .llista .contenidoLista .llistaVisible .event .Event {
-  padding: 5px 0;
-  width: 160px;
+  padding: 5px 0 5px 20px;
+  width: 65%;
 }
 .inicio .programa .llista .contenidoLista .llistaVisible .event .Event p {
   color: rgba(0,0,0,0.6);
@@ -500,7 +497,7 @@ header .logo {
   color: rgba(0,0,0,0.3);
 }
 .inicio .programa .llista .contenidoLista .llistaVisible .event .Event .lloc p:before {
-  content: '\e606';
+  content: '\e602';
   font-family: icono;
   font-size: 1em;
   margin: 0 3px 0 0;
@@ -525,7 +522,7 @@ header .logo {
   z-index: 10;
 }
 .menuOff .mas {
-  background: rgba(90,97,113,0.8);
+  background: #5a6171;
   border-radius: 50%;
   height: 40px;
   line-height: 40px;
@@ -537,7 +534,7 @@ header .logo {
 }
 .menuOff .mas:before {
   color: #fff;
-  content: '\e608';
+  content: '\e603';
   font-family: icono;
   font-size: 1.5em;
 }
@@ -620,7 +617,7 @@ header .logo {
   right: 0;
   top: 0;
   width: 100%;
-  z-index: -1;
+  z-index: -10;
 }
 .puntos {
   left: 47%;
@@ -628,7 +625,7 @@ header .logo {
 }
 .puntos:after {
   color: rgba(147,147,147,0.5);
-  content: '\e60b';
+  content: '\e604';
   font-family: icono;
 }
 .puntosBotonera {
@@ -638,7 +635,7 @@ header .logo {
 }
 .puntosBotonera:after {
   color: rgba(147,147,147,0.5);
-  content: '\e60b';
+  content: '\e604';
   font-family: icono;
 }
 .texto {
@@ -681,13 +678,13 @@ header .logo {
   position: absolute;
   top: 10px;
   width: 100%;
-  z-index: -2;
+  z-index: 9;
 }
 .titulo .texto {
   background: #9fc1e0;
   padding: 0 15px;
   position: relative;
-  z-index: -2;
+  z-index: 9;
 }
 .volver {
   font-size: 0.8em;

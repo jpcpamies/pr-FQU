@@ -153,7 +153,7 @@ header
 					span
 						&:after
 							color rgba(titulo,.8)
-							content '\e601'
+							content '\e600'
 							font-family icono
 							font-size 1.1em
 							margin 0 0 0 20px
@@ -216,11 +216,11 @@ header
 				font-size .9em
 				&:after
 					color rgba(titulo,.8)
-					content '\e604'
+					content '\e609'
 					display block
 					font-family icono
 					font-size 1.2em
-					margin -20px 0 0 130px 
+					margin -20px 0 0 140px 
 					vertical-align bottom
 		.eventActual
 			display block
@@ -252,7 +252,7 @@ header
 						text-transform uppercase
 						p
 							&:before
-								content '\e606'
+								content '\e602'
 								font-family icono
 								margin 0 5px 0 0 
 				.hora
@@ -307,7 +307,6 @@ header
 			margin 20px 0 50px 0
 			overflow-y auto
 			.contenidoLista
-				padding 0 0 0 30px
 				.llistaVisible
 					.event
 						border-bottom 1px solid rgba(black,.1)
@@ -327,7 +326,7 @@ header
 								width 22px
 								&:after
 									color rgba(rosa,1)
-									content '\e603'
+									content '\e608'
 									font-family icono
 							.quan
 								.hora
@@ -341,8 +340,8 @@ header
 											content 'h'
 											margin 0 0 0 2px
 						.Event
-							padding 5px 0
-							width 160px
+							padding 5px 0 5px 20px
+							width 65%
 							p
 								color rgba(black,.6)
 								font-size .8em
@@ -359,7 +358,7 @@ header
 								p
 									color rgba(black,.3)
 									&:before
-										content '\e606'
+										content '\e602'
 										font-family icono
 										font-size 1em
 										margin 0 3px 0 0 
@@ -380,7 +379,7 @@ header
 	right 0
 	z-index 10
 	.mas
-		background rgba(secundario,.8)
+		background rgba(secundario,1)
 		border-radius 50%
 		height 40px
 		line-height 40px
@@ -391,7 +390,7 @@ header
 		right 10px
 		&:before
 			color white
-			content '\e608'
+			content '\e603'
 			font-family icono
 			font-size 1.5em
 .menuOn
@@ -465,13 +464,13 @@ header
 	right 0
 	top 0
 	width 100%
-	z-index -1
+	z-index -10
 .puntos
 	left 47%
 	position absolute
 	&:after
 		color rgba(titulo,.5)
-		content '\e60b'
+		content '\e604'
 		font-family icono
 .puntosBotonera
 	left 48%
@@ -479,7 +478,7 @@ header
 	top 0px
 	&:after
 		color rgba(titulo,.5)
-		content '\e60b'
+		content '\e604'
 		font-family icono
 .texto
 	background white
@@ -517,12 +516,12 @@ header
 		position absolute
 		top 10px
 		width 100%
-		z-index -2
+		z-index 9
 	.texto
 		background azul
 		padding 0 15px
 		position relative
-		z-index -2
+		z-index 9
 .volver
 	font-size .8em
 	font-weight 300
