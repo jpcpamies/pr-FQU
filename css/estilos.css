@@ -263,7 +263,7 @@ header .logo {
 }
 .inicio .llibret .pubillas .contenidoPubilles .statusPubillas span:after {
   color: rgba(147,147,147,0.8);
-  content: '\e601';
+  content: '\e600';
   font-family: icono;
   font-size: 1.1em;
   margin: 0 0 0 20px;
@@ -338,11 +338,11 @@ header .logo {
 }
 .inicio .programa .desplegarLista span:after {
   color: rgba(147,147,147,0.8);
-  content: '\e604';
+  content: '\e609';
   display: block;
   font-family: icono;
   font-size: 1.2em;
-  margin: -20px 0 0 130px;
+  margin: -20px 0 0 140px;
   vertical-align: bottom;
 }
 .inicio .programa .eventActual {
@@ -625,7 +625,7 @@ header .logo {
 }
 .puntos:after {
   color: rgba(147,147,147,0.5);
-  content: '\e60b';
+  content: '\e604';
   font-family: icono;
 }
 .puntosBotonera {
