@@ -377,7 +377,7 @@ header .logo {
   text-transform: uppercase;
 }
 .inicio .programa .eventActual .contingutEventActual .event .lloc p:before {
-  content: '\e606';
+  content: '\e602';
   font-family: icono;
   margin: 0 5px 0 0;
 }
@@ -440,9 +440,6 @@ header .logo {
   margin: 20px 0 50px 0;
   overflow-y: auto;
 }
-.inicio .programa .llista .contenidoLista {
-  padding: 0 0 0 30px;
-}
 .inicio .programa .llista .contenidoLista .llistaVisible .event {
   border-bottom: 1px solid rgba(0,0,0,0.1);
   padding: 5px 0;
@@ -477,8 +474,8 @@ header .logo {
   margin: 0 0 0 2px;
 }
 .inicio .programa .llista .contenidoLista .llistaVisible .event .Event {
-  padding: 5px 0;
-  width: 160px;
+  padding: 5px 0 5px 20px;
+  width: 65%;
 }
 .inicio .programa .llista .contenidoLista .llistaVisible .event .Event p {
   color: rgba(0,0,0,0.6);
@@ -500,7 +497,7 @@ header .logo {
   color: rgba(0,0,0,0.3);
 }
 .inicio .programa .llista .contenidoLista .llistaVisible .event .Event .lloc p:before {
-  content: '\e606';
+  content: '\e602';
   font-family: icono;
   font-size: 1em;
   margin: 0 3px 0 0;
