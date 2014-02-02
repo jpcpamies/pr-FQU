@@ -473,6 +473,33 @@ header .logo {
   content: 'h';
   margin: 0 0 0 2px;
 }
+.inicio .programa .llista .contenidoLista .llistaVisible .event .detallEvent .religios .casa {
+  position: absolute;
+  top: 42px;
+  right: 18px;
+}
+.inicio .programa .llista .contenidoLista .llistaVisible .event .detallEvent .religios .casa:after {
+  color: #d1505f;
+  content: '\e60b';
+  font-family: icono;
+  font-size: 0.8em;
+}
+.inicio .programa .llista .contenidoLista .llistaVisible .event .detallEvent .religios .creu {
+  border-radius: 50%;
+  position: absolute;
+  right: 15px;
+  top: 34px;
+  width: 22px;
+  height: 22px;
+  text-align: center;
+  line-height: 20px;
+}
+.inicio .programa .llista .contenidoLista .llistaVisible .event .detallEvent .religios .creu:after {
+  color: #d1505f;
+  content: '\e60a';
+  font-family: icono;
+  font-size: 0.6em;
+}
 .inicio .programa .llista .contenidoLista .llistaVisible .event .Event {
   padding: 5px 0 5px 20px;
   width: 65%;
