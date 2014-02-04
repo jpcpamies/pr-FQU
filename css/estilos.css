@@ -135,13 +135,12 @@ header .logo {
 .inicio .llibret .individual {
   background: #fff;
   box-shadow: 0 0 10px rgba(0,0,0,0.3);
-  margin-top: 20px;
+  margin-bottom: 20px;
 }
 .inicio .llibret .individual .header {
   position: relative;
 }
 .inicio .llibret .individual .header .headerHero {
-  background-image: url("../img/pubilla.png");
   background-position: -2px -80px;
   background-repeat: no-repeat;
   background-size: 110% auto;
@@ -184,7 +183,7 @@ header .logo {
 .inicio .llibret .individual .intro {
   color: rgba(0,0,0,0.6);
   font-size: 0.8em;
-  padding: 20px 20px 30px 20px;
+  padding: 20px 20px 10px 20px;
   position: relative;
 }
 .inicio .llibret .individual .intro .complet {
@@ -201,12 +200,12 @@ header .logo {
   border-radius: 10px;
   border: 10px solid #e8ebf9;
   display: block;
-  margin: 20px auto 0 auto;
+  margin: 20px auto 30px auto;
   width: 90%;
   height: auto;
 }
 .inicio .llibret .individual .intro .preExtender {
-  height: 35px;
+  height: auto;
   position: relative;
   z-index: 3;
 }
@@ -235,11 +234,9 @@ header .logo {
   font-family: icono;
   font-size: 1.5em;
 }
-.inicio .llibret .individual:first-child {
-  margin-top: -20px;
-}
 .inicio .llibret .personalitats {
   margin: 55px 0 0 0;
+  padding: 0 0 20px 0;
 }
 .inicio .llibret .personalitats .header {
   position: relative;
@@ -251,7 +248,7 @@ header .logo {
   z-index: 1;
 }
 .inicio .llibret .personalitats .header .headerCaraPersonalitat img {
-  box-shadow: none;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
   border-radius: 50%;
   width: 90px;
   height: auto;
