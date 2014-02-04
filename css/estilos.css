@@ -140,6 +140,12 @@ header .logo {
 .inicio .llibret .individual .header {
   position: relative;
 }
+.inicio .llibret .individual .header .hero1 {
+  background-image: url("../img/pubilles/pubillaGran1.png");
+}
+.inicio .llibret .individual .header .hero2 {
+  background-image: url("../img/pubilles/pubillaGran2.png");
+}
 .inicio .llibret .individual .header .headerHero {
   background-position: -2px -80px;
   background-repeat: no-repeat;
@@ -229,7 +235,7 @@ header .logo {
   -webkit-transform: scale(2.5, 0.8);
 }
 .inicio .llibret .individual .intro .preExtender .girar .extender:before {
-  color: rgba(0,0,0,0.1);
+  color: rgba(0,0,0,0.5);
   content: '\e608';
   font-family: icono;
   font-size: 1.5em;
@@ -349,6 +355,9 @@ header .logo {
   display: inline-block;
   margin: 0 20px 0 0;
   text-align: center;
+}
+.inicio .llibret .pubillas .contenidoPubilles .caras .cara a {
+  text-decoration: none;
 }
 .inicio .llibret .pubillas .contenidoPubilles .caras .cara:first-child {
   padding: 0 0 0 20px;
