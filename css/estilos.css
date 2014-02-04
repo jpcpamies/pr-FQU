@@ -461,6 +461,17 @@ header .logo {
 .inicio .programa .botonera ul .dia:last-child {
   margin: 0 2em 0 0;
 }
+.inicio .programa .calendari {
+  background-image: url("../img/calendari.png");
+  background-repeat: no-repeat;
+  background-size: auto 28px;
+  height: 100px;
+  position: absolute;
+  top: 10px;
+  right: -55px;
+  width: 100px;
+  opacity: 0.7;
+}
 .inicio .programa .desplegarLista {
   bottom: 15px;
   position: absolute;
