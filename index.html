@@ -11,9 +11,9 @@
     <meta name="description" content="Programa de les festes Quinquenals d'Ulldecona 2014" />
     <meta name="author" content="Ivan Bardón | Jordi Pàmies | Marc Ferré" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-    <meta name="mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
     <meta name="apple-mobile-web-app-title" content="Ulldecona">
 
     <link rel="stylesheet" href="css/normalize.min.css" />
@@ -26,7 +26,6 @@
     <!--[if lt IE 7]>
         <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
     <![endif]-->
-    
     <div class="core">
         <div class="patron"></div>
         <div class="bg"></div>
@@ -52,109 +51,113 @@
         </div>
     </div>
     <header>
-        <h1 class="logo">Quinquenals <span>Ulldecona</span></h1>
+        <h1 class="logo">Quinquennals <span>Ulldecona</span></h1>
         <p>14</p>
     </header>
     <section class="inicio">
-        <div class="separador">
-            <h2 class="titulo">
-                <span class="linea"></span>
-                <span class="texto">Programa</span>
-            </h2>
+        <div class="dreta">
+            <div class="separador">
+                <h2 class="titulo">
+                    <span class="linea"></span>
+                    <span class="texto">Programa</span>
+                </h2>
+            </div>
+            <section class="programa">
+                <div class="calendari"></div>
+                <div id='eventActual' class="eventActual">
+                    <div class="contingutEventActual">
+                        <div class="hora">
+                            <div class="horaEvent"><p>ARA</p></div>
+                        </div>
+                        <div class="event">
+                            <p>XIII concurs de samarretes de colla i sangriada popular.</p>
+                            <div class="lloc"><p>Poli deportiu</p></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="puntosBotonera"></div>
+                <nav id='divBotonera' class="botonera">
+                    <ul>
+                        <li class="dia"><a href="#divBotonera"><div onclick=" activeBot(0), mostrar('dia1')"><span class="nomDia">Dill</span><p>29</p></div></a></li>
+                        <li class="dia"><a href="#divBotonera"><div onclick="activeBot(1), mostrar('dia2')"><span class="nomDia">Dim</span><p>30</p></div></a></li>
+                        <li class="dia"><a href="#divBotonera"><div onclick="mostrar('dia3')"><span class="nomDia">Dim</span><p class='centrar'>1</p></div></a></li>
+                        <li class="dia"><a href="#divBotonera"><div onclick="mostrar('dia4')"><span class="nomDia">Dij</span><p class='centrar'>2</p></div></a></li>
+                        <li class="dia"><a href="#divBotonera"><div onclick="mostrar('dia5')"><span class="nomDia">Div</span><p class='centrar'>3</p></div></a></li>
+                        <li class="dia"><a href="#divBotonera"><div onclick="mostrar('dia6')"><span class="nomDia">Dis</span><p class='centrar'>4</p></div></a></li>
+                        <li class="dia"><a href="#divBotonera"><div onclick="mostrar('dia7')"><span class="nomDia">Diu</span><p class='centrar'>5</p></div></a></li>
+                        <li class="dia"><a href="#divBotonera"><div onclick="mostrar('dia8')"><span class="nomDia">Dill</span><p class='centrar'>6</p></div></a></li>
+                    </ul>
+                </nav>
+                <div id='indicadorMes' class="indicadorMes"><p>Agost</p><span>Event prebi</span></div>
+                <div id='lista' class="llista">
+                    <div class="desplegarLista" ><span>Desplegar llista</span></div>
+                    <div class="contenidoLista" >
+                        <div id="dia1" class="llistaVisible">
+                            <article class="event">
+                                <div class="detallEvent">
+                                    <div class="quan"><div class="hora"><p>9:00</p></div></div>
+                                    <div class="flecha" onclick="slideToggle('p1')"></div>
+                                    <div class="religios"><span class="casa"></span><span class="creu"></span></div>
+                                </div>
+                                <div class="Event" onclick="slideToggle('p1')">
+                                    <p>Titol de tamany mig per fer probes d'estil</p>
+                                    <div id="p1" class="detall"><p>Organitza: Ajuntament d’Ulldecona Col·labora: Societat de Caçadors.</p></div>
+                                    <div class="lloc"><p>Camp de Tir Les Pedreres</p></div>
+                                </div>
+                            </article>
+                            <article class="event">
+                               <div class="detallEvent">
+                                    <div class="quan"><div class="hora"><p>9:00</p></div></div>
+                                    <div class="flecha" onclick="slideToggle('p2')"></div>
+                                </div>
+                                <div class="Event" onclick="slideToggle('p2')">
+                                    <p>Titol de tamany curt</p>
+                                    <div id="p2" class="detall"><p>Organitza: Ajuntament d’Ulldecona Col·labora: Societat de Caçadors.</p></div>
+                                    <div class="lloc"><p>Camp de Tir Les Pedreres</p></div>
+                                </div>
+                            </article>
+                            <article class="event">
+                               <div class="detallEvent">
+                                    <div class="quan"><div class="hora"><p>9:00</p></div></div>
+                                    <div class="flecha" onclick="slideToggle('p3')"></div>
+                                    <div class="religios"><span class="casa"></span><span class="creu"></span></div>
+                                </div>
+                                <div class="Event" onclick="slideToggle('p3')">
+                                    <p>Titol de tamany curt</p>
+                                    <div id="p3" class="detall"><p>Organitza: Ajuntament d’Ulldecona Col·labora: Societat de Caçadors.</p></div>
+                                    <div class="lloc"><p>Camp de Tir Les Pedreres</p></div>
+                                </div>
+                            </article>
+                            <article class="event">
+                                <div class="detallEvent">
+                                    <div class="quan"><div class="hora"><p>9:00</p></div></div>
+                                    <div class="flecha religios" onclick="slideToggle('p4')"></div>
+                                </div>
+                                <div class="Event" onclick="slideToggle('p4')">
+                                    <p>Titol de tamany llarg amb molt més contingut del normal per fer probes d'estil</p>
+                                    <div id="p4" class="detall"><p>Organitza: Ajuntament d’Ulldecona Col·labora: Societat de Caçadors.</p></div>
+                                    <div class="lloc"><p>Camp de Tir Les Pedreres</p></div>
+                                </div>
+                            </article>
+                            <article class="event">
+                                <div class="detallEvent">
+                                    <div class="quan"><div class="hora"><p>9:00</p></div></div>
+                                    <div class="flecha religios" onclick="slideToggle('p5')"></div>
+                                </div>
+                                <div class="Event" onclick="slideToggle('p5')">
+                                    <p>Titol de tamany llarg amb molt més contingut del normal per fer probes d'estil</p>
+                                    <div id="p5" class="detall"><p>Organitza: Ajuntament d’Ulldecona Col·labora: Societat de Caçadors.</p></div>
+                                    <div class="lloc"><p>Camp de Tir Les Pedreres</p></div>
+                                </div>
+                            </article>
+                            <div class="anarInici"><a href="#divBotonera"><div class="boto"></div></a></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
         </div>
-        <section class="programa">
-            <div id='eventActual' class="eventActual">
-                <div class="contingutEventActual">
-                    <div class="hora">
-                        <div class="horaEvent"><p>ARA</p></div>
-                    </div>
-                    <div class="event">
-                        <p>XIII concurs de samarretes de colla i sangriada popular.</p>
-                        <div class="lloc"><p>Poli deportiu</p></div>
-                    </div>
-                </div>
-            </div>
-            <div class="puntosBotonera"></div>
-            <nav id='divBotonera' class="botonera">
-                <ul>
-                    <li class="dia"><a href="#divBotonera"><div onclick=" activeBot(0), mostrar('dia1')"><span class="nomDia">Dill</span><p>29</p></div></a></li>
-                    <li class="dia"><a href="#divBotonera"><div onclick="activeBot(1), mostrar('dia2')"><span class="nomDia">Dim</span><p>30</p></div></a></li>
-                    <li class="dia"><a href="#divBotonera"><div onclick="mostrar('dia3')"><span class="nomDia">Dim</span><p class='centrar'>1</p></div></a></li>
-                    <li class="dia"><a href="#divBotonera"><div onclick="mostrar('dia4')"><span class="nomDia">Dij</span><p class='centrar'>2</p></div></a></li>
-                    <li class="dia"><a href="#divBotonera"><div onclick="mostrar('dia5')"><span class="nomDia">Div</span><p class='centrar'>3</p></div></a></li>
-                    <li class="dia"><a href="#divBotonera"><div onclick="mostrar('dia6')"><span class="nomDia">Dis</span><p class='centrar'>4</p></div></a></li>
-                    <li class="dia"><a href="#divBotonera"><div onclick="mostrar('dia7')"><span class="nomDia">Diu</span><p class='centrar'>5</p></div></a></li>
-                    <li class="dia"><a href="#divBotonera"><div onclick="mostrar('dia8')"><span class="nomDia">Dill</span><p class='centrar'>6</p></div></a></li>
-                </ul>
-            </nav>
-            <div id='indicadorMes' class="indicadorMes"><p>Agost</p><span>Event prebi</span></div>
-            <div id='lista' class="llista">
-                <div class="desplegarLista" ><span>Desplegar llista</span></div>
-                <div class="contenidoLista" >
-                    <div id="dia1" class="llistaVisible">
-                        <article class="event">
-                            <div class="detallEvent">
-                                <div class="quan"><div class="hora"><p>9:00</p></div></div>
-                                <div class="flecha" onclick="slideToggle('p1')"></div>
-                                <div class="religios"><span class="casa"></span><span class="creu"></span></div>
-                            </div>
-                            <div class="Event" onclick="slideToggle('p1')">
-                                <p>Titol de tamany mig per fer probes d'estil</p>
-                                <div id="p1" class="detall"><p>Organitza: Ajuntament d’Ulldecona Col·labora: Societat de Caçadors.</p></div>
-                                <div class="lloc"><p>Camp de Tir Les Pedreres</p></div>
-                            </div>
-                        </article>
-                        <article class="event">
-                           <div class="detallEvent">
-                                <div class="quan"><div class="hora"><p>9:00</p></div></div>
-                                <div class="flecha" onclick="slideToggle('p2')"></div>
-                            </div>
-                            <div class="Event" onclick="slideToggle('p2')">
-                                <p>Titol de tamany curt</p>
-                                <div id="p2" class="detall"><p>Organitza: Ajuntament d’Ulldecona Col·labora: Societat de Caçadors.</p></div>
-                                <div class="lloc"><p>Camp de Tir Les Pedreres</p></div>
-                            </div>
-                        </article>
-                        <article class="event">
-                           <div class="detallEvent">
-                                <div class="quan"><div class="hora"><p>9:00</p></div></div>
-                                <div class="flecha" onclick="slideToggle('p3')"></div>
-                                <div class="religios"><span class="casa"></span><span class="creu"></span></div>
-                            </div>
-                            <div class="Event" onclick="slideToggle('p3')">
-                                <p>Titol de tamany curt</p>
-                                <div id="p3" class="detall"><p>Organitza: Ajuntament d’Ulldecona Col·labora: Societat de Caçadors.</p></div>
-                                <div class="lloc"><p>Camp de Tir Les Pedreres</p></div>
-                            </div>
-                        </article>
-                        <article class="event">
-                            <div class="detallEvent">
-                                <div class="quan"><div class="hora"><p>9:00</p></div></div>
-                                <div class="flecha religios" onclick="slideToggle('p4')"></div>
-                            </div>
-                            <div class="Event" onclick="slideToggle('p4')">
-                                <p>Titol de tamany llarg amb molt més contingut del normal per fer probes d'estil</p>
-                                <div id="p4" class="detall"><p>Organitza: Ajuntament d’Ulldecona Col·labora: Societat de Caçadors.</p></div>
-                                <div class="lloc"><p>Camp de Tir Les Pedreres</p></div>
-                            </div>
-                        </article>
-                        <article class="event">
-                            <div class="detallEvent">
-                                <div class="quan"><div class="hora"><p>9:00</p></div></div>
-                                <div class="flecha religios" onclick="slideToggle('p5')"></div>
-                            </div>
-                            <div class="Event" onclick="slideToggle('p5')">
-                                <p>Titol de tamany llarg amb molt més contingut del normal per fer probes d'estil</p>
-                                <div id="p5" class="detall"><p>Organitza: Ajuntament d’Ulldecona Col·labora: Societat de Caçadors.</p></div>
-                                <div class="lloc"><p>Camp de Tir Les Pedreres</p></div>
-                            </div>
-                        </article>
-                        <div class="anarInici"><a href="#divBotonera"><div class="boto"></div></a></div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class='llibret'>
+        <div class="esquerra">
+            <section class='llibret'>
             <div class="saludos">
                 <div class="separador">
                     <h2 class="titulo">
@@ -295,7 +298,8 @@
                     </div>
                 </div>
             </div>
-        </section>
+            </section>
+        </div>
     </section>
     <footer>
         <div class="contenido">
