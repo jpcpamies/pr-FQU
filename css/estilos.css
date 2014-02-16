@@ -22,14 +22,14 @@ code,kbd,pre,samp{font-family:monospace,serif;font-size:1em}
 @media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/reset\.styl}line{font-family:\0000318}}
 pre{white-space:pre-wrap}
 
-/* line 24 : /Users/jordiimac/Documents/FQU/css/estilos.styl */
+/* line 17 : /Users/jordiimac/Documents/FQU/css/estilos.styl */
 
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/estilos\.styl}line{font-family:\0000324}}
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/estilos\.styl}line{font-family:\0000317}}
 @font-face{font-family:'icono';src:url("../fonts/icomoon.eot");src:url("../fonts/icomoon.eot?#iefix") format('embedded-opentype'),url("../fonts/icomoon.woff") format('woff'),url("../fonts/icomoon.ttf") format('truetype'),url("../fonts/icomoon.svg#icomoon") format('svg');font-weight:normal;font-style:normal}
 
-/* line 73 : /Users/jordiimac/Documents/FQU/css/estilos.styl */
+/* line 66 : /Users/jordiimac/Documents/FQU/css/estilos.styl */
 
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/estilos\.styl}line{font-family:\0000373}}
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/estilos\.styl}line{font-family:\0000366}}
 body{width:100%;height:100%;font-family:lato;font-size:20px;font-weight:100}
 
 /* line 2 : /Users/jordiimac/Documents/FQU/css/bp1.styl */
@@ -44,21 +44,46 @@ header{background:rgba(0,0,0,0.1);height:50px;}
 /* line 5 : /Users/jordiimac/Documents/FQU/css/bp1.styl */
 
 @media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp1\.styl}line{font-family:\000035}}
-header h1{color:rgba(0,0,0,0.7);display:inline-block;font-size:1em;font-style:italic;font-weight:400;line-height:2.2em;margin:0 0 0 20px}
+header h1{color:rgba(0,0,0,0.7);display:inline-block;font-size:1em;font-style:italic;line-height:2.2em;margin:0 0 0 20px}
 
-/* line 13 : /Users/jordiimac/Documents/FQU/css/bp1.styl */
+/* line 12 : /Users/jordiimac/Documents/FQU/css/bp1.styl */
 
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp1\.styl}line{font-family:\0000313}}
-header p{color:rgba(0,0,0,0.7);display:inline-block;font-weight:900;font-style:italic}
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp1\.styl}line{font-family:\0000312}}
+header p{color:rgba(0,0,0,0.7);display:inline-block;font-weight:9 K00;font-style:italic}
 
-/* line 18 : /Users/jordiimac/Documents/FQU/css/bp1.styl */
+/* line 17 : /Users/jordiimac/Documents/FQU/css/bp1.styl */
 
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp1\.styl}line{font-family:\0000318}}
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp1\.styl}line{font-family:\0000317}}
 header span{color:rgba(0,0,0,0.3);display:inline-block;font-size:.75em;font-weight:400;margin:0 5px;text-transform:uppercase}
 
-/* line 84 : /Users/jordiimac/Documents/FQU/css/estilos.styl */
+/* line 25 : /Users/jordiimac/Documents/FQU/css/bp1.styl */
 
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/estilos\.styl}line{font-family:\0000384}}
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp1\.styl}line{font-family:\0000325}}
+.llamada{background:#198fd5;font-weight:400;height:75px;position:relative;width:100%;}
+
+/* line 31 : /Users/jordiimac/Documents/FQU/css/bp1.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp1\.styl}line{font-family:\0000331}}
+.llamada p{color:#fff;padding:10px 20px;text-transform:uppercase}
+
+/* line 35 : /Users/jordiimac/Documents/FQU/css/bp1.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp1\.styl}line{font-family:\0000335}}
+.llamada span{color:#fff;display:block;font-size:.8em;margin:-5px 20px 0 20px}
+
+/* line 40 : /Users/jordiimac/Documents/FQU/css/bp1.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp1\.styl}line{font-family:\0000340}}
+.llamada .boton{background:#fff;border-bottom:5px solid rgba(0,0,0,0.1);height:75px;position:absolute;right:0;text-align:center;top:0;width:40px;}
+
+/* line 49 : /Users/jordiimac/Documents/FQU/css/bp1.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp1\.styl}line{font-family:\0000349}}
+.llamada .boton:after{color:#198fd5;content:'\e606';font-family:icono;font-size:1.2em;line-height:75px}
+
+/* line 77 : /Users/jordiimac/Documents/FQU/css/estilos.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/estilos\.styl}line{font-family:\0000377}}
 @media screen and (min-width: 460px){
 /* line 2 : /Users/jordiimac/Documents/FQU/css/bp2.styl */
 
@@ -69,9 +94,9 @@ header span{color:rgba(0,0,0,0.3);display:inline-block;font-size:.75em;font-weig
 @media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp2\.styl}line{font-family:\000032}}
 .inicio{margin:0 50px}
 }
-/* line 87 : /Users/jordiimac/Documents/FQU/css/estilos.styl */
+/* line 80 : /Users/jordiimac/Documents/FQU/css/estilos.styl */
 
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/estilos\.styl}line{font-family:\0000387}}
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/estilos\.styl}line{font-family:\0000380}}
 @media screen and (min-width: 760px){
 /* line 2 : /Users/jordiimac/Documents/FQU/css/bp3.styl */
 
@@ -82,9 +107,9 @@ header span{color:rgba(0,0,0,0.3);display:inline-block;font-size:.75em;font-weig
 @media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp3\.styl}line{font-family:\000032}}
 .inicio{max-width:600px;margin:0 auto}
 }
-/* line 90 : /Users/jordiimac/Documents/FQU/css/estilos.styl */
+/* line 83 : /Users/jordiimac/Documents/FQU/css/estilos.styl */
 
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/estilos\.styl}line{font-family:\0000390}}
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/estilos\.styl}line{font-family:\0000383}}
 @media screen and (min-width: 960px){
 /* line 2 : /Users/jordiimac/Documents/FQU/css/bp4.styl */
 
