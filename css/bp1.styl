@@ -42,7 +42,10 @@ article
 				top -5px
 header
 	background rgba(black,.1)
-	height 250px
+	background-image url(../img/trama.jpg)
+	background-repeat no-repeat
+	// background-size 100px 120px
+	height 350px
 	text-align center
 	h1
 		color white
@@ -62,6 +65,8 @@ header
 		margin -10px 0 0 0 
 		font-style italic
 		text-shadow 1px 1px 1px rgba(black,.5)
+		position relative 
+		z-index 5
 	span
 		color rgba(black,.5)
 		display block
@@ -582,6 +587,41 @@ header
 		-ms-transform translate(0, 0px)
 		-webkit-transform translate(0, 0px)
 		opacity .3
+@keyframes animacionNube1
+	0% 
+		opacity 0
+		transform translate(0, 0)
+		-ms-transform translate(0, 0)
+		-webkit-transform translate(0, 0)
+	5%
+		opacity 1
+
+	100% 
+		transform translate(-400px, 0)
+		-ms-transform translate(-400px, 0)
+		-webkit-transform translate(-400px, 0)
+@keyframes animacionNube2
+	0% 
+		opacity 0
+	50%
+		opacity 1
+	75%
+		opacity 1
+	100% 
+		opacity 1
+@keyframes animacionNube3
+	0% 
+		opacity 0
+		transform translate(0, 0)
+		-ms-transform translate(0, 0)
+		-webkit-transform translate(0, 0)
+	5%
+		opacity .5
+
+	100% 
+		transform translate(-360px, 0)
+		-ms-transform translate(-360px, 0)
+		-webkit-transform translate(-360px, 0)
 @keyframes animacionRayo1 
 	0% 
 		opacity .15
