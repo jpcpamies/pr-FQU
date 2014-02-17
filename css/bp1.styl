@@ -1,9 +1,10 @@
 
 article
-	background #44a4dd
+	background rojo2
 	border-radius 5px
 	height auto
 	margin 10px auto 20px auto
+	padding 0 0 10px 0
 	width 95%
 	.header
 		color white
@@ -13,7 +14,7 @@ article
 		padding 20px 20px 10px 20px
 	.imagen
 		width auto
-		height 100px
+		height 135px
 		background-image url(../img/salutacions/ajuntament.jpg)
 		background-position 0px 0px 
 		background-repeat no-repeat
@@ -21,12 +22,23 @@ article
 	.footer
 		font-size 16px
 		padding 20px
+		position relative
 		a
 			color white
-			text-decoration none
 			font-size 16px
 			font-weight 400
-			
+			position absolute
+			right 40px
+			text-decoration none
+			top 15px
+			&:after
+				content '\e607'
+				font-family icono
+				font-size 2em
+				position absolute
+				right -25px
+				top -5px
+
 
 header
 	background rgba(black,.1)
@@ -52,7 +64,7 @@ header
 	// 	text-transform uppercase 
 
 .llamada
-	background azul
+	background rojo
 	font-weight 400
 	height 75px
 	position relative
