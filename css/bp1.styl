@@ -4,9 +4,7 @@ article
 	border-radius 5px
 	height auto
 	margin 10px auto 20px auto
-	position relative
 	padding 0 0 10px 0
-	top 70px
 	width 95%
 	.header
 		color white
@@ -41,40 +39,20 @@ article
 				right -25px
 				top -5px
 header
-	background rgba(black,.1)
-	background-image url(../img/trama.jpg)
+	background-image url(../img/castell.png)
+	background-position 50% 254px
 	background-repeat no-repeat
-	// background-size 100px 120px
-	height 350px
+	background-size 250px auto
+	border-bottom 20px solid rgba(black,.7)
+	color white
+	height 400px
+	letter-spacing 2px
 	text-align center
-	h1
-		color white
-		display block
-		font-size 28px
-		font-style italic
-		line-height 2.2em
-		margin -170px 0 0 20px
-		position relative 
-		text-transform uppercase
-		text-shadow 1px 1px 1px rgba(black,.5)
-		z-index 5
-	p
-		color white
-		display block
-		font-size 28px
-		margin -10px 0 0 0 
-		font-style italic
-		text-shadow 1px 1px 1px rgba(black,.5)
-		position relative 
-		z-index 5
-	span
-		color rgba(black,.5)
-		display block
-		font-weight 400
-		letter-spacing 15px 
-		margin 102px 0 0 0 
-		text-transform uppercase
-	.bgHeader
+	.fondo
+		height 400px
+		width 100%
+		position relative
+		z-index -5
 		@css{
 			background: rgb(34,118,159);
 			background: -moz-linear-gradient(top,  rgba(34,118,159,1) 0%, rgba(119,179,206,1) 100%);
@@ -85,319 +63,29 @@ header
 			background: linear-gradient(to bottom,  rgba(34,118,159,1) 0%,rgba(119,179,206,1) 100%);
 			filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#22769f', endColorstr='#77b3ce',GradientType=0 );
 			}
-		height 250px
-		left 0
-		position relative 
-		right 0
-		top 0
-		width 100%
-		z-index -5
-.core
-	height 1200px
-	overflow hidden
-	position absolute
-	width 100%
-	.moverDestellos
-		left 50px
-		position absolute
-		top 30px
-		animation animacionMoverDestellos 20s infinite
-		-webkit-animation animacionMoverDestellos 20s infinite
-		.destellos
-			height 600px
-			transform rotateZ(-18deg)
-			-ms-transform rotateZ(-18deg)
-			-webkit-transform rotateZ(-18deg)
-			animation animacionDestellos 20s infinite
-			-webkit-animation animacionDestellos 20s infinite
-			.destello1
-				background rgba(white,.1)
-				border-radius 50%
-				height 50px
-				left 30px
-				position absolute
-				top 0px
-				width 50px
-				-webkit-filter blur(1px)
-				animation animacionDestello1 30s infinite
-				-webkit-animation animacionDestello1 30s infinite
-			.destello2
-				background rgba(white,.1)
-				border-radius 50%
-				height 35px
-				left 40px
-				position absolute
-				top 100px
-				width 35px
-				animation animacionDestello2 30s infinite
-				-webkit-animation animacionDestello2 30s infinite
-			.destello3
-				background rgba(white,.1)
-				border-radius 50%
-				height 20px
-				left 49px
-				position absolute
-				top 150px
-				width 20px
-				-webkit-filter blur(1px)
-				animation animacionDestello3 30s infinite
-				-webkit-animation animacionDestello3 30s infinite
-			.destello4 
-				background rgba(white,.1)
-				border-radius 50%
-				height 75px
-				left 25px
-				position absolute
-				top 220px
-				width 75px
-				animation animacionDestello4 30s infinite
-				-webkit-animation animacionDestello4 30s infinite
-			.destello5
-				background rgba(white,.1)
-				height 55px
-				left 12px
-				position relative
-				top 330px
-				width 100px
-				transform scale(.65, .65)
-				-ms-transform scale(.65, .65)
-				-webkit-transform scale(.65, .65)
-				-webkit-filter blur(2px)
-				animation animacionDestello5 30s infinite
-				-webkit-animation animacionDestello5 30s infinite
-				&:before 
-					content ''
-					height 0
-					left 0
-					position absolute
-					top -25px
-					width 0
-					border-left 50px solid transparent
-					border-right 50px solid transparent
-					border-bottom 25px solid rgba(white,.1)
-				&:after 
-					bottom -25px
-					content ''
-					height 0
-					left 0
-					position absolute
-					width 0
-					border-left 50px solid transparent
-					border-right 50px solid transparent
-					border-top 25px solid rgba(white,.1)
-	.nubes
-		height 350px
+	.texto
 		position relative
-		width 100%
-		.nube1
-			background-image url(../img/nube1.png)
-			background-repeat no-repeat
-			background-size 250px auto
-			height 188px
-			position absolute
-			right -30%
-			top 120px
-			width 292px
-			animation animacionNube1 190s infinite
-			-webkit-animation animacionNube1 190s infinite
-		.nube2
-			background-image url(../img/nube2.png)
-			background-repeat no-repeat
-			background-size 158px auto
-			height 115px
-			left 0%
-			position absolute
-			width 158px
-			animation animacionNube2 15s 1
-			-webkit-animation animacionNube2 15s 1
-		.nube3
-			background-image url(../img/nube3.png)
-			background-repeat no-repeat
-			background-size 84px auto
-			height 115px
-			left 280px
-			position absolute
-			top 70px
-			width 158px
-			animation animacionNube3 280s infinite
-			-webkit-animation animacionNube3 280s infinite
-	.rayos
-		height 1200px
-		overflow hidden
-		position absolute
-		top 0
-		width 100%
-		z-index 0
-		.rayo1 
-			border-bottom 5px solid transparent
-			border-left 400px solid white
-			border-right 0px solid transparent
-			border-top 5px solid transparent
-			left -100px
-			position absolute
-			top 100px
-			transform rotateZ(43deg)
-			-ms-transform rotateZ(43deg)
-			-webkit-transform rotateZ(43deg)
-			-webkit-filter: blur(3px);
-			animation animacionRayo1 8s infinite
-			-webkit-animation animacionRayo1 8s infinite
-		.rayo2 
-			border-bottom 3px solid transparent
-			border-left 250px solid white
-			border-right 0px solid transparent
-			border-top 3px solid transparent
-			left -100px
-			position absolute
-			top 100px
-			transform rotateZ(75deg)
-			-ms-transform rotateZ(75deg)
-			-webkit-transform rotateZ(75deg)
-			-webkit-filter: blur(3px);
-			animation animacionRayo2 6s infinite
-			-webkit-animation animacionRayo2 6s infinite
-		.rayo3 
-			border-bottom 3px solid transparent
-			border-left 220px solid white
-			border-right 0px solid transparent
-			border-top 3px solid transparent
-			left 0px
-			position absolute
-			top 5px
-			transform rotateZ(3deg)
-			-ms-transform rotateZ(3deg)
-			-webkit-transform rotateZ(3deg)
-			-webkit-filter: blur(3px);
-			animation animacionRayo3 10s infinite
-			-webkit-animation animacionRayo3 10s infinite
-		.rayo4
-			border-bottom 10px solid transparent
-			border-left 2000px solid white
-			border-right 0px solid transparent
-			border-top 30px solid transparent
-			left -600px
-			position absolute
-			top 690px
-			transform rotateZ(240deg)
-			-ms-transform rotateZ(240deg)
-			-webkit-transform rotateZ(240deg)
-			-webkit-filter: blur(3px);
-			animation animacionRayo4 5s infinite
-			-webkit-animation animacionRayo4 5s infinite
-		.rayo4a
-			border-bottom 50px solid transparent
-			border-left 2000px solid white
-			border-right 0px solid transparent
-			border-top 65px solid transparent
-			left -580px
-			position absolute
-			top 690px
-			z-index -6
-			transform rotateZ(240deg)
-			-ms-transform rotateZ(240deg)
-			-webkit-transform rotateZ(240deg)
-			-webkit-filter: blur(8px);
-			animation animacionRayo4 5s infinite
-			-webkit-animation animacionRayo4 5s infinite
-		.rayo5
-			border-bottom 20px solid transparent
-			border-left 1900px solid white
-			border-right 0px solid transparent
-			border-top 10px solid transparent
-			left -798px
-			position absolute
-			top 800px
-			transform rotateZ(260deg)
-			-ms-transform rotateZ(260deg)
-			-webkit-transform rotateZ(260deg)
-			-webkit-filter: blur(6px);
-			animation animacionRayo5 8s infinite
-			-webkit-animation animacionRayo5 8s infinite
-		.rayo5a
-			border-bottom 20px solid transparent
-			border-left 1900px solid rgba(white,1)
-			border-right 0px solid transparent
-			border-top 120px solid transparent
-			left -790px
-			position absolute
-			top 800px
-			transform rotateZ(258deg)
-			-ms-transform rotateZ(258deg)
-			-webkit-transform rotateZ(258deg)
-			-webkit-filter: blur(10px);
-			animation animacionRayo5 8s infinite
-			-webkit-animation animacionRayo5 8s infinite
-		.rayo6
-			border-bottom 3px solid transparent
-			border-left 2000px solid white
-			border-right 0px solid transparent
-			border-top 10px solid transparent
-			left -870px
-			position absolute
-			top 350px
-			transform rotateZ(250deg)
-			-ms-transform rotateZ(250deg)
-			-webkit-transform rotateZ(250deg)
-			-webkit-filter: blur(1px);
-			animation animacionRayo6 9s infinite
-			-webkit-animation animacionRayo6 9s infinite
-		.rayo6a
-			border-bottom 3px solid transparent
-			border-left 1000px solid white
-			border-right 0px solid transparent
-			border-top 10px solid transparent
-			left -150px
-			position absolute
-			top 245px
-			transform rotateZ(215deg)
-			-ms-transform rotateZ(215deg)
-			-webkit-transform rotateZ(215deg)
-			-webkit-filter: blur(1px);
-			animation animacionRayo6 11s infinite
-			-webkit-animation animacionRayo6 11s infinite
-		.rayo7
-			border-bottom 3px solid transparent
-			border-left 2500px solid rgba(white,.7)
-			border-right 0px solid transparent
-			border-top 10px solid transparent
-			left -1220px
-			position absolute
-			top 350px
-			transform rotateZ(265deg)
-			-ms-transform rotateZ(265deg)
-			-webkit-transform rotateZ(265deg)
-			-webkit-filter: blur(6px);
-			animation animacionRayo6 6s infinite
-			-webkit-animation animacionRayo6 6s infinite
-		.rayo8
-			border-bottom 50px solid transparent
-			border-left 1200px solid rgba(white,.7)
-			border-right 0px solid transparent
-			border-top 60px solid transparent
-			left -549px
-			position absolute
-			top 490px
-			transform rotateZ(265deg)
-			-ms-transform rotateZ(265deg)
-			-webkit-transform rotateZ(265deg)
-			-webkit-filter: blur(10px);
-			animation animacionRayo6 6s infinite
-			-webkit-animation animacionRayo6 6s infinite
-	.sol
-		background-image url(../img/sol.png)
-		background-size 350px auto
-		height 350px
-		left -150px
-		position absolute
-		top -150px
-		width 350px
 		z-index 5
+		top -350px
+		h1
+			display inline-block
+			font-size 28px
+			font-style italic
+			text-transform uppercase
+		p
+			display inline-block
+			font-size 28px
+			font-style italic
+		span
+			display block
+			font-size 21px
+			font-style italic
+			text-transform uppercase 
 .llamada
 	background azul
 	font-weight 400
-	height 75px
+	height 80px
 	position relative
-	top 60px
 	width 100%
 	p  
 		color white
@@ -413,7 +101,7 @@ header
 	.boton
 		background white
 		border-bottom 5px solid rgba(black,.1)
-		height 75px
+		height 80px
 		position absolute
 		right 0
 		text-align center
@@ -425,269 +113,6 @@ header
 			font-family icono
 			font-size 1.2em
 			line-height 75px
-@keyframes animacionDestellos 
-	0%
-		transform rotateZ(-18deg)
-		-ms-transform rotateZ(-18deg)
-		-webkit-transform rotateZ(-18deg)
-	50%
-		transform rotateZ(-33deg)
-		-ms-transform rotateZ(-33deg)
-		-webkit-transform rotateZ(-33deg)
-	100%
-		transform rotateZ(-18deg)
-		-ms-transform rotateZ(-18deg)
-		-webkit-transform rotateZ(-18deg)
-@keyframes animacionMoverDestellos
-	0%
-		transform translate(0px)
-		-ms-transform translate(0px)
-		-webkit-transform translate(0px)
-	50%
-		transform translate(50px, -50px)
-		-ms-transform translate(50px, -50px)
-		-webkit-transform translate(50px, -50px)
-
-	100%
-		transform translate(0px)
-		-ms-transform translate(0px)
-		-webkit-transform translate(0px)
-@keyframes animacionDestello1
-	0%
-		transform translate(0, 0px)
-		-ms-transform translate(0, 0px)
-		-webkit-transform translate(0, 0px)
-		opacity .2
-	25%
-		transform translate(0, 90px)
-		-ms-transform translate(0, 90px)
-		-webkit-transform translate(0, 90px)
-		opacity .4
-	50%
-		transform translate(0, 150px)
-		-ms-transform translate(0, 150px)
-		-webkit-transform translate(0, 150px)
-		opacity .8
-	75%
-		transform translate(0, 90px)
-		-ms-transform translate(0, 90px)
-		-webkit-transform translate(0, 90px)
-		opacity 1
-	100%
-		transform translate(0, 0px)
-		-ms-transform translate(0, 0px)
-		-webkit-transform translate(0, 0px)
-		opacity .2
-@keyframes animacionDestello2
-	0%
-		transform translate(0, 0px)
-		-ms-transform translate(0, 0px)
-		-webkit-transform translate(0, 0px)
-		opacity .2
-	25%
-		transform translate(0, 80px)
-		-ms-transform translate(0, 80px)
-		-webkit-transform translate(0, 80px)
-		opacity .5
-	50%
-		transform translate(0, 130px)
-		-ms-transform translate(0, 130px)
-		-webkit-transform translate(0, 130px)
-		opacity .7
-	75%
-		transform translate(0, 90px)
-		-ms-transform translate(0, 90px)
-		-webkit-transform translate(0, 90px)
-		opacity 1
-	100%
-		transform translate(0, 0px)
-		-ms-transform translate(0, 0px)
-		-webkit-transform translate(0, 0px)
-		opacity .2
-@keyframes animacionDestello3
-	0%
-		transform translate(0, 0px)
-		-ms-transform translate(0, 0px)
-		-webkit-transform translate(0, 0px)
-		opacity .6
-	25%
-		transform translate(0, 65px)
-		-ms-transform translate(0, 65px)
-		-webkit-transform translate(0, 65px)
-		opacity 1
-	50%
-		transform translate(0, 160px)
-		-ms-transform translate(0, 160px)
-		-webkit-transform translate(0, 160px)
-		opacity .3
-	75%
-		transform translate(0, 100px)
-		-ms-transform translate(0, 100px)
-		-webkit-transform translate(0, 100px)
-		opacity .7
-	100%
-		transform translate(0, 0px)
-		-ms-transform translate(0, 0px)
-		-webkit-transform translate(0, 0px)
-		opacity .6
-@keyframes animacionDestello4
-	0%
-		transform translate(0, 0px)
-		-ms-transform translate(0, 0px)
-		-webkit-transform translate(0, 0px)
-		opacity .3
-	25%
-		transform translate(0, 80px)
-		-ms-transform translate(0, 80px)
-		-webkit-transform translate(0, 80px)
-		opacity .6
-	50%
-		transform translate(0, 130px)
-		-ms-transform translate(0, 130px)
-		-webkit-transform translate(0, 130px)
-		opacity 1
-	75%
-		color rgba(#dda0dd,.1)
-		transform translate(0, 90px)
-		-ms-transform translate(0, 90px)
-		-webkit-transform translate(0, 90px)
-		opacity .6
-	100%
-		transform translate(0, 0px)
-		-ms-transform translate(0, 0px)
-		-webkit-transform translate(0, 0px)
-		opacity .3
-@keyframes animacionDestello5
-	0%
-		transform translate(0, 0px)
-		-ms-transform translate(0, 0px)
-		-webkit-transform translate(0, 0px)
-		transform rotateZ(60deg)
-		-ms-transform rotateZ(60deg)
-		-webkit-transform rotateZ(60deg)
-		opacity .3
-	25%
-		transform translate(0, 80px)
-		-ms-transform translate(0, 80px)
-		-webkit-transform translate(0, 80px)
-		opacity .6
-	50%
-		transform translate(0, 170px)
-		-ms-transform translate(0, 170px)
-		-webkit-transform translate(0, 170px)
-		opacity 1
-	75%
-		transform translate(0, 170px)
-		-ms-transform translate(0, 170px)
-		-webkit-transform translate(0, 170px)
-
-		opacity .6
-	100%
-		transform translate(0, 0px)
-		-ms-transform translate(0, 0px)
-		-webkit-transform translate(0, 0px)
-		opacity .3
-@keyframes animacionNube1
-	0% 
-		opacity 0
-		transform translate(0, 0)
-		-ms-transform translate(0, 0)
-		-webkit-transform translate(0, 0)
-	5%
-		opacity 1
-
-	100% 
-		transform translate(-400px, 0)
-		-ms-transform translate(-400px, 0)
-		-webkit-transform translate(-400px, 0)
-@keyframes animacionNube2
-	0% 
-		opacity 0
-	50%
-		opacity 1
-	75%
-		opacity 1
-	100% 
-		opacity 1
-@keyframes animacionNube3
-	0% 
-		opacity 0
-		transform translate(0, 0)
-		-ms-transform translate(0, 0)
-		-webkit-transform translate(0, 0)
-	5%
-		opacity .5
-
-	100% 
-		transform translate(-360px, 0)
-		-ms-transform translate(-360px, 0)
-		-webkit-transform translate(-360px, 0)
-@keyframes animacionRayo1 
-	0% 
-		opacity .15
-	25% 
-		opacity 0
-	50%
-		opacity 0
-	75%
-		opacity .1
-	100% 
-		opacity .15
-@keyframes animacionRayo2
-	0% 
-		opacity .15
-	25% 
-		opacity 0
-	50%
-		opacity 0
-	75%
-		opacity .1
-	100% 
-		opacity .15
-@keyframes animacionRayo3 
-	0% 
-		opacity .3
-	25% 
-		opacity .2
-	50%
-		opacity 0
-	75%
-		opacity .1
-	100% 
-		opacity .3
-@keyframes animacionRayo4 
-	0% 
-		opacity 0
-	25% 
-		opacity 0
-	50%
-		opacity 0
-	75%
-		opacity .05
-	100% 
-		opacity 0
-@keyframes animacionRayo5
-	0% 
-		opacity 0
-	25% 
-		opacity 0.01
-	50%
-		opacity 0
-	75%
-		opacity .05
-	100% 
-		opacity 0
-@keyframes animacionRayo6 
-	0% 
-		opacity 0
-	25% 
-		opacity 0
-	50%
-		opacity .08
-	75%
-		opacity .02
-	100% 
-		opacity 0	
 
 
 
