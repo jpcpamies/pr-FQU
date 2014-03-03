@@ -43,13 +43,15 @@ header
 
 .calendario
 	img
-		width 0
+		width 0%
 		float right
+		transition .5s all ease
 
 
 .contenido
-	width 70%
+	width 100%
 	float left
+	transition .5s all ease
 	
 .llamada
 	background #bd0506
@@ -181,10 +183,17 @@ header
 		font-size 21px
 		padding 20px 20px 10px 20px
 		letter-spacing 1px
+
+#main-check
+	display none
+
 	
 #main-check:checked ~ .calendario
 	img
 		width 100%
+
+#main-check:checked ~ .contenido
+	margin-left -100%
 
 
 
