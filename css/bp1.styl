@@ -1,8 +1,10 @@
 
 article
 	color white
+
 body
 	background #e8e1d7
+
 header
 	background-image url(../img/foto1.jpg)
 	background-position 0 -100px
@@ -32,6 +34,7 @@ header
 			font-size 21px
 			font-style italic
 			text-transform uppercase 
+
 .bg
 	background-image url(../img/patron.png)
 	position fixed
@@ -42,14 +45,53 @@ header
 	z-index -4
 
 .calendario
+	.botonera
+		background rojo
+		border-left 5px solid rgba(rojoOscuro,1)
+		width 100%
+		height 100px
+		ul
+			li
+				background rojoOscuro
+				border-radius 50%
+				display inline-block
+				height 50px
+				margin 0 20px 0 0 
+				padding 5px
+				position relative
+				text-align center
+				width 50px
+				&:first-child
+					margin 0 20px 0 20px
+				a
+					color white
+					text-decoration none
+					font-style italic
+					span 
+						font-size .5em
+						position absolute
+						top 28px
+						left 30%
 	.eventoActual
 		background white
 		box-shadow 0 0 50px rgba(black,.5) inset
+		font-size 16px
+		font-weight bold
 		height auto
-		padding 20px
+		line-height 21px
+		padding 20px 25px
 		text-align center
 		width 100%
-
+		.lloc
+			color rgba(black,.5)
+			font-size .7em
+			margin 10px 0 0 0
+			text-transform uppercase
+			p
+				&:before
+					content '\e602'
+					font-family icono
+					margin 0 5px 0 0 
 
 .contenido
 	width 100%
@@ -60,7 +102,6 @@ header
 	background #bd0506
 	font-weight 400
 	height 80px
-	margin 0 0 20px 0
 	position relative
 	width 100%
 	p  
@@ -90,6 +131,7 @@ header
 			font-family icono
 			font-size 1.2em
 			line-height 75px
+
 .personalidades
 	background #db321c
 	border-radius 5px
@@ -129,6 +171,7 @@ header
 				position absolute
 				right -25px
 				top -5px
+
 .pubillas
 	background #f95d49
 	border-radius 5px
@@ -189,7 +232,6 @@ header
 
 #main-check
 	display none
-
 	
 #main-check:checked ~ .calendario
 	img
