@@ -35,6 +35,24 @@ header
 			font-style italic
 			text-transform uppercase 
 
+label
+	.boton
+		background white
+		border-bottom 5px solid rgba(black,.1)
+		height 80px
+		position absolute
+		right 0
+		text-align center
+		top 350px
+		width 40px
+		z-index 5
+		&:after
+			color rojo
+			content '\e606'
+			font-family icono
+			font-size 1.2em
+			line-height 75px
+
 .bg
 	background-image url(../img/patron.png)
 	position fixed
@@ -102,7 +120,6 @@ header
 .contenido
 	width 100%
 	float left
-	margin 10px 0 0 0
 	transition .5s all ease
 	
 .llamada
@@ -123,27 +140,12 @@ header
 		display block
 		font-size 16px
 		margin -5px 20px 0 20px
-	.boton
-		background white
-		border-bottom 5px solid rgba(black,.1)
-		height 80px
-		position absolute
-		right 0
-		text-align center
-		top 0
-		width 40px
-		&:after
-			color azul
-			content '\e606'
-			font-family icono
-			font-size 1.2em
-			line-height 75px
 
 .personalidades
 	background #db321c
 	border-radius 5px
 	height auto
-	margin 10px auto 20px auto
+	margin 20px auto 20px auto
 	padding 0 0 10px 0
 	width 95%
 	.header
@@ -239,7 +241,7 @@ header
 
 #main-check
 	display none
-	
+
 #main-check:checked ~ .calendario
 	width 100%
 
