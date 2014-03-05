@@ -49,8 +49,11 @@ header
 		background rojo
 		border-left 5px solid rgba(rojoOscuro,1)
 		width 100%
-		height 100px
+		height auto
 		ul
+			white-space nowrap
+			overflow-x auto
+			padding 12px 0
 			li
 				background rojoOscuro
 				border-radius 50%
@@ -65,13 +68,13 @@ header
 					margin 0 20px 0 20px
 				a
 					color white
-					text-decoration none
 					font-style italic
+					text-decoration none
 					span 
 						font-size .5em
+						left 30%
 						position absolute
 						top 28px
-						left 30%
 	.eventoActual
 		background white
 		box-shadow 0 0 50px rgba(black,.5) inset
@@ -234,8 +237,7 @@ header
 	display none
 	
 #main-check:checked ~ .calendario
-	img
-		width 100%
+	width 100%
 
 #main-check:checked ~ .contenido
 	margin-left -100%
