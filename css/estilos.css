@@ -136,6 +136,7 @@ header .texto span {
 label .boton {
   background: #fff;
   border-bottom: 5px solid rgba(0,0,0,0.1);
+  color: #db321c;
   height: 80px;
   position: absolute;
   right: 0;
@@ -145,7 +146,6 @@ label .boton {
   z-index: 5;
 }
 label .boton:after {
-  color: #db321c;
   content: '\e606';
   font-family: icono;
   font-size: 1.2em;
@@ -163,6 +163,7 @@ label .boton:after {
 .calendario {
   width: 0%;
   float: right;
+  overflow-x: hidden;
   transition: 0.5s all ease;
 }
 .calendario .botonera {
@@ -364,6 +365,9 @@ label .boton:after {
 }
 #main-check {
   display: none;
+}
+#main-check:checked {
+  color: #00f;
 }
 #main-check:checked ~ .calendario {
   width: 100%;

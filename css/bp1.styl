@@ -39,6 +39,7 @@ label
 	.boton
 		background white
 		border-bottom 5px solid rgba(black,.1)
+		color rojo
 		height 80px
 		position absolute
 		right 0
@@ -47,7 +48,6 @@ label
 		width 40px
 		z-index 5
 		&:after
-			color rojo
 			content '\e606'
 			font-family icono
 			font-size 1.2em
@@ -65,6 +65,7 @@ label
 .calendario
 	width 0%
 	float right
+	overflow-x hidden
 	transition .5s all ease
 	.botonera
 		background rojo
@@ -241,6 +242,9 @@ label
 
 #main-check
 	display none
+
+#main-check:checked
+	color blue
 
 #main-check:checked ~ .calendario
 	width 100%
