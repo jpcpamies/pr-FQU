@@ -73,8 +73,19 @@ label
 	.botonera
 		background rojo
 		border-left 5px solid rgba(rojoOscuro,1)
+		border-right 5px solid rgba(rojoOscuro,1)
 		width 100%
 		height auto
+		position relative
+		&:after
+			border-bottom 37px solid transparent
+			border-left 10px solid transparent
+			border-right 8px solid rojoOscuro
+			border-top 37px solid transparent
+			content ''
+			position absolute
+			right 0px
+			top 0
 		ul
 			white-space nowrap
 			overflow-x auto
@@ -100,9 +111,11 @@ label
 						left 30%
 						position absolute
 						top 28px
+		
 	.eventoActual
 		background white
 		box-shadow 0 0 50px rgba(black,.5) inset
+		border-top 5px solid rojoClaro
 		font-size 16px
 		font-weight bold
 		height auto
@@ -127,7 +140,7 @@ label
 	transition .5s all ease
 	
 .llamada
-	background #bd0506
+	background rojoClaro
 	font-weight 400
 	height 80px
 	position relative

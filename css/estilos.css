@@ -171,8 +171,20 @@ label .boton .flecha:after {
 .calendario .botonera {
   background: #db321c;
   border-left: 5px solid #982617;
+  border-right: 5px solid #982617;
   width: 100%;
   height: auto;
+  position: relative;
+}
+.calendario .botonera:after {
+  border-bottom: 37px solid transparent;
+  border-left: 10px solid transparent;
+  border-right: 8px solid #982617;
+  border-top: 37px solid transparent;
+  content: '';
+  position: absolute;
+  right: 0px;
+  top: 0;
 }
 .calendario .botonera ul {
   white-space: nowrap;
@@ -207,6 +219,7 @@ label .boton .flecha:after {
 .calendario .eventoActual {
   background: #fff;
   box-shadow: 0 0 50px rgba(0,0,0,0.5) inset;
+  border-top: 5px solid #bd0506;
   font-size: 16px;
   font-weight: bold;
   height: auto;
