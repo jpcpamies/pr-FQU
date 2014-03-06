@@ -242,6 +242,7 @@ label .boton .flecha:after {
 .calendario .listaEvento .evento {
   background: #fff;
   border-radius: 5px;
+  border-bottom: 25px solid rgba(0,0,0,0.3);
   border-top: 3px solid #fc5f60;
   line-height: 1.2em;
   margin: 20px 10px;
@@ -258,7 +259,7 @@ label .boton .flecha:after {
 .calendario .listaEvento .evento .tituloEvento {
   font-size: 16px;
   font-weight: bold;
-  margin: 40px 0 0 50px;
+  margin: 35px 0 10px 50px;
 }
 .calendario .listaEvento .evento .tituloEvento:before {
   color: rgba(0,0,0,0.5);
@@ -267,7 +268,7 @@ label .boton .flecha:after {
   font-size: 1.2em;
   position: absolute;
   left: 40px;
-  top: 55px;
+  top: 52px;
 }
 .calendario .listaEvento .evento .tituloEvento .detalleEvento {
   display: none;
@@ -275,16 +276,16 @@ label .boton .flecha:after {
   margin: 10px 0 0 0;
 }
 .calendario .listaEvento .evento .tipoEvento {
+  color: #fff;
   font-size: 0.7em;
+  font-style: italic;
   padding: 20px 0 0 0;
-  text-align: right;
+  position: absolute;
+  right: 20px;
+  bottom: -25px;
 }
-.calendario .listaEvento .evento .tipoEvento span {
-  color: rgba(0,0,0,0.5);
-  font-weight: 400;
-}
+.calendario .listaEvento .evento .tipoEvento span,
 .calendario .listaEvento .evento .tipoEvento p {
-  color: #fc5f60;
   display: inline-block;
   margin: 0 0 0 5px;
 }
