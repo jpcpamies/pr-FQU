@@ -270,6 +270,7 @@ label .boton .flecha:after {
   top: 55px;
 }
 .calendario .listaEvento .evento .tituloEvento .detalleEvento {
+  display: none;
   color: rgba(0,0,0,0.5);
   margin: 10px 0 0 0;
 }
