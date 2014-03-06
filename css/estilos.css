@@ -239,6 +239,54 @@ label .boton .flecha:after {
   font-family: icono;
   margin: 0 5px 0 0;
 }
+.calendario .listaEvento .evento {
+  background: #fff;
+  border-radius: 5px;
+  border-top: 3px solid #fc5f60;
+  line-height: 1.2em;
+  margin: 20px 10px;
+  padding: 15px 20px;
+  position: relative;
+}
+.calendario .listaEvento .evento .hora {
+  color: rgba(0,0,0,0.5);
+  font-size: 0.8em;
+  font-style: italic;
+  position: absolute;
+  right: 20px;
+}
+.calendario .listaEvento .evento .tituloEvento {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 40px 0 0 50px;
+}
+.calendario .listaEvento .evento .tituloEvento:before {
+  color: rgba(0,0,0,0.5);
+  content: '\e608';
+  font-family: icono;
+  font-size: 1.2em;
+  position: absolute;
+  left: 40px;
+  top: 55px;
+}
+.calendario .listaEvento .evento .tituloEvento .detalleEvento {
+  color: rgba(0,0,0,0.5);
+  margin: 10px 0 0 0;
+}
+.calendario .listaEvento .evento .tipoEvento {
+  font-size: 0.7em;
+  padding: 20px 0 0 0;
+  text-align: right;
+}
+.calendario .listaEvento .evento .tipoEvento span {
+  color: rgba(0,0,0,0.5);
+  font-weight: 400;
+}
+.calendario .listaEvento .evento .tipoEvento p {
+  color: #fc5f60;
+  display: inline-block;
+  margin: 0 0 0 5px;
+}
 .contenido {
   width: 100%;
   float: left;

@@ -134,6 +134,48 @@ label
 					font-family icono
 					margin 0 5px 0 0 
 
+	.listaEvento
+		.evento
+			background white
+			border-radius 5px
+			border-top 3px solid rojo2
+			line-height 1.2em
+			margin 20px 10px
+			padding 15px 20px
+			position relative
+			.hora
+				color rgba(black,.5)
+				font-size .8em
+				font-style italic
+				position absolute
+				right 20px
+			.tituloEvento
+				font-size 16px
+				font-weight bold
+				margin 40px 0 0 50px
+				&:before
+					color rgba(black,.5)
+					content '\e608'
+					font-family icono
+					font-size 1.2em
+					position absolute
+					left 40px
+					top 55px
+				.detalleEvento
+					color rgba(black,.5)
+					margin 10px 0 0 0 
+			.tipoEvento
+				font-size .7em
+				padding 20px 0 0 0
+				text-align right
+				span
+					color rgba(black,.5)
+					font-weight 400
+				p
+					color rojo2
+					display inline-block
+					margin 0 0 0 5px
+
 .contenido
 	width 100%
 	float left
@@ -157,6 +199,8 @@ label
 		display block
 		font-size 16px
 		margin -5px 20px 0 20px
+
+
 
 .personalidades
 	background #db321c
