@@ -320,7 +320,7 @@ label .boton .flecha:after{content:'\e606';font-family:icono;font-size:1.2em;lin
 /* line 76 : /Users/jordiimac/Documents/FQU/css/estilos.styl */
 
 @media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/estilos\.styl}line{font-family:\0000376}}
-@media screen and (min-width: 460px){
+@media screen and (min-width: 355px){
 /* line 2 : /Users/jordiimac/Documents/FQU/css/bp2.styl */
 
 @media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp2\.styl}line{font-family:\000032}}
@@ -328,12 +328,16 @@ label .boton .flecha:after{content:'\e606';font-family:icono;font-size:1.2em;lin
 /* line 2 : /Users/jordiimac/Documents/FQU/css/bp2.styl */
 
 @media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp2\.styl}line{font-family:\000032}}
-.inicio{margin:0 50px}
+
+/* line 3 : /Users/jordiimac/Documents/FQU/css/bp2.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp2\.styl}line{font-family:\000033}}
+.salutaciones .imagen{background-position:0 -20px}
 }
 /* line 79 : /Users/jordiimac/Documents/FQU/css/estilos.styl */
 
 @media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/estilos\.styl}line{font-family:\0000379}}
-@media screen and (min-width: 760px){
+@media screen and (min-width: 460px){
 /* line 2 : /Users/jordiimac/Documents/FQU/css/bp3.styl */
 
 @media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp3\.styl}line{font-family:\000032}}
@@ -346,7 +350,7 @@ label .boton .flecha:after{content:'\e606';font-family:icono;font-size:1.2em;lin
 /* line 82 : /Users/jordiimac/Documents/FQU/css/estilos.styl */
 
 @media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/estilos\.styl}line{font-family:\0000382}}
-@media screen and (min-width: 960px){
+@media screen and (min-width: 760px){
 /* line 2 : /Users/jordiimac/Documents/FQU/css/bp4.styl */
 
 @media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp4\.styl}line{font-family:\000032}}
