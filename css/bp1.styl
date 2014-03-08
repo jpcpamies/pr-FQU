@@ -12,6 +12,8 @@ header
 	height 350px
 	letter-spacing 2px
 	text-align center
+	position relative
+	z-index 0
 	.texto
 		background rgba(black,.5)
 		padding 20px 0
@@ -64,6 +66,7 @@ label
 	float right
 	overflow-x hidden
 	transition .5s all ease
+	z-index 5
 	.botonera
 		background rojo
 		border-left 5px solid rgba(rojoOscuro,1)
@@ -114,8 +117,25 @@ label
 		height auto
 		line-height 21px
 		padding 20px 25px
+		position relative
 		text-align center
 		width 100%
+		// .ara
+		// 	background rojoClaro
+		// 	height 20px
+		// 	width 40px
+		// 	position absolute 
+		// 	right 0
+		// 	top -15px
+		// 	&:before
+		// 		content ''
+		// 		border-top 20px solid transparent
+		// 		border-left 10px solid transparent
+		// 		border-right 10px solid rojoClaro
+		// 		border-bottom 0px solid transparent
+		// 		position absolute
+		// 		top 0
+		// 		right 40px
 		.lloc
 			color rgba(black,.5)
 			font-size .7em
@@ -170,7 +190,7 @@ label
 			.tituloEvento
 				font-size 16px
 				font-weight bold
-				margin 35px 0 10px 50px
+				margin 35px 15px 10px 50px
 				&:before
 					color gris
 					content '\e608'
@@ -180,8 +200,9 @@ label
 					left 40px
 					top 52px
 				.detalleEvento
-					display none
 					color rgba(black,.5)
+					display block
+					font-weight 400
 					margin 10px 0 0 0 
 			.tipoEvento
 				color rgba(#9b9b9b,1)
