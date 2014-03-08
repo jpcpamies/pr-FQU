@@ -51,7 +51,6 @@ label
 				font-family icono
 				font-size 1.2em
 				line-height 75px
-
 .bg
 	background-image url(../img/patron.png)
 	position fixed
@@ -106,7 +105,6 @@ label
 						left 30%
 						position absolute
 						top 28px
-		
 	.eventoActual
 		background white
 		box-shadow 0 0 50px rgba(black,.5) inset
@@ -128,22 +126,20 @@ label
 					content '\e602'
 					font-family icono
 					margin 0 5px 0 0 
-
 	.listaEvento
 		display block
 		.evento
 			background white
-			border-radius 5px
-			border-bottom 25px solid gris
+			border-bottom 25px solid rgba(#fafafa,1)
 			border-top 3px solid rojo2
 			line-height 1.2em
 			margin 20px 10px
 			padding 15px 20px
 			position relative
 			.hora
-				color rgba(black,.5)
-				font-size .8em
-				font-style italic
+				color gris
+				font-size 12px
+				font-weight 400
 				position absolute
 				left 20px
 			.tituloEvento
@@ -151,7 +147,7 @@ label
 				font-weight bold
 				margin 35px 0 10px 50px
 				&:before
-					color rgba(black,.5)
+					color gris
 					content '\e608'
 					font-family icono
 					font-size 1.2em
@@ -163,7 +159,7 @@ label
 					color rgba(black,.5)
 					margin 10px 0 0 0 
 			.tipoEvento
-				color white
+				color rgba(#9b9b9b,1)
 				font-size .7em
 				font-style italic
 				padding 20px 0 0 0
@@ -292,7 +288,6 @@ label
 					position absolute
 					right -25px
 					top -5px
-
 #main-check
 	display none
 #main-check:checked ~ label
