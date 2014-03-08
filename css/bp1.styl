@@ -136,6 +136,22 @@ label
 			margin 20px 10px
 			padding 15px 20px
 			position relative
+			.decoracion
+				background rojo2
+				height 20px
+				width 40px
+				position absolute 
+				right 0
+				top 0
+				&:before
+					content ''
+					border-bottom 20px solid transparent
+					border-left 10px solid transparent
+					border-right 10px solid rojo2
+					border-top 0px solid transparent
+					position absolute
+					top 0
+					right 40px
 			.hora
 				color gris
 				font-size 12px
@@ -151,7 +167,6 @@ label
 				&:after
 					content '\e602'
 					font-family icono
-					line-height 25px
 			.tituloEvento
 				font-size 16px
 				font-weight bold
