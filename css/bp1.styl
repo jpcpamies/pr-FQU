@@ -154,8 +154,9 @@ label
 				content '\e617'
 				font-family icono
 		.lloc
-			color rgba(black,.5)
-			font-size .7em
+			color gris
+			font-size 12px
+			font-weight 300
 			margin 10px 0 0 0
 			text-transform uppercase
 			p
@@ -173,7 +174,7 @@ label
 			letter-spacing -.5px
 			line-height 1.1em
 			margin 20px 10px
-			padding 15px 20px
+			padding 15px 20px 
 			position relative
 			.decoracion
 				background rojo2
@@ -197,6 +198,15 @@ label
 				font-weight 400
 				position absolute
 				left 20px
+			.iconoEvento
+				position absolute 
+				left 20px 
+				bottom -25px
+				&:after
+					content '\e617'
+					color gris
+					font-family icono
+					font-size 12px
 			.logoEvento
 				color rgba(#9b9b9b,1)
 				font-size 12px
@@ -209,11 +219,11 @@ label
 			.tituloEvento
 				font-size 16px
 				font-weight bold
-				margin 35px 15px 10px 50px
+				margin 35px 15px -10px 50px
 				text-transform uppercase
 				&:before
 					color gris
-					content '\e608'
+					content '\e603'
 					font-family icono
 					font-size 16px
 					position absolute
@@ -226,19 +236,20 @@ label
 					font-weight 300
 					margin 10px 0 0 0 
 					text-transform lowercase
-			.tipoEvento
-				color rgba(#9b9b9b,1)
-				display inline-block
+			.llocEvent
+				color gris
 				font-size 12px
-				font-style italic
-				padding 20px 0 0 0
-				position absolute 
-				right 20px 
-				bottom -27px
-				span
+				font-weight 300
+				text-align right
+				text-transform uppercase
+				position relative
+				bottom -40px
 				p
-					display inline-block
-					margin 0 0 0 3px
+					display block
+					&:before
+						content '\e606'
+						font-family icono
+						margin 0 5px 0 0 
 .contenido
 	width 100%
 	float left
