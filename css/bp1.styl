@@ -49,7 +49,7 @@ label
 	.boton
 		.flecha
 			&:after
-				content '\e606'
+				content '\e605'
 				font-family icono
 				font-size 1.2em
 				line-height 75px
@@ -122,17 +122,37 @@ label
 		width 100%
 		.ara
 			display block
+			float left
 			font-size 16px
 			font-weight 300
 			letter-spacing -.5px
 			line-height 16px
-			padding 15px 0 35px 10px
+			padding 15px 0 25px 10px
 			text-align left
 			text-transform uppercase
 			width 130px
 			p
 				span
 					font-weight 900
+		.event
+			border-top 1px solid rgba(black,.1)
+			margin 70px 0 0 0 
+			padding 20px 0 0 0 
+		.iconoAra
+			border 2px solid gris
+			border-radius 50%
+			color gris
+			float right
+			height 40px
+			line-height 40px
+			vertical-align middle
+			width 40px
+			position absolute
+			left 160px 
+			top 30px 
+			&:after
+				content '\e617'
+				font-family icono
 		.lloc
 			color rgba(black,.5)
 			font-size .7em
@@ -140,7 +160,7 @@ label
 			text-transform uppercase
 			p
 				&:before
-					content '\e602'
+					content '\e606'
 					font-family icono
 					margin 0 5px 0 0 
 	.listaEvento
@@ -184,7 +204,7 @@ label
 				right 100px 
 				bottom -28px
 				&:after
-					content '\e602'
+					content '\e606'
 					font-family icono
 			.tituloEvento
 				font-size 16px
