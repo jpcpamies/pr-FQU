@@ -35,7 +35,7 @@
             <p>2014</p>
         </div>
     </header>
-    <input type="checkbox" id='main-check' />
+    <input type="checkbox" checked id='main-check' />
     <label for="main-check">
         <div id="btnProg" class="boton" onclick="ivan()"><span class="flecha"></span></div>
     </label>
@@ -65,11 +65,16 @@
             <div class="evento">
                 <input type="checkbox" id='desplegar'>
                 <label for="desplegar">
-                    <div class="tituloEvento" onclick="slideToggle('p1')">
-                        <p>XIII concurs de samarretes de colla i sangriada popular.</p>
-                        <div id='p1' class="detalleEvento" style="display:none;"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur, corporis, omnis, distinctio quis saepe excepturi modi vel nemo voluptatum iste debitis ipsum ea commodi ipsa odit maiores dicta quibusdam vitae!</p></div>
+                    <div class="accionarFlechita" onclick="slideToggle('p1')">
+                        <div class="flechita"></div>
                     </div>
                 </label>
+                <div class="tituloEvento">
+                    <p>XIII concurs de samarretes de colla i sangriada popular.</p>
+                    <div id='p1' class="detalleEvento" style="display:none;"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur, corporis, omnis, distinctio quis saepe excepturi modi vel nemo voluptatum iste debitis ipsum ea commodi ipsa odit maiores dicta quibusdam vitae!</p>
+                    <div class="resizer"><div class="disminuir"><p>A</p></div><div class="aumentar"><p>A</p></div></div>
+                    </div>
+                </div>
                 <div class="decoracion"></div>
                 <div class="hora">13:00h</div>
                 <div class="llocEvent"><p>Poli deportiu</p></div>
