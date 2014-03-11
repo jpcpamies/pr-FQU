@@ -419,35 +419,45 @@ label .boton .flecha:after{content:'\e607';font-family:icono;font-size:1.2em;lin
 /* line 442 : /Users/jordiimac/Documents/FQU/css/bp1.styl */
 
 @media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp1\.styl}line{font-family:\00003442}}
-#main-check{display:none}
+.invisible{display:none}
 
 /* line 444 : /Users/jordiimac/Documents/FQU/css/bp1.styl */
 
 @media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp1\.styl}line{font-family:\00003444}}
+.visible{display:block;transition:all .3s ease}
+
+/* line 447 : /Users/jordiimac/Documents/FQU/css/bp1.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp1\.styl}line{font-family:\00003447}}
+#main-check{display:none}
+
+/* line 449 : /Users/jordiimac/Documents/FQU/css/bp1.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp1\.styl}line{font-family:\00003449}}
 #main-check:checked ~ label{background:rgba(255,255,255,0)}
 
-/* line 446 : /Users/jordiimac/Documents/FQU/css/bp1.styl */
+/* line 451 : /Users/jordiimac/Documents/FQU/css/bp1.styl */
 
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp1\.styl}line{font-family:\00003446}}
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp1\.styl}line{font-family:\00003451}}
 #main-check:checked ~ label .boton{transform:rotateZ(180deg);-ms-transform:rotateZ(180deg);-webkit-transform:rotateZ(180deg)}
 
-/* line 450 : /Users/jordiimac/Documents/FQU/css/bp1.styl */
+/* line 455 : /Users/jordiimac/Documents/FQU/css/bp1.styl */
 
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp1\.styl}line{font-family:\00003450}}
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp1\.styl}line{font-family:\00003455}}
 #main-check:checked ~ .calendario{width:100%}
 
-/* line 452 : /Users/jordiimac/Documents/FQU/css/bp1.styl */
+/* line 457 : /Users/jordiimac/Documents/FQU/css/bp1.styl */
 
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp1\.styl}line{font-family:\00003452}}
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp1\.styl}line{font-family:\00003457}}
 #main-check:checked ~ .contenido{margin-left:-100%}
 
 /* line 88 : /Users/jordiimac/Documents/FQU/css/estilos.styl */
 
 @media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/estilos\.styl}line{font-family:\0000388}}
 @media screen and (min-width: 355px){
-/* line 454 : /Users/jordiimac/Documents/FQU/css/bp2.styl */
+/* line 459 : /Users/jordiimac/Documents/FQU/css/bp2.styl */
 
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp2\.styl}line{font-family:\00003454}}
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp2\.styl}line{font-family:\00003459}}
 
 /* line 1 : /Users/jordiimac/Documents/FQU/css/bp2.styl */
 
