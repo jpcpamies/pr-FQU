@@ -191,11 +191,12 @@ label
 				top 0
 				width auto
 				.accionarFlechita
-					width 70px
-					height 70px
+					width 290px
+					height 80px
 					position absolute
 					top 37px
 					left -20px
+					z-index 5
 					.flechita
 						&:before
 							color gris
@@ -206,48 +207,47 @@ label
 							left 40px
 							top 0px
 			.tituloEvento
+				font-size 16px
+				font-weight bold
+				margin 35px 15px -10px 50px
+				text-transform uppercase
+				.detalleEvento
+					color rgba(black,1)
+					display block
 					font-size 16px
-					font-weight bold
-					margin 35px 15px -10px 50px
-					text-transform uppercase
-					.detalleEvento
-						color rgba(black,1)
-						display block
-						font-size 16px
-						font-weight 300
-						margin 10px 0 0 0 
-						text-transform lowercase
-						.resizer
-							background #f8f8f8
-							// border-bottom 1px solid rgba(#717785,.1)
-							height 45px 
-							margin 20px 0 10px 0
-							width 100%
-							.aumentar
-								color rgba(gris,.5)
-								display inline-block
-								font-size 18px
-								line-height 45px
-								text-align center
-								text-transform uppercase
-								width 50%
-								&:hover
-									background rgba(gris,.5)
-									color white
-									transition all .3s ease
-							.disminuir
-								border-right 2px solid rgba(white,1)
-								color rgba(gris,.5)
-								display inline-block
-								font-size 12px
-								line-height 45px
-								text-align center
-								text-transform uppercase
-								width 50%
-								&:hover
-									background rgba(gris,.5)
-									color white
-									transition all .3s ease
+					font-weight 300
+					margin 10px 0 0 0 
+					text-transform lowercase
+				.resizer
+					background #f8f8f8
+					height 45px 
+					margin 20px 0 10px 0
+					width 100%
+					.aumentar
+						color rgba(gris,.5)
+						display inline-block
+						font-size 18px
+						line-height 45px
+						text-align center
+						text-transform uppercase
+						width 50%
+						&:hover
+							background rgba(gris,.5)
+							color white
+							transition all .3s ease
+					.disminuir
+						border-right 2px solid rgba(white,1)
+						color rgba(gris,.5)
+						display inline-block
+						font-size 12px
+						line-height 45px
+						text-align center
+						text-transform uppercase
+						width 50%
+						&:hover
+							background rgba(gris,.5)
+							color white
+							transition all .3s ease
 			.decoracion
 				background rojo2
 				height 20px
