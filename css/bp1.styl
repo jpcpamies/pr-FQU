@@ -4,43 +4,47 @@ article
 body
 	background #e8e1d7
 footer
-	position absolute
-	bottom 0
-	left 0
-	right 0
-	.footer
-		background rojoClaro
-		height 70px
-		width 100%
-	.mainFooter
+	// height 150px
+	.footerMedio
+		height 150px
 		background rojo
-		heig/ht 150px
-		width 100%
-		padding 50px 0
-		.info
-			display block
-			margin 0 auto
+	.footerBajo
+		height 150px
+		background rojoClaro
+		margin 0 0 -30px 0
+		padding 10px 0
+		
 
-			background #ffc43a
-			border-bottom 3px solid #f39c12
-			line-height 16px
-			padding 10px 0
-			text-align center
-			width 210px
-			a
-				color #b26514 
-				text-decoration none
-				p
-					font-size 21px
-					font-weight 400
-					text-transform uppercase
+	// .footer
+	// 	background rojoClaro
+	// 	height 70px
+	// 	width 100%
+	// .mainFooter
+	// 	.info
+	// 		display block
+	// 		margin 0 auto
+	// 		background #ffc43a
+	// 		border-bottom 3px solid #f39c12
+	// 		line-height 16px
+	// 		padding 15px 0 10px 0
+	// 		text-align center
+	// 		width 210px
+	// 		a
+	// 			color #b26514 
+	// 			text-decoration none
+	// 			p
+	// 				font-size 21px
+	// 				font-weight 400
+	// 				text-transform uppercase
 					
-				span
-					font-size 16px
-					font-weight 300
-
-				
-				
+	// 			span
+	// 				font-size 16px
+	// 				font-weight 300
+	// 	.subtitulo
+	// 		color white
+	// 		text-align center
+	// 		padding 5px 0 0 0 
+	// 		font-weight 400
 header
 	background-image url(../img/foto1.jpg)
 	background-position 0 -100px
@@ -105,7 +109,6 @@ label
 	overflow-x hidden
 	transition .5s all ease
 	z-index 5
-	margin 0 0 300px 0
 	.botonera
 		background rojo
 		border-left 5px solid rgba(rojoOscuro,1)
@@ -351,10 +354,11 @@ label
 				-ms-transform rotateZ(180deg)
 				-webkit-transform rotateZ(180deg)
 .contenido
+	// background green
+	height 700px
 	width 100%
 	float left
 	transition .5s all ease
-	margin 0 0 300px 0
 	.llamada
 		background rojoClaro
 		font-weight 400
