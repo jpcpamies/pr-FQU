@@ -4,12 +4,47 @@ article
 body
 	background #e8e1d7
 footer
-	background #2e2e2e
+	color white
 	float left
-	height 300px
-	margin 100px 0 -25px 0 
+	min-height 300px
+	margin 50px 0 -25px 0 
 	width 100%
-
+	position relative
+	z-index 4
+	.contenido
+		font-weight 400
+		height 100%
+		letter-spacing 1px
+		position absolute
+		width 100%
+		z-index 6
+		.tituloFooter
+			background #10161b
+			padding 20px 0 
+			h3 
+				color white
+				font-size 21px
+				font-style italic
+				padding  10px 20px 
+				text-transform uppercase
+			span  
+				color white
+				display block
+				font-size 16px
+				margin -5px 20px 0 20px
+	.fondo
+		background #1a2026
+		height 100%
+		width 100%
+		position absolute
+		z-index 5
+	.hechoPor
+		background #22282e
+		height 50px
+		width 100%
+		position absolute
+		bottom 0
+		z-index 6
 header
 	background-image url(../img/foto1.jpg)
 	background-position 0 -100px
@@ -320,15 +355,15 @@ label
 				-ms-transform rotateZ(180deg)
 				-webkit-transform rotateZ(180deg)
 .contenido
-	// background green
-	height 670px
-	width 100%
 	float left
+	height 670px
 	transition .5s all ease
+	width 100%
 	.llamada
 		background rojoClaro
 		font-weight 400
 		height 80px
+		letter-spacing 1px
 		position relative
 		width 100%
 		p  
@@ -337,7 +372,6 @@ label
 			font-style italic
 			padding  10px 20px 
 			text-transform uppercase
-			letter-spacing 1px
 		span  
 			color white
 			display block
@@ -347,7 +381,7 @@ label
 		background #f95d49
 		border-radius 5px
 		height auto
-		margin 10px auto 20px auto
+		margin 30px auto 20px auto
 		padding 0 0 10px 0
 		width 95%
 		.caras
@@ -410,7 +444,7 @@ label
 		background #db321c
 		border-radius 5px
 		height auto
-		margin 20px auto 20px auto
+		margin 30px auto 20px auto
 		padding 0 0 10px 0
 		width 95%
 		.header
