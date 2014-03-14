@@ -49,7 +49,7 @@ body{background:#e8e1d7}
 /* line 6 : /Users/jordiimac/Documents/FQU/css/bp1.styl */
 
 @media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp1\.styl}line{font-family:\000036}}
-footer{color:#fff;float:left;min-height:460px;margin:64px 0 -25px 0;width:100%;position:relative;z-index:4;}
+footer{color:#fff;float:left;min-height:480px;margin:64px 0 -25px 0;width:100%;position:relative;z-index:4;}
 
 /* line 14 : /Users/jordiimac/Documents/FQU/css/bp1.styl */
 
@@ -64,7 +64,7 @@ footer .contenido .entradas{margin:140px 0 0 20px;}
 /* line 22 : /Users/jordiimac/Documents/FQU/css/bp1.styl */
 
 @media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp1\.styl}line{font-family:\0000322}}
-footer .contenido .entradas h3{font-size:16px;margin:0 0 10px 0;border-bottom:1px solid rgba(255,255,255,0.5);padding:10px 0 5px 0}
+footer .contenido .entradas h3{font-size:16px;margin:0 0 16px 0;border-bottom:1px solid rgba(255,255,255,0.5);padding:10px 0 5px 0}
 
 /* line 27 : /Users/jordiimac/Documents/FQU/css/bp1.styl */
 
