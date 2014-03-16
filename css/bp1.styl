@@ -25,44 +25,89 @@ footer
 				text-transform lowercase
 	.section
 		background #242d35
-		// border-bottom 25px solid #f95d49
-		// .entrades
-		// 	border-left 5px solid rojoOscuro
-		// .inscripcions
-		// 	border-left 5px solid rojoClaro
-		// .piscina
-		// 	border-left 5px solid #db321c
-		// .notes
-		// 	border-left 5px solid #f95d49
+		position relative
+		.entrades
+			// border-left 5px solid rojoOscuro
+			&:before
+				content entrada
+				font-family icono
+				font-style normal
+				font-size 18px 
+				left 20px
+				position absolute
+				top 30px
+		.inscripcions
+			// border-left 5px solid rojoClaro
+			&:before
+				content calendario
+				font-family icono
+				font-style normal
+				font-size 18px 
+				left 20px
+				position absolute
+				top 30px
+		.piscina
+			// border-left 5px solid #db321c
+			&:before
+				content reloj
+				font-family icono
+				font-style normal
+				font-size 18px 
+				left 20px
+				position absolute
+				top 30px
+		.notes
+			// border-left 5px solid #f95d49
+			&:before
+				content nota
+				font-family icono
+				font-style normal
+				font-size 18px 
+				left 20px
+				position absolute
+				top 30px
 		.post
 			border-bottom 1px solid rgba(white,.1)
+			color rgba(white,.7)
 			line-height 21px
 			font-size 16px
-			padding 28px 70px 28px 28px
+			padding 28px 0 28px 0
 			position relative
+			font-style italic
+			h4
+				margin 0 78px 0 55px
 			.detallePost
 				border-left none
 				h5
-					margin 20px 0 10px
+					color rgba(white,1)
+					margin 20px 20px 10px 20px
+					font-style normal
+					// &:first-child
+					// 	border-top 1px solid rgba(white,.1)
+					// 	margin 20px 0 10px
+					// 	padding 20px 0 0 0
 				p
 					color rgba(white,.6)
 					font-weight 400
-					margin 0 0 0 16px
+					font-style normal
+					margin 0 20px 0 20px
 				ul
-					margin 20px 0 0 16px
+					margin 20px 20px 0 40px
 					li 
 						color rgba(white,.6)
 						font-weight 400
+						font-style normal
 						list-style-type circle
 						margin 0 0 10px 0
 						&:last-child 
 							margin 0 0 30px 0
 				.detallPiscina
-					margin 20px 0 0 16px
+					margin 20px 20px 0 20px
 			&:after
 				content flechaAbajo
 				font-family icono
 				position absolute
+				font-style normal
 				top 20px
 				right 20px
 				border-left 1px solid rgba(white,.5)
