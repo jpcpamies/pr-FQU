@@ -369,7 +369,7 @@ label.mainLabel .boton .flecha:after{content:'\e607';font-family:icono;font-size
 /* line 348 : /Users/jordiimac/Documents/FQU/css/bp1.styl */
 
 @media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp1\.styl}line{font-family:\00003348}}
-.calendario .eventoActual .iconoAra:after{content:'\e617';font-family:icono;font-size:14px}
+.calendario .eventoActual .iconoAra:after{content:'\e602';font-family:icono;font-size:14px}
 
 /* line 352 : /Users/jordiimac/Documents/FQU/css/bp1.styl */
 
@@ -472,7 +472,7 @@ label.mainLabel .boton .flecha:after{content:'\e607';font-family:icono;font-size
 /* line 472 : /Users/jordiimac/Documents/FQU/css/bp1.styl */
 
 @media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp1\.styl}line{font-family:\00003472}}
-.calendario .listaEvento .evento .iconoEvento:after{content:'\e617';color:#717785;font-family:icono;font-size:12px}
+.calendario .listaEvento .evento .iconoEvento:after{content:'\e602';color:#717785;font-family:icono;font-size:12px}
 
 /* line 477 : /Users/jordiimac/Documents/FQU/css/bp1.styl */
 
