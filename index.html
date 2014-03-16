@@ -36,7 +36,7 @@
         </div>
     </header>
     <input type="checkbox" id='main-check' />
-    <label for="main-check">
+    <label class='mainLabel' for="main-check">
         <div id="btnProg" class="boton" onclick="ivan()"><span class="flecha"></span></div>
     </label>
     <section class="calendario">
@@ -216,7 +216,13 @@
             <h3>Informació <span>relativa a festes</span></h3>
         </div>
         <div class="section">
-            <div class="post entrades" onclick="slideToggle('post1')">
+            <input type="checkbox" id='desplegarFooter'>
+            <label for="desplegarFooter">
+                <div class="accionarFlechitaFooter" onclick="slideToggle('post1')">
+                    <div class="flechita"></div>
+                </div>
+            </label>
+            <div class="post entrades">
                 <h4>Venda d’entrades i tiquets</h4>
                 <div class="detallePost" id='post1' style="display:none;">
                     <h5>Entrades de la Representació Teatral: <span>Confessions de dones de 30</span></h5>
@@ -229,7 +235,13 @@
                     <p>Tindrà lloc el divendres 30 d’agost a les 22.00 hores. Preu: 14€ Del dia 1 al 27 d’agost, de les 9.00 a les 21.00, al retén de l’Ajuntament.</p>
                 </div>
             </div>
-            <div class="post inscripcions" onclick="slideToggle('post2')">
+            <input type="checkbox" id='desplegarFooter'>
+            <label for="desplegarFooter">
+                <div class="accionarFlechitaFooter" onclick="slideToggle('post2')">
+                    <div class="flechita"></div>
+                </div>
+            </label>
+            <div class="post inscripcions">
                 <h4>Inscripcions gratuiütes</h4>
                 <div class="detallePost" id='post2' style="display:none;">
                     <h5>Carrosses</h5>
@@ -242,13 +254,25 @@
                     <p>Es realitzarà el dissabte 1 de setembre a les 11.30h. Inscripcions del dia 1 al 30 d’agost, de les 9.00 a les 21.00, al retén de l’Ajuntament.</p>
                 </div>
             </div>
-            <div class="post piscina" onclick="slideToggle('post3')">
+            <input type="checkbox" id='desplegarFooter'>
+            <label for="desplegarFooter">
+                <div class="accionarFlechitaFooter" onclick="slideToggle('post3')">
+                    <div class="flechita"></div>
+                </div>
+            </label>
+            <div class="post piscina">
                 <h4>Horari de la piscina municipal en festes majors</h4>
                 <div class="detallePost" id='post3' style="display:none;">
                     <p class='detallPiscina'>Del 23 d’agost a l’1 de setembre de 12.30 A 15.00 Hores, excepte el dia 25 d’agost que hi ha programades les competicions de natació i el dia 27 d’agost que hi ha inflables aquàtics.</p>
                 </div>
             </div>
-            <div class="post notes" onclick="slideToggle('post4')">
+            <input type="checkbox" id='desplegarFooter'>
+            <label for="desplegarFooter">
+                <div class="accionarFlechitaFooter" onclick="slideToggle('post4')">
+                    <div class="flechita"></div>
+                </div>
+            </label>
+            <div class="post notes">
                 <h4>Notes</h4>
                 <div class="detallePost" id='post4' style="display:none;">
                     <ul>
