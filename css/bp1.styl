@@ -6,7 +6,7 @@ body
 footer
 	color white
 	float left
-	margin 84px 0 -25px 0
+	margin 60px 0 -25px 0
 	width 100%
 	.header
 		background #2d353d
@@ -508,7 +508,7 @@ label.mainLabel
 				-webkit-transform rotateZ(180deg)
 .contenido
 	float left
-	height 670px
+	height auto
 	transition .5s all ease
 	width 100%
 	.pubillas
@@ -619,6 +619,23 @@ label.mainLabel
 					position absolute
 					right -25px
 					top -5px
+	.volverIncicio
+		margin 16px 0
+		span
+			color #242d35
+			font-size 16px
+			font-weight 300
+			margin 0 0 0 30px
+			position relative
+			text-align left
+			text-transform uppercase
+			&:before
+				content flechaIzquierda
+				font-family icono
+				font-size 2em
+				position absolute
+				top -6px
+				left -21px
 .invisible
 	display none
 .visible
@@ -656,8 +673,6 @@ label.mainLabel
 #main-check:checked ~ .calendario
 	width 100%
 #main-check:checked ~ .contenido
-	margin-left -100%
-#main-check:checked ~ .llamadaCalendario
 	margin-left -100%
 
 
