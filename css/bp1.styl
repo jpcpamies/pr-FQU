@@ -509,11 +509,15 @@ label.mainLabel
 .contenidoPrincipal
 	float left
 	height auto
+	overflow-x hidden
 	transition .5s all ease
 	width 100%
 	.postRecojido
-		background white
-		box-shadow 0 0 10px rgba(black,.3)
+		background rosa
+		border-radius 5px 5px 5px 5px
+		box-shadow 0 1px 3px rgba(black,.1)
+		color white
+		margin 0 12px
 		margin-bottom 20px
 		.header
 			position relative
@@ -525,6 +529,7 @@ label.mainLabel
 				background-position -2px -80px 
 				background-repeat no-repeat
 				background-size 110% auto
+				border-radius 5px 5px 0 0
 				-webkit-filter: grayscale(1);
 				width 600px
 				height 50px
@@ -546,20 +551,21 @@ label.mainLabel
 					width 90px
 					height auto
 			.nombre
-				color gris
+				color white
 				font-style italic
 				text-align center
 			.subNombre
 				border-bottom 1px solid rgba(black,.1)
-				color gris
+				color white
 				font-size .6em
 				font-style italic
+				letter-spacing .5px
 				margin 0 10px
 				padding 5px 0px 20px 0px
 				text-align center
 		.contenido
-			color texto
-			font-size .8em
+			font-size 16px
+			font-weight 400
 			padding 20px 20px 10px 20px
 			position relative
 			.complet
@@ -605,6 +611,8 @@ label.mainLabel
 							content flechaAbajo
 							font-family icono
 							font-size 1.5em
+		#desplegarPost
+			display none
 
 
 
@@ -763,9 +771,9 @@ label.mainLabel
 	.volverIncicio
 		margin 16px 0
 		span
-			color negro
+			color rgba(black,.7)
 			font-size 16px
-			font-weight 300
+			font-weight 400
 			margin 0 0 0 30px
 			position relative
 			text-align left
@@ -775,7 +783,7 @@ label.mainLabel
 				font-family icono
 				font-size 2em
 				position absolute
-				top -6px
+				top -8px
 				left -21px
 		// &:last-child
 		// 	margin 21px 0 0 0 
