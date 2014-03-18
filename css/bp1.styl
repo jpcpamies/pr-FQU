@@ -168,7 +168,7 @@ footer
 		.autor
 			background rgba(black,.03)
 			display block
-			padding 21px 0 38px 0
+			padding 37px 0 38px 0
 			img
 				height 60px
 				display block
@@ -182,7 +182,7 @@ footer
 				margin 0 0 16px 0
 		.patrocinado
 			display inline-block
-			padding 21px 0 38px 0
+			padding 37px 0 38px 0
 			img
 				height 70px
 				display block
@@ -208,12 +208,26 @@ header
 	text-align center
 	position relative
 	z-index 0
+	.degradado
+		width 100%
+		height 100%
+		@css{
+			background: -moz-radial-gradient(center, ellipse cover,  rgba(30,87,153,0) 0%, rgba(0,0,0,1) 100%);
+			background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(30,87,153,0)), color-stop(100%,rgba(0,0,0,1)));
+			background: -webkit-radial-gradient(center, ellipse cover,  rgba(30,87,153,0) 0%,rgba(0,0,0,1) 100%);
+			background: -o-radial-gradient(center, ellipse cover,  rgba(30,87,153,0) 0%,rgba(0,0,0,1) 100%);
+			background: -ms-radial-gradient(center, ellipse cover,  rgba(30,87,153,0) 0%,rgba(0,0,0,1) 100%);
+			background: radial-gradient(ellipse at center,  rgba(30,87,153,0) 0%,rgba(0,0,0,1) 100%);
+			filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#001e5799', endColorstr='#000000',GradientType=1 );
+		}
+	position relative
+	z-index 15
 	.texto
 		background rgba(black,.5)
 		padding 20px 0
 		position relative
 		z-index 5
-		top 50px
+		top -250px
 		h1
 			display inline-block
 			font-size 28px
