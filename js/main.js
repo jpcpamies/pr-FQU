@@ -9,7 +9,7 @@ var horas = fecha.getHours();
 var minutos = fecha.getMinutes();
 
 //Variables para capturar elementos
-var texto = document.getElementsByClassName('detall');
+var texto = document.getElementsByClassName('detalleEvento');
 var prog = document.getElementsByClassName('llistaVisible');
 var bot = document.getElementsByClassName('dia');
 
@@ -23,7 +23,7 @@ function resizer (multiplicador){
         
         if (texto[i].style.fontSize == ""){
 
-            texto[i].style.fontSize = "0.8em";
+            texto[i].style.fontSize = "1em";
 
         }
         texto[i].style.fontSize = parseFloat(texto[i].style.fontSize)
