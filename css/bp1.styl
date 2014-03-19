@@ -545,7 +545,6 @@ label.mainLabel
 	.postRecojido
 		border-radius 10px
 		box-shadow 0 1px 10px rgba(black,.3)
-		line-height 21px
 		margin 0 16px
 		margin-bottom 20px
 		.header
@@ -556,18 +555,13 @@ label.mainLabel
 			.hero2
 				background-image url(../img/pubilles/pubillaGran2.jpg)
 			.hero
+				-webkit-filter: grayscale(1);
 				background-position -2px -80px 
 				background-repeat no-repeat
 				background-size 110% auto
 				border-radius 10px 10px 0 0
-				-webkit-filter: grayscale(1);
 				height 300px
 				width 100%
-				position relative 
-				// top 0
-				// left 0 
-				// right 0
-				z-index 0
 			.subHero
 				background rgba(black,.5)
 				height 120px
@@ -576,38 +570,34 @@ label.mainLabel
 				z-index 1
 				.foto
 					display block
-					// margin -75px 0 0 0 
-					text-align center
 					position relative
+					text-align center
 					top -45px
-					z-index 1
 					img
-						box-shadow 0 0 10px rgba(black,.3)
 						border-radius 50%
-						width 90px
+						box-shadow 0 0 10px rgba(black,.3)
 						height auto
+						width 90px
 				.nombre
-					margin -35px 0 0 0
 					color white
 					font-style italic
+					margin -40px 0 0 0
 					text-align center
 				.subNombre
-					// margin -35px 0 0 0
-					// border-bottom 1px solid rgba(black,.1)
 					color white
 					font-size .6em
 					font-style italic
 					letter-spacing .5px
-					// margin 0 10px
 					padding 2px 0px 20px 0px
 					text-align center
 		.contenido
 			background #db321c
 			border-radius 0 0 10px 10px
-			color rgba(white,.9)
+			color rgba(white,1)
 			font-size 16px
-			font-weight 400
-			padding 30px 20px 10px 20px
+			font-weight 300
+			line-height 21px
+			padding 30px 20px 12px 20px
 			position relative
 			.fotoGrande
 				img
@@ -621,7 +611,7 @@ label.mainLabel
 				-webkit-transform scale(2.5, .8)
 				.flechita
 					display block
-					margin 15px 0 0 0
+					margin 20px 0 0 0
 					text-align center
 					&:before
 						color rgba(black,.5)
