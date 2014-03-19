@@ -543,13 +543,13 @@ label.mainLabel
 	transition .5s all ease
 	width 100%
 	.postRecojido
-		background rosa
-		border-radius 5px 5px 5px 5px
-		box-shadow 0 1px 3px rgba(black,.1)
-		color white
+		border-radius 10px
+		box-shadow 0 1px 10px rgba(black,.3)
+		line-height 21px
 		margin 0 16px
 		margin-bottom 20px
 		.header
+			border-radius 10px 10px 0 0 
 			position relative
 			.hero1
 				background-image url(../img/pubilles/pubillaGran1.jpg)
@@ -559,44 +559,55 @@ label.mainLabel
 				background-position -2px -80px 
 				background-repeat no-repeat
 				background-size 110% auto
-				border-radius 5px 5px 0 0
+				border-radius 10px 10px 0 0
 				-webkit-filter: grayscale(1);
-				width 600px
-				height 50px
-				height 150px
+				height 300px
 				width 100%
 				position relative 
-				top 0
-				left 0 
-				right 0
-			.foto
-				display block
-				margin -45px 0 0 0 
-				text-align center
+				// top 0
+				// left 0 
+				// right 0
+				z-index 0
+			.subHero
+				background rgba(black,.5)
+				height 120px
+				margin -130px 0 0 0 
 				position relative
 				z-index 1
-				img
-					box-shadow 0 0 10px rgba(black,.3)
-					border-radius 50%
-					width 90px
-					height auto
-			.nombre
-				color white
-				font-style italic
-				text-align center
-			.subNombre
-				border-bottom 1px solid rgba(black,.1)
-				color white
-				font-size .6em
-				font-style italic
-				letter-spacing .5px
-				margin 0 10px
-				padding 5px 0px 20px 0px
-				text-align center
+				.foto
+					display block
+					// margin -75px 0 0 0 
+					text-align center
+					position relative
+					top -45px
+					z-index 1
+					img
+						box-shadow 0 0 10px rgba(black,.3)
+						border-radius 50%
+						width 90px
+						height auto
+				.nombre
+					margin -35px 0 0 0
+					color white
+					font-style italic
+					text-align center
+				.subNombre
+					// margin -35px 0 0 0
+					// border-bottom 1px solid rgba(black,.1)
+					color white
+					font-size .6em
+					font-style italic
+					letter-spacing .5px
+					// margin 0 10px
+					padding 2px 0px 20px 0px
+					text-align center
 		.contenido
+			background #db321c
+			border-radius 0 0 10px 10px
+			color rgba(white,.9)
 			font-size 16px
 			font-weight 400
-			padding 20px 20px 10px 20px
+			padding 30px 20px 10px 20px
 			position relative
 			.fotoGrande
 				img
@@ -695,7 +706,7 @@ label.mainLabel
 		margin 30px auto 20px auto
 		padding 0 0 10px 0
 		width 95%
-		.caras
+		.carasSalutaciones
 			background #f5f5f5
 			border-top 1px solid borde
 			border-bottom 1px solid borde
