@@ -6,7 +6,8 @@ body
 footer
 	color white
 	float left
-	margin 60px 0 -25px 0
+	margin 100px 0 -25px 0
+	position relative
 	width 100%
 	.header
 		background #2d353d
@@ -162,6 +163,22 @@ footer
 				transform rotateZ(180deg)
 				-ms-transform rotateZ(180deg)
 				-webkit-transform rotateZ(180deg)
+	.social
+		.plegado
+			background #fdc43a
+			border-bottom 4px solid #f39c21
+			height 60px
+			left 0
+			position absolute
+			top -60px
+			width 60px
+			text-align center
+			line-height 60px
+			&:after
+				color #b26514
+				content flechaDerecha
+				font-family icono
+				font-size 37px
 	.footer
 		background white
 		text-align center
@@ -351,7 +368,6 @@ label.mainLabel
 			text-align left
 		.iconoAra
 			background rojo
-			// border 2px solid rojoOscuro
 			border-radius 50%
 			color white
 			float right
