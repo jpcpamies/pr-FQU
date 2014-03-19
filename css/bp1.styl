@@ -607,50 +607,8 @@ label.mainLabel
 			transform rotateZ(180deg)
 			-ms-transform rotateZ(180deg)
 			-webkit-transform rotateZ(180deg)
-
-
-		// .personalitat
-		// 	padding 0 8px
-		// 	.contenido 
-		// 		background white
-		// 		border-radius 0 0 5px 5px
-		// 		color negro
-		// 		font-size 16px
-		// 		font-weight 400
-		// 		padding 21px 16px 21px 16px
-		// 		p
-		// 			color gris
-		// 			line-height 21px
-		// 			margin 0 0 16px 0
-					
-		// 	.header
-		// 		margin -30px 0 0 0
-		// 		.foto
-		// 			position relative
-		// 			text-align center
-		// 			top 50px
-		// 			img
-		// 				border-radius 50%
-		// 				box-shadow 0 0 10px rgba(black,.3)
-		// 				height auto
-		// 				width 90px 
-		// 		.nombre
-		// 			background white
-		// 			border-radius 5px 5px 0 0 
-		// 			color gray
-		// 			font-size 21px
-		// 			font-style italic
-		// 			padding 67px 0 0 0 
-		// 			text-align center
-		// 		.subNombre
-		// 			background white
-		// 			color gray
-		// 			font-size 16px
-		// 			font-style italic
-		// 			padding 0 16px 21px 16px
-		// 			text-align center
 	.pubillas
-		background #f95d49
+		background rojoClaro
 		border-radius 5px
 		color white
 		height auto
@@ -714,26 +672,51 @@ label.mainLabel
 			padding 20px 20px 10px 20px
 			letter-spacing 1px
 	.salutaciones
-		background #db321c
+		background rojoClaro
 		border-radius 5px
 		color white
 		height auto
 		margin 30px auto 20px auto
 		padding 0 0 10px 0
 		width 95%
+		.caras
+			background #f5f5f5
+			border-top 1px solid borde
+			border-bottom 1px solid borde
+			padding 20px 0 20px 0
+			overflow-x auto
+			white-space nowrap
+			.cara
+				display inline-block
+				margin 0 20px 0 0 
+				text-align center
+				a
+					text-decoration none
+				&:first-child
+					padding 0 0 0 20px
+				img
+					box-shadow 0 0 10px rgba(black,.3)
+					border-radius 50%
+					width 90px
+					height auto
+				.nombre
+					color rgba(black,.6)
+					font-size .7em
+					font-weight 400
+					margin 10px 0 0 0 
 		.header
 			font-style italic
 			text-transform uppercase
 			font-size 21px
 			padding 20px 20px 10px 20px
 			letter-spacing 1px
-		.imagen
-			width auto
-			height 135px
-			background-image url(../img/salutacions/ajuntament.jpg)
-			background-position 0px 0px 
-			background-repeat no-repeat
-			background-size 100% auto
+		// .imagen
+		// 	width auto
+		// 	height 135px
+		// 	background-image url(../img/salutacions/ajuntament.jpg)
+		// 	background-position 0px 0px 
+		// 	background-repeat no-repeat
+		// 	background-size 100% auto
 		.footer
 			font-size 16px
 			padding 20px 
