@@ -110,15 +110,21 @@ var plantillaPerson='<div class="llamadaCalendario"><h3>Programa de festes <span
 
 
 function irPubillas () {
+  window.location.hash="";
   document.getElementById('contenidoPrincipal').innerHTML=plantillaPubilles;
+  window.location.hash="#btnProg";
 };
 
 function irInicio () {
+  window.location.hash="";
   document.getElementById('contenidoPrincipal').innerHTML=plantillaInici;
+  window.location.hash="#btnProg";
 };
 
 function irPerson () {
+  window.location.hash="";
   document.getElementById('contenidoPrincipal').innerHTML=plantillaPerson;
+  window.location.hash="#btnProg";
 };
 
 // //Facebook
