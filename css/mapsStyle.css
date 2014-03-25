@@ -1,0 +1,25 @@
+html, body {
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+footer {
+  height: 40%;
+  border: 1px solid red;
+}
+header {
+  height: 5%;
+  border: 1px solid red;
+}
+section {
+  height: 45%;
+}
+nav {
+  height: 10%;
+  border: 1px solid red;
+}
+#mapa {
+height: 100%;
+margin: 0px;
+padding: 0px;
+}
