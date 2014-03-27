@@ -5,21 +5,21 @@ html, body {
 }
 footer {
   height: 40%;
-  border: 1px solid red;
-}
-header {
-  height: 5%;
-  border: 1px solid red;
+  border: 1px solid blue;
 }
 section {
-  height: 45%;
+  height: 50%;
 }
 nav {
   height: 10%;
-  border: 1px solid red;
+  border: 1px solid blue;
 }
 #mapa {
 height: 100%;
 margin: 0px;
 padding: 0px;
+}
+button {
+  width: 50px;
+  height: auto;
 }
