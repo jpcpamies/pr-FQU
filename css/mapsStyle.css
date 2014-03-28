@@ -4,14 +4,14 @@ html, body {
   padding: 0px;
 }
 footer {
-  height: 40%;
+  height: 30%;
   border: 1px solid blue;
 }
 section {
-  height: 50%;
+  height: 65%;
 }
 nav {
-  height: 10%;
+  height: 5%;
   border: 1px solid blue;
 }
 #mapa {
