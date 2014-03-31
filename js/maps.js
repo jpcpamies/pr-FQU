@@ -6,8 +6,8 @@ var ruta4;
 var ruta5;
 var rutas = [];
 var info1 ='<h1>Esta es la ventana</h1><p>que ira cambiando con la información que toque.</p>';
-var info2 ='<h1>Mas ventanas</h1><p>de esas que se muestran solas</p>';
-var info3 ='<h1>Otra window</h1><p>i patatim patatam de que se yo que tecnologia nueva</p>';
+var info2 ='<h1>Mas ventanas</h1><p>de esas que se refrescan</p>';
+var info3 ='<h1>Otra window</h1><p>patatim patatam de que se yo que tecnología nueva</p>';
 var info4 ='<h1>I hate windows</h1><p>de verdad!</p>';
 var info5 ='<h1>JavaScript lover.</h1><p>i cada vez más.. pro Google.</p>';
 
