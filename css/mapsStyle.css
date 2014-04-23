@@ -1,0 +1,36 @@
+html, body {
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+footer {
+  height: 30%;
+  border: 1px solid blue;
+  text-align: center;
+}
+section {
+  height: 60%;
+}
+nav {
+  height: 9%;
+  border: 1px solid blue;
+}
+#mapa {
+height: 100%;
+margin: 0px;
+padding: 0px;
+}
+.botones {
+  display: inline-block;
+  border: 1px solid black;
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  text-align: center;
+  margin-left: 18px;
+  cursor: pointer;
+  margin-top: 2px;
+}
+.botones p {
+  margin-top: 8px;
+}
