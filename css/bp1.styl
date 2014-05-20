@@ -450,199 +450,98 @@ label.mainLabel
 		.event
 			#mainEvent
 				display none
+			#mainEvent:checked ~.mainEvent p
+				transform rotateZ(180deg)
+				-ms-transform rotateZ(180deg)
+				-webkit-transform rotateZ(180deg)
 			.sectionUp
-				background red
-				background-image url(../img/disco.png)
-				// background-position 0 
-				background-repeat no-repeat
-				// background-size 100%
-				border-radius 5px
 				color white
 				margin 20px 10px
 				padding 15px 20px 
+				position relative
 				text-align center
-				.hora
-					text-align left
-				.logoEvent
-					p
-						margin-bottom 1em
-						&:after
-							content '\e135'
-							font-family icono
-							font-size 3em
-				.lloc
-					color gray
-				// .titulEvent
+				.background
+					background grey
+					background-image url(../img/eventos/techno.jpg)
+					background-position 0 
+					background-repeat no-repeat
+					background-size 100% auto
+					border-radius 5px
+					bottom 0
+					height 100%
+					left 0
+					position absolute
+					right 0
+					top 0
+					width 100%
+					z-index 1
+					.degradado
+						border-radius 5px
+						width 100%
+						height 100%
+						@css{
+							background: -moz-radial-gradient(center, ellipse cover,  rgba(30,87,153,0) 0%, rgba(0,0,0,1) 100%);
+							background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(30,87,153,0)), color-stop(100%,rgba(0,0,0,1)));
+							background: -webkit-radial-gradient(center, ellipse cover,  rgba(30,87,153,0) 0%,rgba(0,0,0,1) 100%);
+							background: -o-radial-gradient(center, ellipse cover,  rgba(30,87,153,0) 0%,rgba(0,0,0,1) 100%);
+							background: -ms-radial-gradient(center, ellipse cover,  rgba(30,87,153,0) 0%,rgba(0,0,0,1) 100%);
+							background: radial-gradient(ellipse at center,  rgba(30,87,153,0) 0%,rgba(0,0,0,1) 100%);
+							filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#001e5799', endColorstr='#000000',GradientType=1 );
+						}
+				.noBackground
+					padding 0 0 1.7em 0
+					position relative
+					text-align center
+					text-shadow 1px 1px 1px rgba(black,.5)
+					z-index 3
+					.hora
+						font-weight bold
+						letter-spacing 0px
+						text-align left
+					.logoEvent
+						p
+							padding 0 0 1em 0
+							&:after
+								content '\e135'
+								font-family icono
+								font-size 3em
+					.lloc
+						p
+							color lightgray
+							font-weight bold
+							font-size .8em
+					.titulEvent
+						p
+							font-size 1.2em
+							font-weight normal
 			.mainEvent
 				p
+					// background rgba(red,.5)
+					color white
+					padding 3em 0 3em 0
+					position relative
 					text-align center
+					text-shadow 1px 1px 1px rgba(black,.5)
+					top -115px
+					z-index 3
 					&:after
 						content '\e600'
 						font-family icono
 			.sectionDown
+				padding 15px 10px
+				position relative
+				top -185px
 				.text
+					background black
+					border-radius 0 0 5px 5px
+					color rgba(white,.7)
 					display none
+					padding 1.7em 1.2em 1.5em 1.2em 
+					p
+						line-height 1.5em
+						font-size .9em
+						font-weight 300
 
-
-
-		.evento
-			// -webkit-filter: brightness(0.5) grayscale(0.4);
-			
-			border-bottom 28px solid rgba(#fafafa,1)
-			border-top 3px solid rojo2
-			box-shadow 0 1px 3px rgba(black,.1)
-			color white
-			letter-spacing -.5px
-			line-height 1.1em
-			margin 20px 10px
-			padding 15px 20px 
-			position relative
-			z-index 1
-			label
-				height 20px 
-				left 0
-				position relative
-				text-align left
-				top 0
-				width auto
-				.accionarFlechita
-					width 290px
-					height 80px
-					position absolute
-					top 37px
-					left -20px
-					z-index 5
-					.flechita
-						&:before
-							color gris
-							content flechaAbajo
-							font-family icono
-							font-size 16px
-							position absolute
-							left 40px
-							top 0px
-			.bous
-				background rojo
-				bottom 0
-				height 100%
-				left 0
-				position absolute
-				right 0
-				top 0
-				width 100%
-				z-index -5
-				background-image url(../img/eventos/bous2.jpg)
-				background-position 0 
-				background-repeat no-repeat
-				background-size 100% 
-				-webkit-filter: brightness(0.5) grayscale(0.4);
-			.tituloEvento
-				font-size 16px
-				font-weight bold
-				margin 35px 15px -10px 50px
-				text-transform uppercase
-				.detalleEvento
-					color rgba(white,1)
-					display block
-					font-size 16px
-					font-weight 300
-					margin 10px 0 0 0 
-					text-transform lowercase
-				.resizer
-					background #f8f8f8
-					height 45px 
-					margin 20px 0 10px 0
-					width 100%
-					position relative
-					.aumentar
-						color rgba(gris,.5)
-						display inline-block
-						font-size 18px
-						line-height 45px
-						text-align center
-						text-transform uppercase
-						width 50%
-						position absolute
-						&:hover
-							background rgba(gris,.5)
-							color white
-							transition all .3s ease
-					.disminuir
-						border-right 2px solid rgba(white,1)
-						color rgba(gris,.5)
-						display inline-block
-						font-size 12px
-						line-height 45px
-						text-align center
-						text-transform uppercase
-						width 50%
-						&:hover
-							background rgba(gris,.5)
-							color white
-							transition all .3s ease
-			.decoracion
-				background rojo2
-				height 20px
-				width 40px
-				position absolute 
-				right 0
-				top 0
-				&:before
-					content ''
-					border-bottom 20px solid transparent
-					border-left 10px solid transparent
-					border-right 10px solid rojo2
-					border-top 0px solid transparent
-					position absolute
-					top 0
-					right 40px
-			.hora
-				color rgba(white,1)
-				font-size 12px
-				font-weight 400
-				position absolute
-				left 20px
-				top 15px
-			.iconoEvento
-				position absolute 
-				left 20px 
-				bottom -25px
-				&:after
-					content copa
-					color gris
-					font-family icono
-					font-size 12px
-			.logoEvento
-				color rgba(#9b9b9b,1)
-				font-size 12px
-				position absolute 
-				right 100px 
-				bottom -28px
-				&:after
-					content localizacion
-					font-family icono
-			.llocEvent
-				color gris
-				font-size 12px
-				font-weight 300
-				text-align right
-				text-transform uppercase
-				position relative
-				bottom -40px
-				p
-					display block
-					&:before
-						content localizacion
-						font-family icono
-						margin 0 5px 0 0 
-			#desplegar
-				display none
-			#desplegar:checked ~ label .flechita:before
-				transform rotateZ(180deg)
-				-ms-transform rotateZ(180deg)
-				-webkit-transform rotateZ(180deg)
-			#desplegar:checked ~ .bous
-				background-size auto 100% 
 		.procesion
 			background white
 			border-bottom 28px solid rgba(#fafafa,1)
