@@ -287,7 +287,7 @@ label.mainLabel
 .calendario
 	width 0%
 	float right
-	overflow-x hidden
+	overflow hidden
 	transition .5s all ease
 	z-index 5
 	.botonera
@@ -367,9 +367,7 @@ label.mainLabel
 				padding 0 0 0 10px
 				text-align left
 			.iconoAra
-				background rojo
-				border-radius 50%
-				color white
+				color rgba(black,.8)
 				float right
 				height 35px
 				line-height 35px
@@ -379,9 +377,9 @@ label.mainLabel
 				left 155px 
 				top 33px 
 				&:after
-					content copa
+					content micro
 					font-family icono
-					font-size 14px
+					font-size 1.5em
 			.lloc
 				color gris
 				font-size 12px
@@ -451,10 +449,6 @@ label.mainLabel
 			margin-bottom -190px
 			#mainEvent
 				display none
-			#mainEvent:checked ~.mainEvent p
-				transform rotateZ(180deg)
-				-ms-transform rotateZ(180deg)
-				-webkit-transform rotateZ(180deg)
 			.sectionUp
 				color white
 				margin 20px 10px
@@ -463,10 +457,6 @@ label.mainLabel
 				text-align center
 				.background
 					background grey
-					background-image url(../img/eventos/techno.jpg)
-					background-position 0 
-					background-repeat no-repeat
-					background-size 100% auto
 					-webkit-filter brightness(0.7)
 					border-radius 5px
 					bottom 0
@@ -491,7 +481,7 @@ label.mainLabel
 							filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#001e5799', endColorstr='#000000',GradientType=1 );
 						}
 				.noBackground
-					padding 0 0 1.7em 0
+					padding 0 0 2em 0
 					position relative
 					text-align center
 					text-shadow 1px 1px 1px rgba(black,.5)
@@ -518,16 +508,15 @@ label.mainLabel
 							font-weight normal
 			.mainEvent
 				p
-					// background rgba(red,.5)
 					color white
 					padding 3em 0 3em 0
 					position relative
 					text-align center
 					text-shadow 1px 1px 1px rgba(black,.5)
-					top -115px
+					top -122px
 					z-index 3
 					&:after
-						content '\e600'
+						content menu
 						font-family icono
 			.sectionDown
 				padding 15px 10px
@@ -543,6 +532,55 @@ label.mainLabel
 						line-height 1.5em
 						font-size .9em
 						font-weight 300
+		.aleatorioUno
+			.sectionUp
+				.background
+					background verde
+				.noBackground
+					.logoEvent
+						p
+							&:after
+								content baile
+		.aleatorioDos
+			.sectionUp
+				.background
+					background naranja
+				.noBackground
+					.logoEvent
+						p
+							&:after
+								content baile
+		.aleatorioTres
+			.sectionUp
+				.background
+					background granate
+				.noBackground
+					.logoEvent
+						p
+							&:after
+								content baile
+		.aleatorioCuatro
+			.sectionUp
+				.background
+					background morado
+				.noBackground
+					.logoEvent
+						p
+							&:after
+								content baile
+		.baile
+			.sectionUp
+				.background
+					background grey
+					background-image url(../img/eventos/bailar.jpg)
+					background-position 0 
+					background-repeat no-repeat
+					background-size 100% auto
+				.noBackground
+					.logoEvent
+						p
+							&:after
+								content baile
 		.concierto
 			.sectionUp
 				.background
@@ -556,7 +594,19 @@ label.mainLabel
 						p
 							&:after
 								content micro
-			
+		.techno
+			.sectionUp
+				.background
+					background grey
+					background-image url(../img/eventos/techno.jpg)
+					background-position 0 
+					background-repeat no-repeat
+					background-size 100% auto
+				.noBackground
+					.logoEvent
+						p
+							&:after
+								content baile
 .contenidoPrincipal
 	float left
 	height auto
