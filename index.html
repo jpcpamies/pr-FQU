@@ -36,7 +36,7 @@
             <p>2014</p>
         </div>
     </header>
-    <input type="checkbox" id='main-check' />
+    <input type="checkbox" id='main-check' checked />
     <label class='mainLabel' for="main-check">
         <div id="btnProg" class="boton" onclick="ivan()"><span class="flecha"></span></div>
     </label>
@@ -49,13 +49,6 @@
                 <div class="event"><p>XIII concurs de samarretes de colla i sangriada popular.</p></div>
                 <div class="lloc"><p>Poliesportiu</p></div>
             </div>
-<!--             <div class="event2">
-                <div class="iconoAra"></div>
-                <div class="iconoAra2"></div>
-                <div class="event"><p>Processó del Miracle</p></div>
-                <div class="lloc"><p>Mapa</p></div>
-            </div>
-            <div class="event3"></div> -->
         </div>
         <div id="botonera" class="botonera">
             <ul>
@@ -72,24 +65,25 @@
             </ul>
         </div>
         <div id="dia1" class="listaEvento" style='display:block'>
-            <div class="evento">
-                <input type="checkbox" id='desplegar'>
-                <label for="desplegar">
-                    <div class="accionarFlechita" onclick="slideToggle('p2')">
-                        <div class="flechita"></div>
-                    </div>
-                </label>
-                <div class="tituloEvento">
-                    <p>XIII concurs de samarretes de colla i sangriada popular.</p>
-                    <div id='p2' class="detalleEvento" style="display:none;"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur, corporis, omnis, distinctio quis saepe excepturi modi vel nemo voluptatum iste debitis ipsum ea commodi ipsa odit maiores dicta quibusdam vitae!</p>
-                    <div class="resizer"><div class="disminuir" onclick="resizer(-1)"><p>A</p></div><div class="aumentar" onclick="resizer(1)"><p>A</p></div></div></div>
+
+            <div class="event">
+                <div class="sectionUp">
+                    <div class="hora"><span>00:00</span></div>
+                    <div class="logoEvent"><p></p></div>
+                    <div class="titulEvent"><p>Pub Catra</p></div>
+                    <div class="lloc"><p>Terrassa del Pub Catra</p></div>
                 </div>
-                <div class="decoracion"></div>
-                <div class="hora">13:00h</div>
-                <div class="llocEvent"><p>Poliesportiu</p></div>
-                <div class="iconoEvento"></div>
+
+                <input type="checkbox" id='mainEvent'>
+                <label onclick="slideToggle('p1')" for="mainEvent" class='mainEvent'><p></p></label>
+
+                <div class="sectionDown">
+                    <p></p>
+                    <div  id='p1' class="text" display='none';><p>A la terrassa del Pub Catra, festa amb els Dj’s Juanjo i Oscar (Bcn), amb la millor selecció de música REMEMBER. Organitza: Pub Catra.</p></div>
+                </div>
             </div>
-            <div class="procesion">
+
+<!--             <div class="procesion">
                 <div class="tituloEvento"><p>Processó del Miracle</p></div>
                 <div class="mapa">
                     <a href="html-parts/mapa.html">
@@ -100,80 +94,81 @@
                 <div class="hora">10:30h</div>
                 <div class="llocEvent"><p>Poliesportiu</p></div>
                 <div class="iconoEvento"></div>
-            </div>
+            </div> -->
         </div>
     </section>
     <section class="contenidoPrincipal" id="contenidoPrincipal">
     <!-- Este contingut amb class='contenidoPrincipal' pot ser rempplaçat -->
 
-        <div class="llamadaCalendario">
-            <h3>Programa de festes <span>Estigues al dia dels events</span></h3>
-        </div>
-        <div class="volverIncicio">
-            <span>Tornar al Inici</span>
-        </div>
+       
+<div class="llamadaCalendario">
+    <h3>Programa de festes <span>Estigues al dia dels events</span></h3>
+</div>
 
-        <article class='postRecojido'>
-            <div class='header'>
-                <div class='hero hero1'></div>
-                <div class="subHero">
-                    <div class='foto'><img src='img/pubilles/pubilla1.jpg' height='180px' width='180px' alt='' /></div>
-                    <div class='nombre'><p>Simina Alexandra Crisan</p></div>
-                    <div class='subNombre'><p>Penya Barcelonista d'Ulldecona</p></div>
-                </div>
+<div class="volverIncicio">
+    <span>Tornar al Inici</span>
+</div>
+
+<article class='postRecojido'>
+    <div class='header'>
+        <div class='hero hero1'></div>
+        <div class="subHero">
+            <div class='foto'><img src='img/pubilles/pubilla1.jpg' height='180px' width='180px' alt='' /></div>
+            <div class='nombre'><p>Simina Alexandra Crisan</p></div>
+            <div class='subNombre'><p>Penya Barcelonista d'Ulldecona</p></div>
+        </div>
+    </div>
+    <input type="checkbox" id='desplegarPost' />
+    <label class='desplegarPost' for="desplegarPost">
+        <div class='contenido' onclick="slideToggle('pubilla1')">
+            <p>Hola falduts i faldudes!</p>
+
+            <p>Ja tenim les festes d’Ulldecona aquí, i un any més, totes les pubilles estem preparades i, sobretot, molt nervioses, per a representar de la millor manera possible les diferents entitats del poble.</p>
+            <div id='pubilla1' style='display:none;'>
+                <p>Farem que estes festes siguin inoblidables i les gaudirem al màxim, començant per la nit del pregó i posant el punt i final amb els focs artificials.</p><br>
+                <p>Una d’estes pubilles sereé jo, Simina. Tinc disset anys, acabo de cursar1r de Batxillerat en la modalitat Artística a Tortosa i de cara al futur m’agradaria estudiar a la universitat de Belles Arts. Sóc de nacionalitat romanesa, però porto tretze anys vivint a Ulldecona, i em considero una falduda més del poble, ja que sempre m’he sentit molt a gust aquí.</p><br>
+                <p>Com a pubilla representaré a la Penya Barcelonista d’Ulldecona, i agraeixo a la entitat que m’hagin donat la oportunitat de viure les festes d’una manera diferent, ja que des de ben petita he participat als seus concursos de dibuix i, fins i tot, he guanyat alguns premis.</p><br>
+                <p>Durant estes festes, jo seré una de les protagonistes, per això us invito a tots a que vingueu al nostre poble i que tots junts poguéssim gaudir de les tardes de bous, les nits d’orquestra, la pujada al Castell i tots els altres actes que es faran durant tota la setmana.</p><br>
+                <p>Xaleu al màxim durant les Festes 2013!</p>
+
+                <div class="fotoGrande"><img src="img/pubilles/pubillaGran1.jpg" width='478' heigt='589' alt="" /></div>
             </div>
-            <input type="checkbox" id='desplegarPost' />
-            <label class='desplegarPost' for="desplegarPost">
-                <div class='contenido' onclick="slideToggle('pubilla1')">
-                    <p>Hola falduts i faldudes!</p>
-
-                    <p>Ja tenim les festes d’Ulldecona aquí, i un any més, totes les pubilles estem preparades i, sobretot, molt nervioses, per a representar de la millor manera possible les diferents entitats del poble.</p>
-                    <div id='pubilla1' style='display:none;'>
-                        <p>Farem que estes festes siguin inoblidables i les gaudirem al màxim, començant per la nit del pregó i posant el punt i final amb els focs artificials.</p><br>
-                        <p>Una d’estes pubilles sereé jo, Simina. Tinc disset anys, acabo de cursar1r de Batxillerat en la modalitat Artística a Tortosa i de cara al futur m’agradaria estudiar a la universitat de Belles Arts. Sóc de nacionalitat romanesa, però porto tretze anys vivint a Ulldecona, i em considero una falduda més del poble, ja que sempre m’he sentit molt a gust aquí.</p><br>
-                        <p>Com a pubilla representaré a la Penya Barcelonista d’Ulldecona, i agraeixo a la entitat que m’hagin donat la oportunitat de viure les festes d’una manera diferent, ja que des de ben petita he participat als seus concursos de dibuix i, fins i tot, he guanyat alguns premis.</p><br>
-                        <p>Durant estes festes, jo seré una de les protagonistes, per això us invito a tots a que vingueu al nostre poble i que tots junts poguéssim gaudir de les tardes de bous, les nits d’orquestra, la pujada al Castell i tots els altres actes que es faran durant tota la setmana.</p><br>
-                        <p>Xaleu al màxim durant les Festes 2013!</p>
-
-                        <div class="fotoGrande"><img src="img/pubilles/pubillaGran1.jpg" width='478' heigt='589' alt="" /></div>
-                    </div>
-                    <div class='footer'><div class="flechita"></div>
-                </div>
-            </label>
-        </article>
-        <article class='postRecojido'>
-            <div class='header'>
-                <div class='hero hero2'></div>
-                <div class="subHero">
-                    <div class='foto'><img src='img/pubilles/pubilla2.jpg' height='180px' width='180px' alt='' /></div>
-                    <div class='nombre'><p>Simina Alexandra Crisan</p></div>
-                    <div class='subNombre'><p>Penya Barcelonista d'Ulldecona</p></div>
-                </div>
-            </div>
-            <input type="checkbox" id='desplegarPost2' />
-            <label class='desplegarPost' for="desplegarPost2">
-                <div class='contenido' onclick="slideToggle('pubilla2')">
-                    <p>Hola falduts i faldudes!</p>
-
-                    <p>Ja tenim les festes d’Ulldecona aquí, i un any més, totes les pubilles estem preparades i, sobretot, molt nervioses, per a representar de la millor manera possible les diferents entitats del poble.</p>
-                    <div id='pubilla2' style='display:none;'>
-                        <p>Farem que estes festes siguin inoblidables i les gaudirem al màxim, començant per la nit del pregó i posant el punt i final amb els focs artificials.</p><br>
-                        <p>Una d’estes pubilles sereé jo, Simina. Tinc disset anys, acabo de cursar1r de Batxillerat en la modalitat Artística a Tortosa i de cara al futur m’agradaria estudiar a la universitat de Belles Arts. Sóc de nacionalitat romanesa, però porto tretze anys vivint a Ulldecona, i em considero una falduda més del poble, ja que sempre m’he sentit molt a gust aquí.</p><br>
-                        <p>Com a pubilla representaré a la Penya Barcelonista d’Ulldecona, i agraeixo a la entitat que m’hagin donat la oportunitat de viure les festes d’una manera diferent, ja que des de ben petita he participat als seus concursos de dibuix i, fins i tot, he guanyat alguns premis.</p><br>
-                        <p>Durant estes festes, jo seré una de les protagonistes, per això us invito a tots a que vingueu al nostre poble i que tots junts poguéssim gaudir de les tardes de bous, les nits d’orquestra, la pujada al Castell i tots els altres actes que es faran durant tota la setmana.</p><br>
-                        <p>Xaleu al màxim durant les Festes 2013!</p>
-
-                        <div class="fotoGrande"><img src="img/pubilles/pubillaGran2.jpg" width='478' heigt='589' alt="" /></div>
-                    </div>
-                    <div class='footer'><div class="flechita"></div>
-                </div>
-            </label>
-        </article>
-
-
-        <div class="volverIncicio">
-            <span>Tornar al Inici</span>
+            <div class='footer'><div class="flechita"></div>
         </div>
+    </label>
+</article>
+<article class='postRecojido'>
+    <div class='header'>
+        <div class='hero hero2'></div>
+        <div class="subHero">
+            <div class='foto'><img src='img/pubilles/pubilla2.jpg' height='180px' width='180px' alt='' /></div>
+            <div class='nombre'><p>Simina Alexandra Crisan</p></div>
+            <div class='subNombre'><p>Penya Barcelonista d'Ulldecona</p></div>
+        </div>
+    </div>
+    <input type="checkbox" id='desplegarPost2' />
+    <label class='desplegarPost' for="desplegarPost2">
+        <div class='contenido' onclick="slideToggle('pubilla2')">
+            <p>Hola falduts i faldudes!</p>
+
+            <p>Ja tenim les festes d’Ulldecona aquí, i un any més, totes les pubilles estem preparades i, sobretot, molt nervioses, per a representar de la millor manera possible les diferents entitats del poble.</p>
+            <div id='pubilla2' style='display:none;'>
+                <p>Farem que estes festes siguin inoblidables i les gaudirem al màxim, començant per la nit del pregó i posant el punt i final amb els focs artificials.</p><br>
+                <p>Una d’estes pubilles sereé jo, Simina. Tinc disset anys, acabo de cursar1r de Batxillerat en la modalitat Artística a Tortosa i de cara al futur m’agradaria estudiar a la universitat de Belles Arts. Sóc de nacionalitat romanesa, però porto tretze anys vivint a Ulldecona, i em considero una falduda més del poble, ja que sempre m’he sentit molt a gust aquí.</p><br>
+                <p>Com a pubilla representaré a la Penya Barcelonista d’Ulldecona, i agraeixo a la entitat que m’hagin donat la oportunitat de viure les festes d’una manera diferent, ja que des de ben petita he participat als seus concursos de dibuix i, fins i tot, he guanyat alguns premis.</p><br>
+                <p>Durant estes festes, jo seré una de les protagonistes, per això us invito a tots a que vingueu al nostre poble i que tots junts poguéssim gaudir de les tardes de bous, les nits d’orquestra, la pujada al Castell i tots els altres actes que es faran durant tota la setmana.</p><br>
+                <p>Xaleu al màxim durant les Festes 2013!</p>
+
+                <div class="fotoGrande"><img src="img/pubilles/pubillaGran2.jpg" width='478' heigt='589' alt="" /></div>
+            </div>
+            <div class='footer'><div class="flechita"></div>
+        </div>
+    </label>
+</article>
+
+<div class="volverIncicio">
+    <span>Tornar al Inici</span>
+</div>
 
     <!--/ Este contingut amb class='contenidoPrincipal' pot ser rempplaçat -->
     </section>
