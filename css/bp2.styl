@@ -1,4 +1,45 @@
-.contenido
-	.salutaciones
-		.imagen
-			background-position 0px -20px 
+
+header
+	background-image url(../img/foto1.jpg)
+	background-position 0 -100px
+	background-repeat repeat-x 
+	background-size 50% auto
+	position relative
+	.degradado
+		height 100%
+		width 100%
+		@css{
+			background: -moz-radial-gradient(center, ellipse cover,  rgba(30,87,153,0) 0%, rgba(0,0,0,1) 100%);
+			background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(30,87,153,0)), color-stop(100%,rgba(0,0,0,1)));
+			background: -webkit-radial-gradient(center, ellipse cover,  rgba(30,87,153,0) 0%,rgba(0,0,0,1) 100%);
+			background: -o-radial-gradient(center, ellipse cover,  rgba(30,87,153,0) 0%,rgba(0,0,0,1) 100%);
+			background: -ms-radial-gradient(center, ellipse cover,  rgba(30,87,153,0) 0%,rgba(0,0,0,1) 100%);
+			background: radial-gradient(ellipse at center,  rgba(30,87,153,0) 0%,rgba(0,0,0,1) 100%);
+			filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#001e5799', endColorstr='#000000',GradientType=1 );
+		}
+	z-index 15
+	.logo_outer
+		background rgba(white,.8)
+		width 400px
+		position absolute
+		top 0
+		left 0
+		height 100%
+		z-index 15
+		figure
+			
+			img
+				width 12em
+				height auto
+
+.calendario
+	width 50%
+	.botonera
+	.eventoActual
+		position relative 
+		right 0 
+	.listaEvento
+		float right
+		width 90%
+.contenidoPrincipal
+	width 50%
