@@ -1,287 +1,61 @@
 
 body
-	background #e8e1d7
+	background grisFondo
 footer
-	color white
-	float left
-	margin 100px 0 -25px 0
-	position relative
-	width 100%
-	.header
-		background #2d353d
-		h3
-			font-size 21px
-			font-style italic
-			letter-spacing 1px
-			padding 20px 0 35px 30px
-			text-transform uppercase
-			span
-				display block
-				font-size 16px 
-				// font-style normal
-				letter-spacing 0px
-				line-height 21px
-				text-transform lowercase
-	.section
-		background negro
-		position relative
-		label
-			.accionarFlechitaFooter
-				width 100%
-				height 70px 
-				background transparent
-				position relative
-				z-index 20
-				.flechita1
-				.flechita2
-				.flechita3
-				.flechita4
-					&:after
-						content flechaAbajo
-						font-family icono
-						position absolute
-						font-style normal
-						top 20px
-						right 20px
-						border-left 1px solid rgba(white,.5)
-						padding 5px 0 5px 20px
-		.entrades
-			margin -70px 0 0 0
-			&:before
-				content entrada
-				font-family icono
-				font-style normal
-				font-size 18px 
-				left 20px
-				position absolute
-				top 30px
-		.inscripcions
-			margin -70px 0 0 0
-			&:before
-				content calendario
-				font-family icono
-				font-style normal
-				font-size 18px 
-				left 20px
-				position absolute
-				top 30px
-		.piscina
-			margin -70px 0 0 0
-			&:before
-				content reloj
-				font-family icono
-				font-style normal
-				font-size 18px 
-				left 20px
-				position absolute
-				top 30px
-		.notes
-			margin -70px 0 0 0
-			&:before
-				content nota
-				font-family icono
-				font-style normal
-				font-size 18px 
-				left 20px
-				position absolute
-				top 30px
-		.post
-			border-bottom 1px solid rgba(white,.1)
-			color rgba(white,.7)
-			line-height 21px
-			font-size 16px
-			padding 28px 0 28px 0
-			position relative
-			font-style italic
-			h4
-				margin 0 78px 0 55px
-			.detallePost
-				border-left none
-				h5
-					color rgba(white,1)
-					margin 20px 20px 10px 55px
-					font-style normal
-					&:first-child
-						margin 40px 20px 10px 55px
-				p
-					color rgba(white,.6)
-					font-weight 400
-					font-style normal
-					margin 0 20px 0 55px
-					&:last-child 
-						margin 0 20px 30px 55px
-				p.detallePostPiscina
-					margin 20px 20px 30px 55px
-				ul
-					margin 20px 20px 0 55px
-					li 
-						color rgba(white,.6)
-						font-weight 400
-						font-style normal
-						list-style-type circle
-						margin 0 0 10px 0
-						&:last-child 
-							margin 0 0 30px 0
-			&:last-child
-				border-bottom none
-		#footer1
-		#footer2
-		#footer3
-		#footer4
-			display none
-		#footer1:checked ~ label .flechita1:after
-				border-left none
-				border-right 1px solid rgba(white,.5)
-				padding 5px 20px 5px 20px
-				right 0px
-				transform rotateZ(180deg)
-				-ms-transform rotateZ(180deg)
-				-webkit-transform rotateZ(180deg)
-		#footer2:checked ~ label .flechita2:after
-				border-left none
-				border-right 1px solid rgba(white,.5)
-				padding 5px 20px 5px 20px
-				right 0px
-				transform rotateZ(180deg)
-				-ms-transform rotateZ(180deg)
-				-webkit-transform rotateZ(180deg)
-		#footer3:checked ~ label .flechita3:after
-				border-left none
-				border-right 1px solid rgba(white,.5)
-				padding 5px 20px 5px 20px
-				right 0px
-				transform rotateZ(180deg)
-				-ms-transform rotateZ(180deg)
-				-webkit-transform rotateZ(180deg)
-		#footer4:checked ~ label .flechita4:after
-				border-left none
-				border-right 1px solid rgba(white,.5)
-				padding 5px 20px 5px 20px
-				right 0px
-				transform rotateZ(180deg)
-				-ms-transform rotateZ(180deg)
-				-webkit-transform rotateZ(180deg)
-	.social
-		.plegado
-			background #fdc43a
-			border-bottom 4px solid #f39c21
-			height 60px
-			left 0
-			position absolute
-			top -60px
-			width 60px
-			text-align center
-			line-height 60px
-			&:after
-				color #b26514
-				content flechaDerecha
-				font-family icono
-				font-size 37px
-	.footer
-		background white
-		text-align center
-		.autor
-			background rgba(black,.03)
-			display block
-			padding 37px 0 38px 0
-			img
-				height 60px
-				display block
-				margin 0 auto
-				width auto
-			p
-				color #242d35
-				font-size 16px
-				font-style italic
-				font-weight 900
-				margin 0 0 16px 0
-		.patrocinado
-			display inline-block
-			padding 37px 0 38px 0
-			img
-				height 70px
-				display block
-				margin 0 auto
-				width auto
-			p
-				color #242d35
-				font-size 16px
-				font-style italic
-				margin 0 0 16px 0
-			.ajuntament
-				height 90px
-				margin 16px 0 0 0
-				width auto
+	background footer
+
+
 header
 	background-image url(../img/foto1.jpg)
 	background-position 0 -100px
-	background-repeat repeat-x 
+	background-repeat repeat-x repeat-y 
 	background-size 100% auto
 	color white
-	height 350px
+	height 500px
 	letter-spacing 2px
+	position relative
 	text-align center
 	z-index 0
 	.degradado
 		background rgba(white,.8)
 		height 100%
+		position absolute
 		width 100%
-		z-index 15
+		z-index 5
 	.logo_outer
-		position relative
-		top -15em
-		z-index 3
+		position absolute
+		top 2em
+		z-index 6
 		figure
 			img
 				width 12em
 				height auto
-
-		// background rgba(black,.5)
-		// padding 20px 0
-		// position relative
-		// z-index 5
-		// top -250px
-		// h1
-		// 	display inline-block
-		// 	font-size 28px
-		// 	font-style italic
-		// 	text-transform uppercase
-		// p
-		// 	display inline-block
-		// 	font-size 28px
-		// 	font-style italic
-		// span
-		// 	display block
-		// 	font-size 21px
-		// 	font-style italic
-		// 	text-transform uppercase 
-label.mainLabel
-	background white
-	color rojo
-	color rojo
-	height 80px
-	position absolute
-	right 0
-	text-align center
-	text-align center
-	top 350px
-	width 40px
-	z-index 5
+		h1
+			color negro
+			font-size 26px
+			font-weight 400
+			letter-spacing 1px
+			line-height 1.2em
+			text-transform uppercase
+			span
+				letter-spacing 0px
+				font-weight 700
+.botones
+	background red
+	font-size 0
 	.boton
-		.flecha
-			&:after
-				content flechaDerecha
-				font-family icono
-				font-size 1.2em
-				line-height 75px
-.bg
-	background-image url(../img/patron.png)
-	position fixed
-	top 0
-	left 0
-	right 0
-	bottom 0
-	z-index -4
+		background white
+		border-bottom 3px solid rgba(separador,1)
+		border-right 1px solid separador
+		color rgba(black,.5)
+		display inline-block
+		font-size 15px
+		padding .9em
+		text-align center
+		text-transform uppercase
+		width 33%
+	.center
+		width 34%
 .calendario
 	width 0%
 	float right
@@ -880,41 +654,53 @@ label.mainLabel
 				position absolute
 				top -8px
 				left -21px
+.llamadaPrograma
+	label.mainLabel
+		background white
+		border-bottom 3px solid rgba(separador,1)
+		color rojo
+		color rojo
+		height 80px
+		position absolute
+		right 0
+		text-align center
+		text-align center
+		top 500px
+		width 40px
+		z-index 5
+		.boton
+			.flecha
+				&:after
+					content flechaDerecha
+					font-family icono
+					font-size 1.2em
+					line-height 75px
+	.llamadaCalendario
+		background rojoClaro
+		color white
+		font-weight 400
+		height 80px
+		line-height 16px
+		position relative
+		width 100%
+		h3
+			font-size 21px
+			font-style italic
+			letter-spacing 1px
+			padding 20px 0 0 30px
+			text-transform uppercase
+			span
+				display block
+				font-size 16px 
+				// font-style normal
+				letter-spacing 0px
+				line-height 28px
+				text-transform lowercase
 .invisible
 	display none
-.paginaMapa
-	.mapa
-		background white
-		padding 50px 0
-		margin 30px 0 0 0 
-		img
-			border-bottom 1px solid rgba(black,.2)
-			border-top 1px solid rgba(black,.2)
-			width 100%
 .visible
 	display block
 	transition all .3s ease
-.llamadaCalendario
-	background rojoClaro
-	color white
-	font-weight 400
-	height 80px
-	line-height 16px
-	position relative
-	width 100%
-	h3
-		font-size 21px
-		font-style italic
-		letter-spacing 1px
-		padding 20px 0 0 30px
-		text-transform uppercase
-		span
-			display block
-			font-size 16px 
-			// font-style normal
-			letter-spacing 0px
-			line-height 28px
-			text-transform lowercase
 #main-check
 	display none
 #main-check:checked ~ label

@@ -17,7 +17,7 @@
     <meta name="apple-mobile-web-app-title" content="Ulldecona">
 
     <link rel="stylesheet" href="css/normalize.min.css" />
-    <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,900italic' rel='stylesheet' type='text/css' />
+    <link href='http://fonts.googleapis.com/css?family=Lato:400,700,900italic' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="css/estilos.css" />
     <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
 </head>
@@ -34,12 +34,23 @@
         <figure>
             <img src="img/logo_quinquenals.png" alt="">
         </figure>
+        <h1>Festes <span>Quinquennals</span> Ulldecona 2014</h1>
     </div>
 </header>
-<input type="checkbox" id='main-check' />
-<label class='mainLabel' for="main-check">
-    <div id="btnProg" class="boton" onclick="ivan()"><span class="flecha"></span></div>
-</label>
+<div class="llamadaPrograma">
+    <input type="checkbox" id='main-check' />
+    <label class='mainLabel' for="main-check">
+        <div id="btnProg" class="boton" onclick="ivan()"><span class="flecha"></span></div>
+    </label>
+    <div class="llamadaCalendario">
+        <h3>Programa de festes <span>Estigues al dia dels events</span></h3>
+    </div>
+</div>
+<div class="botones">
+    <div class="boton left">Pubilles</div>
+    <div class="boton center">Salutacions</div>
+    <div class="boton right">Informació</div>
+</div>
 <section class="calendario">
     <div class="eventoActual">
         <div class="event1">
@@ -159,169 +170,16 @@
         </div>
     </div>
 </section>
+
+<!-- El contingut de class='contenidoPrincipal' pot ser rempplaçat -->
 <section class="contenidoPrincipal" id="contenidoPrincipal">
-<!-- Este contingut amb class='contenidoPrincipal' pot ser rempplaçat -->
 
-       
-<div class="llamadaCalendario">
-    <h3>Programa de festes <span>Estigues al dia dels events</span></h3>
-</div>
 
-<div class="volverIncicio">
-    <span>Tornar al Inici</span>
-</div>
 
-<article class='postRecojido'>
-    <div class='header'>
-        <div class='hero hero1'></div>
-        <div class="subHero">
-            <div class='foto'><img src='img/pubilles/pubilla1.jpg' height='180px' width='180px' alt='' /></div>
-            <div class='nombre'><p>Simina Alexandra Crisan</p></div>
-            <div class='subNombre'><p>Penya Barcelonista d'Ulldecona</p></div>
-        </div>
-    </div>
-    <input type="checkbox" id='desplegarPost' />
-    <label class='desplegarPost' for="desplegarPost">
-        <div class='contenido' onclick="slideToggle('pubilla1')">
-            <p>Hola falduts i faldudes!</p>
-
-            <p>Ja tenim les festes d’Ulldecona aquí, i un any més, totes les pubilles estem preparades i, sobretot, molt nervioses, per a representar de la millor manera possible les diferents entitats del poble.</p>
-            <div id='pubilla1' style='display:none;'>
-                <p>Farem que estes festes siguin inoblidables i les gaudirem al màxim, començant per la nit del pregó i posant el punt i final amb els focs artificials.</p><br>
-                <p>Una d’estes pubilles sereé jo, Simina. Tinc disset anys, acabo de cursar1r de Batxillerat en la modalitat Artística a Tortosa i de cara al futur m’agradaria estudiar a la universitat de Belles Arts. Sóc de nacionalitat romanesa, però porto tretze anys vivint a Ulldecona, i em considero una falduda més del poble, ja que sempre m’he sentit molt a gust aquí.</p><br>
-                <p>Com a pubilla representaré a la Penya Barcelonista d’Ulldecona, i agraeixo a la entitat que m’hagin donat la oportunitat de viure les festes d’una manera diferent, ja que des de ben petita he participat als seus concursos de dibuix i, fins i tot, he guanyat alguns premis.</p><br>
-                <p>Durant estes festes, jo seré una de les protagonistes, per això us invito a tots a que vingueu al nostre poble i que tots junts poguéssim gaudir de les tardes de bous, les nits d’orquestra, la pujada al Castell i tots els altres actes que es faran durant tota la setmana.</p><br>
-                <p>Xaleu al màxim durant les Festes 2013!</p>
-
-                <div class="fotoGrande"><img src="img/pubilles/pubillaGran1.jpg" width='478' heigt='589' alt="" /></div>
-            </div>
-            <div class='footer'><div class="flechita"></div>
-        </div>
-    </label>
-</article>
-<article class='postRecojido'>
-    <div class='header'>
-        <div class='hero hero2'></div>
-        <div class="subHero">
-            <div class='foto'><img src='img/pubilles/pubilla2.jpg' height='180px' width='180px' alt='' /></div>
-            <div class='nombre'><p>Simina Alexandra Crisan</p></div>
-            <div class='subNombre'><p>Penya Barcelonista d'Ulldecona</p></div>
-        </div>
-    </div>
-    <input type="checkbox" id='desplegarPost2' />
-    <label class='desplegarPost' for="desplegarPost2">
-        <div class='contenido' onclick="slideToggle('pubilla2')">
-            <p>Hola falduts i faldudes!</p>
-
-            <p>Ja tenim les festes d’Ulldecona aquí, i un any més, totes les pubilles estem preparades i, sobretot, molt nervioses, per a representar de la millor manera possible les diferents entitats del poble.</p>
-            <div id='pubilla2' style='display:none;'>
-                <p>Farem que estes festes siguin inoblidables i les gaudirem al màxim, començant per la nit del pregó i posant el punt i final amb els focs artificials.</p><br>
-                <p>Una d’estes pubilles sereé jo, Simina. Tinc disset anys, acabo de cursar1r de Batxillerat en la modalitat Artística a Tortosa i de cara al futur m’agradaria estudiar a la universitat de Belles Arts. Sóc de nacionalitat romanesa, però porto tretze anys vivint a Ulldecona, i em considero una falduda més del poble, ja que sempre m’he sentit molt a gust aquí.</p><br>
-                <p>Com a pubilla representaré a la Penya Barcelonista d’Ulldecona, i agraeixo a la entitat que m’hagin donat la oportunitat de viure les festes d’una manera diferent, ja que des de ben petita he participat als seus concursos de dibuix i, fins i tot, he guanyat alguns premis.</p><br>
-                <p>Durant estes festes, jo seré una de les protagonistes, per això us invito a tots a que vingueu al nostre poble i que tots junts poguéssim gaudir de les tardes de bous, les nits d’orquestra, la pujada al Castell i tots els altres actes que es faran durant tota la setmana.</p><br>
-                <p>Xaleu al màxim durant les Festes 2013!</p>
-
-                <div class="fotoGrande"><img src="img/pubilles/pubillaGran2.jpg" width='478' heigt='589' alt="" /></div>
-            </div>
-            <div class='footer'><div class="flechita"></div>
-        </div>
-    </label>
-</article>
-
-<div class="volverIncicio">
-    <span>Tornar al Inici</span>
-</div>
-
-<!--/ Este contingut amb class='contenidoPrincipal' pot ser rempplaçat -->
 </section>
 <footer>
-    <div class="social">
-        <div class="plegado"></div>
-        <div class="desPlegado"></div>
-    </div>
-    <div class="header">
-        <h3>Informació <span>relativa a festes</span></h3>
-    </div>
-    <div class="section">
-        <input type="checkbox" id='footer1'>
-        <label for="footer1">
-            <div class="accionarFlechitaFooter" onclick="slideToggle('post1')">
-                <div class="flechita1"></div>
-            </div>
-        </label>
-        <div class="post entrades">
-            <h4>Venda d’entrades i tiquets</h4>
-            <div class="detallePost" id='post1' style="display:none;">
-                <h5>Entrades de la Representació Teatral: <span>Confessions de dones de 30</span></h5>
-                <p>Venda anticipada a les taquilles del teatre: dilluns 26/8/2013 i dimarts 27/8/2013 de 19.00 a 21.00 hores i el mateix dia de la representació a partir de les 22.00 hores. <br>Preu de l’entrada: 18€</p>
-                <h5>Taules i cadires per als dies de ball</h5>
-                <p>Fins al 23 d’agost, de 9.00 a 21.00 hores, al retén de l’Ajuntament <br>Taula + 6 cadires: 36€ <br>Cadira: 1€/dia</p>
-                <h5>Paella d’Ulldecona (8 de setembre a les 13.30h)</h5>
-                <p>Preu per tiquet: 2€ Del dia 19 d’agost fins al 4 de setembre, de les 9.00 a les 21.00, al retén de l’Ajuntament.</p>
-                <h5>Sopar d’ex-pubilles</h5>
-                <p>Tindrà lloc el divendres 30 d’agost a les 22.00 hores. Preu: 14€ Del dia 1 al 27 d’agost, de les 9.00 a les 21.00, al retén de l’Ajuntament.</p>
-            </div>
-        </div>
-        <input type="checkbox" id='footer2'>
-        <label for="footer2">
-            <div class="accionarFlechitaFooter" onclick="slideToggle('post2')">
-                <div class="flechita2"></div>
-            </div>
-        </label>
-        <div class="post inscripcions">
-            <h4>Inscripcions gratuiütes</h4>
-            <div class="detallePost" id='post2' style="display:none;">
-                <h5>Carrosses</h5>
-                <p>La desfilada es realitzarà el diumenge 1 de setembre a les 18.30h. Inscripcions del dia 1 al 23 d’agost, de les 9.00 a les 21.00, al retén de l’Ajuntament.</p>
-                <h5>Diada de la Bicicleta</h5>
-                <p>Tindrà lloc divendres dia 30 d’agost a les 10.00h. Inscripcions del dia 1 al 27 d’agost, de les 9.00 a les 21.00, al retén de l’Ajuntament per recollir el tiquet.</p>
-                <h5>Trobada dels “ulldeconencs-planers” (Santa Bàrbara)</h5>
-                <p>Es realitzarà el diumenge 2 de setembre a les 11.00h. Inscripcions del dia 1 al 27 d’agost, de les 9.00 a les 21.00, al retén de l’Ajuntament.</p>
-                <h5>Cursa de cotxes bojos.</h5>
-                <p>Es realitzarà el dissabte 1 de setembre a les 11.30h. Inscripcions del dia 1 al 30 d’agost, de les 9.00 a les 21.00, al retén de l’Ajuntament.</p>
-            </div>
-        </div>
-        <input type="checkbox" id='footer3'>
-        <label for="footer3">
-            <div class="accionarFlechitaFooter" onclick="slideToggle('post3')">
-                <div class="flechita3"></div>
-            </div>
-        </label>
-        <div class="post piscina">
-            <h4>Horari de la piscina municipal en festes majors</h4>
-            <div class="detallePost" id='post3' style="display:none;">
-                <p class='detallePostPiscina'>Del 23 d’agost a l’1 de setembre de 12.30 A 15.00 Hores, excepte el dia 25 d’agost que hi ha programades les competicions de natació i el dia 27 d’agost que hi ha inflables aquàtics.</p>
-            </div>
-        </div>
-        <input type="checkbox" id='footer4'>
-        <label for="footer4">
-            <div class="accionarFlechitaFooter" onclick="slideToggle('post4')">
-                <div class="flechita4"></div>
-            </div>
-        </label>
-        <div class="post notes">
-            <h4>Notes</h4>
-            <div class="detallePost" id='post4' style="display:none;">
-                <ul>
-                    <li>El Programa de les Festes Majors d’Ulldecona 2013 fou aprovat pel Ple el dia 30 de juliol 2013.</li>
-                    <li> L’Ajuntament es reserva el dret de poder modificar algun acte, si fos necessari, anunciant-ho degudament.</li>
-                    <li>S’aconsella no circular en cotxe durant les festes, atès que es tallaran diversos carrers a la circulació a causa d’activitats diverses.</li>
-                    <li>Es recorda a tothom que l’assistència a qualsevol acte amb bous és totalment lliure i voluntària i que, malgrat que l’Ajuntament d’Ulldecona compleix íntegrament la Llei 34/2010 de l’1 d’octubre, de regulació de les festes tradicionals amb bous, sempre hi pot haver algun perill per a les persones que hi van. I també que, d’acord amb l’art. 1 del Decret 385/2000, de 5 de desembre del Departament d’Interior de la Generalitat de Catalunya, <span>es prohibeix l’entrada a les curses de bous als infants i als adolescents menors de 14 anys.</span></li>
-                </ul>
-            </div>
-        </div>
-    </div>
-    <div class="footer">
-        <div class="patrocinado">
-            <p>Espai patrocinat per</p>
-<!--             <img src="img/logoQuinquenals.jpg" alt="">
-            <img class='ajuntament' src="img/logoAjuntament.jpg" alt=""> -->
-        </div>
-        <div class="autor">
-            <p>Disenyat i desenvolupat per</p>
-            <img src="img/logo.png" alt="">
-        </div>
-    </div>
+    <div class="logo"></div>
+    <div class="email"></div>
 </footer>
 <!-- Area per a els scripts -->
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
