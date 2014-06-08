@@ -1004,20 +1004,35 @@ header .logo_outer figure img{width:12em;height:auto}
 /* line 34 : /Users/jordiimac/Documents/FQU/css/bp2.styl */
 
 @media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp2\.styl}line{font-family:\0000334}}
+.botones{background:#f00;width:50%;float:left;font-size:0;}
+
+/* line 39 : /Users/jordiimac/Documents/FQU/css/bp2.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp2\.styl}line{font-family:\0000339}}
+.botones .boton{background:#fff;border-bottom:3px solid #d1dbdf;border-right:1px solid #d1dbdf;color:rgba(0,0,0,0.5);display:inline-block;font-size:15px;padding:.9em;text-align:center;text-transform:uppercase;width:33%}
+
+/* line 50 : /Users/jordiimac/Documents/FQU/css/bp2.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp2\.styl}line{font-family:\0000350}}
+.botones .center{width:34%}
+
+/* line 52 : /Users/jordiimac/Documents/FQU/css/bp2.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp2\.styl}line{font-family:\0000352}}
 .calendario{width:50%;}
 
-/* line 36 : /Users/jordiimac/Documents/FQU/css/bp2.styl */
+/* line 54 : /Users/jordiimac/Documents/FQU/css/bp2.styl */
 
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp2\.styl}line{font-family:\0000336}}
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp2\.styl}line{font-family:\0000354}}
 .calendario .botonera,.calendario .eventoActual{position:relative;right:0}
 
-/* line 40 : /Users/jordiimac/Documents/FQU/css/bp2.styl */
+/* line 58 : /Users/jordiimac/Documents/FQU/css/bp2.styl */
 
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp2\.styl}line{font-family:\0000340}}
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp2\.styl}line{font-family:\0000358}}
 .calendario .listaEvento{float:right;width:90%}
 
-/* line 43 : /Users/jordiimac/Documents/FQU/css/bp2.styl */
+/* line 61 : /Users/jordiimac/Documents/FQU/css/bp2.styl */
 
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp2\.styl}line{font-family:\0000343}}
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp2\.styl}line{font-family:\0000361}}
 .contenidoPrincipal{width:50%}
 }
