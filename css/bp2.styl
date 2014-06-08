@@ -20,18 +20,25 @@ header
 	z-index 15
 	.logo_outer
 		background rgba(white,.8)
-		width 400px
+		width 470px
 		position absolute
 		top 0
 		left 0
 		height 100%
 		z-index 15
+		&:after
+			border-top solid 500px transparent 
+			border-right solid 0px yellow 
+			border-bottom solid 0px red 
+			border-left solid 45px rgba(white,.8) 
+			position absolute
+			content ""
+			top 0
+			left 100%
 		figure
-			
 			img
 				width 12em
 				height auto
-
 .calendario
 	width 50%
 	.botonera

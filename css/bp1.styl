@@ -1,6 +1,6 @@
 
 body
-	background grisFondo
+	background body
 footer
 	background footer
 	.email
@@ -71,6 +71,7 @@ header
 	.center
 		width 34%
 .calendario
+	background grisFondo
 	width 0%
 	float right
 	overflow hidden
@@ -394,6 +395,7 @@ header
 							&:after
 								content baile
 .contenidoPrincipal
+	background grisFondo
 	// float left
 	// height auto
 	// overflow-x hidden
@@ -731,10 +733,10 @@ header
 	transform rotateZ(180deg)
 	-ms-transform rotateZ(180deg)
 	-webkit-transform rotateZ(180deg)
-// #main-check:checked ~ .calendario
-// 	width 100%
-// #main-check:checked ~ .contenidoPrincipal
-// 	margin-left -100%
+#main-check:checked ~ .calendario
+	width 100%
+#main-check:checked ~ .contenidoPrincipal
+	margin-left -100%
 
 
 
