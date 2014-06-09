@@ -3,22 +3,34 @@ body
 	background body
 footer
 	background footer
+	overflow hidden
 	.email
 		display inline-block
+		opacity .4
+		padding 15px
+		position relative
+		width 100%
+		span
+			display block
+			padding 0 40px 0 0
+			text-align right
 		a
-		&:after 
-			content email
-			font-family icono
-			opacity .3
+			color negro		
+			position absolute
+			right 25px
+			top 17px
+			&:after 
+				content email
+				font-family icono
 	.logo
 		display inline-block
 		vertical-align middle
 		figure
 			img 
+				height 4.5rem
 				opacity .3
-				height 3.2rem
+				padding 15px 25px 7px 15px
 				width auto
-				padding 7px 25px 7px 15px
 header
 	background-image url(../img/foto1.jpg)
 	background-position 0 -100px
