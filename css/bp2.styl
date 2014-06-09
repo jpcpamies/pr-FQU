@@ -12,10 +12,6 @@ section
     opacity 0.4
 
 .ha-header
-  background-image url(../img/hero.jpg)
-  background-position 0 -100px
-  background-repeat repeat-x repeat-y 
-  background-size 35% auto
   position fixed
   top 0
   left 0
@@ -27,13 +23,14 @@ section
   -webkit-transition all 0.5s
   -moz-transition all 0.5s
   transition all 0.5s
-
+    
 .ha-header-perspective
   padding 0 7%
   height 100%
   width 100%
   overflow hidden
   position relative
+    
   .logoOuter
     background rgba(white,.9)
     left 0
@@ -55,13 +52,9 @@ section
       display block
       margin 15px auto 0 auto
       width 200px
-    
-
-
 .ha-header-large
   height 350px
   .logoOuter
-    // background rgba(white,.9)
     left 0
     position absolute
     width 450px
@@ -79,15 +72,14 @@ section
       span
         letter-spacing 0px
         font-weight 700
-  .logoInner
-    img
-      display block
-      margin 15px auto 0 auto
-      width 200px
-      -webkit-transition all .5s
-      -moz-transition all .5s
-      transition all .5s
-
+    .logoInner
+      img
+        display block
+        margin 15px auto 0 auto
+        width 200px
+        -webkit-transition all .5s
+        -moz-transition all .5s
+        transition all .5s
 .ha-header-small
   height 80px
   .logoOuter
@@ -96,11 +88,23 @@ section
       font-size 20px
       position absolute
       text-align left
-      top 3px
+      top 13px
     .logoInner
       img
-        width 70px
+        width 65px
         position absolute
         top -10px 
         left 15px
     
+@keyframes animcionHero
+  0%
+    transform translate(0%)
+    -ms-transform translate(0%)
+    -webkit-transform translate(0%)
+
+  100%
+    transform translate(100%)
+    -ms-transform translate(100%)
+    -webkit-transform translate(100%)
+
+
