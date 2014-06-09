@@ -139,35 +139,27 @@ p{opacity:.4}
 /* line 29 : /Users/jordiimac/Documents/FQU/css/bp2.styl */
 
 @media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp2\.styl}line{font-family:\0000329}}
-.ha-header .ha-header-perspective{background: -moz-radial-gradient(center, ellipse cover,  rgba(153,153,153,0) 0%, rgba(2,2,2,1) 99%, rgba(0,0,0,1) 100%);
-        background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(153,153,153,0)), color-stop(99%,rgba(2,2,2,1)), color-stop(100%,rgba(0,0,0,1)));
-        background: -webkit-radial-gradient(center, ellipse cover,  rgba(153,153,153,0) 0%,rgba(2,2,2,1) 99%,rgba(0,0,0,1) 100%);
-        background: -o-radial-gradient(center, ellipse cover,  rgba(153,153,153,0) 0%,rgba(2,2,2,1) 99%,rgba(0,0,0,1) 100%);
-        background: -ms-radial-gradient(center, ellipse cover,  rgba(153,153,153,0) 0%,rgba(2,2,2,1) 99%,rgba(0,0,0,1) 100%);
-        background: radial-gradient(ellipse at center,  rgba(153,153,153,0) 0%,rgba(2,2,2,1) 99%,rgba(0,0,0,1) 100%);
-        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00999999', endColorstr='#000000',GradientType=1 );padding:0 7%;height:100%;width:100%;overflow:hidden;position:relative}
-background: -moz-radial-gradient(center, ellipse cover,  rgba(153,153,153,0) 0%, rgba(2,2,2,1) 99%, rgba(0,0,0,1) 100%);
-        background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(153,153,153,0)), color-stop(99%,rgba(2,2,2,1)), color-stop(100%,rgba(0,0,0,1)));
-        background: -webkit-radial-gradient(center, ellipse cover,  rgba(153,153,153,0) 0%,rgba(2,2,2,1) 99%,rgba(0,0,0,1) 100%);
-        background: -o-radial-gradient(center, ellipse cover,  rgba(153,153,153,0) 0%,rgba(2,2,2,1) 99%,rgba(0,0,0,1) 100%);
-        background: -ms-radial-gradient(center, ellipse cover,  rgba(153,153,153,0) 0%,rgba(2,2,2,1) 99%,rgba(0,0,0,1) 100%);
-        background: radial-gradient(ellipse at center,  rgba(153,153,153,0) 0%,rgba(2,2,2,1) 99%,rgba(0,0,0,1) 100%);
-        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00999999', endColorstr='#000000',GradientType=1 );
+.ha-header .ha-header-perspective{padding:0 7%;height:100%;width:100%;overflow:hidden}
+
+/* line 34 : /Users/jordiimac/Documents/FQU/css/bp2.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp2\.styl}line{font-family:\0000334}}
+.ha-header-large{height:350px;}
 
 /* line 36 : /Users/jordiimac/Documents/FQU/css/bp2.styl */
 
 @media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp2\.styl}line{font-family:\0000336}}
-.ha-header .logoOuter{background:rgba(255,255,255,0.9);left:0;position:absolute;width:450px;height:100%;}
+.ha-header-large .logoOuter{background:rgba(255,255,255,0.2);width:450px;}
 
-/* line 42 : /Users/jordiimac/Documents/FQU/css/bp2.styl */
+/* line 39 : /Users/jordiimac/Documents/FQU/css/bp2.styl */
 
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp2\.styl}line{font-family:\0000342}}
-.ha-header .logoOuter h1{font-size:24px;font-weight:300;letter-spacing:1px;line-height:1.2em;text-align:center;text-transform:uppercase}
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp2\.styl}line{font-family:\0000339}}
+.ha-header-large .logoOuter h1{font-size:24px;font-weight:300;letter-spacing:1px;line-height:1.2em;text-align:center;text-transform:uppercase;-webkit-transition:all 1s;-moz-transition:all 1s;transition:all 1s}
 
 /* line 49 : /Users/jordiimac/Documents/FQU/css/bp2.styl */
 
 @media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp2\.styl}line{font-family:\0000349}}
-.ha-header .logoOuter span{letter-spacing:0;font-weight:700}
+.ha-header-large .logoOuter span{letter-spacing:0;font-weight:700}
 
 /* line 52 : /Users/jordiimac/Documents/FQU/css/bp2.styl */
 
@@ -176,58 +168,20 @@ background: -moz-radial-gradient(center, ellipse cover,  rgba(153,153,153,0) 0%,
 /* line 53 : /Users/jordiimac/Documents/FQU/css/bp2.styl */
 
 @media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp2\.styl}line{font-family:\0000353}}
-.ha-header .logoInner img{display:block;margin:15px auto 0 auto;width:200px}
-
-/* line 57 : /Users/jordiimac/Documents/FQU/css/bp2.styl */
-
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp2\.styl}line{font-family:\0000357}}
-.ha-header-large{height:350px;}
-
-/* line 59 : /Users/jordiimac/Documents/FQU/css/bp2.styl */
-
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp2\.styl}line{font-family:\0000359}}
-.ha-header-large .logoOuter{left:0;position:absolute;width:450px;height:100%;}
-
-/* line 64 : /Users/jordiimac/Documents/FQU/css/bp2.styl */
-
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp2\.styl}line{font-family:\0000364}}
-.ha-header-large .logoOuter h1{font-size:24px;font-weight:300;letter-spacing:1px;line-height:1.2em;text-align:center;text-transform:uppercase;-webkit-transition:all 1s;-moz-transition:all 1s;transition:all 1s}
-
-/* line 74 : /Users/jordiimac/Documents/FQU/css/bp2.styl */
-
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp2\.styl}line{font-family:\0000374}}
-.ha-header-large .logoOuter span{letter-spacing:0;font-weight:700}
-
-/* line 77 : /Users/jordiimac/Documents/FQU/css/bp2.styl */
-
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp2\.styl}line{font-family:\0000377}}
-
-/* line 78 : /Users/jordiimac/Documents/FQU/css/bp2.styl */
-
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp2\.styl}line{font-family:\0000378}}
 .ha-header-large .logoInner img{display:block;margin:15px auto 0 auto;width:200px;-webkit-transition:all .5s;-moz-transition:all .5s;transition:all .5s}
 
-/* line 85 : /Users/jordiimac/Documents/FQU/css/bp2.styl */
+/* line 60 : /Users/jordiimac/Documents/FQU/css/bp2.styl */
 
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp2\.styl}line{font-family:\0000385}}
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp2\.styl}line{font-family:\0000360}}
 .ha-header-small{height:80px;}
 
-/* line 87 : /Users/jordiimac/Documents/FQU/css/bp2.styl */
+/* line 62 : /Users/jordiimac/Documents/FQU/css/bp2.styl */
 
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp2\.styl}line{font-family:\0000387}}
-.ha-header-small .logoOuter{background:#fff;}
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp2\.styl}line{font-family:\0000362}}
+.ha-header-small .logoOuter{background:#fff;width:450px;}
 
-/* line 89 : /Users/jordiimac/Documents/FQU/css/bp2.styl */
+/* line 65 : /Users/jordiimac/Documents/FQU/css/bp2.styl */
 
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp2\.styl}line{font-family:\0000389}}
-.ha-header-small .logoOuter h1{left:100px;font-size:20px;position:absolute;text-align:left;top:13px}
-
-/* line 95 : /Users/jordiimac/Documents/FQU/css/bp2.styl */
-
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp2\.styl}line{font-family:\0000395}}
-
-/* line 96 : /Users/jordiimac/Documents/FQU/css/bp2.styl */
-
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp2\.styl}line{font-family:\0000396}}
-.ha-header-small .logoInner img{width:65px;position:absolute;top:-10px;left:15px}
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp2\.styl}line{font-family:\0000365}}
+.ha-header-small .logoOuter h1{left:100px;font-size:10px;position:absolute;text-align:left;top:13px}
 }
