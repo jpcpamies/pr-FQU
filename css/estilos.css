@@ -78,7 +78,7 @@ a:active{some:style}
 /* line 2 : /Users/jordiimac/Documents/FQU/css/bp1.styl */
 
 @media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp1\.styl}line{font-family:\000032}}
-.ha-header{background-image:url("../img/hero.jpg");background-position:0 -100px;background-repeat:repeat-x repeat-y;background-size:80% auto;height:500px}
+.ha-header{background-image:url("../img/hero.jpg");background-position:0 -100px;background-repeat:repeat-x repeat-y;background-size:90% auto;height:500px}
 
 /* line 8 : /Users/jordiimac/Documents/FQU/css/bp1.styl */
 
@@ -88,20 +88,30 @@ a:active{some:style}
 /* line 12 : /Users/jordiimac/Documents/FQU/css/bp1.styl */
 
 @media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp1\.styl}line{font-family:\0000312}}
-.ha-header-perspective .logoOuter{background:rgba(255,255,255,0.7);position:absolute;top:0;right:0;bottom:0;left:0}
-
-/* line 19 : /Users/jordiimac/Documents/FQU/css/bp1.styl */
-
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp1\.styl}line{font-family:\0000319}}
+.ha-header-perspective .logoOuter{background:rgba(255,255,255,0.8);padding:25px 0 0 0;position:absolute;top:0;right:0;bottom:0;left:0;}
 
 /* line 20 : /Users/jordiimac/Documents/FQU/css/bp1.styl */
 
 @media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp1\.styl}line{font-family:\0000320}}
+.ha-header-perspective .logoOuter h1{font-size:24px;font-weight:400;letter-spacing:1px;line-height:1.5em;text-align:center;text-transform:uppercase;}
 
-/* line 21 : /Users/jordiimac/Documents/FQU/css/bp1.styl */
+/* line 27 : /Users/jordiimac/Documents/FQU/css/bp1.styl */
 
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp1\.styl}line{font-family:\0000321}}
-.ha-header-perspective .logoInner figure img{width:100px}
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp1\.styl}line{font-family:\0000327}}
+.ha-header-perspective .logoOuter h1 span{font-weight:700}
+
+/* line 29 : /Users/jordiimac/Documents/FQU/css/bp1.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp1\.styl}line{font-family:\0000329}}
+
+/* line 30 : /Users/jordiimac/Documents/FQU/css/bp1.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp1\.styl}line{font-family:\0000330}}
+
+/* line 31 : /Users/jordiimac/Documents/FQU/css/bp1.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp1\.styl}line{font-family:\0000331}}
+.ha-header-perspective .logoOuter .logoInner figure img{display:block;margin:0 auto;width:200px}
 
 /* line 174 : /Users/jordiimac/Documents/FQU/css/estilos.styl */
 
@@ -157,7 +167,7 @@ background: -moz-radial-gradient(center, ellipse cover,  rgba(153,153,153,0) 0%,
 /* line 44 : /Users/jordiimac/Documents/FQU/css/bp2.styl */
 
 @media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp2\.styl}line{font-family:\0000344}}
-.ha-header-large .logoOuter h1{-moz-transition:all 1s;-webkit-transition:all 1s;font-size:24px;font-weight:300;letter-spacing:1px;line-height:1.2em;text-align:center;text-transform:uppercase;transition:all 1s;}
+.ha-header-large .logoOuter h1{-moz-transition:all .5s;-webkit-transition:all .5s;font-size:24px;font-weight:300;letter-spacing:1px;line-height:1.5em;text-align:center;text-transform:uppercase;transition:all .5s;}
 
 /* line 54 : /Users/jordiimac/Documents/FQU/css/bp2.styl */
 
@@ -171,7 +181,7 @@ background: -moz-radial-gradient(center, ellipse cover,  rgba(153,153,153,0) 0%,
 /* line 58 : /Users/jordiimac/Documents/FQU/css/bp2.styl */
 
 @media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp2\.styl}line{font-family:\0000358}}
-.ha-header-large .logoOuter .logoInner img{-moz-transition:all .5s;-webkit-transition:all .5s;display:block;margin:15px auto 0 auto;transition:all .5s;width:200px}
+.ha-header-large .logoOuter .logoInner img{-moz-transition:all .5s;-webkit-transition:all .5s;display:block;margin:0 auto 0 auto;transition:all .5s;width:200px}
 
 /* line 65 : /Users/jordiimac/Documents/FQU/css/bp2.styl */
 
