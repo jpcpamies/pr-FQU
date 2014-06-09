@@ -111,7 +111,51 @@ a:active{some:style}
 /* line 31 : /Users/jordiimac/Documents/FQU/css/bp1.styl */
 
 @media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp1\.styl}line{font-family:\0000331}}
-.ha-header-perspective .logoOuter .logoInner figure img{display:block;margin:0 auto;width:200px}
+.ha-header-perspective .logoOuter .logoInner figure img{display:block;margin:0 auto;width:250px}
+
+/* line 35 : /Users/jordiimac/Documents/FQU/css/bp1.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp1\.styl}line{font-family:\0000335}}
+
+/* line 36 : /Users/jordiimac/Documents/FQU/css/bp1.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp1\.styl}line{font-family:\0000336}}
+.llamadaClendario .llamadaClendarioLabel{float:right;}
+
+/* line 38 : /Users/jordiimac/Documents/FQU/css/bp1.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp1\.styl}line{font-family:\0000338}}
+.llamadaClendario .llamadaClendarioLabel .botonLabel{background:#fff;border-bottom:3px solid #d1dbdf;color:#db321c;height:80px;text-align:center;width:40px;}
+
+/* line 45 : /Users/jordiimac/Documents/FQU/css/bp1.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp1\.styl}line{font-family:\0000345}}
+.llamadaClendario .llamadaClendarioLabel .botonLabel .flecha{font-size:1.5em;}
+
+/* line 47 : /Users/jordiimac/Documents/FQU/css/bp1.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp1\.styl}line{font-family:\0000347}}
+.llamadaClendario .llamadaClendarioLabel .botonLabel .flecha:after{line-height:80px;content:'\e606';font-family:icono}
+
+/* line 51 : /Users/jordiimac/Documents/FQU/css/bp1.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp1\.styl}line{font-family:\0000351}}
+.llamadaClendario .llamadaClendarioTitulo{background:#bd0506;font-weight:400;height:80px;width:100%;}
+
+/* line 56 : /Users/jordiimac/Documents/FQU/css/bp1.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp1\.styl}line{font-family:\0000356}}
+.llamadaClendario .llamadaClendarioTitulo h2{color:#fff;font-size:21px;font-style:italic;letter-spacing:0;padding:15px 0 0 30px;text-transform:uppercase;}
+
+/* line 63 : /Users/jordiimac/Documents/FQU/css/bp1.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp1\.styl}line{font-family:\0000363}}
+.llamadaClendario .llamadaClendarioTitulo h2 span{display:block;font-size:16px;letter-spacing:0;text-transform:lowercase}
+
+/* line 68 : /Users/jordiimac/Documents/FQU/css/bp1.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp1\.styl}line{font-family:\0000368}}
+.llamadaClendario #llamadaClendario{display:none}
 
 /* line 174 : /Users/jordiimac/Documents/FQU/css/estilos.styl */
 
@@ -206,4 +250,9 @@ background: -moz-radial-gradient(center, ellipse cover,  rgba(153,153,153,0) 0%,
 
 @media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp2\.styl}line{font-family:\0000377}}
 .ha-header-small .logoOuter .logoInner img{left:15px;position:absolute;top:5px;width:65px}
+
+/* line 82 : /Users/jordiimac/Documents/FQU/css/bp2.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp2\.styl}line{font-family:\0000382}}
+.llamadaClendario{display:none}
 }
