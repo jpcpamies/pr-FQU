@@ -134,16 +134,29 @@ tijeras = "\e603"
 
 
 body
+    background rgba(black,.3)
+    font-family lato
+    font-size 20px
+    font-weight 100
+    height 100%
+    margin 0 auto
+    max-width 1024px
+    width 100%
 
-
-// ::selection
-//     background rgba(red,.7)
-//     color white
+::selection
+    background rgba(red,.7)
+    color white
 
 a
     &:link
         some style
         text-decoration none
+    &:visited
+        some style
+    &:hover
+        some style
+    &:active
+        some style
 
 
 
@@ -159,7 +172,7 @@ a
 
 // Break points ====================================
 
-@import "bp1.styl"
+@import "bp2.styl"
 
 // @media screen and (min-width: 770px) 
 //     @import "bp2.styl"
