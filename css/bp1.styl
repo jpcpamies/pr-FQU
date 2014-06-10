@@ -296,9 +296,9 @@
 				background-position 0
 				background-repeat repeat-x repeat-y 
 				background-size 55% auto
-				transform: skew(0deg, 15deg);
-				-ms-transform: skew(0deg, 15deg);
-				-webkit-transform: skew(0deg, 15deg);
+				transform: skew(0deg, 10deg);
+				-ms-transform: skew(0deg, 10deg);
+				-webkit-transform: skew(0deg, 10deg);
 				transform: scale(1, 2, 3, 4);
 				-ms-transform: scale(1, 2, 3, 4);
 				-webkit-transform: scale(1, 2, 3, 4);
@@ -377,19 +377,18 @@
 	transition all .5s
 	-webkit-transition all .5s
 	.patrocinadors
-		padding 30px 0
+		padding  0 0 50px 0
 		.uno
 			display block
 			margin 25px auto 0 auto
 			width 40%
 			&:first-child
-				margin 0 auto 0 auto
+				margin -25PX auto 0 auto
 	.postPubillaOuter
-		padding 30px 0
+		padding 20px 10px
 		.postPubilla
 			border-radius 10px
 			box-shadow 0 1px 10px rgba(black,.3)
-			margin 0 16px
 			margin-bottom 20px
 			.postPubillaUp
 				border-radius 10px 10px 0 0 
@@ -466,36 +465,32 @@
 						padding 2px 0px 20px 0px
 						text-align center
 			.postPubillaDown
-				background #db321c
+				background #a02228
+				background-image url(../img/senefa.png)
+				background-position 10% 0
+				background-repeat repeat-y
+				background-size 20% auto
 				border-radius 0 0 10px 10px
-				color rgba(white,1)
+				color rgba(white,.8)
 				font-size 18px
 				font-weight 300
 				line-height 25px
-				padding 30px 18px 18px 18px
+				padding 30px 18px 25px 18px
 				position relative
 				p
 					padding 0 0 18px 0
-				.fotoGrande
-					margin 0 0 21px 0
-					img
-						box-shadow 0 2px 6px rgba(black,.3)
-						height auto
-						margin 20px 0 0px -25px
-						width 120%
-				.footer
-					transform scale(2.5, .8)
-					-ms-transform scale(2.5, .8)
-					-webkit-transform scale(2.5, .8)
-					.flechita
-						display block
-						margin 20px 0 8px 0
-						text-align center
-						&:before
-							color rgba(black,.5)
-							content flechaAbajo
-							font-family icono
-							font-size 1.5em
+				span
+					background rgba(black,.5)
+					border-radius 50%
+					display block
+					height 30px
+					line-height 30px
+					margin -5px auto 0 auto
+					text-align center
+					width 30px
+					&:after
+						content menu
+						font-family icono
 		#desplegarPost
 		#desplegarPost2
 			display none
