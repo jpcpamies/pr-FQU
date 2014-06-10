@@ -43,13 +43,16 @@
 					width 250px
 .llamadaClendarioLabel
 	float right
+	background white
+	transition all .5s
+	-webkit-transition all .5s
 	.botonLabel
-		background white
-		border-bottom 3px solid rgba(separador,1)
 		color rojoClaro
 		height 80px
 		text-align center
 		width 40px
+		transition all .5s
+		-webkit-transition all .5s
 		.flecha
 			font-size 1.5em
 			&:after
@@ -76,7 +79,12 @@
 	display none
 #mainCheckbox:checked ~ .calendario 
 	width 100%
-
+#mainCheckbox:checked ~ .llamadaClendarioLabel
+	background none
+#mainCheckbox:checked ~ .llamadaClendarioLabel .botonLabel 
+	transform rotateZ(180deg)
+	-ms-transform rotateZ(180deg)
+	-webkit-transform rotateZ(180deg)
 
 
 
