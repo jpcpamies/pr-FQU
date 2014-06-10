@@ -1,5 +1,27 @@
 
-	
+.botonSecciones
+	font-size 0
+	width 100%
+	transition all .5s
+	-webkit-transition all .5s
+	.boton
+		background white
+		border-bottom 3px solid rgba(separador,1)
+		border-right 1px solid separador
+		color #6e868f
+		display inline-block
+		font-size 15px
+		height 52px
+		line-height 52px
+		text-align center
+		text-transform uppercase
+		width 33%
+		&:hover
+			background rgba(#586b72,.01)
+			border-bottom none
+			color white
+	.center
+		width 34%	
 .calendario
 	float right
 	margin -80px -100% 0 0 
@@ -48,8 +70,8 @@
 .llamadaClendarioLabel
 	background white
 	float right
-	transition all .7s
-	-webkit-transition all .7s
+	transition all .5s
+	-webkit-transition all .5s
 	.botonLabel
 		color rojoClaro
 		height 80px
@@ -82,6 +104,19 @@
 			font-size 16px 
 			letter-spacing 0px
 			text-transform lowercase
+.seccionesContenido
+	background grisFondo
+	width 100%
+	transition all .5s
+	-webkit-transition all .5s
+	.patrocinadors
+		padding 30px 0
+		.uno
+			display block
+			margin 25px auto 0 auto
+			width 40%
+			&:first-child
+				margin 0 auto 0 auto
 #mainCheckbox
 	display none
 #mainCheckbox:checked ~ .calendario 
@@ -93,7 +128,11 @@
 	transform rotateZ(180deg)
 	-ms-transform rotateZ(180deg)
 	-webkit-transform rotateZ(180deg)
+#mainCheckbox:checked ~ .botonSecciones
+	margin-left -100%
 #mainCheckbox:checked ~ .llamadaClendarioTitulo
+	margin-left -100%
+#mainCheckbox:checked ~ .seccionesContenido
 	margin-left -100%
 
 
