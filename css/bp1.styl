@@ -1,8 +1,12 @@
 
-
+	
 .calendario
 	float right
+	margin -80px -100% 0 0 
+	overflow hidden
 	width 0%
+	transition all .5s
+	-webkit-transition all .5s
 	.eventoActual
 		background white
 		box-shadow 0 0 50px rgba(black,.5) inset
@@ -42,10 +46,10 @@
 					margin 0 auto
 					width 250px
 .llamadaClendarioLabel
-	float right
 	background white
-	transition all .5s
-	-webkit-transition all .5s
+	float right
+	transition all .7s
+	-webkit-transition all .7s
 	.botonLabel
 		color rojoClaro
 		height 80px
@@ -63,6 +67,9 @@
 	background rojoLogo
 	font-weight 400
 	height 80px
+	width 100%
+	transition all .5s
+	-webkit-transition all .5s
 	h2
 		color white
 		font-size 21px
@@ -78,6 +85,7 @@
 #mainCheckbox
 	display none
 #mainCheckbox:checked ~ .calendario 
+	margin -80px 0 0 0 
 	width 100%
 #mainCheckbox:checked ~ .llamadaClendarioLabel
 	background none
@@ -85,6 +93,8 @@
 	transform rotateZ(180deg)
 	-ms-transform rotateZ(180deg)
 	-webkit-transform rotateZ(180deg)
+#mainCheckbox:checked ~ .llamadaClendarioTitulo
+	margin-left -100%
 
 
 
