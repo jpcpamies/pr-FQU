@@ -2,6 +2,8 @@
 
 footer
 	background footer
+	display block
+
 	.email
 		display inline-block
 		opacity .4
@@ -29,7 +31,6 @@ footer
 				opacity .3
 				padding 15px 25px 7px 15px
 				width auto
-
 .botonSecciones
 	font-size 0
 	width 100%
@@ -54,6 +55,7 @@ footer
 	.center
 		width 34%	
 .calendario
+	display block
 	float right
 	margin -80px -100% 0 0 
 	overflow hidden
@@ -132,6 +134,30 @@ footer
 				margin 0 0 0 60px
 				text-align left
 				text-transform uppercase
+	.listaDias
+		.event
+			margin 0 auto 20px auto
+			padding 15px 10px
+			position relative
+			width 95%
+			z-index 0
+			.upOuter
+				background gris
+				border-radius 5px
+				height 100%
+				padding 15px 20px
+				width 100%
+
+			.downOuter
+				background black
+				border-radius 0 0 5px 5px
+				.downInner
+					color white
+					p
+						opacity .6
+					
+			#mainEvent
+				display none
 .header
 	height 500px
 	width 100%
@@ -144,8 +170,8 @@ footer
 			background gris
 			height 100%
 			width 100%
-			animation animacion 90s infinite
-			-webkit-animation animacion 90s infinite
+			animation animacion 120s infinite
+			-webkit-animation animacion 120s infinite
 			.heroInner
 				margin -50px 0 0 0 
 				height 250%
@@ -157,6 +183,9 @@ footer
 				transform: skew(0deg, 15deg);
 				-ms-transform: skew(0deg, 15deg);
 				-webkit-transform: skew(0deg, 15deg);
+				transform: scale(1, 2, 3, 4);
+				-ms-transform: scale(1, 2, 3, 4);
+				-webkit-transform: scale(1, 2, 3, 4);
 	.logoOuter
 		position absolute
 		top 0 
@@ -239,6 +268,8 @@ footer
 			width 40%
 			&:first-child
 				margin 0 auto 0 auto
+
+// Acciones al activar el mainCheck				
 #mainCheckbox
 	display none
 #mainCheckbox:checked ~ .calendario 
@@ -257,15 +288,16 @@ footer
 #mainCheckbox:checked ~ .seccionesContenido
 	margin-left -100%
 
+// Animaciones
 @keyframes animacion
 	0%
 		transform translate(-150%, -150%)
 		-ms-transform translate(-150%, -150%)
 		-webkit-transform translate(-150%, -150%)
 	50%
-		transform translate(50%, 20%)
-		-ms-transform translate(50%, 20%)
-		-webkit-transform translate(50%, 20%)
+		transform translate(50%, 10%)
+		-ms-transform translate(50%, 10%)
+		-webkit-transform translate(50%, 10%)
 
 	100%
 		transform translate(-150%, -150%)
