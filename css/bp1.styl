@@ -136,28 +136,175 @@ footer
 				text-transform uppercase
 	.listaDias
 		.event
-			margin 0 auto 20px auto
-			padding 15px 10px
-			position relative
-			width 95%
-			z-index 0
-			.upOuter
-				background gris
-				border-radius 5px
-				height 100%
-				padding 15px 20px
-				width 100%
-
-			.downOuter
-				background black
-				border-radius 0 0 5px 5px
-				.downInner
+			margin-bottom -190px
+			.sectionUp
+				color white
+				margin 20px 10px
+				padding 15px 20px 
+				position relative
+				text-align center
+				.background
+					background grey
+					-webkit-filter brightness(0.7)
+					border-radius 5px
+					bottom 0
+					height 100%
+					left 0
+					position absolute
+					right 0
+					top 0
+					width 100%
+					z-index 1
+					.degradado
+						border-radius 5px
+						width 100%
+						height 100%
+						@css{
+							background: -moz-radial-gradient(center, ellipse cover,  rgba(30,87,153,0) 0%, rgba(0,0,0,1) 100%);
+							background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(30,87,153,0)), color-stop(100%,rgba(0,0,0,1)));
+							background: -webkit-radial-gradient(center, ellipse cover,  rgba(30,87,153,0) 0%,rgba(0,0,0,1) 100%);
+							background: -o-radial-gradient(center, ellipse cover,  rgba(30,87,153,0) 0%,rgba(0,0,0,1) 100%);
+							background: -ms-radial-gradient(center, ellipse cover,  rgba(30,87,153,0) 0%,rgba(0,0,0,1) 100%);
+							background: radial-gradient(ellipse at center,  rgba(30,87,153,0) 0%,rgba(0,0,0,1) 100%);
+							filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#001e5799', endColorstr='#000000',GradientType=1 );
+						}
+				.noBackground
+					padding 0 0 2em 0
+					position relative
+					text-align center
+					text-shadow 1px 1px 1px rgba(black,.5)
+					z-index 3
+					.hora
+						font-weight bold
+						letter-spacing 0px
+						text-align left
+					.logoEvent
+						p
+							padding 0 0 1em 0
+							&:after
+								content disco
+								font-family icono
+								font-size 3em
+					.lloc
+						p
+							color lightgray
+							font-weight bold
+							font-size .8em
+					.titulEvent
+						p
+							font-size 1.2em
+							font-weight normal
+			.mainEvent
+				p
 					color white
+					padding 3em 0 3em 0
+					position relative
+					text-align center
+					text-shadow 1px 1px 1px rgba(black,.5)
+					top -122px
+					z-index 3
+					&:after
+						content menu
+						font-family icono
+			.sectionDown
+				padding 15px 10px
+				position relative
+				top -185px
+				.text
+					background black
+					border-radius 0 0 5px 5px
+					color rgba(white,.7)
+					display none
+					padding 1.7em 1.2em 1.5em 1.2em 
 					p
-						opacity .6
-					
+						line-height 1.5em
+						font-size .9em
+						font-weight 300
 			#mainEvent
 				display none
+		.aleatorioUno
+			.sectionUp
+				.background
+					background verde
+					.degradado
+						display none
+				.noBackground
+					.logoEvent
+						p
+							&:after
+								content happy
+		.aleatorioDos
+			.sectionUp
+				.background
+					background naranja
+					.degradado
+						display none
+				.noBackground
+					.logoEvent
+						p
+							&:after
+								content happy
+		.aleatorioTres
+			.sectionUp
+				.background
+					background granate
+					.degradado
+						display none
+				.noBackground
+					.logoEvent
+						p
+							&:after
+								content happy
+		.aleatorioCuatro
+			.sectionUp
+				.background
+					background morado
+					.degradado
+						display none
+				.noBackground
+					.logoEvent
+						p
+							&:after
+								content happy
+		.baile
+			.sectionUp
+				.background
+					background grey
+					background-image url(../img/eventos/bailar.jpg)
+					background-position 0 
+					background-repeat no-repeat
+					background-size 100% auto
+				.noBackground
+					.logoEvent
+						p
+							&:after
+								content baile
+		.concierto
+			.sectionUp
+				.background
+					background grey
+					background-image url(../img/eventos/guitarra.jpg)
+					background-position 0 
+					background-repeat no-repeat
+					background-size 100% auto
+				.noBackground
+					.logoEvent
+						p
+							&:after
+								content micro
+		.techno
+			.sectionUp
+				.background
+					background grey
+					background-image url(../img/eventos/techno.jpg)
+					background-position 0 
+					background-repeat no-repeat
+					background-size 100% auto
+				.noBackground
+					.logoEvent
+						p
+							&:after
+								content disco
 .header
 	height 500px
 	width 100%
