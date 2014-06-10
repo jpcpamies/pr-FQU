@@ -384,6 +384,126 @@
 			width 40%
 			&:first-child
 				margin 0 auto 0 auto
+	.postPubillaOuter
+		padding 30px 0
+		.postPubilla
+			border-radius 10px
+			box-shadow 0 1px 10px rgba(black,.3)
+			margin 0 16px
+			margin-bottom 20px
+			.postPubillaUp
+				border-radius 10px 10px 0 0 
+				height auto
+				position relative
+				.hero1
+					background-image url(../img/pubilles/pubillaGran1.jpg)
+				.hero2
+					background-image url(../img/pubilles/pubillaGran2.jpg)
+				.hero
+					-webkit-filter: grayscale(1);
+					background-position -2px -80px 
+					background-repeat no-repeat
+					background-size 110% auto
+					border-radius 10px 10px 0 0
+					height 300px
+					width 100%
+				.subHero
+					background rgba(black,.5)
+					height 120px
+					margin -130px 0 0 0 
+					position relative
+					z-index 1
+					.foto
+						display block
+						position relative
+						text-align center
+						top -45px
+						img
+							border-radius 50%
+							box-shadow 0 0 10px rgba(black,.3)
+							height auto
+							width 90px
+					.nombre
+						color white
+						font-style italic
+						letter-spacing .5px
+						margin -40px 0 0 0
+						text-align center
+					.subNombre
+						color white
+						font-size .6em
+						font-style italic
+						letter-spacing 1px
+						padding 2px 0px 20px 0px
+						text-align center
+				.subHeroSalutacions
+					background #ae2716
+					border-radius 5px 5px 0 0 
+					height 120px
+					margin 67px 0 0 0 
+					position relative
+					z-index 1
+					.foto
+						display block
+						position relative
+						text-align center
+						top -45px
+						img
+							border-radius 50%
+							box-shadow 0 0 10px rgba(black,.3)
+							height auto
+							width 90px
+					.nombre
+						color white
+						font-style italic
+						margin -40px 0 0 0
+						text-align center
+					.subNombre
+						color white
+						font-size .6em
+						font-style italic
+						letter-spacing .5px
+						padding 2px 0px 20px 0px
+						text-align center
+			.postPubillaDown
+				background #db321c
+				border-radius 0 0 10px 10px
+				color rgba(white,1)
+				font-size 18px
+				font-weight 300
+				line-height 25px
+				padding 30px 18px 18px 18px
+				position relative
+				p
+					padding 0 0 18px 0
+				.fotoGrande
+					margin 0 0 21px 0
+					img
+						box-shadow 0 2px 6px rgba(black,.3)
+						height auto
+						margin 20px 0 0px -25px
+						width 120%
+				.footer
+					transform scale(2.5, .8)
+					-ms-transform scale(2.5, .8)
+					-webkit-transform scale(2.5, .8)
+					.flechita
+						display block
+						margin 20px 0 8px 0
+						text-align center
+						&:before
+							color rgba(black,.5)
+							content flechaAbajo
+							font-family icono
+							font-size 1.5em
+		#desplegarPost
+		#desplegarPost2
+			display none
+		#desplegarPost2:checked ~ label .footer .flechita 
+		#desplegarPost:checked ~ label .footer .flechita 
+			transform rotateZ(180deg)
+			-ms-transform rotateZ(180deg)
+			-webkit-transform rotateZ(180deg)
 	.pubillasOuter
 		padding 30px 0
 		.pubillasInner
