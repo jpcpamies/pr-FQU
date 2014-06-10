@@ -115,7 +115,7 @@ footer
 				span
 					font-weight 900
 		.detall
-			padding 15px 0 20px 0 
+			padding 15px 0 35px 0 
 			.event
 				border-left 3px solid rojo
 				color rojo
@@ -132,24 +132,45 @@ footer
 				margin 0 0 0 60px
 				text-align left
 				text-transform uppercase
-.ha-header
-	background-image url(../img/hero.jpg)
-	background-position 0 -100px
-	background-repeat repeat-x repeat-y 
-	background-size 90% auto
+.header
 	height 500px
-.ha-header-perspective
-	height 100%
-	position relative
 	width 100%
+	position relative
+	.heroOuter
+		height 100%
+		width 100%
+		overflow hidden
+		.hero
+			background gris
+			height 100%
+			width 100%
+			.heroInner
+				margin -50px 0 0 0 
+				height 250%
+				width 250%
+				background-image url(../img/hero.jpg)
+				background-position 0
+				background-repeat repeat-x repeat-y 
+				background-size 50% auto
+				transform: skew(0deg, 12deg);
+				-ms-transform: skew(0deg, 12deg);
+				-webkit-transform: skew(0deg, 12deg);
 	.logoOuter
-		background rgba(white,.8)
-		padding 25px 0 0 0 
 		position absolute
 		top 0 
-		right 0 
-		bottom 0 
+		right 0
+		bottom 0
 		left 0
+		@css {
+			background: -moz-linear-gradient(left,  rgba(255,255,255,1) 0%, rgba(240,240,240,1) 56%, rgba(229,229,229,0) 100%);
+			background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(255,255,255,1)), color-stop(56%,rgba(240,240,240,1)), color-stop(100%,rgba(229,229,229,0)));
+			background: -webkit-linear-gradient(left,  rgba(255,255,255,1) 0%,rgba(240,240,240,1) 56%,rgba(229,229,229,0) 100%);
+			background: -o-linear-gradient(left,  rgba(255,255,255,1) 0%,rgba(240,240,240,1) 56%,rgba(229,229,229,0) 100%);
+			background: -ms-linear-gradient(left,  rgba(255,255,255,1) 0%,rgba(240,240,240,1) 56%,rgba(229,229,229,0) 100%);
+			background: linear-gradient(to right,  rgba(255,255,255,1) 0%,rgba(240,240,240,1) 56%,rgba(229,229,229,0) 100%);
+			filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#00e5e5e5',GradientType=1 );
+
+		}
 		h1
 			color rgba(black,.8)
 			font-size 24px
@@ -161,6 +182,7 @@ footer
 			span
 				font-weight 700
 		.logoInner
+			padding 25px 0 0 0 
 			figure
 				img
 					display block
