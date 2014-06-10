@@ -1,36 +1,5 @@
 
 
-footer
-	background footer
-	display block
-
-	.email
-		display inline-block
-		opacity .4
-		padding 15px
-		position relative
-		width 100%
-		span
-			display block
-			padding 0 40px 0 0
-			text-align right
-		a
-			color negro		
-			position absolute
-			right 25px
-			top 17px
-			&:after 
-				content email
-				font-family icono
-	.logo
-		display inline-block
-		vertical-align middle
-		figure
-			img 
-				height 4.5rem
-				opacity .3
-				padding 15px 25px 7px 15px
-				width auto
 .botonSecciones
 	font-size 0
 	width 100%
@@ -415,6 +384,60 @@ footer
 			width 40%
 			&:first-child
 				margin 0 auto 0 auto
+	.pubillasOuter
+		padding 30px 0
+		.pubillasInner
+			border-radius 5px
+			color white
+			height 100%
+			margin 0 auto
+			position relative
+			text-shadow 1px 1px 0 rgba(black,.3)
+			width 95%
+			z-index 2
+			@css{
+				background: -moz-radial-gradient(center, ellipse cover,  rgba(30,87,153,0) 0%, rgba(0,0,0,1) 100%);
+				background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(30,87,153,0)), color-stop(100%,rgba(0,0,0,1)));
+				background: -webkit-radial-gradient(center, ellipse cover,  rgba(30,87,153,0) 0%,rgba(0,0,0,1) 100%);
+				background: -o-radial-gradient(center, ellipse cover,  rgba(30,87,153,0) 0%,rgba(0,0,0,1) 100%);
+				background: -ms-radial-gradient(center, ellipse cover,  rgba(30,87,153,0) 0%,rgba(0,0,0,1) 100%);
+				background: radial-gradient(ellipse at center,  rgba(30,87,153,0) 0%,rgba(0,0,0,1) 100%);
+				filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#001e5799', endColorstr='#000000',GradientType=1 );
+			}
+			.caras
+				background rgba(black,.4)
+				overflow-x auto
+				padding 20px 0 20px 0
+				white-space nowrap
+				&::-webkit-scrollbar
+					display none
+				.cara
+					display inline-block
+					margin 0 20px 0 0 
+					text-align center
+					&:first-child
+						padding 0 0 0 20px
+					img
+						box-shadow 0 0 10px rgba(black,.3)
+						border-radius 50%
+						width 90px
+						height auto
+					.nombre
+						color rgba(white,.6)
+						font-size .7em
+						font-weight 400
+						margin 10px 0 0 0 
+						text-shadow 1px 1px 0 rgba(black,.3)
+			.footer
+				height 60px
+				padding 20px 20px 20px 20px
+			.header
+				font-size 21px
+				font-style italic
+				height 60px
+				letter-spacing 1px
+				padding 20px 20px 10px 20px
+				text-transform uppercase
 
 // Acciones al activar el mainCheck				
 #mainCheckbox
