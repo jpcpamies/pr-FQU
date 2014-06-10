@@ -1,4 +1,35 @@
 
+
+footer
+	background footer
+	.email
+		display inline-block
+		opacity .4
+		padding 15px
+		position relative
+		width 100%
+		span
+			display block
+			padding 0 40px 0 0
+			text-align right
+		a
+			color negro		
+			position absolute
+			right 25px
+			top 17px
+			&:after 
+				content email
+				font-family icono
+	.logo
+		display inline-block
+		vertical-align middle
+		figure
+			img 
+				height 4.5rem
+				opacity .3
+				padding 15px 25px 7px 15px
+				width auto
+
 .botonSecciones
 	font-size 0
 	width 100%
@@ -29,10 +60,78 @@
 	width 0%
 	transition all .5s
 	-webkit-transition all .5s
+	.botonera
+		background rojoClaro
+		border-left 5px solid rgba(rojoOscuro,1)
+		border-right 5px solid rgba(rojoOscuro,1)
+		width 100%
+		height auto
+		position relative
+		&:after
+			border-bottom 37px solid transparent
+			border-left 10px solid transparent
+			border-right 8px solid rojoOscuro
+			border-top 37px solid transparent
+			content ''
+			position absolute
+			right 0px
+			top 0
+		ul
+			white-space nowrap
+			overflow-x auto
+			padding 12px 0
+			&::-webkit-scrollbar
+				display none
+			li
+				background rojoOscuro
+				border-radius 50%
+				display inline-block
+				height 50px
+				margin 0 20px 0 0 
+				padding 5px
+				position relative
+				text-align center
+				width 50px
+				&:first-child
+					margin 0 20px 0 20px
+				a
+					color white
+					font-style italic
+					text-decoration none
+					span 
+						font-size .5em
+						left 30%
+						position absolute
+						top 28px
 	.eventoActual
 		background white
 		box-shadow 0 0 50px rgba(black,.5) inset
 		border-top 5px solid rojoLogo
+		.titulo
+			width 90%
+			p
+				margin 10px 0 0 20px
+				text-transform uppercase
+				span
+					font-weight 900
+		.detall
+			padding 15px 0 20px 0 
+			.event
+				border-left 3px solid rojo
+				color rojo
+			.icono
+				float left
+				padding 5px 20px 0 20px
+				&:after
+					content micro
+					font-family icono
+			.lloc
+				color gris
+				font-size 12px
+				font-weight 300
+				margin 0 0 0 60px
+				text-align left
+				text-transform uppercase
 .ha-header
 	background-image url(../img/hero.jpg)
 	background-position 0 -100px
@@ -53,7 +152,7 @@
 		left 0
 		h1
 			color rgba(black,.8)
-			font-size 26px
+			font-size 24px
 			font-weight 400
 			letter-spacing 1px
 			line-height 1.3em
