@@ -31,16 +31,16 @@
 	transition all .5s
 	-webkit-transition all .5s
 	.botonera
-		background rojoClaro
-		border-left 5px solid rgba(rojoOscuro,1)
-		border-right 5px solid rgba(rojoOscuro,1)
+		background negroInterface
+		border-left 5px solid rgba(negroOscuro,1)
+		border-right 5px solid rgba(negroOscuro,1)
 		width 100%
 		height auto
 		position relative
 		&:after
 			border-bottom 37px solid transparent
 			border-left 10px solid transparent
-			border-right 8px solid rojoOscuro
+			border-right 8px solid negroOscuro
 			border-top 37px solid transparent
 			content ''
 			position absolute
@@ -53,7 +53,7 @@
 			&::-webkit-scrollbar
 				display none
 			li
-				background rojoOscuro
+				background verde
 				border-radius 50%
 				display inline-block
 				height 50px
@@ -65,7 +65,7 @@
 				&:first-child
 					margin 0 20px 0 20px
 				a
-					color white
+					color rgba(white,.8)
 					font-style italic
 					text-decoration none
 					span 
@@ -74,9 +74,10 @@
 						position absolute
 						top 28px
 	.eventoActual
-		background rgba(white,.4)
+		background rgba(white,.2)
 		box-shadow 0 0 50px rgba(black,.5) inset
 		border-top 5px solid verde
+		color rgba(white,.8)
 		.titulo
 			width 90%
 			p
@@ -86,17 +87,13 @@
 					font-weight 900
 		.detall
 			padding 15px 0 35px 0 
-			.event
-				border-left 3px solid rojo
-				color rojo
-			.icono
+			.logo
 				float left
 				padding 5px 20px 0 20px
 				&:after
 					content micro
 					font-family icono
-			.lloc
-				color gris
+			.place
 				font-size 12px
 				font-weight 300
 				margin 0 0 0 60px
