@@ -6,7 +6,7 @@
 	-webkit-transition all .5s
 	.boton
 		background negroInterface
-		border-bottom 3px solid rgba(separador2,1)
+		border-bottom 3px solid separador
 		border-right 1px solid separador
 		color verde
 		display inline-block
@@ -22,6 +22,8 @@
 			color white
 	.center
 		width 34%	
+	.right
+		border-right none
 .calendario
 	display block
 	float right
@@ -106,6 +108,7 @@
 			.upOuter
 				background gris
 				border-radius 5px
+				box-shadow 0 0 3px rgba(black,.8)
 				color rgba(white,.9)
 				padding 15px 20px 60px 15px
 				position relative
@@ -145,7 +148,7 @@
 					.time
 						text-align left
 					.event
-						margin 16px 0 0 0 
+						margin 16px 0 0 8px 
 					.logo
 						&:after
 							content disco
@@ -164,12 +167,43 @@
 						line-height 25px
 			#mainEvent
 				display none
+		.aleatorio
+			.upOuter
+				background naranja
+				.detall
+					.logo
+						&:after
+							content happy
+		.ball
+			.upOuter
+				background-image url(../img/eventos/ball.jpg)
+				background-position 0
+				background-repeat no-repeat
+				background-size 100% auto
+				.detall
+					.logo
+						&:after
+							content baile
+		.concierto
+			.upOuter
+				background-image url(../img/eventos/concierto.jpg)
+				background-position 0
+				background-repeat no-repeat
+				background-size 100% auto
+				.detall
+					.logo
+						&:after
+							content micro
 		.techno
 			.upOuter
 				background-image url(../img/eventos/techno.jpg)
 				background-position 0
 				background-repeat no-repeat
 				background-size 100% auto
+				.detall
+					.logo
+						&:after
+							content techno
 .footerOuter
 	background verde
 	display block
@@ -260,7 +294,7 @@
 					margin 0 auto
 					width 220px
 .llamadaClendarioLabel
-	background separador2
+	background black
 	float right
 	transition all .5s
 	-webkit-transition all .5s
@@ -278,14 +312,14 @@
 				font-family icono
 				line-height 80px
 .llamadaClendarioTitulo
-	background rgba(black,.05)
+	background negroInterface2
 	font-weight 400
 	height 80px
 	width 100%
 	transition all .5s
 	-webkit-transition all .5s
 	h2
-		color white
+		color rgba(white,.8)
 		font-size 21px
 		font-style italic
 		letter-spacing 1px
@@ -427,26 +461,27 @@
 	.pubillasOuter
 		padding 30px 0
 		.pubillasInner
-			
+			background negroInterface
 			border-radius 5px
-			color white
+			box-shadow 0 0 3px rgba(black,.8)
+			color rgba(white,.8)
 			height 100%
 			margin 0 auto
 			position relative
 			text-shadow 1px 1px 0 rgba(black,.3)
 			width 95%
 			z-index 2
-			@css{
-				background: -moz-radial-gradient(center, ellipse cover,  rgba(30,87,153,0) 0%, rgba(0,0,0,1) 100%);
-				background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(30,87,153,0)), color-stop(100%,rgba(0,0,0,1)));
-				background: -webkit-radial-gradient(center, ellipse cover,  rgba(30,87,153,0) 0%,rgba(0,0,0,1) 100%);
-				background: -o-radial-gradient(center, ellipse cover,  rgba(30,87,153,0) 0%,rgba(0,0,0,1) 100%);
-				background: -ms-radial-gradient(center, ellipse cover,  rgba(30,87,153,0) 0%,rgba(0,0,0,1) 100%);
-				background: radial-gradient(ellipse at center,  rgba(30,87,153,0) 0%,rgba(0,0,0,1) 100%);
-				filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#001e5799', endColorstr='#000000',GradientType=1 );
-			}
+			// @css{
+			// 	background: -moz-radial-gradient(center, ellipse cover,  rgba(30,87,153,0) 0%, rgba(0,0,0,1) 100%);
+			// 	background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(30,87,153,0)), color-stop(100%,rgba(0,0,0,1)));
+			// 	background: -webkit-radial-gradient(center, ellipse cover,  rgba(30,87,153,0) 0%,rgba(0,0,0,1) 100%);
+			// 	background: -o-radial-gradient(center, ellipse cover,  rgba(30,87,153,0) 0%,rgba(0,0,0,1) 100%);
+			// 	background: -ms-radial-gradient(center, ellipse cover,  rgba(30,87,153,0) 0%,rgba(0,0,0,1) 100%);
+			// 	background: radial-gradient(ellipse at center,  rgba(30,87,153,0) 0%,rgba(0,0,0,1) 100%);
+			// 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#001e5799', endColorstr='#000000',GradientType=1 );
+			// }
 			.caras
-				background rgba(black,.4)
+				background negroOscuro
 				overflow-x auto
 				padding 20px 0 20px 0
 				white-space nowrap
