@@ -776,12 +776,12 @@ background: -moz-linear-gradient(left,  rgba(18,19,20,1) 0%, rgba(18,19,20,1) 39
 /* line 15 : /Users/jordiimac/Documents/FQU/css/bp3.styl */
 
 @media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp3\.styl}line{font-family:\0000315}}
-.calendario .eventoActual .titulo{background:#186d8f;border-radius:5px 5px 0 0;box-shadow:0 -2px 16px rgba(0,0,0,0.8);height:80px;position:absolute;right:28px;top:25px;width:150px;}
+.calendario .eventoActual .titulo{background:#a01157;border-radius:5px 5px 0 0;box-shadow:0 -2px 16px rgba(0,0,0,0.8);height:80px;position:absolute;right:45px;top:25px;width:150px;}
 
 /* line 24 : /Users/jordiimac/Documents/FQU/css/bp3.styl */
 
 @media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp3\.styl}line{font-family:\0000324}}
-.calendario .eventoActual .titulo:after{content:"";border-bottom:37px solid transparent;border-left:75px solid transparent;border-right:75px solid transparent;border-top:15px solid #186d8f;content:'';position:absolute;right:0;left:0;bottom:-51px}
+.calendario .eventoActual .titulo:after{content:"";border-bottom:37px solid transparent;border-left:75px solid transparent;border-right:75px solid transparent;border-top:15px solid #a01157;content:'';position:absolute;right:0;left:0;bottom:-52px}
 
 /* line 35 : /Users/jordiimac/Documents/FQU/css/bp3.styl */
 
