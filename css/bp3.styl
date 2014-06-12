@@ -1,4 +1,60 @@
 
-.inicio
-	max-width 600px
-	margin 0 auto
+
+.botonSecciones
+	margin 100px 0 0 0
+	width 50%
+.calendario
+	margin 0 0 0 0 
+	width 50%
+	.botonera
+		width 50%
+.header
+	height 100px
+	.heroOuter
+		.hero
+			background gris
+			animation animacionTablet 150s infinite
+			-webkit-animation animacionTablet 150s infinite
+			.heroInner
+				margin -40px 0 0 0 
+				background-position 5px 7px
+				background-size 15% auto
+				transform: skew(0deg);
+				-ms-transform: skew(0deg);
+				-webkit-transform: skew(0deg);
+	.logoOuter
+		h1
+			margin -50px 0 0 120px
+			text-align left
+		.logoInner
+			position relative
+			figure
+				position absolute
+				top 8px 
+				left 16px
+				img
+					display block
+					margin 0 auto
+					width 80px
+.llamadaClendarioLabel
+.llamadaClendarioTitulo
+	display none
+.seccionesContenido
+	width 50%
+
+
+// Animaciones
+@keyframes animacionTablet
+	0%
+		transform translate(-110%, -110%)
+		-ms-transform translate(-110%, -110%)
+		-webkit-transform translate(-110%, -110%)
+	50%
+		transform translate(0%, 40%)
+		-ms-transform translate(0%, 40%)
+		-webkit-transform translate(0%, 40%)
+
+	100%
+		transform translate(-110%, -110%)
+		-ms-transform translate(-110%, -110%)
+		-webkit-transform translate(-110%, -110%)
