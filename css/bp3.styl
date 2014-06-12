@@ -1,17 +1,20 @@
 
-
-.botonSecciones
-	float left
-	margin -70px 0 0 0
-	width 50%
 .calendario
+	display none
 	height auto
 	margin 0 0 0 0 
 	width 100%
 	.botonera
 		float right
-		width 50%
+		width 100%
+		ul 
+			text-align center
 	.eventoActual
+		border-top none
+		overflow hidden
+		.detall
+			float right
+			width 50%
 		.titulo
 			background verdeOscuro
 			border-radius 5px 5px 0 0 
@@ -50,8 +53,28 @@
 		position absolute
 		right 0px
 		width 48%
+.contenedor
+	// margin 0 auto
+	max-width 1200px
+.menu
+	background menuLateral
+	bottom 0
+	height 100%
+	left 0 
+	position fixed
+	top 0 
+	width 80px
+	z-index 50
+	.botonSecciones
+		float left
+		margin -162px 0 0 0
+		width 50%
+		position relative
+		z-index 10
 .header
-	height 100px
+	border-bottom 5px solid verde
+	height 85px
+	position fixed
 	.heroOuter
 		.hero
 			background gris
@@ -66,38 +89,42 @@
 				-webkit-transform: skew(0deg);
 	.logoOuter
 		h1
-			margin -50px 0 0 120px
+			line-height 1.2em 
+			font-size 20px
+			margin -55px 0 0 185px
 			text-align left
 		.logoInner
 			position relative
 			figure
 				position absolute
 				top 8px 
-				left 16px
+				left 100px
 				img
 					display block
 					margin 0 auto
-					width 80px
-.llamadaClendarioLabel
-.llamadaClendarioTitulo
+					width 63px
+.llamadaCalendarioLabel
+.llamadaCalendarioTitulo
 	display none
 .seccionesContenido
 	float left
 	width 50%
+	.pubillasOuter
+		display none
 
 
 // Animaciones
 @keyframes animacionTablet
 	0%
-		transform translate(-110%, -110%)
-		-ms-transform translate(-110%, -110%)
-		-webkit-transform translate(-110%, -110%)
+		transform translate(-100%, -100%)
+		-ms-transform translate(-100%, -100%)
+		-webkit-transform translate(-100%, -100%)
 	50%
 		transform translate(0%, 40%)
 		-ms-transform translate(0%, 40%)
 		-webkit-transform translate(0%, 40%)
 
 	100%
-		transform translate(-110%, -110%)
-		-ms-transform translate(-110%, -110%)
-		-webkit-transform translate(-110%, -110%)
+		transform translate(-100%, -100%)
+		-ms-transform translate(-100%, -100%)
+		-webkit-transform translate(-100%, -100%)
