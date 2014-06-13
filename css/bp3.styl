@@ -53,6 +53,7 @@
 				margin 0 0 0 -45px 
 .menu
 	background menuLateral
+	box-shadow 0 -2px 5px rgba(black,.6) inset
 	bottom 0
 	display block
 	height 100%
@@ -61,8 +62,50 @@
 	top 0 
 	width 80px
 	z-index 50
-	.botonSecciones
-		display none
+	ul
+		height 100%
+		text-align center
+		.botonOuter
+			cursor pointer
+			height 14.5%
+			// &:nth-child(even)
+			// 	background red
+			.botonInner
+				position relative
+				text-shadow 0 2px 5px rgba(black,.6)
+				top 75%
+				h3 
+					// background green
+					color rgba(white,.8)
+					font-size .55em
+					position relative
+				.icono
+					&:after
+						bottom 28px
+						display block
+						font-family icomoon
+						font-size 2em
+						left 38%
+						position absolute
+				.comentar
+					&:after
+						content comentar
+				.contactar
+					&:after
+						content email
+				.info
+					&:after
+						content info
+				.patro
+					&:after
+						content sponsor
+				.pubilles
+					&:after
+						content pubillas
+				.salutacions
+					&:after
+						content salutacions
+
 .header
 	border-bottom 5px solid verde
 	height 85px

@@ -89,7 +89,7 @@
 				text-align center
 				text-shadow 1px 1px 0 rgba(black,.8)
 				&:after
-					color white
+					color rgba(white,.8)
 					content menu2
 					font-family icomoon
 					right 16px
@@ -270,6 +270,8 @@
 			img
 				height auto
 				width 110px 
+.menu 
+	display none
 .mnav
 	background negroInterface
 	border 1px solid negroInterface
@@ -583,7 +585,7 @@
 	transform rotateZ(180deg)
 	-ms-transform rotateZ(180deg)
 	-webkit-transform rotateZ(180deg)
-#mainCheckbox:checked ~ .menu
+#mainCheckbox:checked ~ nav
 	display none
 	// margin-left -100%
 #mainCheckbox:checked ~ .llamadaCalendarioTitulo
