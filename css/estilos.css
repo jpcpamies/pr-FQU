@@ -698,12 +698,12 @@ background: -moz-linear-gradient(left,  rgba(18,19,20,1) 0%, rgba(18,19,20,1) 39
 /* line 514 : /Users/jordiimac/Documents/FQU/css/bp1.styl */
 
 @media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp1\.styl}line{font-family:\00003514}}
-#mainCheckbox:checked ~ .llamadaClendarioLabel{background:none}
+#mainCheckbox:checked ~ .llamadaCalendarioLabel{background:none}
 
 /* line 516 : /Users/jordiimac/Documents/FQU/css/bp1.styl */
 
 @media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp1\.styl}line{font-family:\00003516}}
-#mainCheckbox:checked ~ .llamadaClendarioLabel .botonLabel{transform:rotateZ(180deg);-ms-transform:rotateZ(180deg);-webkit-transform:rotateZ(180deg)}
+#mainCheckbox:checked ~ .llamadaCalendarioLabel .botonLabel{transform:rotateZ(180deg);-ms-transform:rotateZ(180deg);-webkit-transform:rotateZ(180deg)}
 
 /* line 520 : /Users/jordiimac/Documents/FQU/css/bp1.styl */
 
@@ -713,7 +713,7 @@ background: -moz-linear-gradient(left,  rgba(18,19,20,1) 0%, rgba(18,19,20,1) 39
 /* line 522 : /Users/jordiimac/Documents/FQU/css/bp1.styl */
 
 @media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp1\.styl}line{font-family:\00003522}}
-#mainCheckbox:checked ~ .llamadaClendarioTitulo{margin-left:-100%}
+#mainCheckbox:checked ~ .llamadaCalendarioTitulo{margin-left:-100%}
 
 /* line 524 : /Users/jordiimac/Documents/FQU/css/bp1.styl */
 
