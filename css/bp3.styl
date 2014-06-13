@@ -16,6 +16,7 @@
 		height 80px
 		position fixed
 		right 0
+		top 80px
 		width 46%
 		z-index 5
 		.detall
@@ -41,6 +42,7 @@
 			position absolute
 			width 5px
 	.tituloOuter
+			display block
 			height 100%
 			margin 0 0 0 -68px
 			position fixed
@@ -130,11 +132,28 @@
 					display block
 					margin 0 auto
 					width 63px
+.llamadaCalendarioLabel
+	display none
+.llamadaCalendarioTitulo 
+	display none
 .seccionesContenido
 	background red
 	margin 0 0 0 80px
 	width 46%
 	display none
+
+// Acciones al activar el mainCheck
+
+#mainCheckbox:checked ~ .calendario 
+	margin 0
+	width 46%
+#mainCheckbox:checked ~ .botonSecciones
+	margin-left 0
+#mainCheckbox:checked ~ .llamadaClendarioTitulo
+	margin-left 0
+#mainCheckbox:checked ~ .seccionesContenido
+	margin-left 0
+
 
 // Animaciones
 @keyframes animacionTablet
