@@ -1,34 +1,27 @@
 
 .calendario
-	display none
-	height auto
-	margin 0 0 0 0 
-	width 100%
+	margin 0
+	width 50%
 	.botonera
-		float right
-		width 100%
-		ul 
-			text-align center
+		border-left 15px solid rgba(negroOscuro,1)
+		border-radius 0 0 0 15px
 	.eventoActual
-		border-top none
-		overflow hidden
 		.detall
-			float right
-			width 50%
+			padding 16px 16px 20px 20px
 		.titulo
 			background verdeOscuro
 			border-radius 5px 5px 0 0 
 			box-shadow 0 -2px 16px rgba(black,.8)
-			height 80px
+			height 70px
 			position absolute 
-			right 45px
-			top 25px
-			width 150px
+			right 17%
+			top 15px
+			width 140px
 			&:after
 				content ""
 				border-bottom 37px solid transparent
-				border-left 75px solid transparent
-				border-right 75px solid transparent
+				border-left 70px solid transparent
+				border-right 70px solid transparent
 				border-top 15px solid verdeOscuro
 				content ''
 				position absolute
@@ -36,25 +29,26 @@
 				left 0
 				bottom -52px
 			p
-				margin 0 0 0 0
-				padding 15px 10px 0px 10px
-				text-transform uppercase
+				color rgba(white,1)
+				font-family Oswald
+				font-size 1.2em
+				font-weight 400
+				left 14px
+				line-height 30px
+				margin 0 
 				position absolute
-				top 3px
-				left 5px
+				text-transform uppercase
+				top 9px
+				transform: scale(1, .9);
+				-ms-transform: scale(1, .9);
+				-webkit-transform: scale(1, .9);
 				span
 					display block
-					font-weight bold
-					transform: scale(1, 1.3);
-					-ms-transform: scale(1, 1.3);
-					-webkit-transform: scale(1, 1.3);
-	.listaDias
-		margin 100px 0 0
-		position absolute
-		right 0px
-		width 48%
+					font-weight 700
+					transform: scale(1, 1.2);
+					-ms-transform: scale(1, 1.2);
+					-webkit-transform: scale(1, 1.2);
 .contenedor
-	// margin 0 auto
 	max-width 1200px
 .menu
 	background menuLateral
@@ -66,11 +60,7 @@
 	width 80px
 	z-index 50
 	.botonSecciones
-		float left
-		margin -162px 0 0 0
-		width 50%
-		position relative
-		z-index 10
+		display none
 .header
 	border-bottom 5px solid verde
 	height 85px
@@ -103,14 +93,8 @@
 					display block
 					margin 0 auto
 					width 63px
-.llamadaCalendarioLabel
-.llamadaCalendarioTitulo
-	display none
 .seccionesContenido
-	float left
-	width 50%
-	.pubillasOuter
-		display none
+	display none
 
 
 // Animaciones
