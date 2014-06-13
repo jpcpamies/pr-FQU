@@ -15,6 +15,7 @@
 		width 100%
 		height auto
 		position relative
+		z-index 5
 		&:after
 			border-bottom 37px solid transparent
 			border-left 10px solid transparent
@@ -52,10 +53,12 @@
 						position absolute
 						top 28px
 	.eventoActual
-		background rgba(white,.2)
+		background grisEventoActual
 		box-shadow 0 0 50px rgba(black,.5) inset
 		border-top 5px solid verde
 		color rgba(white,.8)
+		position relative
+		z-index 5
 		.detall
 			padding 15px 0 35px 0 
 			.logo
@@ -78,8 +81,10 @@
 				span
 					font-weight 900
 	.listaDias
+		position relative
+		z-index 5
 		.event
-			margin 15px auto 20px auto
+			margin 10px auto 20px auto
 			width 95%
 			.upOuter
 				background gris
@@ -180,6 +185,21 @@
 					.logo
 						&:after
 							content techno
+	.timelineOuterbp1
+		display none
+		height 100%
+		left 48%
+		position fixed
+		top 0
+		x-index 0
+		animation timeLine .5s 
+		-webkit-animation timeLine .5s
+
+		.timelineInnerbp1
+			background rgba(white,.8)
+			height 100%
+			position absolute
+			width 5px
 	.tituloOuter
 		display none
 .contenedor
@@ -213,6 +233,8 @@
 				height auto
 				width 110px 
 .menu
+	position relative
+	z-index 5
 	.botonSecciones
 		font-size 0
 		width 100%
@@ -243,6 +265,7 @@
 	overflow hidden
 	width 100%
 	position relative
+	z-index 5
 	.heroOuter
 		height 100%
 		width 100%
@@ -305,6 +328,8 @@
 	float right
 	transition all .5s
 	-webkit-transition all .5s
+	position relative
+	z-index 6
 	.botonLabel
 		color rgba(white,.8)
 		height 80px
@@ -319,12 +344,14 @@
 				font-family icono
 				line-height 80px
 .llamadaCalendarioTitulo
-	background rgba(negroInterface2,.5)
+	background #2a2c2f
 	font-weight 400
 	height 80px
 	width 100%
 	transition all .5s
 	-webkit-transition all .5s
+	position relative
+	z-index 5
 	h2
 		color rgba(white,.8)
 		font-size 21px
@@ -341,6 +368,8 @@
 	width 100%
 	transition all .5s
 	-webkit-transition all .5s
+	position relative
+	z-index 5
 	.patrocinadors
 		padding  0 0 50px 0
 		.uno
@@ -540,6 +569,9 @@
 	margin-left -100%
 #mainCheckbox:checked ~ .seccionesContenido
 	margin-left -100%
+#mainCheckbox:checked ~ .calendario .timelineOuterbp1 
+	display block
+
 
 // Animaciones
 @keyframes animacion
@@ -556,4 +588,12 @@
 		transform translate(-150%, -150%)
 		-ms-transform translate(-150%, -150%)
 		-webkit-transform translate(-150%, -150%)
+
+@keyframes timeLine
+	0%
+		opacity 0
+	90%
+		opacity 0
+	100%
+		opacity 1
 
