@@ -184,7 +184,8 @@
 				.detall
 					.logo
 						&:after
-							content techno
+							content "\e071"
+							font-family icomoon
 	.timelineOuterbp1
 		display none
 		height 100%
@@ -233,7 +234,10 @@
 				height auto
 				width 110px 
 .menu
+	display none
 	background red
+	height auto
+	overflow hidden
 	position relative
 	width 100%
 	z-index 5
@@ -567,7 +571,7 @@
 	-ms-transform rotateZ(180deg)
 	-webkit-transform rotateZ(180deg)
 #mainCheckbox:checked ~ .menu
-	
+	display none
 	// margin-left -100%
 #mainCheckbox:checked ~ .llamadaCalendarioTitulo
 	margin-left -100%
