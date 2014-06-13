@@ -801,17 +801,17 @@ background: -moz-linear-gradient(left,  rgba(18,19,20,1) 0%, rgba(18,19,20,1) 39
 /* line 37 : /Users/jordiimac/Documents/FQU/css/bp3.styl */
 
 @media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp3\.styl}line{font-family:\0000337}}
-.calendario .timelineOuter .timelineInner{background:#92ccfd;height:100vh;left:50%;position:absolute;width:5px}
+.calendario .timelineOuter .timelineInner{background:rgba(255,255,255,0.8);height:100vh;left:50%;position:absolute;width:5px}
 
 /* line 43 : /Users/jordiimac/Documents/FQU/css/bp3.styl */
 
 @media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp3\.styl}line{font-family:\0000343}}
-.calendario .tituloOuter{height:100%;position:fixed;top:15px;width:50%;z-index:5;}
+.calendario .tituloOuter{height:100%;margin:0 0 0 -68px;position:fixed;top:15px;width:50%;z-index:5;}
 
 /* line 50 : /Users/jordiimac/Documents/FQU/css/bp3.styl */
 
 @media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp3\.styl}line{font-family:\0000350}}
-.calendario .tituloOuter .tituloInner{background:#a01157;border-radius:5px 5px 0 0;box-shadow:0 -2px 16px rgba(0,0,0,0.8);height:70px;left:37%;position:relative;width:140px;}
+.calendario .tituloOuter .tituloInner{background:#a01157;border-radius:5px 5px 0 0;box-shadow:0 -2px 16px rgba(0,0,0,0.8);height:70px;left:50%;position:relative;width:140px;}
 
 /* line 58 : /Users/jordiimac/Documents/FQU/css/bp3.styl */
 
