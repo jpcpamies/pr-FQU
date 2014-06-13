@@ -192,8 +192,8 @@
 		position fixed
 		top 0
 		x-index 0
-		animation timeLine .5s 
-		-webkit-animation timeLine .5s
+		animation timeLine .8s 
+		-webkit-animation timeLine .8s
 
 		.timelineInnerbp1
 			background rgba(white,.4)
@@ -233,15 +233,18 @@
 				height auto
 				width 110px 
 .menu
+	background red
 	position relative
+	width 100%
 	z-index 5
+	transition all .5s
+	-webkit-transition all .5s
 	.botonSecciones
 		font-size 0
-		width 100%
 		transition all .5s
 		-webkit-transition all .5s
 		.boton
-			background negroInterface
+			// background negroInterface
 			border-bottom 3px solid separador
 			border-right 1px solid separador
 			color verde
@@ -563,8 +566,9 @@
 	transform rotateZ(180deg)
 	-ms-transform rotateZ(180deg)
 	-webkit-transform rotateZ(180deg)
-#mainCheckbox:checked ~ .botonSecciones
-	margin-left -100%
+#mainCheckbox:checked ~ .menu
+	
+	// margin-left -100%
 #mainCheckbox:checked ~ .llamadaCalendarioTitulo
 	margin-left -100%
 #mainCheckbox:checked ~ .seccionesContenido
