@@ -60,7 +60,7 @@
 		position relative
 		z-index 5
 		.detall
-			padding 15px 0 35px 0 
+			padding 25px 0 30px 0 
 			.logo
 				float left
 				padding 5px 20px 0 20px
@@ -73,13 +73,6 @@
 				margin 0 0 0 60px
 				text-align left
 				text-transform uppercase
-		.titulo
-			width 90%
-			p
-				margin 10px 0 0 20px
-				text-transform uppercase
-				span
-					font-weight 900
 	.listaDias
 		position relative
 		z-index 5
@@ -201,7 +194,51 @@
 			position absolute
 			width 4px
 	.tituloOuter
-		display none
+			display block
+			height 100%
+			position absolute
+			top 435px
+			width 60%
+			z-index 5
+			.tituloInner
+				background verdeOscuro
+				border-radius 5px 5px 0 0 
+				box-shadow 0 -2px 16px rgba(black,.8)
+				height 70px
+				left 50%
+				position relative 
+				width 140px
+				&:after
+					content ""
+					border-bottom 37px solid transparent
+					border-left 70px solid transparent
+					border-right 70px solid transparent
+					border-top 15px solid verdeOscuro
+					content ''
+					position absolute
+					right 0px
+					left 0
+					bottom -52px
+				p
+					color rgba(white,1)
+					font-family Oswald
+					font-size 1.2em
+					font-weight 400
+					left 14px
+					line-height 30px
+					margin 0 
+					position absolute
+					text-transform uppercase
+					top 9px
+					transform: scale(1, .9);
+					-ms-transform: scale(1, .9);
+					-webkit-transform: scale(1, .9);
+					span
+						display block
+						font-weight 700
+						transform: scale(1, 1.2);
+						-ms-transform: scale(1, 1.2);
+						-webkit-transform: scale(1, 1.2);
 .contenedor
 	position relative
 .footerOuter
@@ -233,47 +270,11 @@
 				height auto
 				width 110px 
 .mnav
-	background verde
-	border 1px solid verde
-	color rgba(black,.8)
-	font-size 1em
+	background negroInterface
+	border 1px solid negroInterface
+	color white
 	height 2em
-	position relative
-	width 100%
-// .menu
-// 	display none
-// 	background red
-// 	height auto
-// 	overflow hidden
-// 	position relative
-// 	width 100%
-// 	z-index 5
-// 	transition all .5s
-// 	-webkit-transition all .5s
-// 	.botonSecciones
-// 		font-size 0
-// 		transition all .5s
-// 		-webkit-transition all .5s
-// 		.boton
-// 			// background negroInterface
-// 			border-bottom 3px solid separador
-// 			border-right 1px solid separador
-// 			color verde
-// 			display inline-block
-// 			font-size 14px
-// 			height 52px
-// 			line-height 52px
-// 			text-align center
-// 			text-transform uppercase
-// 			width 33%
-// 			&:hover
-// 				background rgba(#586b72,.01)
-// 				border-bottom none
-// 				color white
-// 		.center
-// 			width 34%	
-// 		.right
-// 			border-right none
+	width 90%
 .header
 	height 500px
 	overflow hidden
@@ -342,6 +343,7 @@
 	float right
 	transition all .5s
 	-webkit-transition all .5s
+	overflow hidden
 	position relative
 	z-index 6
 	.botonLabel
@@ -351,10 +353,13 @@
 		width 40px
 		transition all .5s
 		-webkit-transition all .5s
+		transform rotateZ(0deg)
+		-ms-transform rotateZ(0deg)
+		-webkit-transform rotateZ(0deg)
 		.flecha
 			font-size 1.5em
 			&:after
-				content flechaDerecha
+				content flecha
 				font-family icomoon
 				line-height 80px
 .llamadaCalendarioTitulo
