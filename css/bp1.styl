@@ -74,7 +74,10 @@
 				text-align left
 				text-transform uppercase
 	.listaDias
+		display none
 		position relative
+		animation timeLine 1s 
+		-webkit-animation timeLine 1s
 		z-index 5
 		.event
 			margin 10px auto 20px auto
@@ -185,9 +188,8 @@
 		position fixed
 		top 0
 		x-index 0
-		animation timeLine .6s 
-		-webkit-animation timeLine .6s
-
+		animation timeLineLento 1.5s 
+		-webkit-animation timeLineLento 1.5s
 		.timelineInnerbp1
 			background rgba(white,.4)
 			height 100%
@@ -200,8 +202,8 @@
 		position absolute
 		top 435px
 		width 100%
-		animation timeLine .6s 
-		-webkit-animation timeLine .6s
+		animation timeLine 1s 
+		-webkit-animation timeLine 1s
 		z-index 5
 		.tituloInner
 			background verdeOscuro
@@ -593,6 +595,8 @@
 	display block
 #mainCheckbox:checked ~ .calendario .tituloOuter 
 	display block
+#mainCheckbox:checked ~ .calendario .listaDias 
+	display block
 
 // Animaciones
 @keyframes animacion
@@ -611,6 +615,12 @@
 		-webkit-transform translate(-150%, -150%)
 
 @keyframes timeLine
+	0%
+		opacity 0
+	100%
+		opacity 1
+
+@keyframes timeLineLento
 	0%
 		opacity 0
 	90%
