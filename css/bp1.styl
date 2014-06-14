@@ -185,8 +185,8 @@
 		position fixed
 		top 0
 		x-index 0
-		animation timeLine .8s 
-		-webkit-animation timeLine .8s
+		animation timeLine .6s 
+		-webkit-animation timeLine .6s
 
 		.timelineInnerbp1
 			background rgba(white,.4)
@@ -194,52 +194,55 @@
 			position absolute
 			width 4px
 	.tituloOuter
-			height 100%
-			left 0
-			position absolute
-			top 435px
-			width 100%
-			z-index 5
-			.tituloInner
-				background verdeOscuro
-				border-radius 5px 5px 0 0 
-				box-shadow 0 -2px 16px rgba(black,.8)
-				height 70px
-				left 50%
-				margin 0 0 0 -70px
-				position relative 
-				width 140px
-				&:after
-					content ""
-					border-bottom 37px solid transparent
-					border-left 70px solid transparent
-					border-right 70px solid transparent
-					border-top 15px solid verdeOscuro
-					content ''
-					position absolute
-					right 0px
-					left 0
-					bottom -52px
-				p
-					color rgba(white,1)
-					font-family Oswald
-					font-size 1.2em
-					font-weight 400
-					left 14px
-					line-height 30px
-					margin 0 
-					position absolute
-					text-transform uppercase
-					top 9px
-					transform: scale(1, .9);
-					-ms-transform: scale(1, .9);
-					-webkit-transform: scale(1, .9);
-					span
-						display block
-						font-weight 700
-						transform: scale(1, 1.2);
-						-ms-transform: scale(1, 1.2);
-						-webkit-transform: scale(1, 1.2);
+		display none
+		height 100%
+		left 0
+		position absolute
+		top 435px
+		width 100%
+		animation timeLine .6s 
+		-webkit-animation timeLine .6s
+		z-index 5
+		.tituloInner
+			background verdeOscuro
+			border-radius 5px 5px 0 0 
+			box-shadow 0 -2px 16px rgba(black,.8)
+			height 70px
+			left 50%
+			margin 0 0 0 -70px
+			position relative 
+			width 140px
+			&:after
+				content ""
+				border-bottom 37px solid transparent
+				border-left 70px solid transparent
+				border-right 70px solid transparent
+				border-top 15px solid verdeOscuro
+				content ''
+				position absolute
+				right 0px
+				left 0
+				bottom -52px
+			p
+				color rgba(white,1)
+				font-family Oswald
+				font-size 1.2em
+				font-weight 400
+				left 14px
+				line-height 30px
+				margin 0 
+				position absolute
+				text-transform uppercase
+				top 9px
+				transform: scale(1, .9);
+				-ms-transform: scale(1, .9);
+				-webkit-transform: scale(1, .9);
+				span
+					display block
+					font-weight 700
+					transform: scale(1, 1.2);
+					-ms-transform: scale(1, 1.2);
+					-webkit-transform: scale(1, 1.2);
 .contenedor
 	position relative
 .footerOuter
@@ -272,12 +275,6 @@
 				width 110px 
 .menu 
 	display none
-.mnav
-	background negroInterface
-	border 1px solid negroInterface
-	color white
-	height 2em
-	width 90%
 .header
 	height 500px
 	overflow hidden
@@ -594,7 +591,8 @@
 	margin-left -100%
 #mainCheckbox:checked ~ .calendario .timelineOuterbp1 
 	display block
-
+#mainCheckbox:checked ~ .calendario .tituloOuter 
+	display block
 
 // Animaciones
 @keyframes animacion
