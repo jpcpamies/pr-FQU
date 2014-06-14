@@ -4,7 +4,6 @@
 	display block
 	float right
 	margin -80px -100% 0 0 
-	overflow hidden
 	width 0%
 	transition all .5s
 	-webkit-transition all .5s
@@ -202,8 +201,8 @@
 		position absolute
 		top 435px
 		width 100%
-		animation timeLine 1s 
-		-webkit-animation timeLine 1s
+		animation timeLineLento 1s 
+		-webkit-animation timeLineLento 1s
 		z-index 5
 		.tituloInner
 			background verdeOscuro
@@ -247,46 +246,17 @@
 					-webkit-transform: scale(1, 1.2);
 .contenedor
 	position relative
-.footerOuter
-	background verde
-	display block
-	height auto
-	position relative
-	bottom -25px
-	width 100%
-	.footerInner
-		padding 15px 0 40px 0
-		overflow hidden
-		.contacto
-			float right
-			margin 0 20px 0 0 
-			a
-				color black
-				opacity .65
-				&:after
-					content email
-					display inline-block
-					font-family icomoon
-					margin-left 7px
-		.logo
-			display block
-			margin 0 0 0 20px
-			opacity .65
-			img
-				height auto
-				width 110px 
 .menu 
 	display none
 .header
 	height 500px
 	overflow hidden
-	width 100%
 	position relative
+	width 100%
 	z-index 5
 	.heroOuter
 		height 100%
 		width 100%
-		overflow hidden
 		.hero
 			background gris
 			height 100%
