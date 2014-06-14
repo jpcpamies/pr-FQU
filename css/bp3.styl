@@ -28,7 +28,7 @@
 		left 5px
 		margin 245px 0 0 0 
 		position relative
-		z-index 6
+		z-index 2
 		.event
 			width 88%
 	.timelineOuter
@@ -46,6 +46,7 @@
 		display none
 	.tituloOuter
 			display block
+			height auto
 			left 50%
 			position fixed
 			top 15px
@@ -162,9 +163,10 @@
 	display none
 .seccionesContenido
 	background red
-	margin 0 0 0 80px
-	width 46%
 	display none
+	margin 0 0 0 80px
+	overflow-y auto
+	width 46%
 
 // Acciones al activar el mainCheck
 #mainCheckbox:checked ~ .calendario 
