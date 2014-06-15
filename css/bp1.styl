@@ -267,8 +267,6 @@
 					transform: scale(1, 1.2);
 					-ms-transform: scale(1, 1.2);
 					-webkit-transform: scale(1, 1.2);
-.contenedor
-	position relative
 .menu 
 	display none
 .header
@@ -378,192 +376,45 @@
 			font-size 16px 
 			letter-spacing 0px
 			text-transform lowercase
-.seccionesContenido
-	width 100%
-	transition all .5s
-	-webkit-transition all .5s
+.noCalendario
 	position relative
 	z-index 5
-	.patrocinadors
-		padding  0 0 50px 0
-		.uno
-			display block
-			margin 25px auto 0 auto
-			width 40%
-			&:first-child
-				margin -25PX auto 0 auto
-	.postPubillaOuter
-		padding 20px 10px
-		.postPubilla
-			border-radius 10px
-			box-shadow 0 1px 10px rgba(black,.3)
-			margin-bottom 20px
-			.postPubillaUp
-				border-radius 10px 10px 0 0 
-				height auto
-				position relative
-				.hero1
-					background-image url(../img/pubilles/pubillaGran1.jpg)
-				.hero2
-					background-image url(../img/pubilles/pubillaGran2.jpg)
-				.hero
-					-webkit-filter: grayscale(1);
-					background-position -2px -80px 
-					background-repeat no-repeat
-					background-size 110% auto
-					border-radius 10px 10px 0 0
-					height 300px
-					width 100%
-				.subHero
-					background rgba(black,.5)
-					height 120px
-					margin -130px 0 0 0 
-					position relative
-					z-index 1
-					.foto
-						display block
-						position relative
-						text-align center
-						top -45px
-						img
-							border-radius 50%
-							box-shadow 0 0 10px rgba(black,.3)
-							height auto
-							width 90px
-					.nombre
-						color white
-						font-style italic
-						letter-spacing .5px
-						margin -40px 0 0 0
-						text-align center
-					.subNombre
-						color white
-						font-size .6em
-						font-style italic
-						letter-spacing 1px
-						padding 2px 0px 20px 0px
-						text-align center
-				.subHeroSalutacions
-					background #ae2716
-					border-radius 5px 5px 0 0 
-					height 120px
-					margin 67px 0 0 0 
-					position relative
-					z-index 1
-					.foto
-						display block
-						position relative
-						text-align center
-						top -45px
-						img
-							border-radius 50%
-							box-shadow 0 0 10px rgba(black,.3)
-							height auto
-							width 90px
-					.nombre
-						color white
-						font-style italic
-						margin -40px 0 0 0
-						text-align center
-					.subNombre
-						color white
-						font-size .6em
-						font-style italic
-						letter-spacing .5px
-						padding 2px 0px 20px 0px
-						text-align center
-			.postPubillaDown
-				background #a02228
-				background-image url(../img/senefa.png)
-				background-position 10% 0
-				background-repeat repeat-y
-				background-size 20% auto
-				border-radius 0 0 10px 10px
-				color rgba(white,.8)
-				font-size 18px
-				font-weight 300
-				line-height 25px
-				padding 30px 18px 25px 18px
-				position relative
-				p
-					text-shadow 1px 1px 0 rgba(black,.3)
-					padding 0 0 18px 0
-				span
-					background rgba(black,.5)
-					border-radius 50%
-					display block
-					height 30px
-					line-height 30px
-					margin -5px auto 0 auto
-					text-align center
-					width 30px
-					&:after
-						content menu
-						font-family icomoon
-		#desplegarPost
-		#desplegarPost2
-			display none
-		#desplegarPost2:checked ~ label .footer .flechita 
-		#desplegarPost:checked ~ label .footer .flechita 
-			transform rotateZ(180deg)
-			-ms-transform rotateZ(180deg)
-			-webkit-transform rotateZ(180deg)
-	.pubillasOuter
-		padding 30px 0
-		.pubillasInner
-			background negroInterface
-			border-radius 5px
-			box-shadow 0 0 3px rgba(black,.8)
-			color rgba(white,.8)
-			height 100%
-			margin 0 auto
+.pubillas
+	background white
+	color rgba(black,.7)
+	margin 0 auto
+	h3
+		font-size 24px
+		font-weight 300
+		padding 20px
+		text-align center
+	.pubillOuter
+		font-size 0
+		text-align center
+		.pubilla 
+			// background red
+			display inline-block
+			margin 10px 0
 			position relative
-			text-shadow 1px 1px 0 rgba(black,.3)
-			width 95%
-			z-index 2
-			// @css{
-			// 	background: -moz-radial-gradient(center, ellipse cover,  rgba(30,87,153,0) 0%, rgba(0,0,0,1) 100%);
-			// 	background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(30,87,153,0)), color-stop(100%,rgba(0,0,0,1)));
-			// 	background: -webkit-radial-gradient(center, ellipse cover,  rgba(30,87,153,0) 0%,rgba(0,0,0,1) 100%);
-			// 	background: -o-radial-gradient(center, ellipse cover,  rgba(30,87,153,0) 0%,rgba(0,0,0,1) 100%);
-			// 	background: -ms-radial-gradient(center, ellipse cover,  rgba(30,87,153,0) 0%,rgba(0,0,0,1) 100%);
-			// 	background: radial-gradient(ellipse at center,  rgba(30,87,153,0) 0%,rgba(0,0,0,1) 100%);
-			// 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#001e5799', endColorstr='#000000',GradientType=1 );
-			// }
-			.caras
-				background negroOscuro
-				overflow-x auto
-				padding 20px 0 20px 0
-				white-space nowrap
-				&::-webkit-scrollbar
-					display none
-				.cara
-					display inline-block
-					margin 0 20px 0 0 
-					text-align center
-					&:first-child
-						padding 0 0 0 20px
-					img
-						box-shadow 0 0 10px rgba(black,.3)
-						border-radius 50%
-						width 90px
-						height auto
-					.nombre
-						color rgba(white,.6)
-						font-size .7em
-						font-weight 400
-						margin 10px 0 0 0 
-						text-shadow 1px 1px 0 rgba(black,.3)
-			.footer
-				height 60px
-				padding 20px 20px 20px 20px
-			.header
-				font-size 21px
-				font-style italic
-				height 60px
-				letter-spacing 1px
-				padding 20px 20px 10px 20px
-				text-transform uppercase
+			width 150px
+			figure
+				// background green
+				img
+					border-radius 50%
+					// box-shadow 1px 1px 1px rgba(black,.3)
+					display block
+					margin 0 auto
+					width 100px
+			.detall
+				// background blue
+				font-size 14px
+				font-weight 300
+				margin 12px 0 20px 0 
+				padding 0 5px
+				text-align center
+				.nom
+					font-weight 400
+
 
 // Acciones al activar el mainCheck				
 #mainCheckbox
@@ -584,8 +435,6 @@
 	-ms-transform rotateZ(180deg)
 	-webkit-transform rotateZ(180deg)
 #mainCheckbox:checked ~ .llamadaCalendarioTitulo
-	margin-left -100%
-#mainCheckbox:checked ~ .seccionesContenido
 	margin-left -100%
 
 // Animaciones
