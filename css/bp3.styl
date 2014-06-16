@@ -1,59 +1,89 @@
 
-.calendario
-	margin 0
-	width 46%
-	position relative
-	.botonera
-		border-left 15px solid rgba(negroOscuro,1)
-		// border-radius 0 0 0 15px
-		position fixed
-		right 0
-		top 160px
-		width 46%
-		z-index 6
-	.eventoActual
-		background grisEventoActual
-		height 80px
-		position fixed
-		right 0
-		top 80px
-		width 46%
-		z-index 5
-		.detall
-			padding 16px 16px 20px 20px
-		.titulo
-			display none
-	.listaDias
-		display block
-		left 2px
-		margin 245px 0 0 0 
-		position relative
-		z-index 2
-		.event
-			width 93%
-	.timelineOuter
+
+.contenidos
+	background red
+	bottom 0
+	left 80px
+	position absolute
+	right 0 
+	top 85px
+	.calendario
+		background blue
+		bottom 0
 		height 100%
-		position fixed
-		width 46%
-		x-index 0
-		.timelineInner
-			background rgba(black,.3)
-			height 100vh
-			left 50%
-			position absolute
-			width 4px
-	.timelineOuterbp1
-		display none
-	.tituloOuter
-			display block
-			height auto
-			left 50%
+		left 0
+		margin 0
+		position absolute
+		right 0 
+		top 0
+		width 50%
+		.botonera
+			border-left 15px solid rgba(negroOscuro,1)
+			// border-radius 0 0 0 15px
 			position fixed
-			top 15px
-			width 50%
-			.tituloInner
+			right 0
+			top 160px
+			width 46%
+			z-index 6
+		.eventoActual
+			background grisEventoActual
+			height 80px
+			position fixed
+			right 0
+			top 80px
+			width 46%
+			z-index 5
+			.detall
+				padding 16px 16px 20px 20px
+			.titulo
+				display none
+		.listaDias
+			display block
+			left 0
+			position absolute
+			right 0 
+			bottom 0
+			top 300px
+			z-index 2
+			.event
+				width 93%
+		.timelineOuter
+			height 100%
+			position fixed
+			width 46%
+			x-index 0
+			.timelineInner
+				background rgba(black,.3)
+				height 100vh
 				left 50%
-				margin 0 0 0 -45px 
+				position absolute
+				width 4px
+		.timelineOuterbp1
+			display none
+		.tituloOuter
+				display block
+				height auto
+				left 50%
+				position fixed
+				top 15px
+				width 50%
+				.tituloInner
+					left 50%
+					margin 0 0 0 -45px 
+	.noCalendario
+		display none
+		bottom 0
+		height 100%
+		float right
+		left 0
+		position absolute
+		right 0 
+		top 0
+		width 50%
+		.noCalendarioInner
+			.pubillas
+				.pubillaOuter
+					width 80%
 .menu
 	background menuLateral
 	box-shadow 0 -2px 5px rgba(black,.6) inset
@@ -145,11 +175,8 @@
 	display none
 .llamadaCalendarioTitulo 
 	display none
-.noCalendario
-	float left
-	margin 85px 0 0 80px
-	width 46.2%
-	overflow-y auto
+
+		
 
 
 // Acciones al activar el mainCheck
