@@ -5,7 +5,7 @@
 	position relative
 	.botonera
 		border-left 15px solid rgba(negroOscuro,1)
-		border-radius 0 0 0 15px
+		// border-radius 0 0 0 15px
 		position fixed
 		right 0
 		top 160px
@@ -25,19 +25,19 @@
 			display none
 	.listaDias
 		display block
-		left 5px
+		left 2px
 		margin 245px 0 0 0 
 		position relative
 		z-index 2
 		.event
-			width 88%
+			width 93%
 	.timelineOuter
 		height 100%
 		position fixed
 		width 46%
 		x-index 0
 		.timelineInner
-			background rgba(white,.4)
+			background rgba(black,.3)
 			height 100vh
 			left 50%
 			position absolute
@@ -146,7 +146,11 @@
 .llamadaCalendarioTitulo 
 	display none
 .noCalendario
-	display none
+	float left
+	margin 85px 0 0 80px
+	width 46.2%
+	overflow-y auto
+
 
 // Acciones al activar el mainCheck
 #mainCheckbox:checked ~ .calendario 
