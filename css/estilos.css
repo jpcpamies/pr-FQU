@@ -787,65 +787,115 @@ background: -moz-linear-gradient(left,  rgba(18,19,20,1) 0%, rgba(18,19,20,1) 39
 /* line 596 : /Users/jordiimac/Documents/FQU/css/bp1.styl */
 
 @media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp1\.styl}line{font-family:\00003596}}
+@-moz-keyframes animacion{0%{transform:translate(-150%,-150%);-ms-transform:translate(-150%,-150%);-webkit-transform:translate(-150%,-150%)}
+50%{transform:translate(40%,10%);-ms-transform:translate(40%,10%);-webkit-transform:translate(40%,10%)}
+100%{transform:translate(-150%,-150%);-ms-transform:translate(-150%,-150%);-webkit-transform:translate(-150%,-150%)}
+}
+/* line 596 : /Users/jordiimac/Documents/FQU/css/bp1.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp1\.styl}line{font-family:\00003596}}
+@-webkit-keyframes animacion{0%{transform:translate(-150%,-150%);-ms-transform:translate(-150%,-150%);-webkit-transform:translate(-150%,-150%)}
+50%{transform:translate(40%,10%);-ms-transform:translate(40%,10%);-webkit-transform:translate(40%,10%)}
+100%{transform:translate(-150%,-150%);-ms-transform:translate(-150%,-150%);-webkit-transform:translate(-150%,-150%)}
+}
+/* line 596 : /Users/jordiimac/Documents/FQU/css/bp1.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp1\.styl}line{font-family:\00003596}}
+@-o-keyframes animacion{0%{transform:translate(-150%,-150%);-ms-transform:translate(-150%,-150%);-webkit-transform:translate(-150%,-150%)}
+50%{transform:translate(40%,10%);-ms-transform:translate(40%,10%);-webkit-transform:translate(40%,10%)}
+100%{transform:translate(-150%,-150%);-ms-transform:translate(-150%,-150%);-webkit-transform:translate(-150%,-150%)}
+}
+/* line 596 : /Users/jordiimac/Documents/FQU/css/bp1.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp1\.styl}line{font-family:\00003596}}
+@-ms-keyframes animacion{0%{transform:translate(-150%,-150%);-ms-transform:translate(-150%,-150%);-webkit-transform:translate(-150%,-150%)}
+50%{transform:translate(40%,10%);-ms-transform:translate(40%,10%);-webkit-transform:translate(40%,10%)}
+100%{transform:translate(-150%,-150%);-ms-transform:translate(-150%,-150%);-webkit-transform:translate(-150%,-150%)}
+}
+/* line 596 : /Users/jordiimac/Documents/FQU/css/bp1.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp1\.styl}line{font-family:\00003596}}
+@keyframes animacion{0%{transform:translate(-150%,-150%);-ms-transform:translate(-150%,-150%);-webkit-transform:translate(-150%,-150%)}
+50%{transform:translate(40%,10%);-ms-transform:translate(40%,10%);-webkit-transform:translate(40%,10%)}
+100%{transform:translate(-150%,-150%);-ms-transform:translate(-150%,-150%);-webkit-transform:translate(-150%,-150%)}
+}
+/* line 611 : /Users/jordiimac/Documents/FQU/css/bp1.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp1\.styl}line{font-family:\00003611}}
 @-moz-keyframes timeLine{0%{opacity:0}
 100%{opacity:1}
 }
-/* line 596 : /Users/jordiimac/Documents/FQU/css/bp1.styl */
+/* line 611 : /Users/jordiimac/Documents/FQU/css/bp1.styl */
 
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp1\.styl}line{font-family:\00003596}}
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp1\.styl}line{font-family:\00003611}}
 @-webkit-keyframes timeLine{0%{opacity:0}
 100%{opacity:1}
 }
-/* line 596 : /Users/jordiimac/Documents/FQU/css/bp1.styl */
+/* line 611 : /Users/jordiimac/Documents/FQU/css/bp1.styl */
 
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp1\.styl}line{font-family:\00003596}}
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp1\.styl}line{font-family:\00003611}}
 @-o-keyframes timeLine{0%{opacity:0}
 100%{opacity:1}
 }
-/* line 596 : /Users/jordiimac/Documents/FQU/css/bp1.styl */
+/* line 611 : /Users/jordiimac/Documents/FQU/css/bp1.styl */
 
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp1\.styl}line{font-family:\00003596}}
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp1\.styl}line{font-family:\00003611}}
 @-ms-keyframes timeLine{0%{opacity:0}
 100%{opacity:1}
 }
-/* line 596 : /Users/jordiimac/Documents/FQU/css/bp1.styl */
+/* line 611 : /Users/jordiimac/Documents/FQU/css/bp1.styl */
 
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp1\.styl}line{font-family:\00003596}}
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp1\.styl}line{font-family:\00003611}}
 @keyframes timeLine{0%{opacity:0}
 100%{opacity:1}
 }
-/* line 602 : /Users/jordiimac/Documents/FQU/css/bp1.styl */
+/* line 617 : /Users/jordiimac/Documents/FQU/css/bp1.styl */
 
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp1\.styl}line{font-family:\00003602}}
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp1\.styl}line{font-family:\00003617}}
 @-moz-keyframes timeLineLento{0%{opacity:0}
 90%{opacity:0}
 100%{opacity:1}
+0%{opacity:0}
+90%{opacity:0}
+100%{opacity:1}
 }
-/* line 602 : /Users/jordiimac/Documents/FQU/css/bp1.styl */
+/* line 617 : /Users/jordiimac/Documents/FQU/css/bp1.styl */
 
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp1\.styl}line{font-family:\00003602}}
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp1\.styl}line{font-family:\00003617}}
 @-webkit-keyframes timeLineLento{0%{opacity:0}
 90%{opacity:0}
 100%{opacity:1}
+0%{opacity:0}
+90%{opacity:0}
+100%{opacity:1}
 }
-/* line 602 : /Users/jordiimac/Documents/FQU/css/bp1.styl */
+/* line 617 : /Users/jordiimac/Documents/FQU/css/bp1.styl */
 
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp1\.styl}line{font-family:\00003602}}
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp1\.styl}line{font-family:\00003617}}
 @-o-keyframes timeLineLento{0%{opacity:0}
 90%{opacity:0}
 100%{opacity:1}
-}
-/* line 602 : /Users/jordiimac/Documents/FQU/css/bp1.styl */
-
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp1\.styl}line{font-family:\00003602}}
-@-ms-keyframes timeLineLento{0%{opacity:0}
+0%{opacity:0}
 90%{opacity:0}
 100%{opacity:1}
 }
-/* line 602 : /Users/jordiimac/Documents/FQU/css/bp1.styl */
+/* line 617 : /Users/jordiimac/Documents/FQU/css/bp1.styl */
 
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp1\.styl}line{font-family:\00003602}}
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp1\.styl}line{font-family:\00003617}}
+@-ms-keyframes timeLineLento{0%{opacity:0}
+90%{opacity:0}
+100%{opacity:1}
+0%{opacity:0}
+90%{opacity:0}
+100%{opacity:1}
+}
+/* line 617 : /Users/jordiimac/Documents/FQU/css/bp1.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp1\.styl}line{font-family:\00003617}}
 @keyframes timeLineLento{0%{opacity:0}
+90%{opacity:0}
+100%{opacity:1}
+0%{opacity:0}
 90%{opacity:0}
 100%{opacity:1}
 }

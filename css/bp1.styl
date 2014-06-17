@@ -610,6 +610,21 @@ footer
 
 
 // ANIMACIONES
+@keyframes animacion
+	0%
+		transform translate(-150%, -150%)
+		-ms-transform translate(-150%, -150%)
+		-webkit-transform translate(-150%, -150%)
+	50%
+		transform translate(40%, 10%)
+		-ms-transform translate(40%, 10%)
+		-webkit-transform translate(40%, 10%)
+
+	100%
+		transform translate(-150%, -150%)
+		-ms-transform translate(-150%, -150%)
+		-webkit-transform translate(-150%, -150%)
+
 @keyframes timeLine
 	0%
 		opacity 0
@@ -617,6 +632,14 @@ footer
 		opacity 1
 
 @keyframes timeLineLento
+	0%
+		opacity 0
+	90%
+		opacity 0
+	100%
+		opacity 1
+
+
 	0%
 		opacity 0
 	90%
