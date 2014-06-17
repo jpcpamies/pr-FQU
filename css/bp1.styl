@@ -106,20 +106,8 @@ footer
 					margin 3px 0 0 60px
 					text-align left
 					text-transform uppercase
-		.decoracion
-			.lineaOuter
-				display none
-				position absolute 
-				top 0 
-				bottom 0
-				right 50%
-				z-index 0
-				animation timeLineLento .8s 
-				-webkit-animation timeLineLento .8s
-				.linea
-					width 4px 
-					background verdeLinea
-					height 100vh
+		
+
 			.tituloOuter
 				display none
 				height auto
@@ -472,6 +460,70 @@ footer
 						text-align center
 						.nom
 							font-weight 400
+.decoracion
+	.lineaOuter
+		display none
+		position absolute 
+		top 0 
+		bottom 0
+		right 50%
+		z-index 0
+		animation timeLineLento .8s 
+		-webkit-animation timeLineLento .8s
+		.linea
+			width 4px 
+			background verdeLinea
+			height 100vh
+	.tituloOuter
+		display none
+		height auto
+		left 0
+		position absolute
+		top 435px
+		width 100%
+		animation timeLineLento .8s 
+		-webkit-animation timeLineLento .8s
+		z-index 10
+		.tituloInner
+			background verdeOscuro
+			border-radius 5px 5px 0 0 
+			box-shadow 0 -2px 16px rgba(black,.8)
+			height 70px
+			left 50%
+			margin 0 0 0 -73px
+			position relative 
+			width 140px
+			&:after
+				content ""
+				border-bottom 37px solid transparent
+				border-left 70px solid transparent
+				border-right 70px solid transparent
+				border-top 15px solid verdeOscuro
+				content ''
+				position absolute
+				right 0px
+				left 0
+				bottom -52px
+			p
+				color rgba(white,1)
+				font-family Oswald
+				font-size 1.2em
+				font-weight 400
+				left 14px
+				line-height 30px
+				margin 0 
+				position absolute
+				text-transform uppercase
+				top 9px
+				transform: scale(1, .9);
+				-ms-transform: scale(1, .9);
+				-webkit-transform: scale(1, .9);
+				span
+					display block
+					font-weight 700
+					transform: scale(1, 1.2);
+					-ms-transform: scale(1, 1.2);
+					-webkit-transform: scale(1, 1.2);
 .header
 	height 500px
 	overflow hidden
@@ -581,6 +633,7 @@ footer
 			text-transform lowercase
 .menu
 	display none
+
 .wraper
 	overflow hidden
 
@@ -595,9 +648,9 @@ footer
 	margin-left -100%
 #llamadaCalendario:checked ~ .contenidos .calendario .listaDias 
 	display block
-#llamadaCalendario:checked ~ .contenidos .calendario .decoracion .lineaOuter
+#llamadaCalendario:checked ~ .decoracion .lineaOuter
 	display block
-#llamadaCalendario:checked ~ .contenidos .calendario .tituloOuter 
+#llamadaCalendario:checked ~ .decoracion .tituloOuter 
 	display block
 
 #llamadaCalendario:checked ~ .llamadaLabel
