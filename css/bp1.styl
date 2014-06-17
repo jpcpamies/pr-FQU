@@ -86,15 +86,15 @@ footer
 					display block
 					margin 0 auto
 					width 220px
-.llamadaCalendarioLabel
+.llamadaLabel
 	background verde
-	// float right
+	float right
 	transition all .5s
 	-webkit-transition all .5s
 	overflow hidden
 	position relative
 	z-index 6
-	.botonLabel
+	.boton
 		color texto
 		height 80px
 		text-align center
@@ -110,7 +110,7 @@ footer
 				content flecha
 				font-family icomoon
 				line-height 80px
-.llamadaCalendarioTitulo
+.llamadaTitulo
 	background negroInterface3
 	font-weight 400
 	height 80px
@@ -328,3 +328,10 @@ footer
 						.nom
 							font-weight 400
 
+// Acciones CHECKBOX
+#llamadaCalendario
+	display none
+#llamadaCalendario:checked ~ .llamadaLabel .boton 
+	transform rotateZ(180deg)
+	-ms-transform rotateZ(180deg)
+	-webkit-transform rotateZ(180deg)
