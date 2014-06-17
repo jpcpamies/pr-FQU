@@ -1,148 +1,15 @@
 
 
+footer
+.llamadaLabel
+.llamadaTitulo
+	display none
 .contenidos
-	background red
-	bottom 0
-	left 80px
-	position absolute
-	right 0 
-	top 85px
-	.calendario
-		background blue
-		bottom 0
-		height 100%
-		left 0
-		margin 0
-		position absolute
-		right 0 
-		top 0
-		width 50%
-		.botonera
-			border-left 15px solid rgba(negroOscuro,1)
-			// border-radius 0 0 0 15px
-			position fixed
-			right 0
-			top 160px
-			width 46%
-			z-index 6
-		.eventoActual
-			background grisEventoActual
-			height 80px
-			position fixed
-			right 0
-			top 80px
-			width 46%
-			z-index 5
-			.detall
-				padding 16px 16px 20px 20px
-			.titulo
-				display none
-		.listaDias
-			display block
-			left 0
-			position absolute
-			right 0 
-			bottom 0
-			top 300px
-			z-index 2
-			.event
-				width 93%
-		.timelineOuter
-			height 100%
-			position fixed
-			width 46%
-			x-index 0
-			.timelineInner
-				background rgba(black,.3)
-				height 100vh
-				left 50%
-				position absolute
-				width 4px
-		.timelineOuterbp1
-			display none
-		.tituloOuter
-				display block
-				height auto
-				left 50%
-				position fixed
-				top 15px
-				width 50%
-				.tituloInner
-					left 50%
-					margin 0 0 0 -45px 
-	.noCalendario
-		display none
-		bottom 0
-		height 100%
-		float right
-		left 0
-		position absolute
-		right 0 
-		top 0
-		width 50%
-		.noCalendarioInner
-			.pubillas
-				.pubillaOuter
-					width 80%
-.menu
-	background menuLateral
-	box-shadow 0 -2px 5px rgba(black,.6) inset
-	bottom 0
-	display block
-	height 100%
-	left 0 
-	margin 85px 0 0 0 
-	position fixed
-	top 0 
-	width 80px
-	z-index 50
-	ul
-		color rgba(white,.8)
-		height 100%
-		text-align center
-		position relative
-		.botonOuter
-			cursor pointer
-			height 80px
-			.botonInner
-				position relative
-				text-shadow 0 2px 5px rgba(black,.6)
-				width 100%
-				h3 
-					bottom 28px
-					font-size .55em
-					position relative
-				.icono
-					&:after
-						bottom 24px
-						display block
-						font-family icomoon
-						font-size 2em
-						left 38%
-						position absolute
-				.contactar
-					&:after
-						content email
-				.info
-					&:after
-						content info
-				.patro
-					color verde
-					&:after
-						content colaboradores
-				.pubilles
-					&:after
-						content pubillas
-			.top
-				margin 85px 0 0 0 
-			.bottom
-				bottom 165px
-				position absolute
+	display none
 .header
 	border-bottom 5px solid verde
 	height 85px
 	position fixed
-	z-index 3
 	.heroOuter
 		.hero
 			background gris
@@ -171,40 +38,3 @@
 					display block
 					margin 0 auto
 					width 60px
-.llamadaCalendarioLabel
-	display none
-.llamadaCalendarioTitulo 
-	display none
-
-		
-
-
-// Acciones al activar el mainCheck
-#mainCheckbox:checked ~ .calendario 
-	margin 0
-	width 46%
-#mainCheckbox:checked ~ .botonSecciones
-	margin-left 0
-#mainCheckbox:checked ~ .llamadaClendarioTitulo
-	margin-left 0
-#mainCheckbox:checked ~ .seccionesContenido
-	margin-left 0
-#mainCheckbox:checked ~ .calendario .timelineOuterbp1 
-	display none
-
-
-// Animaciones
-@keyframes animacionTablet
-	0%
-		transform translate(-100%, -100%)
-		-ms-transform translate(-100%, -100%)
-		-webkit-transform translate(-100%, -100%)
-	50%
-		transform translate(0%, 40%)
-		-ms-transform translate(0%, 40%)
-		-webkit-transform translate(0%, 40%)
-
-	100%
-		transform translate(-100%, -100%)
-		-ms-transform translate(-100%, -100%)
-		-webkit-transform translate(-100%, -100%)
