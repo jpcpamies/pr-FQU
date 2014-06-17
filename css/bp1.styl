@@ -219,7 +219,7 @@ footer
 								content techno
 		.tituloOuter
 			display none
-			height 100%
+			height auto
 			left 0
 			position absolute
 			top 435px
@@ -284,6 +284,42 @@ footer
 	.noCalendario
 		position relative
 		z-index 5
+		.colaboradors
+			background white
+			color rgba(black,.7)
+			h3
+				font-size 24px
+				font-weight 300
+				padding 20px
+				text-align center
+			.logoOuter
+				padding 0 20px 20px 20px 
+				text-align center
+				.logoInner
+					// background red
+					display inline-block
+					padding 15px
+					vertical-align top
+					width 60%
+					a
+						color rgba(black,.2)
+					img
+						width 100%
+					.add
+						height 100px
+						width 100px
+						p
+							font-size 16px
+							font-weight 400
+							margin -10px auto 0 auto
+							text-align center
+							width 150px
+						&:before
+							color rgba(black,.1)
+							content add
+							font-family icomoon
+							font-size 150px
+							// text-shadow 1px 1px 1px rgba(black,.1)
 		.informacion
 			background negroInterface3
 			position relative
@@ -400,42 +436,6 @@ footer
 										margin 0 0 30px 0
 						&:last-child
 							border-bottom none
-		.colaboradors
-			background white
-			color rgba(black,.7)
-			h3
-				font-size 24px
-				font-weight 300
-				padding 20px
-				text-align center
-			.logoOuter
-				padding 0 20px 20px 20px 
-				text-align center
-				.logoInner
-					// background red
-					display inline-block
-					padding 15px
-					vertical-align top
-					width 60%
-					a
-						color rgba(black,.2)
-					img
-						width 100%
-					.add
-						height 100px
-						width 100px
-						p
-							font-size 16px
-							font-weight 400
-							margin -10px auto 0 auto
-							text-align center
-							width 150px
-						&:before
-							color rgba(black,.1)
-							content add
-							font-family icomoon
-							font-size 150px
-							// text-shadow 1px 1px 1px rgba(black,.1)
 		.pubillas
 			background white
 			color rgba(black,.7)
@@ -591,7 +591,6 @@ footer
 #llamadaCalendario:checked ~ .calendario 
 	margin -80px 0 0 0 
 #llamadaCalendario:checked ~ .contenidos 
-	// Esto hace que al salir del canvas no tenga altura
 	margin-left -100%
 #llamadaCalendario:checked ~ .contenidos .calendario .listaDias 
 	display block

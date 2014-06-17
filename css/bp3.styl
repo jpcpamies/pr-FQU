@@ -4,7 +4,6 @@ footer
 .contenidos
 	bottom 0 
 	left 0
-	overflow hidden
 	position absolute
 	right 0
 	top 85px
@@ -27,8 +26,26 @@ footer
 		.listaDias
 			display block
 			.event
-				margin-left 13px
+				margin-left 14px
 				width 94%
+		.timelineOuter
+			height 100%
+			position fixed
+			right 207px
+			x-index 0
+			.timelineInner
+				background rgba(black,.3)
+				height 100vh
+				left 50%
+				position absolute
+				width 4px
+		.tituloOuter
+			display block
+			height auto
+			position absolute
+			top -50px
+			left 8px
+			z-index 6
 .header
 	border-bottom 5px solid verde
 	height 85px
@@ -118,7 +135,16 @@ footer
 
 
 // Acciones CHECKBOX
-
+#llamadaCalendario
+	display none
+#llamadaCalendario:checked ~ .calendario 
+	margin 0 
+#llamadaCalendario:checked ~ .contenidos 
+	margin 0
+#llamadaCalendario:checked ~ .contenidos .calendario .listaDias 
+	display block
+#llamadaCalendario:checked ~ .contenidos .calendario .tituloOuter 
+	display block
 
 
 // ANIMACIONES
