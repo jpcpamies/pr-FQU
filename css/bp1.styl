@@ -1,13 +1,14 @@
 
 footer	
-	background rgba(verde,.8)
-	color texto
+	background verdeFooter
+	color white
 	overflow hidden
 	padding 20px
+	position relative
+	z-index 5
 	img
 		float left
 		height 50px
-		opacity .8
 		vertical-align middle
 		width auto
 	.right
@@ -26,10 +27,260 @@ footer
 				font-family icomoon
 				vertical-align bottom
 .contenidos
+	display block
 	margin-left 0
 	width 100%
 	transition all .5s
 	-webkit-transition all .5s
+	.calendario
+		display block
+		float right
+		margin -80px -100% 0 0 
+		overflow hidden
+		width 100%
+		transition all .5s
+		-webkit-transition all .5s
+		.botonera
+			background negroInterface
+			border-left 5px solid rgba(negroOscuro,1)
+			border-right 5px solid rgba(negroOscuro,1)
+			width 100%
+			height auto
+			position relative
+			z-index 6
+			&:after
+				border-bottom 37px solid transparent
+				border-left 10px solid transparent
+				border-right 8px solid negroOscuro
+				border-top 37px solid transparent
+				content ''
+				position absolute
+				right 0px
+				top 0
+			ul
+				white-space nowrap
+				overflow-x auto
+				padding 12px 0
+				&::-webkit-scrollbar
+					display none
+				li
+					background verde
+					border-radius 50%
+					display inline-block
+					height 50px
+					margin 0 20px 0 0 
+					padding 5px
+					position relative
+					text-align center
+					width 50px
+					&:first-child
+						margin 0 20px 0 20px
+					a
+						color texto
+						font-style italic
+						text-decoration none
+						span 
+							font-size .5em
+							left 30%
+							position absolute
+							top 28px
+		.eventoActual
+			background grisEventoActual
+			box-shadow 0 0 50px rgba(black,.5) inset
+			border-top 5px solid verde
+			color texto
+			position relative
+			z-index 5
+			.detall
+				font-weight 400
+				padding 25px 0 30px 0 
+				.logo
+					float left
+					padding 5px 20px 0 20px
+					&:after
+						content micro
+						font-family icomoon
+				.place
+					color rgba(white,.5)
+					font-size 12px
+					margin 3px 0 0 60px
+					text-align left
+					text-transform uppercase
+		.listaDias
+			display none
+			position relative
+			animation timeLine 1s 
+			-webkit-animation timeLine 1s
+			z-index 5
+			.event
+				font-weight 400
+				margin 10px auto 20px auto
+				position relative
+				width 95%
+				.upOuter
+					background gris
+					border-radius 5px
+					box-shadow 0 0 3px rgba(black,.8)
+					color rgba(white,.9)
+					padding 15px 20px 16px 15px
+					position relative
+					text-align center
+					text-shadow 1px 1px 0 rgba(black,.8)
+					&:after
+						color texto
+						content menu2
+						font-family icomoon
+						right 16px
+						position absolute
+						top 16px
+					.degradado
+						border-radius 5px
+						bottom 0 
+						left 0
+						position absolute
+						right 0
+						top 0
+						z-index 0
+						@css {
+							background: -moz-radial-gradient(center, ellipse cover,  rgba(0,0,0,0) 0%, rgba(0,0,0,0.7) 99%, rgba(0,0,0,0.7) 100%);
+							background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(0,0,0,0)), color-stop(99%,rgba(0,0,0,0.7)), color-stop(100%,rgba(0,0,0,0.7)));
+							background: -webkit-radial-gradient(center, ellipse cover,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.7) 99%,rgba(0,0,0,0.7) 100%);
+							background: -o-radial-gradient(center, ellipse cover,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.7) 99%,rgba(0,0,0,0.7) 100%);
+							background: -ms-radial-gradient(center, ellipse cover,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.7) 99%,rgba(0,0,0,0.7) 100%);
+							background: radial-gradient(ellipse at center,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.7) 99%,rgba(0,0,0,0.7) 100%);
+							filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#b3000000',GradientType=1 );
+						}
+					.detall
+						position relative
+						z-index 1
+						.place
+							color texto
+							font-size 12px
+							text-transform uppercase
+						.time
+							text-align left
+						.event
+							margin 16px auto 8px auto
+						.logo
+							&:after
+								content disco
+								font-family icomoon
+								font-size 3em
+				.downOuter
+					background negroOscuro
+					border-radius 0 0 5px 5px
+					margin -10px 0 0 0 
+					.downInner
+						margin 0 auto
+						padding 30px 12px 18px 12px
+						p
+							color rgba(white,.6)
+							font-size 18px
+							line-height 25px
+							margin 0 0 18px 0
+				#mainEvent
+					display none
+			.aleatorio
+				.upOuter
+					background naranja
+					.detall
+						.logo
+							&:after
+								content happy
+			.ball
+				.upOuter
+					background-image url(../img/eventos/ball.jpg)
+					background-position 0
+					background-repeat no-repeat
+					background-size 100% auto
+					.detall
+						.logo
+							&:after
+								content baile
+			.concierto
+				.upOuter
+					background-image url(../img/eventos/concierto.jpg)
+					background-position 0
+					background-repeat no-repeat
+					background-size 100% auto
+					.detall
+						.logo
+							&:after
+								content micro
+			.techno
+				.upOuter
+					background-image url(../img/eventos/techno.jpg)
+					background-position 0
+					background-repeat no-repeat
+					background-size 100% auto
+					.detall
+						.logo
+							&:after
+								content techno
+		.timelineOuterbp1
+			display none
+			height 100%
+			left 49%
+			position fixed
+			top 0
+			x-index 0
+			animation timeLineLento 1.5s 
+			-webkit-animation timeLineLento 1.5s
+			.timelineInnerbp1
+				background rgba(white,.4)
+				height 100%
+				position absolute
+				width 4px
+		.tituloOuter
+			display none
+			height 100%
+			left 0
+			position absolute
+			top 435px
+			width 100%
+			animation timeLineLento 1s 
+			-webkit-animation timeLineLento 1s
+			z-index 5
+			.tituloInner
+				background verdeOscuro
+				border-radius 5px 5px 0 0 
+				box-shadow 0 -2px 16px rgba(black,.8)
+				height 70px
+				left 50%
+				margin 0 0 0 -73px
+				position relative 
+				width 140px
+				&:after
+					content ""
+					border-bottom 37px solid transparent
+					border-left 70px solid transparent
+					border-right 70px solid transparent
+					border-top 15px solid verdeOscuro
+					content ''
+					position absolute
+					right 0px
+					left 0
+					bottom -52px
+				p
+					color rgba(white,1)
+					font-family Oswald
+					font-size 1.2em
+					font-weight 400
+					left 14px
+					line-height 30px
+					margin 0 
+					position absolute
+					text-transform uppercase
+					top 9px
+					transform: scale(1, .9);
+					-ms-transform: scale(1, .9);
+					-webkit-transform: scale(1, .9);
+					span
+						display block
+						font-weight 700
+						transform: scale(1, 1.2);
+						-ms-transform: scale(1, 1.2);
+						-webkit-transform: scale(1, 1.2);
 	.noCalendario
 		position relative
 		z-index 5
@@ -331,11 +582,40 @@ footer
 // Acciones CHECKBOX
 #llamadaCalendario
 	display none
+#llamadaCalendario:checked ~ footer
+	width 100%
+#llamadaCalendario:checked ~ .calendario 
+	margin -80px 0 0 0 
+#llamadaCalendario:checked ~ .contenidos .calendario .listaDias 
+	display block
+#llamadaCalendario:checked ~ .contenidos .calendario .timelineOuterbp1 
+	display block
+#llamadaCalendario:checked ~ .contenidos .calendario .tituloOuter 
+	display block
+#llamadaCalendario:checked ~ .contenidos 
+	// Esto hace que al salir del canvas no tenga altura
+	margin-left -100%
+#llamadaCalendario:checked ~ .llamadaLabel
+	background none
 #llamadaCalendario:checked ~ .llamadaLabel .boton 
 	transform rotateZ(180deg)
 	-ms-transform rotateZ(180deg)
 	-webkit-transform rotateZ(180deg)
-#llamadaCalendario:checked ~ .contenidos 
-	margin-left -100%
 #llamadaCalendario:checked ~ .llamadaTitulo
 	margin-left -100%
+
+
+// ANIMACIONES
+@keyframes timeLine
+	0%
+		opacity 0
+	100%
+		opacity 1
+
+@keyframes timeLineLento
+	0%
+		opacity 0
+	90%
+		opacity 0
+	100%
+		opacity 1
