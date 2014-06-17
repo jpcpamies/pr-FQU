@@ -227,7 +227,7 @@ footer
 			animation timeLineLento 1.5s 
 			-webkit-animation timeLineLento 1.5s
 			.timelineInnerbp1
-				background rgba(white,.4)
+				background rgba(black,.2)
 				height 100%
 				position absolute
 				width 4px
@@ -458,7 +458,7 @@ footer
 					width 150px
 					img
 						border-radius 50%
-						box-shadow 1px 1px 3px rgba(black,.3)
+						box-shadow 0 0 px rgba(black,.3)
 						display block
 						margin 0 auto
 						width 100px
@@ -586,15 +586,16 @@ footer
 	width 100%
 #llamadaCalendario:checked ~ .calendario 
 	margin -80px 0 0 0 
+#llamadaCalendario:checked ~ .contenidos 
+	// Esto hace que al salir del canvas no tenga altura
+	margin-left -100%
 #llamadaCalendario:checked ~ .contenidos .calendario .listaDias 
 	display block
 #llamadaCalendario:checked ~ .contenidos .calendario .timelineOuterbp1 
 	display block
 #llamadaCalendario:checked ~ .contenidos .calendario .tituloOuter 
 	display block
-#llamadaCalendario:checked ~ .contenidos 
-	// Esto hace que al salir del canvas no tenga altura
-	margin-left -100%
+
 #llamadaCalendario:checked ~ .llamadaLabel
 	background none
 #llamadaCalendario:checked ~ .llamadaLabel .boton 
