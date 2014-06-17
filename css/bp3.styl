@@ -12,6 +12,7 @@ footer
 		bottom 0 
 		left 0
 		margin 0 420px 0 80px 
+		overflow-y auto
 		position absolute 
 		right 0
 		top 0
@@ -19,33 +20,30 @@ footer
 		bottom 0
 		float right
 		margin 0
+		overflow-y auto
 		position absolute
 		right 0 
 		top -5px
 		width 420px
+		.noListaDias
+			position fixed
+			z-index 10
+			.decoracion
+				.lineaOuter 
+					display none
+				.tituloOuter
+					animation none
+					-webkit-animation none
+					display block
+					position absolute 
+					top -65px
+					left -160px
 		.listaDias
 			display block
+			overflow-y auto
 			.event
 				margin-left 14px
 				width 94%
-		.timelineOuter
-			height 100%
-			position fixed
-			right 207px
-			x-index 0
-			.timelineInner
-				background rgba(black,.3)
-				height 100vh
-				left 50%
-				position absolute
-				width 4px
-		.tituloOuter
-			display block
-			height auto
-			position absolute
-			top -50px
-			left 8px
-			z-index 6
 .header
 	border-bottom 5px solid verde
 	height 85px
@@ -53,6 +51,7 @@ footer
 	top 0
 	right 0
 	left 0
+	z-index 0
 	.heroOuter
 		.hero
 			background gris
@@ -143,6 +142,8 @@ footer
 	margin 0
 #llamadaCalendario:checked ~ .contenidos .calendario .listaDias 
 	display block
+#llamadaCalendario:checked ~ .contenidos .calendario .decoracion .lineaOuter
+	display none
 #llamadaCalendario:checked ~ .contenidos .calendario .tituloOuter 
 	display block
 
