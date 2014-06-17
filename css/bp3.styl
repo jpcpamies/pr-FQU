@@ -2,12 +2,35 @@
 footer
 	display none
 .contenidos
-	display none
+	bottom 0 
+	left 0
+	overflow hidden
+	position absolute
+	right 0
+	top 85px
+	width 100%
+	.contLeft
+		bottom 0 
+		left 0
+		margin 0 480px 0 80px 
+		position absolute 
+		right 0
+		top 0
+	.contRight
+		bottom 0
+		float right
+		margin 0
+		position absolute
+		right 0 
+		top -5px
+		width 480px
 .header
-	opacity .3
 	border-bottom 5px solid verde
 	height 85px
 	position absolute
+	top 0
+	right 0
+	left 0
 	.heroOuter
 		.hero
 			background gris
@@ -90,5 +113,21 @@ footer
 
 
 // Acciones CHECKBOX
-#llamadaCalendario:checked ~ .calendario 
-	margin 0
+
+
+
+// ANIMACIONES
+@keyframes animacionTablet
+	0%
+		transform translate(-100%, -100%)
+		-ms-transform translate(-100%, -100%)
+		-webkit-transform translate(-100%, -100%)
+	50%
+		transform translate(0%, 40%)
+		-ms-transform translate(0%, 40%)
+		-webkit-transform translate(0%, 40%)
+
+	100%
+		transform translate(-100%, -100%)
+		-ms-transform translate(-100%, -100%)
+		-webkit-transform translate(-100%, -100%)
