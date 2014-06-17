@@ -11,9 +11,9 @@ footer
 	.noCalendario
 		bottom 0 
 		left 0
-		margin 0 420px 0 80px 
+		margin 85px 420px 0 80px 
 		overflow-y auto
-		position absolute 
+		position fixed 
 		right 0
 		top 0
 	.calendario
@@ -21,7 +21,7 @@ footer
 		float right
 		margin 0
 		overflow-y auto
-		position absolute
+		position fixed
 		right 0 
 		top -5px
 		width 420px
@@ -41,16 +41,19 @@ footer
 					position absolute 
 					top -65px
 					left 10px
-					z-index 20
+					z-index 26
 		.listaDias
 			display block
+			margin 275px 0 100px 0
 			.event
 				margin-left 14px
 				width 94%
+				position relative
+				z-index 0
 .header
 	border-bottom 5px solid verde
 	height 85px
-	position absolute
+	position fixed
 	top 0
 	right 0
 	left 0
@@ -91,7 +94,7 @@ footer
 	bottom 0
 	display block
 	left 0 
-	position absolute
+	position fixed
 	top 85px 
 	width 80px
 	ul
