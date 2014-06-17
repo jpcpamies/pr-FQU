@@ -615,7 +615,7 @@ background: -moz-radial-gradient(center, ellipse cover,  rgba(0,0,0,0) 0%, rgba(
 /* line 451 : /Users/jordiimac/Documents/FQU/css/bp1.styl */
 
 @media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp1\.styl}line{font-family:\00003451}}
-.contenidos .noCalendario .pubillas .pubillaOuter .pubillaInner img{border-radius:50%;box-shadow:0 0 px rgba(0,0,0,0.3);display:block;margin:0 auto;width:100px}
+.contenidos .noCalendario .pubillas .pubillaOuter .pubillaInner img{border-radius:50%;box-shadow:0 0 3px rgba(0,0,0,0.3);display:block;margin:0 auto;width:100px}
 
 /* line 457 : /Users/jordiimac/Documents/FQU/css/bp1.styl */
 
