@@ -702,7 +702,7 @@ background: -moz-linear-gradient(top,  rgba(247,247,247,0) 0%, rgba(175,175,175,
 /* line 516 : /Users/jordiimac/Documents/FQU/css/bp1.styl */
 
 @media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp1\.styl}line{font-family:\00003516}}
-.decoracion .lineaOuter .linea{width:4px;background:#b3d494;height:100vh}
+.decoracion .lineaOuter .linea{width:4px;background:#646669;height:100vh}
 
 /* line 520 : /Users/jordiimac/Documents/FQU/css/bp1.styl */
 
@@ -1061,91 +1061,75 @@ background: -moz-linear-gradient(left,  rgba(18,19,20,1) 0%, rgba(18,19,20,1) 39
 /* line 21 : /Users/jordiimac/Documents/FQU/css/bp2.styl */
 
 @media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp2\.styl}line{font-family:\0000321}}
-.contenidos .noCalendario .unaPubilla .back{padding:30px 0 40px 30px;}
+.contenidos .noCalendario .unaPubilla .back{padding:30px 0 40px 30px}
 
 /* line 23 : /Users/jordiimac/Documents/FQU/css/bp2.styl */
 
 @media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp2\.styl}line{font-family:\0000323}}
-.contenidos .noCalendario .unaPubilla .back .backTo{border-bottom:1px solid;display:inline-block;}
+
+/* line 24 : /Users/jordiimac/Documents/FQU/css/bp2.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp2\.styl}line{font-family:\0000324}}
+.contenidos .noCalendario .unaPubilla .hero .fotoOuter{height:500px;}
 
 /* line 26 : /Users/jordiimac/Documents/FQU/css/bp2.styl */
 
 @media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp2\.styl}line{font-family:\0000326}}
-.contenidos .noCalendario .unaPubilla .back .backTo:before{content:"\e604";font-family:icomoon;margin-right:5px}
+.contenidos .noCalendario .unaPubilla .hero .fotoOuter .foto{background-position:30% 0;background-size:auto 100%;position:absolute}
 
 /* line 30 : /Users/jordiimac/Documents/FQU/css/bp2.styl */
 
 @media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp2\.styl}line{font-family:\0000330}}
-.contenidos .noCalendario .unaPubilla .hero{position:relative;}
-
-/* line 32 : /Users/jordiimac/Documents/FQU/css/bp2.styl */
-
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp2\.styl}line{font-family:\0000332}}
-.contenidos .noCalendario .unaPubilla .hero .fotoOuter{height:500px;width:100%;}
-
-/* line 35 : /Users/jordiimac/Documents/FQU/css/bp2.styl */
-
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp2\.styl}line{font-family:\0000335}}
-.contenidos .noCalendario .unaPubilla .hero .fotoOuter .foto{background-position:30% 0;background-repeat:no-repeat;background-size:auto 100%;height:100%;position:absolute;top:0%;width:100%;z-index:2}
-
-/* line 44 : /Users/jordiimac/Documents/FQU/css/bp2.styl */
-
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp2\.styl}line{font-family:\0000344}}
 .contenidos .noCalendario .unaPubilla .hero .detalle{bottom:50px;left:50px;text-align:left;}
+
+/* line 34 : /Users/jordiimac/Documents/FQU/css/bp2.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp2\.styl}line{font-family:\0000334}}
+.contenidos .noCalendario .unaPubilla .hero .detalle .nombre{font-size:1.7em;font-weight:700}
+
+/* line 37 : /Users/jordiimac/Documents/FQU/css/bp2.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp2\.styl}line{font-family:\0000337}}
+.contenidos .noCalendario .unaPubilla .hero .detalle .club{font-size:1.1em;font-weight:400}
+
+/* line 40 : /Users/jordiimac/Documents/FQU/css/bp2.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp2\.styl}line{font-family:\0000340}}
+.contenidos .noCalendario .unaPubilla .texto{padding:50px}
+
+/* line 42 : /Users/jordiimac/Documents/FQU/css/bp2.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp2\.styl}line{font-family:\0000342}}
+
+/* line 43 : /Users/jordiimac/Documents/FQU/css/bp2.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp2\.styl}line{font-family:\0000343}}
+.contenidos .noCalendario .pubillas .pubillaOuter{padding:20px 20px 20px 20px;width:70%}
+
+/* line 46 : /Users/jordiimac/Documents/FQU/css/bp2.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp2\.styl}line{font-family:\0000346}}
+
+/* line 47 : /Users/jordiimac/Documents/FQU/css/bp2.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp2\.styl}line{font-family:\0000347}}
 
 /* line 48 : /Users/jordiimac/Documents/FQU/css/bp2.styl */
 
 @media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp2\.styl}line{font-family:\0000348}}
-.contenidos .noCalendario .unaPubilla .hero .detalle .nombre{font-size:1.7em;font-weight:700}
 
-/* line 51 : /Users/jordiimac/Documents/FQU/css/bp2.styl */
+/* line 49 : /Users/jordiimac/Documents/FQU/css/bp2.styl */
 
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp2\.styl}line{font-family:\0000351}}
-.contenidos .noCalendario .unaPubilla .hero .detalle .club{font-size:1.1em;font-weight:400}
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp2\.styl}line{font-family:\0000349}}
+.header .heroOuter .hero .heroInner{margin:-50px 0 0 0;height:250%;width:250%;background-size:30% auto}
 
 /* line 54 : /Users/jordiimac/Documents/FQU/css/bp2.styl */
 
 @media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp2\.styl}line{font-family:\0000354}}
-.contenidos .noCalendario .unaPubilla .texto{padding:50px;}
 
-/* line 56 : /Users/jordiimac/Documents/FQU/css/bp2.styl */
+/* line 55 : /Users/jordiimac/Documents/FQU/css/bp2.styl */
 
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp2\.styl}line{font-family:\0000356}}
-.contenidos .noCalendario .unaPubilla .texto p{margin-bottom:16px}
-
-/* line 58 : /Users/jordiimac/Documents/FQU/css/bp2.styl */
-
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp2\.styl}line{font-family:\0000358}}
-
-/* line 59 : /Users/jordiimac/Documents/FQU/css/bp2.styl */
-
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp2\.styl}line{font-family:\0000359}}
-.contenidos .noCalendario .pubillas .pubillaOuter{padding:20px 20px 20px 20px;width:70%}
-
-/* line 62 : /Users/jordiimac/Documents/FQU/css/bp2.styl */
-
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp2\.styl}line{font-family:\0000362}}
-
-/* line 63 : /Users/jordiimac/Documents/FQU/css/bp2.styl */
-
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp2\.styl}line{font-family:\0000363}}
-
-/* line 64 : /Users/jordiimac/Documents/FQU/css/bp2.styl */
-
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp2\.styl}line{font-family:\0000364}}
-
-/* line 65 : /Users/jordiimac/Documents/FQU/css/bp2.styl */
-
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp2\.styl}line{font-family:\0000365}}
-.header .heroOuter .hero .heroInner{margin:-50px 0 0 0;height:250%;width:250%;background-size:30% auto}
-
-/* line 70 : /Users/jordiimac/Documents/FQU/css/bp2.styl */
-
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp2\.styl}line{font-family:\0000370}}
-
-/* line 71 : /Users/jordiimac/Documents/FQU/css/bp2.styl */
-
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp2\.styl}line{font-family:\0000371}}
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp2\.styl}line{font-family:\0000355}}
 .header .logoOuter h1{font-size:28px;line-height:34px}
 }
 /* line 125 : /Users/jordiimac/Documents/FQU/css/estilos.styl */
@@ -1169,233 +1153,278 @@ footer{display:none}
 /* line 11 : /Users/jordiimac/Documents/FQU/css/bp3.styl */
 
 @media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp3\.styl}line{font-family:\0000311}}
-.contenidos .noCalendario{bottom:0;left:0;margin:85px 420px 0 80px;overflow-y:auto;position:fixed;right:0;top:0}
+.contenidos .noCalendario{bottom:0;left:0;margin:85px 420px 0 80px;overflow-y:auto;position:fixed;right:0;top:0;}
 
 /* line 19 : /Users/jordiimac/Documents/FQU/css/bp3.styl */
 
 @media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp3\.styl}line{font-family:\0000319}}
-.contenidos .calendario{bottom:0;float:right;margin:0;overflow-y:auto;position:fixed;right:0;top:-5px;width:420px;}
+.contenidos .noCalendario .unaPubilla{overflow:hidden;}
 
-/* line 28 : /Users/jordiimac/Documents/FQU/css/bp3.styl */
+/* line 21 : /Users/jordiimac/Documents/FQU/css/bp3.styl */
 
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp3\.styl}line{font-family:\0000328}}
-.contenidos .calendario .noListaDias{position:fixed;right:0;top:80px;z-index:10;width:420px}
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp3\.styl}line{font-family:\0000321}}
+.contenidos .noCalendario .unaPubilla .hero{position:relative;}
 
-/* line 36 : /Users/jordiimac/Documents/FQU/css/bp3.styl */
+/* line 23 : /Users/jordiimac/Documents/FQU/css/bp3.styl */
 
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp3\.styl}line{font-family:\0000336}}
-.contenidos .calendario .listaDias{display:block;margin:275px 0 100px 0;}
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp3\.styl}line{font-family:\0000323}}
+.contenidos .noCalendario .unaPubilla .hero .fotoOuter{height:400px;width:100%;}
 
-/* line 39 : /Users/jordiimac/Documents/FQU/css/bp3.styl */
+/* line 26 : /Users/jordiimac/Documents/FQU/css/bp3.styl */
 
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp3\.styl}line{font-family:\0000339}}
-.contenidos .calendario .listaDias .event{margin-left:14px;width:94%}
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp3\.styl}line{font-family:\0000326}}
+.contenidos .noCalendario .unaPubilla .hero .fotoOuter .foto{background-position:50% 0;background-repeat:no-repeat;background-size:auto 100%}
+
+/* line 30 : /Users/jordiimac/Documents/FQU/css/bp3.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp3\.styl}line{font-family:\0000330}}
+.contenidos .noCalendario .unaPubilla .hero .detalle{bottom:30px;text-align:left;left:30px;}
+
+/* line 34 : /Users/jordiimac/Documents/FQU/css/bp3.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp3\.styl}line{font-family:\0000334}}
+.contenidos .noCalendario .unaPubilla .hero .detalle .nombre{font-size:1.5em;font-weight:700}
+
+/* line 37 : /Users/jordiimac/Documents/FQU/css/bp3.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp3\.styl}line{font-family:\0000337}}
+.contenidos .noCalendario .unaPubilla .hero .detalle .club{font-weight:400;font-size:.95em}
+
+/* line 40 : /Users/jordiimac/Documents/FQU/css/bp3.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp3\.styl}line{font-family:\0000340}}
+.contenidos .noCalendario .unaPubilla .texto{padding:30px;}
 
 /* line 42 : /Users/jordiimac/Documents/FQU/css/bp3.styl */
 
 @media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp3\.styl}line{font-family:\0000342}}
-.decoracion{position:absolute;right:210px;top:-420px;}
+.contenidos .noCalendario .unaPubilla .texto p{margin-bottom:16px}
 
-/* line 46 : /Users/jordiimac/Documents/FQU/css/bp3.styl */
+/* line 44 : /Users/jordiimac/Documents/FQU/css/bp3.styl */
 
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp3\.styl}line{font-family:\0000346}}
-.decoracion .lineaOuter,.decoracion .tituloOuter{display:block;animation:none;-webkit-animation:none}
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp3\.styl}line{font-family:\0000344}}
+.contenidos .calendario{bottom:0;float:right;margin:0;overflow-y:auto;position:fixed;right:0;top:-5px;width:420px;}
 
-/* line 51 : /Users/jordiimac/Documents/FQU/css/bp3.styl */
+/* line 53 : /Users/jordiimac/Documents/FQU/css/bp3.styl */
 
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp3\.styl}line{font-family:\0000351}}
-.header{border-bottom:5px solid #80b21e;height:85px;position:fixed;top:0;right:0;left:0;z-index:5;}
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp3\.styl}line{font-family:\0000353}}
+.contenidos .calendario .noListaDias{position:fixed;right:0;top:80px;z-index:10;width:420px}
 
-/* line 59 : /Users/jordiimac/Documents/FQU/css/bp3.styl */
+/* line 61 : /Users/jordiimac/Documents/FQU/css/bp3.styl */
 
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp3\.styl}line{font-family:\0000359}}
-
-/* line 60 : /Users/jordiimac/Documents/FQU/css/bp3.styl */
-
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp3\.styl}line{font-family:\0000360}}
-.header .heroOuter .hero{background:#484645;animation:animacionTablet 150s infinite;-webkit-animation:animacionTablet 150s infinite;}
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp3\.styl}line{font-family:\0000361}}
+.contenidos .calendario .listaDias{display:block;margin:275px 0 100px 0;}
 
 /* line 64 : /Users/jordiimac/Documents/FQU/css/bp3.styl */
 
 @media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp3\.styl}line{font-family:\0000364}}
-.header .heroOuter .hero .heroInner{margin:-40px 0 0 0;background-position:5px 7px;background-size:15% auto;transform:skew(0);-ms-transform:skew(0);-webkit-transform:skew(0)}
+.contenidos .calendario .listaDias .event{margin-left:14px;width:94%}
+
+/* line 67 : /Users/jordiimac/Documents/FQU/css/bp3.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp3\.styl}line{font-family:\0000367}}
+.decoracion{position:absolute;right:210px;top:-420px;}
 
 /* line 71 : /Users/jordiimac/Documents/FQU/css/bp3.styl */
 
 @media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp3\.styl}line{font-family:\0000371}}
+.decoracion .lineaOuter,.decoracion .tituloOuter{display:block;animation:none;-webkit-animation:none}
 
-/* line 72 : /Users/jordiimac/Documents/FQU/css/bp3.styl */
+/* line 76 : /Users/jordiimac/Documents/FQU/css/bp3.styl */
 
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp3\.styl}line{font-family:\0000372}}
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp3\.styl}line{font-family:\0000376}}
+.header{border-bottom:5px solid #80b21e;height:85px;position:fixed;top:0;right:0;left:0;z-index:5;}
+
+/* line 84 : /Users/jordiimac/Documents/FQU/css/bp3.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp3\.styl}line{font-family:\0000384}}
+
+/* line 85 : /Users/jordiimac/Documents/FQU/css/bp3.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp3\.styl}line{font-family:\0000385}}
+.header .heroOuter .hero{background:#484645;animation:animacionTablet 150s infinite;-webkit-animation:animacionTablet 150s infinite;}
+
+/* line 89 : /Users/jordiimac/Documents/FQU/css/bp3.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp3\.styl}line{font-family:\0000389}}
+.header .heroOuter .hero .heroInner{margin:-40px 0 0 0;background-position:5px 7px;background-size:15% auto;transform:skew(0);-ms-transform:skew(0);-webkit-transform:skew(0)}
+
+/* line 96 : /Users/jordiimac/Documents/FQU/css/bp3.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp3\.styl}line{font-family:\0000396}}
+
+/* line 97 : /Users/jordiimac/Documents/FQU/css/bp3.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp3\.styl}line{font-family:\0000397}}
 .header .logoOuter h1{line-height:25px;font-size:20px;margin:-60px 0 0 115px;text-align:left}
 
-/* line 77 : /Users/jordiimac/Documents/FQU/css/bp3.styl */
+/* line 102 : /Users/jordiimac/Documents/FQU/css/bp3.styl */
 
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp3\.styl}line{font-family:\0000377}}
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp3\.styl}line{font-family:\00003102}}
 .header .logoOuter .logoInner{position:relative;}
-
-/* line 79 : /Users/jordiimac/Documents/FQU/css/bp3.styl */
-
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp3\.styl}line{font-family:\0000379}}
-.header .logoOuter .logoInner figure{position:absolute;top:10px;left:20px;}
-
-/* line 83 : /Users/jordiimac/Documents/FQU/css/bp3.styl */
-
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp3\.styl}line{font-family:\0000383}}
-.header .logoOuter .logoInner figure img{display:block;margin:0 auto;width:60px}
-
-/* line 87 : /Users/jordiimac/Documents/FQU/css/bp3.styl */
-
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp3\.styl}line{font-family:\0000387}}
-.llamadaLabel,.llamadaTitulo{display:none}
-
-/* line 90 : /Users/jordiimac/Documents/FQU/css/bp3.styl */
-
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp3\.styl}line{font-family:\0000390}}
-.menu{background:#212121;bottom:0;display:block;left:0;position:fixed;top:85px;width:80px;}
-
-/* line 98 : /Users/jordiimac/Documents/FQU/css/bp3.styl */
-
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp3\.styl}line{font-family:\0000398}}
-.menu ul{color:rgba(255,255,255,0.8);text-align:center;}
-
-/* line 101 : /Users/jordiimac/Documents/FQU/css/bp3.styl */
-
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp3\.styl}line{font-family:\00003101}}
-.menu ul .botonOuter{cursor:pointer;height:80px;}
 
 /* line 104 : /Users/jordiimac/Documents/FQU/css/bp3.styl */
 
 @media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp3\.styl}line{font-family:\00003104}}
-.menu ul .botonOuter .botonInner{position:relative;text-shadow:0 2px 5px rgba(0,0,0,0.6);width:100%;}
+.header .logoOuter .logoInner figure{position:absolute;top:10px;left:20px;}
 
 /* line 108 : /Users/jordiimac/Documents/FQU/css/bp3.styl */
 
 @media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp3\.styl}line{font-family:\00003108}}
-.menu ul .botonOuter .botonInner h3{bottom:28px;font-size:.55em;position:relative}
+.header .logoOuter .logoInner figure img{display:block;margin:0 auto;width:60px}
 
 /* line 112 : /Users/jordiimac/Documents/FQU/css/bp3.styl */
 
 @media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp3\.styl}line{font-family:\00003112}}
+.llamadaLabel,.llamadaTitulo{display:none}
 
-/* line 113 : /Users/jordiimac/Documents/FQU/css/bp3.styl */
+/* line 115 : /Users/jordiimac/Documents/FQU/css/bp3.styl */
 
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp3\.styl}line{font-family:\00003113}}
-.menu ul .botonOuter .botonInner .icono:after{bottom:24px;display:block;font-family:icomoon;font-size:2em;left:38%;position:absolute}
-
-/* line 120 : /Users/jordiimac/Documents/FQU/css/bp3.styl */
-
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp3\.styl}line{font-family:\00003120}}
-
-/* line 121 : /Users/jordiimac/Documents/FQU/css/bp3.styl */
-
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp3\.styl}line{font-family:\00003121}}
-.menu ul .botonOuter .botonInner .contactar:after{content:"\e60d"}
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp3\.styl}line{font-family:\00003115}}
+.menu{background:#212121;bottom:0;display:block;left:0;position:fixed;top:85px;width:80px;}
 
 /* line 123 : /Users/jordiimac/Documents/FQU/css/bp3.styl */
 
 @media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp3\.styl}line{font-family:\00003123}}
-
-/* line 124 : /Users/jordiimac/Documents/FQU/css/bp3.styl */
-
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp3\.styl}line{font-family:\00003124}}
-.menu ul .botonOuter .botonInner .info:after{content:"\e606"}
+.menu ul{color:rgba(255,255,255,0.8);text-align:center;}
 
 /* line 126 : /Users/jordiimac/Documents/FQU/css/bp3.styl */
 
 @media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp3\.styl}line{font-family:\00003126}}
-.menu ul .botonOuter .botonInner .patro{color:#80b21e;}
+.menu ul .botonOuter{cursor:pointer;height:80px;}
 
-/* line 128 : /Users/jordiimac/Documents/FQU/css/bp3.styl */
+/* line 129 : /Users/jordiimac/Documents/FQU/css/bp3.styl */
 
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp3\.styl}line{font-family:\00003128}}
-.menu ul .botonOuter .botonInner .patro:after{content:"\e2fe"}
-
-/* line 130 : /Users/jordiimac/Documents/FQU/css/bp3.styl */
-
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp3\.styl}line{font-family:\00003130}}
-
-/* line 131 : /Users/jordiimac/Documents/FQU/css/bp3.styl */
-
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp3\.styl}line{font-family:\00003131}}
-.menu ul .botonOuter .botonInner .pubilles:after{content:"\e60a"}
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp3\.styl}line{font-family:\00003129}}
+.menu ul .botonOuter .botonInner{position:relative;text-shadow:0 2px 5px rgba(0,0,0,0.6);width:100%;}
 
 /* line 133 : /Users/jordiimac/Documents/FQU/css/bp3.styl */
 
 @media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp3\.styl}line{font-family:\00003133}}
-.menu ul .botonOuter .top{margin:85px 0 0 0}
+.menu ul .botonOuter .botonInner h3{bottom:28px;font-size:.55em;position:relative}
 
-/* line 135 : /Users/jordiimac/Documents/FQU/css/bp3.styl */
+/* line 137 : /Users/jordiimac/Documents/FQU/css/bp3.styl */
 
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp3\.styl}line{font-family:\00003135}}
-.menu ul .botonOuter .bottom{bottom:0;position:absolute}
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp3\.styl}line{font-family:\00003137}}
 
 /* line 138 : /Users/jordiimac/Documents/FQU/css/bp3.styl */
 
 @media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp3\.styl}line{font-family:\00003138}}
-.tituloOuter{animation:none;-webkit-animation:none;display:block;position:absolute;top:0;right:0;z-index:10}
+.menu ul .botonOuter .botonInner .icono:after{bottom:24px;display:block;font-family:icomoon;font-size:2em;left:38%;position:absolute}
+
+/* line 145 : /Users/jordiimac/Documents/FQU/css/bp3.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp3\.styl}line{font-family:\00003145}}
+
+/* line 146 : /Users/jordiimac/Documents/FQU/css/bp3.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp3\.styl}line{font-family:\00003146}}
+.menu ul .botonOuter .botonInner .contactar:after{content:"\e60d"}
 
 /* line 148 : /Users/jordiimac/Documents/FQU/css/bp3.styl */
 
 @media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp3\.styl}line{font-family:\00003148}}
-#llamadaCalendario{display:none}
 
-/* line 150 : /Users/jordiimac/Documents/FQU/css/bp3.styl */
+/* line 149 : /Users/jordiimac/Documents/FQU/css/bp3.styl */
 
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp3\.styl}line{font-family:\00003150}}
-#llamadaCalendario:checked ~ .calendario{margin:0}
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp3\.styl}line{font-family:\00003149}}
+.menu ul .botonOuter .botonInner .info:after{content:"\e606"}
 
-/* line 152 : /Users/jordiimac/Documents/FQU/css/bp3.styl */
+/* line 151 : /Users/jordiimac/Documents/FQU/css/bp3.styl */
 
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp3\.styl}line{font-family:\00003152}}
-#llamadaCalendario:checked ~ .contenidos{margin:0}
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp3\.styl}line{font-family:\00003151}}
+.menu ul .botonOuter .botonInner .patro{color:#80b21e;}
 
-/* line 154 : /Users/jordiimac/Documents/FQU/css/bp3.styl */
+/* line 153 : /Users/jordiimac/Documents/FQU/css/bp3.styl */
 
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp3\.styl}line{font-family:\00003154}}
-#llamadaCalendario:checked ~ .contenidos .calendario .listaDias{display:block}
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp3\.styl}line{font-family:\00003153}}
+.menu ul .botonOuter .botonInner .patro:after{content:"\e2fe"}
+
+/* line 155 : /Users/jordiimac/Documents/FQU/css/bp3.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp3\.styl}line{font-family:\00003155}}
 
 /* line 156 : /Users/jordiimac/Documents/FQU/css/bp3.styl */
 
 @media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp3\.styl}line{font-family:\00003156}}
-#llamadaCalendario:checked ~ .contenidos .calendario .decoracion .lineaOuter{display:none}
+.menu ul .botonOuter .botonInner .pubilles:after{content:"\e60a"}
 
 /* line 158 : /Users/jordiimac/Documents/FQU/css/bp3.styl */
 
 @media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp3\.styl}line{font-family:\00003158}}
-#llamadaCalendario:checked ~ .contenidos .calendario .tituloOuter{display:block}
+.menu ul .botonOuter .top{margin:85px 0 0 0}
+
+/* line 160 : /Users/jordiimac/Documents/FQU/css/bp3.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp3\.styl}line{font-family:\00003160}}
+.menu ul .botonOuter .bottom{bottom:0;position:absolute}
 
 /* line 163 : /Users/jordiimac/Documents/FQU/css/bp3.styl */
 
 @media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp3\.styl}line{font-family:\00003163}}
+.tituloOuter{animation:none;-webkit-animation:none;display:block;position:absolute;top:0;right:0;z-index:10}
+
+/* line 173 : /Users/jordiimac/Documents/FQU/css/bp3.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp3\.styl}line{font-family:\00003173}}
+#llamadaCalendario{display:none}
+
+/* line 175 : /Users/jordiimac/Documents/FQU/css/bp3.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp3\.styl}line{font-family:\00003175}}
+#llamadaCalendario:checked ~ .calendario{margin:0}
+
+/* line 177 : /Users/jordiimac/Documents/FQU/css/bp3.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp3\.styl}line{font-family:\00003177}}
+#llamadaCalendario:checked ~ .contenidos{margin:0}
+
+/* line 179 : /Users/jordiimac/Documents/FQU/css/bp3.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp3\.styl}line{font-family:\00003179}}
+#llamadaCalendario:checked ~ .contenidos .calendario .listaDias{display:block}
+
+/* line 181 : /Users/jordiimac/Documents/FQU/css/bp3.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp3\.styl}line{font-family:\00003181}}
+#llamadaCalendario:checked ~ .contenidos .calendario .decoracion .lineaOuter{display:none}
+
+/* line 183 : /Users/jordiimac/Documents/FQU/css/bp3.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp3\.styl}line{font-family:\00003183}}
+#llamadaCalendario:checked ~ .contenidos .calendario .tituloOuter{display:block}
+
+/* line 188 : /Users/jordiimac/Documents/FQU/css/bp3.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp3\.styl}line{font-family:\00003188}}
 @-moz-keyframes animacionTablet{0%{transform:translate(-100%,-100%);-ms-transform:translate(-100%,-100%);-webkit-transform:translate(-100%,-100%)}
 50%{transform:translate(0%,40%);-ms-transform:translate(0%,40%);-webkit-transform:translate(0%,40%)}
 100%{transform:translate(-100%,-100%);-ms-transform:translate(-100%,-100%);-webkit-transform:translate(-100%,-100%)}
 }
-/* line 163 : /Users/jordiimac/Documents/FQU/css/bp3.styl */
+/* line 188 : /Users/jordiimac/Documents/FQU/css/bp3.styl */
 
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp3\.styl}line{font-family:\00003163}}
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp3\.styl}line{font-family:\00003188}}
 @-webkit-keyframes animacionTablet{0%{transform:translate(-100%,-100%);-ms-transform:translate(-100%,-100%);-webkit-transform:translate(-100%,-100%)}
 50%{transform:translate(0%,40%);-ms-transform:translate(0%,40%);-webkit-transform:translate(0%,40%)}
 100%{transform:translate(-100%,-100%);-ms-transform:translate(-100%,-100%);-webkit-transform:translate(-100%,-100%)}
 }
-/* line 163 : /Users/jordiimac/Documents/FQU/css/bp3.styl */
+/* line 188 : /Users/jordiimac/Documents/FQU/css/bp3.styl */
 
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp3\.styl}line{font-family:\00003163}}
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp3\.styl}line{font-family:\00003188}}
 @-o-keyframes animacionTablet{0%{transform:translate(-100%,-100%);-ms-transform:translate(-100%,-100%);-webkit-transform:translate(-100%,-100%)}
 50%{transform:translate(0%,40%);-ms-transform:translate(0%,40%);-webkit-transform:translate(0%,40%)}
 100%{transform:translate(-100%,-100%);-ms-transform:translate(-100%,-100%);-webkit-transform:translate(-100%,-100%)}
 }
-/* line 163 : /Users/jordiimac/Documents/FQU/css/bp3.styl */
+/* line 188 : /Users/jordiimac/Documents/FQU/css/bp3.styl */
 
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp3\.styl}line{font-family:\00003163}}
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp3\.styl}line{font-family:\00003188}}
 @-ms-keyframes animacionTablet{0%{transform:translate(-100%,-100%);-ms-transform:translate(-100%,-100%);-webkit-transform:translate(-100%,-100%)}
 50%{transform:translate(0%,40%);-ms-transform:translate(0%,40%);-webkit-transform:translate(0%,40%)}
 100%{transform:translate(-100%,-100%);-ms-transform:translate(-100%,-100%);-webkit-transform:translate(-100%,-100%)}
 }
-/* line 163 : /Users/jordiimac/Documents/FQU/css/bp3.styl */
+/* line 188 : /Users/jordiimac/Documents/FQU/css/bp3.styl */
 
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp3\.styl}line{font-family:\00003163}}
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp3\.styl}line{font-family:\00003188}}
 @keyframes animacionTablet{0%{transform:translate(-100%,-100%);-ms-transform:translate(-100%,-100%);-webkit-transform:translate(-100%,-100%)}
 50%{transform:translate(0%,40%);-ms-transform:translate(0%,40%);-webkit-transform:translate(0%,40%)}
 100%{transform:translate(-100%,-100%);-ms-transform:translate(-100%,-100%);-webkit-transform:translate(-100%,-100%)}
