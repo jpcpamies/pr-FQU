@@ -273,253 +273,262 @@ footer
 	.noCalendario
 		position relative
 		z-index 5
-		.colaboradors
-			background white
-			color rgba(black,.7)
-			h3
-				font-size 24px
-				font-weight 300
-				padding 20px
-				text-align center
-			.logoOuter
-				padding 0 20px 30px 20px 
-				text-align center
-				.logoInner
-					// background red
-					display inline-block
-					padding 15px
-					vertical-align top
-					width 60%
-					a
-						color rgba(black,.2)
-					img
-						width 100%
-					.add
-						height 100px
-						width 100px
-						p
-							font-size 16px
-							font-weight 400
-							margin -10px auto 0 auto
-							text-align center
-							width 150px
-						&:before
-							color rgba(black,.1)
-							content add
-							font-family icomoon
-							font-size 150px
-							// text-shadow 1px 1px 1px rgba(black,.1)
-		.informacion
-			background negroInterface3
-			position relative
-			.infoHeader
-				color texto
-				height 80px
-				h2
-					font-size 21px
-					font-style italic
-					letter-spacing 1px
-					padding 15px 0 0 30px
-					text-transform uppercase
-					span
-						display block
-						font-size 16px 
-						letter-spacing 0px
-						line-height 21px
-						text-transform lowercase
-			.infoOuter
-				.infoInner
-					border-bottom 1px solid negroInterface3
-					.checkInfo
-						width 100%
-						height 70px 
-						background transparent
-						position relative
-						z-index 20
-						.puntos
-							&:after
-								color texto
-								content menu2
-								font-family icomoon
-								position absolute
-								font-style normal
-								top 20px
-								right 20px
-								padding 5px 0 5px 20px
-					.entrades
-						margin -70px 0 0 0
-						&:before
-							content entrada
-							font-family icomoon
-							font-style normal
-							font-size 18px 
-							left 20px
-							position absolute
-							top 30px
-					.inscripcions
-						margin -70px 0 0 0
-						&:before
-							content calendario
-							font-family icomoon
-							font-style normal
-							font-size 18px 
-							left 20px
-							position absolute
-							top 30px
-					.horario
-						margin -70px 0 0 0
-						&:before
-							content reloj
-							font-family icomoon
-							font-style normal
-							font-size 18px 
-							left 20px
-							position absolute
-							top 30px
-					.notes
-						margin -70px 0 0 0
-						&:before
-							content nota
-							font-family icomoon
-							font-style normal
-							font-size 18px 
-							left 20px
-							position absolute
-							top 30px
-					.post
-						background negroInterface
-						color rgba(white,.7)
-						font-size 16px
-						font-style italic
-						line-height 21px
-						padding 28px 0 28px 0
-						position relative
-						h4
-							margin 0 78px 0 55px
-						.detallePost
-							border-left none
-							h5
-								color rgba(white,1)
-								font-style normal
-								margin 20px 20px 10px 55px
-								&:first-child
-									margin 40px 20px 10px 55px
-							p
-								color rgba(white,.6)
-								font-style normal
-								font-weight 400
-								margin 0 20px 0 55px
-								&:last-child 
-									margin 0 20px 30px 55px
-							p.detallePostPiscina
-								margin 20px 20px 30px 55px
-							ul
-								margin 20px 20px 0 55px
-								li 
-									color rgba(white,.6)
-									font-style normal
-									font-weight 400
-									list-style-type circle
-									margin 0 0 10px 0
-									&:last-child 
-										margin 0 0 30px 0
-						&:last-child
-							border-bottom none
-		.pubillas
-			background white
-			color rgba(black,.7)
-			h3
-				font-size 24px
-				font-weight 300
-				padding 20px
-				text-align center
-			.pubillaOuter
-				display block
-				font-size 0
-				margin 0 auto
-				padding 0 20px 20px 20px 
-				text-align center
-				.pubillaInner 
-					// background red
-					display inline-block
-					margin 10px 0
-					position relative
-					width 150px
-					img
-						border-radius 50%
-						box-shadow 0 0 3px rgba(black,.3)
-						display block
-						margin 0 auto
-						width 100px
-					.detall
-						// background blue
-						font-size 14px
+		.vistaEscritorio
+			display none
+		.vistaMovil
+			.contienePubillas
+				.pubillas
+					background white
+					color rgba(black,.7)
+					h3
+						font-size 24px
 						font-weight 300
-						margin 12px 0 20px 0 
-						padding 0 5px
+						padding 20px
 						text-align center
-						.nom
+					.pubillaOuter
+						display block
+						font-size 0
+						margin 0 auto
+						padding 0 20px 20px 20px 
+						text-align center
+						.pubillaInner 
+							// background red
+							display inline-block
+							margin 10px 0
+							position relative
+							width 150px
+							img
+								border-radius 50%
+								box-shadow 0 0 3px rgba(black,.3)
+								display block
+								margin 0 auto
+								width 100px
+							.detall
+								// background blue
+								font-size 14px
+								font-weight 300
+								margin 12px 0 20px 0 
+								padding 0 5px
+								text-align center
+								.nom
+									font-weight 400
+				.unaPubilla
+					.back
+						padding 20px 0 25px 16px
+						.backTo
+							border-bottom 1px solid
+							display inline-block
 							font-weight 400
-		.unaPubilla
-			.back
-				padding 20px 0 25px 16px
-				.backTo
-					border-bottom 1px solid
-					display inline-block
-					font-weight 400
-					&:before
-						content back
-						font-family icomoon
-						margin-right 5px
-			.hero
-				position relative
-				.fotoOuter
-					height 400px
-					width 100%
-					.foto
-						background-position 50% 15px
-						background-repeat no-repeat
-						background-size 100% auto
-						height 100%
-						position absolute
-						top 0
-						bottom 0
-						width 100%
-						z-index 2	
-				.degradado
-					bottom 0
-					left 0
-					position absolute
-					right 0
-					top 0
-					z-index 3
-					@css {
-						background: -moz-linear-gradient(top,  rgba(247,247,247,0) 0%, rgba(175,175,175,0) 29%, rgba(2,2,2,0.68) 99%, rgba(0,0,0,0.68) 100%);
-						background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(247,247,247,0)), color-stop(29%,rgba(175,175,175,0)), color-stop(99%,rgba(2,2,2,0.68)), color-stop(100%,rgba(0,0,0,0.68)));
-						background: -webkit-linear-gradient(top,  rgba(247,247,247,0) 0%,rgba(175,175,175,0) 29%,rgba(2,2,2,0.68) 99%,rgba(0,0,0,0.68) 100%);
-						background: -o-linear-gradient(top,  rgba(247,247,247,0) 0%,rgba(175,175,175,0) 29%,rgba(2,2,2,0.68) 99%,rgba(0,0,0,0.68) 100%);
-						background: -ms-linear-gradient(top,  rgba(247,247,247,0) 0%,rgba(175,175,175,0) 29%,rgba(2,2,2,0.68) 99%,rgba(0,0,0,0.68) 100%);
-						background: linear-gradient(to bottom,  rgba(247,247,247,0) 0%,rgba(175,175,175,0) 29%,rgba(2,2,2,0.68) 99%,rgba(0,0,0,0.68) 100%);
-						filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00f7f7f7', endColorstr='#ad000000',GradientType=0 );
+							&:before
+								content back
+								font-family icomoon
+								margin-right 5px
+					.hero
+						position relative
+						.fotoOuter
+							height 400px
+							width 100%
+							.foto
+								background-position 50% 15px
+								background-repeat no-repeat
+								background-size 100% auto
+								height 100%
+								position absolute
+								top 0
+								bottom 0
+								width 100%
+								z-index 2	
+						.degradado
+							bottom 0
+							left 0
+							position absolute
+							right 0
+							top 0
+							z-index 3
+							@css {
+								background: -moz-linear-gradient(top,  rgba(247,247,247,0) 0%, rgba(175,175,175,0) 29%, rgba(2,2,2,0.68) 99%, rgba(0,0,0,0.68) 100%);
+								background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(247,247,247,0)), color-stop(29%,rgba(175,175,175,0)), color-stop(99%,rgba(2,2,2,0.68)), color-stop(100%,rgba(0,0,0,0.68)));
+								background: -webkit-linear-gradient(top,  rgba(247,247,247,0) 0%,rgba(175,175,175,0) 29%,rgba(2,2,2,0.68) 99%,rgba(0,0,0,0.68) 100%);
+								background: -o-linear-gradient(top,  rgba(247,247,247,0) 0%,rgba(175,175,175,0) 29%,rgba(2,2,2,0.68) 99%,rgba(0,0,0,0.68) 100%);
+								background: -ms-linear-gradient(top,  rgba(247,247,247,0) 0%,rgba(175,175,175,0) 29%,rgba(2,2,2,0.68) 99%,rgba(0,0,0,0.68) 100%);
+								background: linear-gradient(to bottom,  rgba(247,247,247,0) 0%,rgba(175,175,175,0) 29%,rgba(2,2,2,0.68) 99%,rgba(0,0,0,0.68) 100%);
+								filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00f7f7f7', endColorstr='#ad000000',GradientType=0 );
 
-					}
-				.detalle
-					bottom 30px
-					color white
-					padding 0 5px
+							}
+						.detalle
+							bottom 30px
+							color white
+							padding 0 5px
+							position relative
+							text-align center
+							text-shadow 1px 1px 5px rgba(black,.5)
+							z-index 4
+							.nombre
+								font-size 1.5em
+								font-weight 700
+							.club
+								font-weight 400
+					.texto
+						padding 20px
+						p
+							margin-bottom 16px
+			.contieneInformacion
+				.informacion
+					background negroInterface3
 					position relative
+					.infoHeader
+						color texto
+						height 80px
+						h2
+							font-size 21px
+							font-style italic
+							letter-spacing 1px
+							padding 15px 0 0 30px
+							text-transform uppercase
+							span
+								display block
+								font-size 16px 
+								letter-spacing 0px
+								line-height 21px
+								text-transform lowercase
+					.infoOuter
+						.infoInner
+							border-bottom 1px solid negroInterface3
+							.checkInfo
+								width 100%
+								height 70px 
+								background transparent
+								position relative
+								z-index 20
+								.puntos
+									&:after
+										color texto
+										content menu2
+										font-family icomoon
+										position absolute
+										font-style normal
+										top 20px
+										right 20px
+										padding 5px 0 5px 20px
+							.entrades
+								margin -70px 0 0 0
+								&:before
+									content entrada
+									font-family icomoon
+									font-style normal
+									font-size 18px 
+									left 20px
+									position absolute
+									top 30px
+							.inscripcions
+								margin -70px 0 0 0
+								&:before
+									content calendario
+									font-family icomoon
+									font-style normal
+									font-size 18px 
+									left 20px
+									position absolute
+									top 30px
+							.horario
+								margin -70px 0 0 0
+								&:before
+									content reloj
+									font-family icomoon
+									font-style normal
+									font-size 18px 
+									left 20px
+									position absolute
+									top 30px
+							.notes
+								margin -70px 0 0 0
+								&:before
+									content nota
+									font-family icomoon
+									font-style normal
+									font-size 18px 
+									left 20px
+									position absolute
+									top 30px
+							.post
+								background negroInterface
+								color rgba(white,.7)
+								font-size 16px
+								font-style italic
+								line-height 21px
+								padding 28px 0 28px 0
+								position relative
+								h4
+									margin 0 78px 0 55px
+								.detallePost
+									border-left none
+									h5
+										color rgba(white,1)
+										font-style normal
+										margin 20px 20px 10px 55px
+										&:first-child
+											margin 40px 20px 10px 55px
+									p
+										color rgba(white,.6)
+										font-style normal
+										font-weight 400
+										margin 0 20px 0 55px
+										&:last-child 
+											margin 0 20px 30px 55px
+									p.detallePostPiscina
+										margin 20px 20px 30px 55px
+									ul
+										margin 20px 20px 0 55px
+										li 
+											color rgba(white,.6)
+											font-style normal
+											font-weight 400
+											list-style-type circle
+											margin 0 0 10px 0
+											&:last-child 
+												margin 0 0 30px 0
+								&:last-child
+									border-bottom none
+			.contieneColaboradores
+				.colaboradores
+				background white
+				color rgba(black,.7)
+				h3
+					font-size 24px
+					font-weight 300
+					padding 20px
 					text-align center
-					text-shadow 1px 1px 5px rgba(black,.5)
-					z-index 4
-					.nombre
-						font-size 1.5em
-						font-weight 700
-					.club
-						font-weight 400
-			.texto
-				padding 20px
-				p
-					margin-bottom 16px
+				.logoOuter
+					padding 0 20px 30px 20px 
+					text-align center
+					.logoInner
+						// background red
+						display inline-block
+						padding 15px
+						vertical-align top
+						width 60%
+						a
+							color rgba(black,.2)
+						img
+							width 100%
+						.add
+							height 100px
+							width 100px
+							p
+								font-size 16px
+								font-weight 400
+								margin -10px auto 0 auto
+								text-align center
+								width 150px
+							&:before
+								color rgba(black,.1)
+								content add
+								font-family icomoon
+								font-size 150px
+								// text-shadow 1px 1px 1px rgba(black,.1)
+			
+			
+			
 .decoracion
 	.lineaOuter
 		display none
