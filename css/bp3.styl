@@ -16,10 +16,53 @@ footer
 		position fixed 
 		right 0
 		top 0
+		z-index 0
 		.vistaEscritorio
 			display block
 			.escritorioInner
 				.contienePubillas
+					.pubillas
+						background white
+						color rgba(black,.7)
+						h3
+							background #808080
+							color white
+							font-size 24px
+							font-weight 300
+							left 80px
+							padding 20px
+							position fixed
+							right 0
+							text-align left
+							top 85px 
+							z-index 5
+						.pubillaOuter
+							display block
+							font-size 0
+							margin 0 auto
+							padding 90px 20px 20px 20px 
+							text-align center
+							.pubillaInner 
+								// background red
+								display inline-block
+								margin 10px 0
+								position relative
+								width 150px
+								img
+									border-radius 50%
+									box-shadow 0 0 3px rgba(black,.3)
+									display block
+									margin 0 auto
+									width 100px
+								.detall
+									// background blue
+									font-size 14px
+									font-weight 300
+									margin 12px 0 20px 0 
+									padding 0 5px
+									text-align center
+									.nom
+										font-weight 400
 					.unaPubilla
 						overflow hidden
 						.back
@@ -83,7 +126,149 @@ footer
 							padding 30px
 							p
 								margin-bottom 16px
-			
+				.contieneColaboradores
+					.colaboradores
+						h3
+							background #808080
+							color white
+							font-size 24px
+							font-weight 300
+							left 80px
+							padding 20px
+							position fixed
+							right 0
+							text-align left
+							top 85px 
+						.logoOuter
+							padding 90px 20px 30px 20px 
+							text-align center
+							.logoInner
+								display inline-block
+								padding 15px
+								vertical-align top
+								width 70%
+								img
+									width 100%
+				.contieneInformacion
+					.informacion
+						// background negroInterface3
+						position relative
+						.infoHeader
+							color texto
+							height 68px
+							h2
+								background #808080
+								color white
+								font-size 24px
+								font-weight 300
+								left 80px
+								padding 20px
+								position fixed
+								right 0
+								text-align left
+								top 85px 
+								z-index 50
+						.infoOuter
+							.infoInner
+								border-bottom 1px solid rgba(black,.1)
+								&:last-child
+									border-bottom none
+								.checkInfo
+									width 100%
+									height 70px 
+									background transparent
+									position relative
+									z-index 20
+									.puntos
+										&:after
+											color texto
+											content menu2
+											font-family icomoon
+											position absolute
+											font-style normal
+											top 20px
+											right 20px
+											padding 5px 0 5px 20px
+								.entrades
+									margin -70px 0 0 0
+									&:before
+										content entrada
+										font-family icomoon
+										font-style normal
+										font-size 18px 
+										left 20px
+										position absolute
+										top 30px
+								.inscripcions
+									margin -70px 0 0 0
+									&:before
+										content calendario
+										font-family icomoon
+										font-style normal
+										font-size 18px 
+										left 20px
+										position absolute
+										top 30px
+								.horario
+									margin -70px 0 0 0
+									&:before
+										content reloj
+										font-family icomoon
+										font-style normal
+										font-size 18px 
+										left 20px
+										position absolute
+										top 30px
+								.notes
+									margin -70px 0 0 0
+									&:before
+										content nota
+										font-family icomoon
+										font-style normal
+										font-size 18px 
+										left 20px
+										position absolute
+										top 30px
+								.post
+									// background negroInterface
+									color rgba(black,.7)
+									font-size 16px
+									font-style italic
+									line-height 21px
+									padding 28px 0 28px 0
+									position relative
+									h4
+										margin 0 78px 0 55px
+									.detallePost
+										background white
+										border-left none
+										h5
+											color rgba(black,1)
+											font-style normal
+											margin 20px 20px 10px 55px
+											&:first-child
+												margin 40px 20px 10px 55px
+										p
+											color rgba(black,.6)
+											font-style normal
+											font-weight 400
+											margin 0 20px 0 55px
+											&:last-child 
+												margin 0 20px 30px 55px
+										p.detallePostPiscina
+											margin 20px 20px 30px 55px
+										ul
+											margin 20px 20px 0 55px
+											li 
+												color rgba(white,.6)
+												font-style normal
+												font-weight 400
+												list-style-type circle
+												margin 0 0 10px 0
+												&:last-child 
+													margin 0 0 30px 0
+									&:last-child
+										border-bottom none
 		.vistaMovil
 			display none
 	.calendario
@@ -95,6 +280,7 @@ footer
 		right 0 
 		top -5px
 		width 420px
+		z-index 5
 		.noListaDias
 			position fixed
 			right 0 
