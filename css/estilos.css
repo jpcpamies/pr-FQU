@@ -502,16 +502,16 @@ background: -moz-radial-gradient(center, ellipse cover,  rgba(0,0,0,0) 0%, rgba(
   padding: 0 20px;
   position: absolute;
   text-align: center;
-  text-shadow: 1px 1px 5px rgba(0,0,0,0.5);
+  text-shadow: 1px 1px 5px rgba(0,0,0,0.6);
   width: 100%;
   z-index: 3;
 }
 .contenidos .noCalendario .vistaMovil .contienePubillas .unaPubilla .hero .detalle .nombre {
-  font-size: 1.2em;
+  font-size: 1.3em;
   font-weight: 700;
 }
 .contenidos .noCalendario .vistaMovil .contienePubillas .unaPubilla .hero .detalle .club {
-  font-size: 0.8em;
+  font-size: 0.9em;
   font-weight: 400;
 }
 .contenidos .noCalendario .vistaMovil .contienePubillas .unaPubilla .hero .degradado {
@@ -545,7 +545,7 @@ background: -moz-linear-gradient(top,  rgba(247,247,247,0) 0%, rgba(175,175,175,
 .contenidos .noCalendario .vistaMovil .contienePubillas .unaPubilla .hero .fotoOuter .foto {
   background-position: 50% 100%;
   background-repeat: no-repeat;
-  background-size: 90% auto;
+  background-size: auto 100%;
   height: 100%;
   width: 100%;
   position: absolute;
@@ -1160,13 +1160,13 @@ background: -moz-linear-gradient(left,  rgba(18,19,20,1) 0%, rgba(18,19,20,1) 39
     height: 500px;
   }
   .contenidos .noCalendario .vistaMovil .contienePubillas .unaPubilla .hero .fotoOuter .foto {
-    background-position: 30% 0;
+    background-position: 10% 0;
     background-size: auto 100%;
     position: absolute;
   }
   .contenidos .noCalendario .vistaMovil .contienePubillas .unaPubilla .hero .detalle {
     bottom: 50px;
-    left: 50px;
+    left: 30px;
     text-align: left;
   }
   .contenidos .noCalendario .vistaMovil .contienePubillas .unaPubilla .hero .detalle .nombre {
@@ -1271,12 +1271,15 @@ background: -moz-linear-gradient(left,  rgba(18,19,20,1) 0%, rgba(18,19,20,1) 39
     overflow: hidden;
   }
   .contenidos .noCalendario .vistaEscritorio .escritorioInner .contienePubillas .unaPubilla .back {
+    color: #80b21e;
     padding: 20px 0 25px 16px;
   }
   .contenidos .noCalendario .vistaEscritorio .escritorioInner .contienePubillas .unaPubilla .back .backTo {
-    border-bottom: 1px solid;
     display: inline-block;
     font-weight: 400;
+  }
+  .contenidos .noCalendario .vistaEscritorio .escritorioInner .contienePubillas .unaPubilla .back .backTo span {
+    border-bottom: 1px solid;
   }
   .contenidos .noCalendario .vistaEscritorio .escritorioInner .contienePubillas .unaPubilla .back .backTo:before {
     content: "\e604";
@@ -1284,62 +1287,63 @@ background: -moz-linear-gradient(left,  rgba(18,19,20,1) 0%, rgba(18,19,20,1) 39
     margin-right: 5px;
   }
   .contenidos .noCalendario .vistaEscritorio .escritorioInner .contienePubillas .unaPubilla .hero {
+    height: 400px;
     position: relative;
   }
-  .contenidos .noCalendario .vistaEscritorio .escritorioInner .contienePubillas .unaPubilla .hero .fotoOuter {
-    height: 400px;
-    width: 100%;
-  }
-  .contenidos .noCalendario .vistaEscritorio .escritorioInner .contienePubillas .unaPubilla .hero .fotoOuter .foto {
-    background-position: 50% 0;
-    background-repeat: no-repeat;
-    background-size: auto 100%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    width: 100%;
-    z-index: 2;
-  }
-  .contenidos .noCalendario .vistaEscritorio .escritorioInner .contienePubillas .unaPubilla .hero .degradado {
-    bottom: 0;
-    left: 0;
-    position: absolute;
-    right: 0;
-    top: 0;
-    z-index: 3;
-background: -moz-linear-gradient(top,  rgba(247,247,247,0) 0%, rgba(175,175,175,0) 29%, rgba(2,2,2,0.68) 99%, rgba(0,0,0,0.68) 100%);
-									background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(247,247,247,0)), color-stop(29%,rgba(175,175,175,0)), color-stop(99%,rgba(2,2,2,0.68)), color-stop(100%,rgba(0,0,0,0.68)));
-									background: -webkit-linear-gradient(top,  rgba(247,247,247,0) 0%,rgba(175,175,175,0) 29%,rgba(2,2,2,0.68) 99%,rgba(0,0,0,0.68) 100%);
-									background: -o-linear-gradient(top,  rgba(247,247,247,0) 0%,rgba(175,175,175,0) 29%,rgba(2,2,2,0.68) 99%,rgba(0,0,0,0.68) 100%);
-									background: -ms-linear-gradient(top,  rgba(247,247,247,0) 0%,rgba(175,175,175,0) 29%,rgba(2,2,2,0.68) 99%,rgba(0,0,0,0.68) 100%);
-									background: linear-gradient(to bottom,  rgba(247,247,247,0) 0%,rgba(175,175,175,0) 29%,rgba(2,2,2,0.68) 99%,rgba(0,0,0,0.68) 100%);
-									filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00f7f7f7', endColorstr='#ad000000',GradientType=0 );
-  }
-background: -moz-linear-gradient(top,  rgba(247,247,247,0) 0%, rgba(175,175,175,0) 29%, rgba(2,2,2,0.68) 99%, rgba(0,0,0,0.68) 100%);
-									background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(247,247,247,0)), color-stop(29%,rgba(175,175,175,0)), color-stop(99%,rgba(2,2,2,0.68)), color-stop(100%,rgba(0,0,0,0.68)));
-									background: -webkit-linear-gradient(top,  rgba(247,247,247,0) 0%,rgba(175,175,175,0) 29%,rgba(2,2,2,0.68) 99%,rgba(0,0,0,0.68) 100%);
-									background: -o-linear-gradient(top,  rgba(247,247,247,0) 0%,rgba(175,175,175,0) 29%,rgba(2,2,2,0.68) 99%,rgba(0,0,0,0.68) 100%);
-									background: -ms-linear-gradient(top,  rgba(247,247,247,0) 0%,rgba(175,175,175,0) 29%,rgba(2,2,2,0.68) 99%,rgba(0,0,0,0.68) 100%);
-									background: linear-gradient(to bottom,  rgba(247,247,247,0) 0%,rgba(175,175,175,0) 29%,rgba(2,2,2,0.68) 99%,rgba(0,0,0,0.68) 100%);
-									filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00f7f7f7', endColorstr='#ad000000',GradientType=0 );
   .contenidos .noCalendario .vistaEscritorio .escritorioInner .contienePubillas .unaPubilla .hero .detalle {
     bottom: 30px;
     color: #fff;
-    left: 30px;
-    padding: 0 5px;
-    position: relative;
+    left: 10px;
+    padding: 0 20px;
+    position: absolute;
     text-align: left;
-    text-shadow: 1px 1px 5px rgba(0,0,0,0.5);
-    z-index: 4;
+    text-shadow: 1px 1px 5px rgba(0,0,0,0.6);
+    width: 100%;
+    z-index: 3;
   }
   .contenidos .noCalendario .vistaEscritorio .escritorioInner .contienePubillas .unaPubilla .hero .detalle .nombre {
-    font-size: 1.5em;
+    font-size: 1.3em;
     font-weight: 700;
   }
   .contenidos .noCalendario .vistaEscritorio .escritorioInner .contienePubillas .unaPubilla .hero .detalle .club {
+    font-size: 0.9em;
     font-weight: 400;
-    font-size: 0.95em;
+  }
+  .contenidos .noCalendario .vistaEscritorio .escritorioInner .contienePubillas .unaPubilla .hero .degradado {
+    bottom: 0;
+    height: 250px;
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+background: -moz-linear-gradient(top,  rgba(247,247,247,0) 0%, rgba(175,175,175,0) 29%, rgba(2,2,2,0.68) 99%, rgba(0,0,0,0.68) 100%);
+									background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(247,247,247,0)), color-stop(29%,rgba(175,175,175,0)), color-stop(99%,rgba(2,2,2,0.68)), color-stop(100%,rgba(0,0,0,0.68)));
+									background: -webkit-linear-gradient(top,  rgba(247,247,247,0) 0%,rgba(175,175,175,0) 29%,rgba(2,2,2,0.68) 99%,rgba(0,0,0,0.68) 100%);
+									background: -o-linear-gradient(top,  rgba(247,247,247,0) 0%,rgba(175,175,175,0) 29%,rgba(2,2,2,0.68) 99%,rgba(0,0,0,0.68) 100%);
+									background: -ms-linear-gradient(top,  rgba(247,247,247,0) 0%,rgba(175,175,175,0) 29%,rgba(2,2,2,0.68) 99%,rgba(0,0,0,0.68) 100%);
+									background: linear-gradient(to bottom,  rgba(247,247,247,0) 0%,rgba(175,175,175,0) 29%,rgba(2,2,2,0.68) 99%,rgba(0,0,0,0.68) 100%);
+									filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00f7f7f7', endColorstr='#ad000000',GradientType=0 );
+  }
+background: -moz-linear-gradient(top,  rgba(247,247,247,0) 0%, rgba(175,175,175,0) 29%, rgba(2,2,2,0.68) 99%, rgba(0,0,0,0.68) 100%);
+									background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(247,247,247,0)), color-stop(29%,rgba(175,175,175,0)), color-stop(99%,rgba(2,2,2,0.68)), color-stop(100%,rgba(0,0,0,0.68)));
+									background: -webkit-linear-gradient(top,  rgba(247,247,247,0) 0%,rgba(175,175,175,0) 29%,rgba(2,2,2,0.68) 99%,rgba(0,0,0,0.68) 100%);
+									background: -o-linear-gradient(top,  rgba(247,247,247,0) 0%,rgba(175,175,175,0) 29%,rgba(2,2,2,0.68) 99%,rgba(0,0,0,0.68) 100%);
+									background: -ms-linear-gradient(top,  rgba(247,247,247,0) 0%,rgba(175,175,175,0) 29%,rgba(2,2,2,0.68) 99%,rgba(0,0,0,0.68) 100%);
+									background: linear-gradient(to bottom,  rgba(247,247,247,0) 0%,rgba(175,175,175,0) 29%,rgba(2,2,2,0.68) 99%,rgba(0,0,0,0.68) 100%);
+									filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00f7f7f7', endColorstr='#ad000000',GradientType=0 );
+  .contenidos .noCalendario .vistaEscritorio .escritorioInner .contienePubillas .unaPubilla .hero .fotoOuter {
+    bottom: 0;
+    height: 400px;
+    position: absolute;
+    width: 100%;
+    z-index: 0;
+  }
+  .contenidos .noCalendario .vistaEscritorio .escritorioInner .contienePubillas .unaPubilla .hero .fotoOuter .foto {
+    background-position: 10% 100%;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    height: 100%;
+    width: 100%;
+    position: absolute;
   }
   .contenidos .noCalendario .vistaEscritorio .escritorioInner .contienePubillas .unaPubilla .texto {
     padding: 30px;
