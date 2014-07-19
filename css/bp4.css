@@ -1,37 +1,20 @@
-
-/* line 1 : /Applications/CodeKit.app/Contents/Resources/engines/stylus/lib/functions/index.styl */
-
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Applications\/CodeKit\.app\/Contents\/Resources\/engines\/stylus\/lib\/functions\/index\.styl}line{font-family:\000031}}
-
-/* line 2 : /Users/jordiimac/Documents/FQU/css/bp4.styl */
-
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp4\.styl}line{font-family:\000032}}
-.inicio{max-width:960px;margin:0 auto;}
-
-/* line 5 : /Users/jordiimac/Documents/FQU/css/bp4.styl */
-
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp4\.styl}line{font-family:\000035}}
-.inicio .dreta,.inicio .esquerra{display:inline-block;width:48%;float:right}
-
-/* line 10 : /Users/jordiimac/Documents/FQU/css/bp4.styl */
-
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp4\.styl}line{font-family:\0000310}}
-.inicio .esquerra{float:left}
-
-/* line 12 : /Users/jordiimac/Documents/FQU/css/bp4.styl */
-
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp4\.styl}line{font-family:\0000312}}
-
-/* line 13 : /Users/jordiimac/Documents/FQU/css/bp4.styl */
-
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp4\.styl}line{font-family:\0000313}}
-.inicio .llibret .saludos{max-width:600px;margin:0 auto}
-
-/* line 16 : /Users/jordiimac/Documents/FQU/css/bp4.styl */
-
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp4\.styl}line{font-family:\0000316}}
-
-/* line 17 : /Users/jordiimac/Documents/FQU/css/bp4.styl */
-
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/FQU\/css\/bp4\.styl}line{font-family:\0000317}}
-.inicio .programa .llista{height:248px}
+.inicio {
+  max-width: 960px;
+  margin: 0 auto;
+}
+.inicio .dreta,
+.inicio .esquerra {
+  display: inline-block;
+  width: 48%;
+  float: right;
+}
+.inicio .esquerra {
+  float: left;
+}
+.inicio .llibret .saludos {
+  max-width: 600px;
+  margin: 0 auto;
+}
+.inicio .programa .llista {
+  height: 248px;
+}

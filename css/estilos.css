@@ -446,34 +446,34 @@ background: -moz-radial-gradient(center, ellipse cover,  rgba(0,0,0,0) 0%, rgba(
   padding: 20px;
   text-align: center;
 }
-.contenidos .noCalendario .vistaMovil .contienePubillas .pubillas .pubillaOuter {
+.contenidos .noCalendario .vistaMovil .contienePubillas .pubillas .pubillasOuter {
   display: block;
   font-size: 0;
   margin: 0 auto;
   padding: 0 20px 20px 20px;
   text-align: center;
 }
-.contenidos .noCalendario .vistaMovil .contienePubillas .pubillas .pubillaOuter .pubillaInner {
+.contenidos .noCalendario .vistaMovil .contienePubillas .pubillas .pubillasOuter .pubillasInner {
   display: inline-block;
   margin: 10px 0;
   position: relative;
   width: 150px;
 }
-.contenidos .noCalendario .vistaMovil .contienePubillas .pubillas .pubillaOuter .pubillaInner img {
+.contenidos .noCalendario .vistaMovil .contienePubillas .pubillas .pubillasOuter .pubillasInner img {
   border-radius: 50%;
   box-shadow: 0 0 3px rgba(0,0,0,0.3);
   display: block;
   margin: 0 auto;
   width: 100px;
 }
-.contenidos .noCalendario .vistaMovil .contienePubillas .pubillas .pubillaOuter .pubillaInner .detall {
+.contenidos .noCalendario .vistaMovil .contienePubillas .pubillas .pubillasOuter .pubillasInner .detall {
   font-size: 14px;
   font-weight: 300;
   margin: 12px 0 20px 0;
   padding: 0 5px;
   text-align: center;
 }
-.contenidos .noCalendario .vistaMovil .contienePubillas .pubillas .pubillaOuter .pubillaInner .detall .nom {
+.contenidos .noCalendario .vistaMovil .contienePubillas .pubillas .pubillasOuter .pubillasInner .detall .nom {
   font-weight: 400;
 }
 .contenidos .noCalendario .vistaMovil .contienePubillas .unaPubilla .back {
@@ -955,13 +955,11 @@ background: -moz-linear-gradient(left,  rgba(18,19,20,1) 0%, rgba(18,19,20,1) 39
     -ms-transform: translate(-150%, -150%);
     -webkit-transform: translate(-150%, -150%);
   }
-
   50% {
     transform: translate(40%, 10%);
     -ms-transform: translate(40%, 10%);
     -webkit-transform: translate(40%, 10%);
   }
-
   100% {
     transform: translate(-150%, -150%);
     -ms-transform: translate(-150%, -150%);
@@ -974,13 +972,11 @@ background: -moz-linear-gradient(left,  rgba(18,19,20,1) 0%, rgba(18,19,20,1) 39
     -ms-transform: translate(-150%, -150%);
     -webkit-transform: translate(-150%, -150%);
   }
-
   50% {
     transform: translate(40%, 10%);
     -ms-transform: translate(40%, 10%);
     -webkit-transform: translate(40%, 10%);
   }
-
   100% {
     transform: translate(-150%, -150%);
     -ms-transform: translate(-150%, -150%);
@@ -993,32 +989,11 @@ background: -moz-linear-gradient(left,  rgba(18,19,20,1) 0%, rgba(18,19,20,1) 39
     -ms-transform: translate(-150%, -150%);
     -webkit-transform: translate(-150%, -150%);
   }
-
   50% {
     transform: translate(40%, 10%);
     -ms-transform: translate(40%, 10%);
     -webkit-transform: translate(40%, 10%);
   }
-
-  100% {
-    transform: translate(-150%, -150%);
-    -ms-transform: translate(-150%, -150%);
-    -webkit-transform: translate(-150%, -150%);
-  }
-}
-@-ms-keyframes animacion {
-  0% {
-    transform: translate(-150%, -150%);
-    -ms-transform: translate(-150%, -150%);
-    -webkit-transform: translate(-150%, -150%);
-  }
-
-  50% {
-    transform: translate(40%, 10%);
-    -ms-transform: translate(40%, 10%);
-    -webkit-transform: translate(40%, 10%);
-  }
-
   100% {
     transform: translate(-150%, -150%);
     -ms-transform: translate(-150%, -150%);
@@ -1031,13 +1006,11 @@ background: -moz-linear-gradient(left,  rgba(18,19,20,1) 0%, rgba(18,19,20,1) 39
     -ms-transform: translate(-150%, -150%);
     -webkit-transform: translate(-150%, -150%);
   }
-
   50% {
     transform: translate(40%, 10%);
     -ms-transform: translate(40%, 10%);
     -webkit-transform: translate(40%, 10%);
   }
-
   100% {
     transform: translate(-150%, -150%);
     -ms-transform: translate(-150%, -150%);
@@ -1048,7 +1021,6 @@ background: -moz-linear-gradient(left,  rgba(18,19,20,1) 0%, rgba(18,19,20,1) 39
   0% {
     opacity: 0;
   }
-
   100% {
     opacity: 1;
   }
@@ -1057,7 +1029,6 @@ background: -moz-linear-gradient(left,  rgba(18,19,20,1) 0%, rgba(18,19,20,1) 39
   0% {
     opacity: 0;
   }
-
   100% {
     opacity: 1;
   }
@@ -1066,16 +1037,6 @@ background: -moz-linear-gradient(left,  rgba(18,19,20,1) 0%, rgba(18,19,20,1) 39
   0% {
     opacity: 0;
   }
-
-  100% {
-    opacity: 1;
-  }
-}
-@-ms-keyframes timeLine {
-  0% {
-    opacity: 0;
-  }
-
   100% {
     opacity: 1;
   }
@@ -1084,7 +1045,6 @@ background: -moz-linear-gradient(left,  rgba(18,19,20,1) 0%, rgba(18,19,20,1) 39
   0% {
     opacity: 0;
   }
-
   100% {
     opacity: 1;
   }
@@ -1093,23 +1053,18 @@ background: -moz-linear-gradient(left,  rgba(18,19,20,1) 0%, rgba(18,19,20,1) 39
   0% {
     opacity: 0;
   }
-
   90% {
     opacity: 0;
   }
-
   100% {
     opacity: 1;
   }
-
   0% {
     opacity: 0;
   }
-
   90% {
     opacity: 0;
   }
-
   100% {
     opacity: 1;
   }
@@ -1118,23 +1073,18 @@ background: -moz-linear-gradient(left,  rgba(18,19,20,1) 0%, rgba(18,19,20,1) 39
   0% {
     opacity: 0;
   }
-
   90% {
     opacity: 0;
   }
-
   100% {
     opacity: 1;
   }
-
   0% {
     opacity: 0;
   }
-
   90% {
     opacity: 0;
   }
-
   100% {
     opacity: 1;
   }
@@ -1143,48 +1093,18 @@ background: -moz-linear-gradient(left,  rgba(18,19,20,1) 0%, rgba(18,19,20,1) 39
   0% {
     opacity: 0;
   }
-
   90% {
     opacity: 0;
   }
-
   100% {
     opacity: 1;
   }
-
   0% {
     opacity: 0;
   }
-
   90% {
     opacity: 0;
   }
-
-  100% {
-    opacity: 1;
-  }
-}
-@-ms-keyframes timeLineLento {
-  0% {
-    opacity: 0;
-  }
-
-  90% {
-    opacity: 0;
-  }
-
-  100% {
-    opacity: 1;
-  }
-
-  0% {
-    opacity: 0;
-  }
-
-  90% {
-    opacity: 0;
-  }
-
   100% {
     opacity: 1;
   }
@@ -1193,23 +1113,18 @@ background: -moz-linear-gradient(left,  rgba(18,19,20,1) 0%, rgba(18,19,20,1) 39
   0% {
     opacity: 0;
   }
-
   90% {
     opacity: 0;
   }
-
   100% {
     opacity: 1;
   }
-
   0% {
     opacity: 0;
   }
-
   90% {
     opacity: 0;
   }
-
   100% {
     opacity: 1;
   }
@@ -1260,7 +1175,7 @@ background: -moz-linear-gradient(left,  rgba(18,19,20,1) 0%, rgba(18,19,20,1) 39
   .contenidos .noCalendario .vistaMovil .contienePubillas .unaPubilla .texto {
     padding: 50px;
   }
-  .contenidos .noCalendario .vistaMovil .contienePubillas .pubillas .pubillaOuter {
+  .contenidos .noCalendario .vistaMovil .contienePubillas .pubillas .pubillasOuter {
     padding: 20px 20px 20px 20px;
     width: 70%;
   }
@@ -1317,34 +1232,34 @@ background: -moz-linear-gradient(left,  rgba(18,19,20,1) 0%, rgba(18,19,20,1) 39
     top: 85px;
     z-index: 5;
   }
-  .contenidos .noCalendario .vistaEscritorio .escritorioInner .contienePubillas .pubillas .pubillaOuter {
+  .contenidos .noCalendario .vistaEscritorio .escritorioInner .contienePubillas .pubillas .pubillasOuter {
     display: block;
     font-size: 0;
     margin: 0 auto;
     padding: 90px 20px 20px 20px;
     text-align: center;
   }
-  .contenidos .noCalendario .vistaEscritorio .escritorioInner .contienePubillas .pubillas .pubillaOuter .pubillaInner {
+  .contenidos .noCalendario .vistaEscritorio .escritorioInner .contienePubillas .pubillas .pubillasOuter .pubillasInner {
     display: inline-block;
     margin: 10px 0;
     position: relative;
     width: 150px;
   }
-  .contenidos .noCalendario .vistaEscritorio .escritorioInner .contienePubillas .pubillas .pubillaOuter .pubillaInner img {
+  .contenidos .noCalendario .vistaEscritorio .escritorioInner .contienePubillas .pubillas .pubillasOuter .pubillasInner img {
     border-radius: 50%;
     box-shadow: 0 0 3px rgba(0,0,0,0.3);
     display: block;
     margin: 0 auto;
     width: 100px;
   }
-  .contenidos .noCalendario .vistaEscritorio .escritorioInner .contienePubillas .pubillas .pubillaOuter .pubillaInner .detall {
+  .contenidos .noCalendario .vistaEscritorio .escritorioInner .contienePubillas .pubillas .pubillasOuter .pubillasInner .detall {
     font-size: 14px;
     font-weight: 300;
     margin: 12px 0 20px 0;
     padding: 0 5px;
     text-align: center;
   }
-  .contenidos .noCalendario .vistaEscritorio .escritorioInner .contienePubillas .pubillas .pubillaOuter .pubillaInner .detall .nom {
+  .contenidos .noCalendario .vistaEscritorio .escritorioInner .contienePubillas .pubillas .pubillasOuter .pubillasInner .detall .nom {
     font-weight: 400;
   }
   .contenidos .noCalendario .vistaEscritorio .escritorioInner .contienePubillas .unaPubilla {
@@ -1764,95 +1679,68 @@ background: -moz-linear-gradient(top,  rgba(247,247,247,0) 0%, rgba(175,175,175,
     display: block;
   }
 @-moz-keyframes animacionTablet {
-  0% {
+    0% {
       transform: translate(-100%, -100%);
       -ms-transform: translate(-100%, -100%);
       -webkit-transform: translate(-100%, -100%);
     }
-
-  50% {
+    50% {
       transform: translate(0%, 40%);
       -ms-transform: translate(0%, 40%);
       -webkit-transform: translate(0%, 40%);
     }
-
-  100% {
+    100% {
       transform: translate(-100%, -100%);
       -ms-transform: translate(-100%, -100%);
       -webkit-transform: translate(-100%, -100%);
     }
 }
 @-webkit-keyframes animacionTablet {
-  0% {
+    0% {
       transform: translate(-100%, -100%);
       -ms-transform: translate(-100%, -100%);
       -webkit-transform: translate(-100%, -100%);
     }
-
-  50% {
+    50% {
       transform: translate(0%, 40%);
       -ms-transform: translate(0%, 40%);
       -webkit-transform: translate(0%, 40%);
     }
-
-  100% {
+    100% {
       transform: translate(-100%, -100%);
       -ms-transform: translate(-100%, -100%);
       -webkit-transform: translate(-100%, -100%);
     }
 }
 @-o-keyframes animacionTablet {
-  0% {
+    0% {
       transform: translate(-100%, -100%);
       -ms-transform: translate(-100%, -100%);
       -webkit-transform: translate(-100%, -100%);
     }
-
-  50% {
+    50% {
       transform: translate(0%, 40%);
       -ms-transform: translate(0%, 40%);
       -webkit-transform: translate(0%, 40%);
     }
-
-  100% {
-      transform: translate(-100%, -100%);
-      -ms-transform: translate(-100%, -100%);
-      -webkit-transform: translate(-100%, -100%);
-    }
-}
-@-ms-keyframes animacionTablet {
-  0% {
-      transform: translate(-100%, -100%);
-      -ms-transform: translate(-100%, -100%);
-      -webkit-transform: translate(-100%, -100%);
-    }
-
-  50% {
-      transform: translate(0%, 40%);
-      -ms-transform: translate(0%, 40%);
-      -webkit-transform: translate(0%, 40%);
-    }
-
-  100% {
+    100% {
       transform: translate(-100%, -100%);
       -ms-transform: translate(-100%, -100%);
       -webkit-transform: translate(-100%, -100%);
     }
 }
 @keyframes animacionTablet {
-  0% {
+    0% {
       transform: translate(-100%, -100%);
       -ms-transform: translate(-100%, -100%);
       -webkit-transform: translate(-100%, -100%);
     }
-
-  50% {
+    50% {
       transform: translate(0%, 40%);
       -ms-transform: translate(0%, 40%);
       -webkit-transform: translate(0%, 40%);
     }
-
-  100% {
+    100% {
       transform: translate(-100%, -100%);
       -ms-transform: translate(-100%, -100%);
       -webkit-transform: translate(-100%, -100%);
