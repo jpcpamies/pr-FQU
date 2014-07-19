@@ -1166,11 +1166,14 @@ background: -moz-linear-gradient(left,  rgba(18,19,20,1) 0%, rgba(18,19,20,1) 39
   .contenidos .noCalendario .vistaMovil .contienePubillas .unaPubilla .back:last-child {
     padding: 10px 0 40px 30px;
   }
+  .contenidos .noCalendario .vistaMovil .contienePubillas .unaPubilla .hero {
+    height: 600px;
+  }
   .contenidos .noCalendario .vistaMovil .contienePubillas .unaPubilla .hero .fotoOuter {
-    height: 500px;
+    height: 600px;
   }
   .contenidos .noCalendario .vistaMovil .contienePubillas .unaPubilla .hero .fotoOuter .foto {
-    background-position: 10% 0;
+    background-position: 10% 100%;
     background-size: auto 100%;
     position: absolute;
   }
