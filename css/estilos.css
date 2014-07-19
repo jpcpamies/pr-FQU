@@ -480,6 +480,9 @@ background: -moz-radial-gradient(center, ellipse cover,  rgba(0,0,0,0) 0%, rgba(
   color: #80b21e;
   padding: 20px 0 25px 16px;
 }
+.contenidos .noCalendario .vistaMovil .contienePubillas .unaPubilla .back:last-child {
+  padding: 20px 0 45px 16px;
+}
 .contenidos .noCalendario .vistaMovil .contienePubillas .unaPubilla .back .backTo {
   display: inline-block;
   font-weight: 400;
@@ -551,10 +554,14 @@ background: -moz-linear-gradient(top,  rgba(247,247,247,0) 0%, rgba(175,175,175,
   position: absolute;
 }
 .contenidos .noCalendario .vistaMovil .contienePubillas .unaPubilla .texto {
+  color: rgba(0,0,0,0.75);
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  line-height: 25px;
   padding: 20px;
 }
 .contenidos .noCalendario .vistaMovil .contienePubillas .unaPubilla .texto p {
-  margin-bottom: 16px;
+  margin: 16px 0;
 }
 .contenidos .noCalendario .vistaMovil .contieneInformacion .informacion {
   background: #2a2c2f;
@@ -1178,7 +1185,10 @@ background: -moz-linear-gradient(left,  rgba(18,19,20,1) 0%, rgba(18,19,20,1) 39
     font-weight: 400;
   }
   .contenidos .noCalendario .vistaMovil .contienePubillas .unaPubilla .texto {
-    padding: 50px;
+    padding: 30px 50px;
+  }
+  .contenidos .noCalendario .vistaMovil .contienePubillas .unaPubilla .texto p {
+    margin-bottom: 16px;
   }
   .contenidos .noCalendario .vistaMovil .contienePubillas .pubillas .pubillasOuter {
     padding: 20px 20px 20px 20px;
@@ -1346,7 +1356,12 @@ background: -moz-linear-gradient(top,  rgba(247,247,247,0) 0%, rgba(175,175,175,
     position: absolute;
   }
   .contenidos .noCalendario .vistaEscritorio .escritorioInner .contienePubillas .unaPubilla .texto {
+    color: rgba(0,0,0,0.75);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+    line-height: 22px;
     padding: 30px;
+    text-align: justify;
   }
   .contenidos .noCalendario .vistaEscritorio .escritorioInner .contienePubillas .unaPubilla .texto p {
     margin-bottom: 16px;
