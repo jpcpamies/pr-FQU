@@ -497,12 +497,13 @@ background: -moz-radial-gradient(center, ellipse cover,  rgba(0,0,0,0) 0%, rgba(
   position: relative;
 }
 .contenidos .noCalendario .vistaMovil .contienePubillas .unaPubilla .hero .detalle {
+  bottom: 30px;
   color: #fff;
-  padding: 20px;
-  position: relative;
+  padding: 0 20px;
+  position: absolute;
   text-align: center;
-  top: 70%;
   text-shadow: 1px 1px 5px rgba(0,0,0,0.5);
+  width: 100%;
   z-index: 3;
 }
 .contenidos .noCalendario .vistaMovil .contienePubillas .unaPubilla .hero .detalle .nombre {
