@@ -477,12 +477,15 @@ background: -moz-radial-gradient(center, ellipse cover,  rgba(0,0,0,0) 0%, rgba(
   font-weight: 400;
 }
 .contenidos .noCalendario .vistaMovil .contienePubillas .unaPubilla .back {
+  color: #80b21e;
   padding: 20px 0 25px 16px;
 }
 .contenidos .noCalendario .vistaMovil .contienePubillas .unaPubilla .back .backTo {
-  border-bottom: 1px solid;
   display: inline-block;
   font-weight: 400;
+}
+.contenidos .noCalendario .vistaMovil .contienePubillas .unaPubilla .back .backTo span {
+  border-bottom: 1px solid;
 }
 .contenidos .noCalendario .vistaMovil .contienePubillas .unaPubilla .back .backTo:before {
   content: "\e604";
@@ -503,7 +506,7 @@ background: -moz-radial-gradient(center, ellipse cover,  rgba(0,0,0,0) 0%, rgba(
   height: 100%;
   position: absolute;
   top: 0;
-  bottom: 0;
+  bottom: -50px;
   width: 100%;
   z-index: 2;
 }
