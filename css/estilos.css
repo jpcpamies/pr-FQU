@@ -1407,11 +1407,12 @@ background: -moz-linear-gradient(top,  rgba(247,247,247,0) 0%, rgba(175,175,175,
     position: relative;
   }
   .contenidos .noCalendario .vistaEscritorio .escritorioInner .contieneInformacion .informacion .infoHeader {
-    background: #fff;
     color: rgba(0,0,0,0.75);
     height: 68px;
+    width: 100%;
   }
   .contenidos .noCalendario .vistaEscritorio .escritorioInner .contieneInformacion .informacion .infoHeader h2 {
+    background: #fff;
     font-size: 24px;
     font-weight: 300;
     left: 80px;
@@ -1436,7 +1437,7 @@ background: -moz-linear-gradient(top,  rgba(247,247,247,0) 0%, rgba(175,175,175,
     z-index: 20;
   }
   .contenidos .noCalendario .vistaEscritorio .escritorioInner .contieneInformacion .informacion .infoOuter .infoInner .checkInfo .puntos:after {
-    color: rgba(255,255,255,0.8);
+    color: rgba(0,0,0,0.75);
     content: "\e2aa";
     font-family: icomoon;
     position: absolute;
@@ -1494,7 +1495,7 @@ background: -moz-linear-gradient(top,  rgba(247,247,247,0) 0%, rgba(175,175,175,
     top: 30px;
   }
   .contenidos .noCalendario .vistaEscritorio .escritorioInner .contieneInformacion .informacion .infoOuter .infoInner .post {
-    color: rgba(0,0,0,0.7);
+    color: rgba(0,0,0,0.75);
     font-size: 16px;
     font-style: italic;
     line-height: 21px;
@@ -1505,7 +1506,6 @@ background: -moz-linear-gradient(top,  rgba(247,247,247,0) 0%, rgba(175,175,175,
     margin: 0 78px 0 55px;
   }
   .contenidos .noCalendario .vistaEscritorio .escritorioInner .contieneInformacion .informacion .infoOuter .infoInner .post .detallePost {
-    background: #fff;
     border-left: none;
   }
   .contenidos .noCalendario .vistaEscritorio .escritorioInner .contieneInformacion .informacion .infoOuter .infoInner .post .detallePost h5 {
@@ -1532,7 +1532,7 @@ background: -moz-linear-gradient(top,  rgba(247,247,247,0) 0%, rgba(175,175,175,
     margin: 20px 20px 0 55px;
   }
   .contenidos .noCalendario .vistaEscritorio .escritorioInner .contieneInformacion .informacion .infoOuter .infoInner .post .detallePost ul li {
-    color: rgba(255,255,255,0.6);
+    color: rgba(0,0,0,0.75);
     font-style: normal;
     font-weight: 400;
     list-style-type: circle;
