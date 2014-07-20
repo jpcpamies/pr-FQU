@@ -438,7 +438,7 @@ background: -moz-radial-gradient(center, ellipse cover,  rgba(0,0,0,0) 0%, rgba(
 }
 .contenidos .noCalendario .vistaMovil .contienePubillas .pubillas {
   background: #fff;
-  color: rgba(0,0,0,0.7);
+  color: rgba(0,0,0,0.75);
 }
 .contenidos .noCalendario .vistaMovil .contienePubillas .pubillas h3 {
   font-size: 24px;
@@ -1238,20 +1238,23 @@ background: -moz-linear-gradient(left,  rgba(18,19,20,1) 0%, rgba(18,19,20,1) 39
   }
   .contenidos .noCalendario .vistaEscritorio .escritorioInner .contienePubillas .pubillas {
     background: #fff;
-    color: rgba(0,0,0,0.7);
+    color: rgba(0,0,0,0.75);
   }
-  .contenidos .noCalendario .vistaEscritorio .escritorioInner .contienePubillas .pubillas h3 {
-    background: #808080;
-    color: #fff;
+  .contenidos .noCalendario .vistaEscritorio .escritorioInner .contienePubillas .pubillas .pubillasHeader {
+    background: #fff;
+    color: rgba(0,0,0,0.75);
+    position: fixed;
+    width: 100%;
+    z-index: 5;
+  }
+  .contenidos .noCalendario .vistaEscritorio .escritorioInner .contienePubillas .pubillas .pubillasHeader h3 {
     font-size: 24px;
     font-weight: 300;
     left: 80px;
     padding: 20px;
-    position: fixed;
     right: 0;
     text-align: left;
     top: 85px;
-    z-index: 5;
   }
   .contenidos .noCalendario .vistaEscritorio .escritorioInner .contienePubillas .pubillas .pubillasOuter {
     display: block;
@@ -1404,12 +1407,11 @@ background: -moz-linear-gradient(top,  rgba(247,247,247,0) 0%, rgba(175,175,175,
     position: relative;
   }
   .contenidos .noCalendario .vistaEscritorio .escritorioInner .contieneInformacion .informacion .infoHeader {
-    color: rgba(255,255,255,0.8);
+    background: #fff;
+    color: rgba(0,0,0,0.75);
     height: 68px;
   }
   .contenidos .noCalendario .vistaEscritorio .escritorioInner .contieneInformacion .informacion .infoHeader h2 {
-    background: #808080;
-    color: #fff;
     font-size: 24px;
     font-weight: 300;
     left: 80px;
