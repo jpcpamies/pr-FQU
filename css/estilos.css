@@ -1238,11 +1238,14 @@ background: -moz-linear-gradient(left,  rgba(18,19,20,1) 0%, rgba(18,19,20,1) 39
   }
   .contenidos .noCalendario .vistaEscritorio .escritorioInner .contienePubillas .pubillas {
     background: #fff;
+    bottom: 0;
     color: rgba(0,0,0,0.75);
+    height: 100%;
+    position: relative;
+    top: 0;
   }
   .contenidos .noCalendario .vistaEscritorio .escritorioInner .contienePubillas .pubillas .pubillasHeader {
     background: #fff;
-    color: rgba(0,0,0,0.75);
     position: fixed;
     width: 100%;
     z-index: 5;
@@ -1257,13 +1260,13 @@ background: -moz-linear-gradient(left,  rgba(18,19,20,1) 0%, rgba(18,19,20,1) 39
     top: 85px;
   }
   .contenidos .noCalendario .vistaEscritorio .escritorioInner .contienePubillas .pubillas .pubillasOuter {
-    display: block;
+    background: #fff;
     font-size: 0;
-    margin: 0 auto;
-    padding: 90px 20px 20px 20px;
+    padding: 90px 20px 40px 20px;
     text-align: center;
   }
   .contenidos .noCalendario .vistaEscritorio .escritorioInner .contienePubillas .pubillas .pubillasOuter .pubillasInner {
+    background: #fff;
     display: inline-block;
     margin: 10px 0;
     position: relative;
