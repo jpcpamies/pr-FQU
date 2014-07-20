@@ -321,14 +321,13 @@ footer .right .email:after {
   background: #484645;
   border-radius: 5px;
   box-shadow: 0 0 3px rgba(0,0,0,0.8);
-  color: rgba(255,255,255,0.9);
+  color: #fff;
   padding: 15px 20px 16px 15px;
   position: relative;
   text-align: center;
   text-shadow: 1px 1px 0 rgba(0,0,0,0.8);
 }
 .contenidos .calendario .listaDias .event .upOuter:after {
-  color: rgba(255,255,255,0.8);
   content: "\e2aa";
   font-family: icomoon;
   right: 16px;
@@ -358,20 +357,25 @@ background: -moz-radial-gradient(center, ellipse cover,  rgba(0,0,0,0) 0%, rgba(
 							background: -ms-radial-gradient(center, ellipse cover,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.7) 99%,rgba(0,0,0,0.7) 100%);
 							background: radial-gradient(ellipse at center,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.7) 99%,rgba(0,0,0,0.7) 100%);
 							filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#b3000000',GradientType=1 );
-.contenidos .calendario .listaDias .event .upOuter .detall {
-  position: relative;
-  z-index: 1;
-}
 .contenidos .calendario .listaDias .event .upOuter .detall .place {
-  color: rgba(255,255,255,0.8);
   font-size: 12px;
   text-transform: uppercase;
+  position: relative;
+  z-index: 5;
 }
 .contenidos .calendario .listaDias .event .upOuter .detall .time {
   text-align: left;
+  position: relative;
+  z-index: 1;
 }
 .contenidos .calendario .listaDias .event .upOuter .detall .event {
   margin: 16px auto 8px auto;
+  position: relative;
+  z-index: 1;
+}
+.contenidos .calendario .listaDias .event .upOuter .detall .logo {
+  position: relative;
+  z-index: 1;
 }
 .contenidos .calendario .listaDias .event .upOuter .detall .logo:after {
   content: "\e135";
@@ -726,21 +730,6 @@ background: -moz-linear-gradient(top,  rgba(247,247,247,0) 0%, rgba(175,175,175,
 }
 .contenidos .noCalendario .vistaMovil .contieneColaboradores .colaboradores .logoOuter .logoInner img {
   width: 100%;
-}
-.decoracion .lineaOuter {
-  display: none;
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  right: 50%;
-  z-index: 0;
-  animation: timeLineLento 0.8s;
-  -webkit-animation: timeLineLento 0.8s;
-}
-.decoracion .lineaOuter .linea {
-  width: 2px;
-  background: #646669;
-  height: 100vh;
 }
 .decoracion .tituloOuter {
   display: none;

@@ -174,13 +174,12 @@ footer
 					background gris
 					border-radius 5px
 					box-shadow 0 0 3px rgba(black,.8)
-					color rgba(white,.9)
+					color white
 					padding 15px 20px 16px 15px
 					position relative
 					text-align center
 					text-shadow 1px 1px 0 rgba(black,.8)
 					&:after
-						color texto
 						content menu2
 						font-family icomoon
 						right 16px
@@ -204,17 +203,22 @@ footer
 							filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#b3000000',GradientType=1 );
 						}
 					.detall
-						position relative
-						z-index 1
 						.place
-							color texto
 							font-size 12px
 							text-transform uppercase
+							position relative
+							z-index 5
 						.time
 							text-align left
+							position relative
+							z-index 1
 						.event
 							margin 16px auto 8px auto
+							position relative
+							z-index 1
 						.logo
+							position relative
+							z-index 1
 							&:after
 								content disco
 								font-family icomoon
@@ -519,19 +523,19 @@ footer
 							img
 								width 100%
 .decoracion
-	.lineaOuter
-		display none
-		position absolute 
-		top 0 
-		bottom 0
-		right 50%
-		z-index 0
-		animation timeLineLento .8s 
-		-webkit-animation timeLineLento .8s
-		.linea
-			width 2px 
-			background grisEventoActual
-			height 100vh
+	// .lineaOuter
+	// 	display none
+	// 	position absolute 
+	// 	top 0 
+	// 	bottom 0
+	// 	right 50%
+	// 	z-index 0
+	// 	animation timeLineLento .8s 
+	// 	-webkit-animation timeLineLento .8s
+	// 	.linea
+	// 		width 2px 
+	// 		background grisEventoActual
+	// 		height 100vh
 	.tituloOuter
 		display none
 		height auto
