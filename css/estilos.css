@@ -1224,6 +1224,7 @@ background: -moz-linear-gradient(left,  rgba(18,19,20,1) 0%, rgba(18,19,20,1) 39
     width: 100%;
   }
   .contenidos .noCalendario {
+    background: #f00;
     bottom: 0;
     left: 0;
     margin: 85px 420px 0 80px;
@@ -1235,6 +1236,26 @@ background: -moz-linear-gradient(left,  rgba(18,19,20,1) 0%, rgba(18,19,20,1) 39
   }
   .contenidos .noCalendario .vistaEscritorio {
     display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }
+  .contenidos .noCalendario .vistaEscritorio .escritorioInner {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }
+  .contenidos .noCalendario .vistaEscritorio .escritorioInner .contienePubillas {
+    background: #fff;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
   }
   .contenidos .noCalendario .vistaEscritorio .escritorioInner .contienePubillas .pubillas {
     background: #fff;
