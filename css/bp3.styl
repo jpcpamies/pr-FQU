@@ -298,8 +298,6 @@ footer
 			top 80px
 			z-index 10
 			width 420px
-			
-
 		.listaDias
 			display block
 			margin 275px 0 100px 0
@@ -307,14 +305,24 @@ footer
 				margin-left 14px
 				width 94%
 .decoracion
-	position absolute
+	position fixed
+	top 15px
 	right 210px
-	top -420px
-	.lineaOuter
+	bottom 0
+	z-index 10
+	// .lineaOuter
+	// 	-webkit-animation none
+	// 	animation none  
+	// 	display none
+	// 	position absolute
+	// 	right 2px
 	.tituloOuter
-		display block
-		animation none  
 		-webkit-animation none
+		animation none  
+		display block
+		position absolute
+		right 0
+		top 0
 .header
 	border-bottom 5px solid verde
 	height 85px
@@ -322,7 +330,7 @@ footer
 	top 0
 	right 0
 	left 0
-	z-index 5
+	z-index 10
 	.heroOuter
 		.hero
 			background gris

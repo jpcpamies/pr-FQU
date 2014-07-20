@@ -738,7 +738,7 @@ background: -moz-linear-gradient(top,  rgba(247,247,247,0) 0%, rgba(175,175,175,
   -webkit-animation: timeLineLento 0.8s;
 }
 .decoracion .lineaOuter .linea {
-  width: 4px;
+  width: 2px;
   background: #646669;
   height: 100vh;
 }
@@ -1577,15 +1577,19 @@ background: -moz-linear-gradient(top,  rgba(247,247,247,0) 0%, rgba(175,175,175,
     width: 94%;
   }
   .decoracion {
-    position: absolute;
+    position: fixed;
+    top: 15px;
     right: 210px;
-    top: -420px;
+    bottom: 0;
+    z-index: 10;
   }
-  .decoracion .lineaOuter,
   .decoracion .tituloOuter {
-    display: block;
-    animation: none;
     -webkit-animation: none;
+    animation: none;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
   }
   .header {
     border-bottom: 5px solid #80b21e;
@@ -1594,7 +1598,7 @@ background: -moz-linear-gradient(top,  rgba(247,247,247,0) 0%, rgba(175,175,175,
     top: 0;
     right: 0;
     left: 0;
-    z-index: 5;
+    z-index: 10;
   }
   .header .heroOuter .hero {
     background: #484645;
