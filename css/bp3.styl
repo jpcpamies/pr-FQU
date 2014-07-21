@@ -3,7 +3,7 @@ footer
 	display none
 .contenidos
 	bottom 0 
-	left 0
+	left 80px
 	position absolute
 	right 0
 	top 85px
@@ -325,7 +325,6 @@ footer
 					.contenidoEventoInner
 						padding 30px 16px 18px 16px
 						p
-							color rgba(white,.7)
 							font-size 16px
 							line-height 23px
 							margin 0 9px 18px 9px
@@ -417,24 +416,45 @@ footer
 						font-size 2em
 						left 38%
 						position absolute
-				.contactar
-					&:after
-						content email
 				.info
+					cursor pointer
 					&:after
 						content info
 				.patro
+					cursor pointer
 					color verde
 					&:after
 						content colaboradores
 				.pubilles
+					cursor pointer
 					&:after
 						content pubillas
+			.contactar
+				color rgba(white,.8)
+				cursor pointer
+				position absolute
+				bottom 150px
+				left 15px
+				z-index 500
+				h3
+					top 48px
+					font-size .55em
+					position relative
+				&:after
+					bottom 24px
+					content email
+					display block
+					font-family icomoon
+			.logo
+				position absolute
+				bottom 20px
+				left 15px
+				opacity .8
+				img
+					width 50px
 			.top
 				margin 85px 0 0 0 
-			.bottom
-				bottom 0px
-				position absolute
+			
 .tituloOuter
 	animation none
 	-webkit-animation none

@@ -314,7 +314,7 @@ footer .right .email:after {
   -webkit-filter: brightness(0.6) grayscale(0.2);
 }
 .contenidos .calendario .listaEventos .techno .portada .logoEvento:after {
-  content: "\e283";
+  content: "\e282";
 }
 .contenidos .calendario .listaEventos .techno .contenidoEvento {
   background: #090718;
@@ -581,7 +581,7 @@ background: -moz-linear-gradient(top,  rgba(247,247,247,0) 0%, rgba(175,175,175,
 }
 .contenidos .noCalendario .vistaMovil .contieneInformacion .informacion .infoOuter .infoInner .checkInfo .puntos:after {
   color: rgba(255,255,255,0.8);
-  content: menu2;
+  content: "\e2aa";
   font-family: icomoon;
   position: absolute;
   font-style: normal;
@@ -1182,7 +1182,7 @@ background: -moz-linear-gradient(left,  rgba(18,19,20,1) 0%, rgba(18,19,20,1) 39
   }
   .contenidos {
     bottom: 0;
-    left: 0;
+    left: 80px;
     position: absolute;
     right: 0;
     top: 85px;
@@ -1427,7 +1427,7 @@ background: -moz-linear-gradient(top,  rgba(247,247,247,0) 0%, rgba(175,175,175,
   }
   .contenidos .noCalendario .vistaEscritorio .escritorioInner .contieneInformacion .informacion .infoOuter .infoInner .checkInfo .puntos:after {
     color: rgba(0,0,0,0.75);
-    content: menu2;
+    content: "\e2aa";
     font-family: icomoon;
     position: absolute;
     font-style: normal;
@@ -1566,7 +1566,6 @@ background: -moz-linear-gradient(top,  rgba(247,247,247,0) 0%, rgba(175,175,175,
     padding: 30px 16px 18px 16px;
   }
   .contenidos .calendario .listaEventos .evento .contenidoEvento .contenidoEventoInner p {
-    color: rgba(255,255,255,0.7);
     font-size: 16px;
     line-height: 23px;
     margin: 0 9px 18px 9px;
@@ -1666,27 +1665,55 @@ background: -moz-linear-gradient(top,  rgba(247,247,247,0) 0%, rgba(175,175,175,
     left: 38%;
     position: absolute;
   }
-  .menu ul .botonOuter .botonInner .contactar:after {
-    content: "\e60d";
+  .menu ul .botonOuter .botonInner .info {
+    cursor: pointer;
   }
   .menu ul .botonOuter .botonInner .info:after {
     content: "\e606";
   }
   .menu ul .botonOuter .botonInner .patro {
+    cursor: pointer;
     color: #80b21e;
   }
   .menu ul .botonOuter .botonInner .patro:after {
     content: "\e2fe";
   }
+  .menu ul .botonOuter .botonInner .pubilles {
+    cursor: pointer;
+  }
   .menu ul .botonOuter .botonInner .pubilles:after {
-    content: "\e60a";
+    content: "\e60f";
+  }
+  .menu ul .botonOuter .contactar {
+    color: rgba(255,255,255,0.8);
+    cursor: pointer;
+    position: absolute;
+    bottom: 150px;
+    left: 15px;
+    z-index: 500;
+  }
+  .menu ul .botonOuter .contactar h3 {
+    top: 48px;
+    font-size: 0.55em;
+    position: relative;
+  }
+  .menu ul .botonOuter .contactar:after {
+    bottom: 24px;
+    content: "\e60d";
+    display: block;
+    font-family: icomoon;
+  }
+  .menu ul .botonOuter .logo {
+    position: absolute;
+    bottom: 20px;
+    left: 15px;
+    opacity: 0.8;
+  }
+  .menu ul .botonOuter .logo img {
+    width: 50px;
   }
   .menu ul .botonOuter .top {
     margin: 85px 0 0 0;
-  }
-  .menu ul .botonOuter .bottom {
-    bottom: 0px;
-    position: absolute;
   }
   .tituloOuter {
     animation: none;
