@@ -1566,11 +1566,11 @@ background: -moz-linear-gradient(top,  rgba(247,247,247,0) 0%, rgba(175,175,175,
     z-index: 10;
     width: 420px;
   }
-  .contenidos .calendario .listaDias {
+  .contenidos .calendario .listaEventos {
     display: block;
-    margin: 275px 0 100px 0;
+    margin: 295px 0 100px 0;
   }
-  .contenidos .calendario .listaDias .event {
+  .contenidos .calendario .listaEventos .evento {
     margin-left: 14px;
     width: 94%;
   }
