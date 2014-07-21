@@ -160,33 +160,38 @@ footer
 							-webkit-transform: scale(1, 1.2);
 		.listaEventos
 			// Tipos de evento
-			.baile
+			.techno
 				.portada
-					background azul
+					background-image url(../img/eventos/techno.jpg)
+					background-position 0 30%
+					background-repeat no-repeat
+					background-size 100% auto
 					.logoEvento
 						&:after
 							content sport
 				.contenidoEvento
-					background verdeOscuro
+					background #090718
 			.concierto
 				.portada
-					background verde
+					background-image url(../img/eventos/concierto.jpg)
+					background-position 0 0
+					background-repeat no-repeat
+					background-size 100% auto
 					.logoEvento
 						&:after
 							content micro
 				.contenidoEvento
-					background verdeOscuro
+					background #1c0d04
 			// Tipos de evento
 			.evento
 				margin 10px auto 20px auto
 				width 95%
 				.portada
-					// background rosa
 					border-radius 5px
 					box-shadow 0 0 3px rgba(black,.8)
 					color white
 					min-height 100px
-					padding 20px
+					padding 25px 20px
 					position relative
 					.degradado
 						border-radius 5px
@@ -197,13 +202,14 @@ footer
 						top 0
 						z-index 0
 						@css {
-							background: -moz-radial-gradient(center, ellipse cover,  rgba(0,0,0,0) 0%, rgba(0,0,0,0.7) 99%, rgba(0,0,0,0.7) 100%);
-							background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(0,0,0,0)), color-stop(99%,rgba(0,0,0,0.7)), color-stop(100%,rgba(0,0,0,0.7)));
-							background: -webkit-radial-gradient(center, ellipse cover,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.7) 99%,rgba(0,0,0,0.7) 100%);
-							background: -o-radial-gradient(center, ellipse cover,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.7) 99%,rgba(0,0,0,0.7) 100%);
-							background: -ms-radial-gradient(center, ellipse cover,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.7) 99%,rgba(0,0,0,0.7) 100%);
-							background: radial-gradient(ellipse at center,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.7) 99%,rgba(0,0,0,0.7) 100%);
-							filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#b3000000',GradientType=1 );
+							background: -moz-radial-gradient(center, ellipse cover,  rgba(0,0,0,0.2) 0%, rgba(0,0,0,1) 100%);
+							background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(0,0,0,0.2)), color-stop(100%,rgba(0,0,0,1)));
+							background: -webkit-radial-gradient(center, ellipse cover,  rgba(0,0,0,0.2) 0%,rgba(0,0,0,1) 100%);
+							background: -o-radial-gradient(center, ellipse cover,  rgba(0,0,0,0.2) 0%,rgba(0,0,0,1) 100%);
+							background: -ms-radial-gradient(center, ellipse cover,  rgba(0,0,0,0.2) 0%,rgba(0,0,0,1) 100%);
+							background: radial-gradient(ellipse at center,  rgba(0,0,0,0.2) 0%,rgba(0,0,0,1) 100%);
+							filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#33000000', endColorstr='#000000',GradientType=1 );
+
 						}
 					.detallePortada
 						font-weight 400
@@ -229,20 +235,22 @@ footer
 								font-size 1em
 						.sitioEvento
 							color rgba(white,.8)
-							font-size 12px
+							font-size .6em
+							font-weight bolder
 							margin 3px 0 0 62px
 							position relative
 							text-align left
 							text-transform uppercase
 						.tituloEvento
+							font-size .9em
+							font-weight bolder
 							margin -23px 40px 0 62px
 							position relative
 							top 0
 				.contenidoEvento
-					// background negroOscuro
 					border-radius 0 0 5px 5px
 					margin -10px 0 0 0 
-					.cajonInner
+					.contenidoEventoInner
 						margin 0 auto
 						padding 30px 12px 18px 12px
 						p

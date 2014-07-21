@@ -306,23 +306,29 @@ footer .right .email:after {
   -ms-transform: scale(1, 1.2);
   -webkit-transform: scale(1, 1.2);
 }
-.contenidos .calendario .listaEventos .baile .portada {
-  background: #92ccfd;
+.contenidos .calendario .listaEventos .techno .portada {
+  background-image: url("../img/eventos/techno.jpg");
+  background-position: 0 30%;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
 }
-.contenidos .calendario .listaEventos .baile .portada .logoEvento:after {
+.contenidos .calendario .listaEventos .techno .portada .logoEvento:after {
   content: "\e283";
 }
-.contenidos .calendario .listaEventos .baile .contenidoEvento {
-  background: #a01157;
+.contenidos .calendario .listaEventos .techno .contenidoEvento {
+  background: #090718;
 }
 .contenidos .calendario .listaEventos .concierto .portada {
-  background: #80b21e;
+  background-image: url("../img/eventos/concierto.jpg");
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
 }
 .contenidos .calendario .listaEventos .concierto .portada .logoEvento:after {
   content: "\e06f";
 }
 .contenidos .calendario .listaEventos .concierto .contenidoEvento {
-  background: #a01157;
+  background: #1c0d04;
 }
 .contenidos .calendario .listaEventos .evento {
   margin: 10px auto 20px auto;
@@ -333,7 +339,7 @@ footer .right .email:after {
   box-shadow: 0 0 3px rgba(0,0,0,0.8);
   color: #fff;
   min-height: 100px;
-  padding: 20px;
+  padding: 25px 20px;
   position: relative;
 }
 .contenidos .calendario .listaEventos .evento .portada .degradado {
@@ -344,21 +350,21 @@ footer .right .email:after {
   right: 0;
   top: 0;
   z-index: 0;
-background: -moz-radial-gradient(center, ellipse cover,  rgba(0,0,0,0) 0%, rgba(0,0,0,0.7) 99%, rgba(0,0,0,0.7) 100%);
-							background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(0,0,0,0)), color-stop(99%,rgba(0,0,0,0.7)), color-stop(100%,rgba(0,0,0,0.7)));
-							background: -webkit-radial-gradient(center, ellipse cover,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.7) 99%,rgba(0,0,0,0.7) 100%);
-							background: -o-radial-gradient(center, ellipse cover,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.7) 99%,rgba(0,0,0,0.7) 100%);
-							background: -ms-radial-gradient(center, ellipse cover,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.7) 99%,rgba(0,0,0,0.7) 100%);
-							background: radial-gradient(ellipse at center,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.7) 99%,rgba(0,0,0,0.7) 100%);
-							filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#b3000000',GradientType=1 );
+background: -moz-radial-gradient(center, ellipse cover,  rgba(0,0,0,0.2) 0%, rgba(0,0,0,1) 100%);
+							background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(0,0,0,0.2)), color-stop(100%,rgba(0,0,0,1)));
+							background: -webkit-radial-gradient(center, ellipse cover,  rgba(0,0,0,0.2) 0%,rgba(0,0,0,1) 100%);
+							background: -o-radial-gradient(center, ellipse cover,  rgba(0,0,0,0.2) 0%,rgba(0,0,0,1) 100%);
+							background: -ms-radial-gradient(center, ellipse cover,  rgba(0,0,0,0.2) 0%,rgba(0,0,0,1) 100%);
+							background: radial-gradient(ellipse at center,  rgba(0,0,0,0.2) 0%,rgba(0,0,0,1) 100%);
+							filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#33000000', endColorstr='#000000',GradientType=1 );
 }
-background: -moz-radial-gradient(center, ellipse cover,  rgba(0,0,0,0) 0%, rgba(0,0,0,0.7) 99%, rgba(0,0,0,0.7) 100%);
-							background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(0,0,0,0)), color-stop(99%,rgba(0,0,0,0.7)), color-stop(100%,rgba(0,0,0,0.7)));
-							background: -webkit-radial-gradient(center, ellipse cover,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.7) 99%,rgba(0,0,0,0.7) 100%);
-							background: -o-radial-gradient(center, ellipse cover,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.7) 99%,rgba(0,0,0,0.7) 100%);
-							background: -ms-radial-gradient(center, ellipse cover,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.7) 99%,rgba(0,0,0,0.7) 100%);
-							background: radial-gradient(ellipse at center,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.7) 99%,rgba(0,0,0,0.7) 100%);
-							filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#b3000000',GradientType=1 );
+background: -moz-radial-gradient(center, ellipse cover,  rgba(0,0,0,0.2) 0%, rgba(0,0,0,1) 100%);
+							background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(0,0,0,0.2)), color-stop(100%,rgba(0,0,0,1)));
+							background: -webkit-radial-gradient(center, ellipse cover,  rgba(0,0,0,0.2) 0%,rgba(0,0,0,1) 100%);
+							background: -o-radial-gradient(center, ellipse cover,  rgba(0,0,0,0.2) 0%,rgba(0,0,0,1) 100%);
+							background: -ms-radial-gradient(center, ellipse cover,  rgba(0,0,0,0.2) 0%,rgba(0,0,0,1) 100%);
+							background: radial-gradient(ellipse at center,  rgba(0,0,0,0.2) 0%,rgba(0,0,0,1) 100%);
+							filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#33000000', endColorstr='#000000',GradientType=1 );
 .contenidos .calendario .listaEventos .evento .portada .detallePortada {
   font-weight: 400;
   position: relative;
@@ -386,13 +392,16 @@ background: -moz-radial-gradient(center, ellipse cover,  rgba(0,0,0,0) 0%, rgba(
 }
 .contenidos .calendario .listaEventos .evento .portada .detallePortada .sitioEvento {
   color: rgba(255,255,255,0.8);
-  font-size: 12px;
+  font-size: 0.6em;
+  font-weight: bolder;
   margin: 3px 0 0 62px;
   position: relative;
   text-align: left;
   text-transform: uppercase;
 }
 .contenidos .calendario .listaEventos .evento .portada .detallePortada .tituloEvento {
+  font-size: 0.9em;
+  font-weight: bolder;
   margin: -23px 40px 0 62px;
   position: relative;
   top: 0;
@@ -401,11 +410,11 @@ background: -moz-radial-gradient(center, ellipse cover,  rgba(0,0,0,0) 0%, rgba(
   border-radius: 0 0 5px 5px;
   margin: -10px 0 0 0;
 }
-.contenidos .calendario .listaEventos .evento .contenidoEvento .cajonInner {
+.contenidos .calendario .listaEventos .evento .contenidoEvento .contenidoEventoInner {
   margin: 0 auto;
   padding: 30px 12px 18px 12px;
 }
-.contenidos .calendario .listaEventos .evento .contenidoEvento .cajonInner p {
+.contenidos .calendario .listaEventos .evento .contenidoEvento .contenidoEventoInner p {
   color: rgba(255,255,255,0.6);
   font-size: 18px;
   line-height: 25px;
