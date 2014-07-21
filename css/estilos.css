@@ -303,10 +303,24 @@ footer .right .email:after {
   -ms-transform: scale(1, 1.2);
   -webkit-transform: scale(1, 1.2);
 }
-.contenidos .calendario .listaEventos .evento .portada {
+.contenidos .calendario .listaEventos .evento {
   margin: 10px auto 20px auto;
   position: relative;
   width: 95%;
+}
+.contenidos .calendario .listaEventos .evento .portada {
+  background: #484645;
+  border-radius: 5px;
+  box-shadow: 0 0 3px rgba(0,0,0,0.8);
+  color: #fff;
+  padding: 15px 20px 16px 15px;
+}
+.contenidos .calendario .listaEventos .evento .portada .desplegar:after {
+  content: "\e120";
+  font-family: icomoon;
+  position: absolute;
+  right: 12px;
+  top: 12px;
 }
 .contenidos .noCalendario {
   position: relative;
@@ -476,7 +490,7 @@ background: -moz-linear-gradient(top,  rgba(247,247,247,0) 0%, rgba(175,175,175,
 }
 .contenidos .noCalendario .vistaMovil .contieneInformacion .informacion .infoOuter .infoInner .checkInfo .puntos:after {
   color: rgba(255,255,255,0.8);
-  content: "\e2aa";
+  content: menu2;
   font-family: icomoon;
   position: absolute;
   font-style: normal;
@@ -1326,7 +1340,7 @@ background: -moz-linear-gradient(top,  rgba(247,247,247,0) 0%, rgba(175,175,175,
   }
   .contenidos .noCalendario .vistaEscritorio .escritorioInner .contieneInformacion .informacion .infoOuter .infoInner .checkInfo .puntos:after {
     color: rgba(0,0,0,0.75);
-    content: "\e2aa";
+    content: menu2;
     font-family: icomoon;
     position: absolute;
     font-style: normal;

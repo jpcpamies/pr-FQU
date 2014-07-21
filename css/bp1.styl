@@ -158,10 +158,23 @@ footer
 							-webkit-transform: scale(1, 1.2);
 		.listaEventos
 			.evento
+				margin 10px auto 20px auto
+				position relative
+				width 95%
 				.portada
-					margin 10px auto 20px auto
-					position relative
-					width 95%
+					background gris
+					border-radius 5px
+					box-shadow 0 0 3px rgba(black,.8)
+					color white
+					padding 15px 20px 16px 15px
+					.desplegar
+						&:after 
+							content menu
+							font-family icomoon
+							// font-size 20px
+							position absolute
+							right 12px
+							top 12px 
 	.noCalendario
 		position relative
 		z-index 5
