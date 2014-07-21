@@ -408,7 +408,7 @@ footer .right .email:after {
   padding: 30px 12px 18px 12px;
 }
 .contenidos .calendario .listaEventos .evento .contenidoEvento .contenidoEventoInner p {
-  color: rgba(255,255,255,0.6);
+  color: rgba(255,255,255,0.7);
   font-size: 18px;
   line-height: 25px;
   margin: 0 9px 18px 9px;
@@ -1115,6 +1115,9 @@ background: -moz-linear-gradient(left,  rgba(18,19,20,1) 0%, rgba(18,19,20,1) 39
     margin: 10px auto 20px auto;
     width: 80%;
   }
+  .contenidos .calendario .listaEventos .evento .contenidoEvento .contenidoEventoInner {
+    padding: 30px 23px 18px 23px;
+  }
   .contenidos .noCalendario .vistaMovil .contieneColaboradores .colaboradores .logoOuter {
     padding: 0 20px 30px 20px;
   }
@@ -1558,6 +1561,15 @@ background: -moz-linear-gradient(top,  rgba(247,247,247,0) 0%, rgba(175,175,175,
   .contenidos .calendario .listaEventos .evento {
     margin-left: 14px;
     width: 94%;
+  }
+  .contenidos .calendario .listaEventos .evento .contenidoEvento .contenidoEventoInner {
+    padding: 30px 16px 18px 16px;
+  }
+  .contenidos .calendario .listaEventos .evento .contenidoEvento .contenidoEventoInner p {
+    color: rgba(255,255,255,0.7);
+    font-size: 16px;
+    line-height: 23px;
+    margin: 0 9px 18px 9px;
   }
   .decoracion {
     position: fixed;
