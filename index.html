@@ -15,7 +15,7 @@
 		<link rel="stylesheet" href="css/normalize.min.css" />
 	    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,900italic|Oswald:400,700|Open+Sans:300' rel='stylesheet' type='text/css'>
 	    <link rel="stylesheet" href="css/estilos.css" />
-	    <link rel="stylesheet" href="http://i.icomoon.io/public/temp/173b873eb5/UntitledProject2/style.css">
+	    <link rel="stylesheet" href="http://i.icomoon.io/public/temp/47518fbbee/UntitledProject2/style.css">
 	    <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
 	</head>
 	<body>
@@ -24,7 +24,7 @@
 				<div class="heroOuter"><div class="hero"><div class="heroInner"></div></div></div>
 				<div class="logoOuter"><div class="logoInner"><figure><img src="img/logo/logoVerde.png" alt="" /></figure></div><h1>Festes <span class='quinquennals'>Quinquennals</span><br>Ulldecona 2014</h1></div>
 			</header>
-			<input type="checkbox" id='llamadaCalendario' />
+			<input type="checkbox" checked id='llamadaCalendario' />
 			<label for="llamadaCalendario" class="llamadaLabel"><div class="boton"><span class="flecha"></span></div></label>
 			<div class="llamadaTitulo"><h2>Programa de Festes<span>Estigues al dia de tot</span></h2></div>
 			<nav class="menu">
@@ -67,21 +67,48 @@
 						        </ul>
 						    </div>
 						</div>
-					    <div class="listaDias">
+					    <div class="listaEventos">
 					    	<div class="dia1set">
-						    	<div class="event ball">
-						    		<div class="upOuter" onclick="slideToggle('dia1set1')">
+
+
+
+						    	<!-- <div class="evento ball">
+						    		<div class="cajaEvento" onclick="slideToggle('dia1set1')">
 							    		<div class="degradado"></div>
-							    		<div class="detall">
-						    				<div class="time"><span>A la mitja nit</span></div>
-						                    <div class="logo"></div>
-						                    <div class="event"><p>La nit dels 80</p></div>
-						                    <div class="place"><p>A la pista del poliesportiu</p></div>
+							    		<div class="detalleEvento">
+						    				<div class="hora"><span>A la mitja nit</span></div>
+						                    <div class="icono"></div>
+						                    <div class="titulo"><p>La nit dels 80</p></div>
+						                    <div class="sitio"><p>A la pista del poliesportiu</p></div>
 							    		</div>
 						    		</div>
-						    		<div class="downOuter">
-							    		<div id='dia1set1' class="downInner invisible">
-							    			<!-- CONTENIDO EVENTO -->
+						    		<div class="desplegableEvento">
+							    		<div id='dia1set1' class="desplegableEventoInner invisible">
+						    				<p>Gran Festa Imagina Ràdio a la pista del poliesportiu. Primer escalfarem motors amb una sessió musical, per a totes les edats, amb els temes més estiuencs.</p>
+						                    <p>Tot seguit, Concert Tribut al pop-rock espanyol dels 80’s-90’s amb un repertori de les millors cançons d’aquesta època amb Bogus Band: Mecano, Hombres G, Nacha Pop, Miguel Bosé, Tino Casal, Danza Invisible, Los Secretos, Los Pecos, Tequila, Los Rebeldes, Miguel Ríos, Loquillo, Ràdio Futura ... Remataran la nit els dj’s d’Imagina Ràdio, amb una selecció musical, fins que surti el sol.</p>
+						                    <p>A més, tota la màgia de les Festes d’Imagina Ràdio, amb performance, animació, visuals, fluorescències, marxandatge i pluja de regals tota la nit.
+						                    Si te’n recordes d’aquesta música, has de venir... no te’n penediràs!!!</p>
+						                    <p>Idea i producció artística: Imagina Ràdio</p>
+						                    <p>Amb la col·laboració de: La Veu de l’Ebre i Canal T.E.</p>
+						                    <p>Organitza: Ajuntament d’Ulldecona.</p>
+							    		</div>
+						    		</div>
+								</div> -->
+
+
+								<div class="evento">
+						    		<div class="portada" onclick="slideToggle('dia1set1')">
+						    			<div class="degradado"></div>
+						    			<div class="detallePortada">
+						    				<div class="desplegar"></div>
+						    				<div class="horaEvento"><span>12:30</span></div>
+						    				<div class="tituloEvento"><span>La nit dels 80</span></div>
+						    				<div class="sitioEvento">Bar Valverde</div>
+						    				<div class="logoEvento"></div>
+						    			</div>
+						    		</div>
+						    		<div class="contenidoEvento">
+							    		<div id='dia1set1' class="cajonInner invisible">
 						    				<p>Gran Festa Imagina Ràdio a la pista del poliesportiu. Primer escalfarem motors amb una sessió musical, per a totes les edats, amb els temes més estiuencs.</p>
 						                    <p>Tot seguit, Concert Tribut al pop-rock espanyol dels 80’s-90’s amb un repertori de les millors cançons d’aquesta època amb Bogus Band: Mecano, Hombres G, Nacha Pop, Miguel Bosé, Tino Casal, Danza Invisible, Los Secretos, Los Pecos, Tequila, Los Rebeldes, Miguel Ríos, Loquillo, Ràdio Futura ... Remataran la nit els dj’s d’Imagina Ràdio, amb una selecció musical, fins que surti el sol.</p>
 						                    <p>A més, tota la màgia de les Festes d’Imagina Ràdio, amb performance, animació, visuals, fluorescències, marxandatge i pluja de regals tota la nit.
@@ -93,240 +120,10 @@
 							    		</div>
 						    		</div>
 								</div>
-								<div class="event ball">
-						    		<div class="upOuter" onclick="slideToggle('dia1set1')">
-							    		<div class="degradado"></div>
-							    		<div class="detall">
-							    			<!-- EVENTO ACTUAL -->
-						    				<div class="time"><span>A la mitja nit</span></div>
-						                    <div class="logo"></div>
-						                    <div class="event"><p>La nit dels 80</p></div>
-						                    <div class="place"><p>A la pista del poliesportiu</p></div>
-						                    <!-- /EVENTO ACTUAL -->
-							    		</div>
-						    		</div>
-						    		<div class="downOuter">
-							    		<div id='dia1set1' class="downInner invisible">
-							    			<!-- CONTENIDO EVENTO -->
-						    				<p>Gran Festa Imagina Ràdio a la pista del poliesportiu. Primer escalfarem motors amb una sessió musical, per a totes les edats, amb els temes més estiuencs.</p>
-						                    <p>Tot seguit, Concert Tribut al pop-rock espanyol dels 80’s-90’s amb un repertori de les millors cançons d’aquesta època amb Bogus Band: Mecano, Hombres G, Nacha Pop, Miguel Bosé, Tino Casal, Danza Invisible, Los Secretos, Los Pecos, Tequila, Los Rebeldes, Miguel Ríos, Loquillo, Ràdio Futura ... Remataran la nit els dj’s d’Imagina Ràdio, amb una selecció musical, fins que surti el sol.</p>
-						                    <p>A més, tota la màgia de les Festes d’Imagina Ràdio, amb performance, animació, visuals, fluorescències, marxandatge i pluja de regals tota la nit.
-						                    Si te’n recordes d’aquesta música, has de venir... no te’n penediràs!!!</p>
-						                    <p>Idea i producció artística: Imagina Ràdio</p>
-						                    <p>Amb la col·laboració de: La Veu de l’Ebre i Canal T.E.</p>
-						                    <p>Organitza: Ajuntament d’Ulldecona.</p>
-						                    <!-- /CONTENIDO EVENTO -->
-							    		</div>
-						    		</div>
-								</div>
-								<div class="event ball">
-						    		<div class="upOuter" onclick="slideToggle('dia1set1')">
-							    		<div class="degradado"></div>
-							    		<div class="detall">
-							    			<!-- EVENTO ACTUAL -->
-						    				<div class="time"><span>A la mitja nit</span></div>
-						                    <div class="logo"></div>
-						                    <div class="event"><p>La nit dels 80</p></div>
-						                    <div class="place"><p>A la pista del poliesportiu</p></div>
-						                    <!-- /EVENTO ACTUAL -->
-							    		</div>
-						    		</div>
-						    		<div class="downOuter">
-							    		<div id='dia1set1' class="downInner invisible">
-							    			<!-- CONTENIDO EVENTO -->
-						    				<p>Gran Festa Imagina Ràdio a la pista del poliesportiu. Primer escalfarem motors amb una sessió musical, per a totes les edats, amb els temes més estiuencs.</p>
-						                    <p>Tot seguit, Concert Tribut al pop-rock espanyol dels 80’s-90’s amb un repertori de les millors cançons d’aquesta època amb Bogus Band: Mecano, Hombres G, Nacha Pop, Miguel Bosé, Tino Casal, Danza Invisible, Los Secretos, Los Pecos, Tequila, Los Rebeldes, Miguel Ríos, Loquillo, Ràdio Futura ... Remataran la nit els dj’s d’Imagina Ràdio, amb una selecció musical, fins que surti el sol.</p>
-						                    <p>A més, tota la màgia de les Festes d’Imagina Ràdio, amb performance, animació, visuals, fluorescències, marxandatge i pluja de regals tota la nit.
-						                    Si te’n recordes d’aquesta música, has de venir... no te’n penediràs!!!</p>
-						                    <p>Idea i producció artística: Imagina Ràdio</p>
-						                    <p>Amb la col·laboració de: La Veu de l’Ebre i Canal T.E.</p>
-						                    <p>Organitza: Ajuntament d’Ulldecona.</p>
-						                    <!-- /CONTENIDO EVENTO -->
-							    		</div>
-						    		</div>
-								</div>
-								<div class="event ball">
-						    		<div class="upOuter" onclick="slideToggle('dia1set1')">
-							    		<div class="degradado"></div>
-							    		<div class="detall">
-							    			<!-- EVENTO ACTUAL -->
-						    				<div class="time"><span>A la mitja nit</span></div>
-						                    <div class="logo"></div>
-						                    <div class="event"><p>La nit dels 80</p></div>
-						                    <div class="place"><p>A la pista del poliesportiu</p></div>
-						                    <!-- /EVENTO ACTUAL -->
-							    		</div>
-						    		</div>
-						    		<div class="downOuter">
-							    		<div id='dia1set1' class="downInner invisible">
-							    			<!-- CONTENIDO EVENTO -->
-						    				<p>Gran Festa Imagina Ràdio a la pista del poliesportiu. Primer escalfarem motors amb una sessió musical, per a totes les edats, amb els temes més estiuencs.</p>
-						                    <p>Tot seguit, Concert Tribut al pop-rock espanyol dels 80’s-90’s amb un repertori de les millors cançons d’aquesta època amb Bogus Band: Mecano, Hombres G, Nacha Pop, Miguel Bosé, Tino Casal, Danza Invisible, Los Secretos, Los Pecos, Tequila, Los Rebeldes, Miguel Ríos, Loquillo, Ràdio Futura ... Remataran la nit els dj’s d’Imagina Ràdio, amb una selecció musical, fins que surti el sol.</p>
-						                    <p>A més, tota la màgia de les Festes d’Imagina Ràdio, amb performance, animació, visuals, fluorescències, marxandatge i pluja de regals tota la nit.
-						                    Si te’n recordes d’aquesta música, has de venir... no te’n penediràs!!!</p>
-						                    <p>Idea i producció artística: Imagina Ràdio</p>
-						                    <p>Amb la col·laboració de: La Veu de l’Ebre i Canal T.E.</p>
-						                    <p>Organitza: Ajuntament d’Ulldecona.</p>
-						                    <!-- /CONTENIDO EVENTO -->
-							    		</div>
-						    		</div>
-								</div>
-								<div class="event ball">
-						    		<div class="upOuter" onclick="slideToggle('dia1set1')">
-							    		<div class="degradado"></div>
-							    		<div class="detall">
-							    			<!-- EVENTO ACTUAL -->
-						    				<div class="time"><span>A la mitja nit</span></div>
-						                    <div class="logo"></div>
-						                    <div class="event"><p>La nit dels 80</p></div>
-						                    <div class="place"><p>A la pista del poliesportiu</p></div>
-						                    <!-- /EVENTO ACTUAL -->
-							    		</div>
-						    		</div>
-						    		<div class="downOuter">
-							    		<div id='dia1set1' class="downInner invisible">
-							    			<!-- CONTENIDO EVENTO -->
-						    				<p>Gran Festa Imagina Ràdio a la pista del poliesportiu. Primer escalfarem motors amb una sessió musical, per a totes les edats, amb els temes més estiuencs.</p>
-						                    <p>Tot seguit, Concert Tribut al pop-rock espanyol dels 80’s-90’s amb un repertori de les millors cançons d’aquesta època amb Bogus Band: Mecano, Hombres G, Nacha Pop, Miguel Bosé, Tino Casal, Danza Invisible, Los Secretos, Los Pecos, Tequila, Los Rebeldes, Miguel Ríos, Loquillo, Ràdio Futura ... Remataran la nit els dj’s d’Imagina Ràdio, amb una selecció musical, fins que surti el sol.</p>
-						                    <p>A més, tota la màgia de les Festes d’Imagina Ràdio, amb performance, animació, visuals, fluorescències, marxandatge i pluja de regals tota la nit.
-						                    Si te’n recordes d’aquesta música, has de venir... no te’n penediràs!!!</p>
-						                    <p>Idea i producció artística: Imagina Ràdio</p>
-						                    <p>Amb la col·laboració de: La Veu de l’Ebre i Canal T.E.</p>
-						                    <p>Organitza: Ajuntament d’Ulldecona.</p>
-						                    <!-- /CONTENIDO EVENTO -->
-							    		</div>
-						    		</div>
-								</div>
-								<div class="event ball">
-						    		<div class="upOuter" onclick="slideToggle('dia1set1')">
-							    		<div class="degradado"></div>
-							    		<div class="detall">
-							    			<!-- EVENTO ACTUAL -->
-						    				<div class="time"><span>A la mitja nit</span></div>
-						                    <div class="logo"></div>
-						                    <div class="event"><p>La nit dels 80</p></div>
-						                    <div class="place"><p>A la pista del poliesportiu</p></div>
-						                    <!-- /EVENTO ACTUAL -->
-							    		</div>
-						    		</div>
-						    		<div class="downOuter">
-							    		<div id='dia1set1' class="downInner invisible">
-							    			<!-- CONTENIDO EVENTO -->
-						    				<p>Gran Festa Imagina Ràdio a la pista del poliesportiu. Primer escalfarem motors amb una sessió musical, per a totes les edats, amb els temes més estiuencs.</p>
-						                    <p>Tot seguit, Concert Tribut al pop-rock espanyol dels 80’s-90’s amb un repertori de les millors cançons d’aquesta època amb Bogus Band: Mecano, Hombres G, Nacha Pop, Miguel Bosé, Tino Casal, Danza Invisible, Los Secretos, Los Pecos, Tequila, Los Rebeldes, Miguel Ríos, Loquillo, Ràdio Futura ... Remataran la nit els dj’s d’Imagina Ràdio, amb una selecció musical, fins que surti el sol.</p>
-						                    <p>A més, tota la màgia de les Festes d’Imagina Ràdio, amb performance, animació, visuals, fluorescències, marxandatge i pluja de regals tota la nit.
-						                    Si te’n recordes d’aquesta música, has de venir... no te’n penediràs!!!</p>
-						                    <p>Idea i producció artística: Imagina Ràdio</p>
-						                    <p>Amb la col·laboració de: La Veu de l’Ebre i Canal T.E.</p>
-						                    <p>Organitza: Ajuntament d’Ulldecona.</p>
-						                    <!-- /CONTENIDO EVENTO -->
-							    		</div>
-						    		</div>
-								</div>
-								<div class="event ball">
-						    		<div class="upOuter" onclick="slideToggle('dia1set1')">
-							    		<div class="degradado"></div>
-							    		<div class="detall">
-							    			<!-- EVENTO ACTUAL -->
-						    				<div class="time"><span>A la mitja nit</span></div>
-						                    <div class="logo"></div>
-						                    <div class="event"><p>La nit dels 80</p></div>
-						                    <div class="place"><p>A la pista del poliesportiu</p></div>
-						                    <!-- /EVENTO ACTUAL -->
-							    		</div>
-						    		</div>
-						    		<div class="downOuter">
-							    		<div id='dia1set1' class="downInner invisible">
-							    			<!-- CONTENIDO EVENTO -->
-						    				<p>Gran Festa Imagina Ràdio a la pista del poliesportiu. Primer escalfarem motors amb una sessió musical, per a totes les edats, amb els temes més estiuencs.</p>
-						                    <p>Tot seguit, Concert Tribut al pop-rock espanyol dels 80’s-90’s amb un repertori de les millors cançons d’aquesta època amb Bogus Band: Mecano, Hombres G, Nacha Pop, Miguel Bosé, Tino Casal, Danza Invisible, Los Secretos, Los Pecos, Tequila, Los Rebeldes, Miguel Ríos, Loquillo, Ràdio Futura ... Remataran la nit els dj’s d’Imagina Ràdio, amb una selecció musical, fins que surti el sol.</p>
-						                    <p>A més, tota la màgia de les Festes d’Imagina Ràdio, amb performance, animació, visuals, fluorescències, marxandatge i pluja de regals tota la nit.
-						                    Si te’n recordes d’aquesta música, has de venir... no te’n penediràs!!!</p>
-						                    <p>Idea i producció artística: Imagina Ràdio</p>
-						                    <p>Amb la col·laboració de: La Veu de l’Ebre i Canal T.E.</p>
-						                    <p>Organitza: Ajuntament d’Ulldecona.</p>
-						                    <!-- /CONTENIDO EVENTO -->
-							    		</div>
-						    		</div>
-								</div>
-								<div class="event ball">
-						    		<div class="upOuter" onclick="slideToggle('dia1set1')">
-							    		<div class="degradado"></div>
-							    		<div class="detall">
-							    			<!-- EVENTO ACTUAL -->
-						    				<div class="time"><span>A la mitja nit</span></div>
-						                    <div class="logo"></div>
-						                    <div class="event"><p>La nit dels 80</p></div>
-						                    <div class="place"><p>A la pista del poliesportiu</p></div>
-						                    <!-- /EVENTO ACTUAL -->
-							    		</div>
-						    		</div>
-						    		<div class="downOuter">
-							    		<div id='dia1set1' class="downInner invisible">
-							    			<!-- CONTENIDO EVENTO -->
-						    				<p>Gran Festa Imagina Ràdio a la pista del poliesportiu. Primer escalfarem motors amb una sessió musical, per a totes les edats, amb els temes més estiuencs.</p>
-						                    <p>Tot seguit, Concert Tribut al pop-rock espanyol dels 80’s-90’s amb un repertori de les millors cançons d’aquesta època amb Bogus Band: Mecano, Hombres G, Nacha Pop, Miguel Bosé, Tino Casal, Danza Invisible, Los Secretos, Los Pecos, Tequila, Los Rebeldes, Miguel Ríos, Loquillo, Ràdio Futura ... Remataran la nit els dj’s d’Imagina Ràdio, amb una selecció musical, fins que surti el sol.</p>
-						                    <p>A més, tota la màgia de les Festes d’Imagina Ràdio, amb performance, animació, visuals, fluorescències, marxandatge i pluja de regals tota la nit.
-						                    Si te’n recordes d’aquesta música, has de venir... no te’n penediràs!!!</p>
-						                    <p>Idea i producció artística: Imagina Ràdio</p>
-						                    <p>Amb la col·laboració de: La Veu de l’Ebre i Canal T.E.</p>
-						                    <p>Organitza: Ajuntament d’Ulldecona.</p>
-						                    <!-- /CONTENIDO EVENTO -->
-							    		</div>
-						    		</div>
-								</div>
-								<div class="event ball">
-						    		<div class="upOuter" onclick="slideToggle('dia1set1')">
-							    		<div class="degradado"></div>
-							    		<div class="detall">
-							    			<!-- EVENTO ACTUAL -->
-						    				<div class="time"><span>A la mitja nit</span></div>
-						                    <div class="logo"></div>
-						                    <div class="event"><p>La nit dels 80</p></div>
-						                    <div class="place"><p>A la pista del poliesportiu</p></div>
-						                    <!-- /EVENTO ACTUAL -->
-							    		</div>
-						    		</div>
-						    		<div class="downOuter">
-							    		<div id='dia1set1' class="downInner invisible">
-							    			<!-- CONTENIDO EVENTO -->
-						    				<p>Gran Festa Imagina Ràdio a la pista del poliesportiu. Primer escalfarem motors amb una sessió musical, per a totes les edats, amb els temes més estiuencs.</p>
-						                    <p>Tot seguit, Concert Tribut al pop-rock espanyol dels 80’s-90’s amb un repertori de les millors cançons d’aquesta època amb Bogus Band: Mecano, Hombres G, Nacha Pop, Miguel Bosé, Tino Casal, Danza Invisible, Los Secretos, Los Pecos, Tequila, Los Rebeldes, Miguel Ríos, Loquillo, Ràdio Futura ... Remataran la nit els dj’s d’Imagina Ràdio, amb una selecció musical, fins que surti el sol.</p>
-						                    <p>A més, tota la màgia de les Festes d’Imagina Ràdio, amb performance, animació, visuals, fluorescències, marxandatge i pluja de regals tota la nit.
-						                    Si te’n recordes d’aquesta música, has de venir... no te’n penediràs!!!</p>
-						                    <p>Idea i producció artística: Imagina Ràdio</p>
-						                    <p>Amb la col·laboració de: La Veu de l’Ebre i Canal T.E.</p>
-						                    <p>Organitza: Ajuntament d’Ulldecona.</p>
-						                    <!-- /CONTENIDO EVENTO -->
-							    		</div>
-						    		</div>
-								</div>
-								<div class="event ball">
-						    		<div class="upOuter" onclick="slideToggle('dia1set1')">
-							    		<div class="degradado"></div>
-							    		<div class="detall">
-							    			<!-- EVENTO ACTUAL -->
-						    				<div class="time"><span>A la mitja nit</span></div>
-						                    <div class="logo"></div>
-						                    <div class="event"><p>La nit dels 80</p></div>
-						                    <div class="place"><p>A la pista del poliesportiu</p></div>
-						                    <!-- /EVENTO ACTUAL -->
-							    		</div>
-						    		</div>
-						    		<div class="downOuter">
-							    		<div id='dia1set1' class="downInner invisible">
-							    			<!-- CONTENIDO EVENTO -->
-						    				<p>Gran Festa Imagina Ràdio a la pista del poliesportiu. Primer escalfarem motors amb una sessió musical, per a totes les edats, amb els temes més estiuencs.</p>
-						                    <p>Tot seguit, Concert Tribut al pop-rock espanyol dels 80’s-90’s amb un repertori de les millors cançons d’aquesta època amb Bogus Band: Mecano, Hombres G, Nacha Pop, Miguel Bosé, Tino Casal, Danza Invisible, Los Secretos, Los Pecos, Tequila, Los Rebeldes, Miguel Ríos, Loquillo, Ràdio Futura ... Remataran la nit els dj’s d’Imagina Ràdio, amb una selecció musical, fins que surti el sol.</p>
-						                    <p>A més, tota la màgia de les Festes d’Imagina Ràdio, amb performance, animació, visuals, fluorescències, marxandatge i pluja de regals tota la nit.
-						                    Si te’n recordes d’aquesta música, has de venir... no te’n penediràs!!!</p>
-						                    <p>Idea i producció artística: Imagina Ràdio</p>
-						                    <p>Amb la col·laboració de: La Veu de l’Ebre i Canal T.E.</p>
-						                    <p>Organitza: Ajuntament d’Ulldecona.</p>
-						                    <!-- /CONTENIDO EVENTO -->
-							    		</div>
-						    		</div>
-								</div>
+
+
+
+
 							</div>
 					    </div>
 					</div>

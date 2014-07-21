@@ -106,8 +106,6 @@ footer
 					margin 3px 0 0 60px
 					text-align left
 					text-transform uppercase
-		
-
 			.tituloOuter
 				display none
 				height auto
@@ -158,122 +156,12 @@ footer
 							transform: scale(1, 1.2);
 							-ms-transform: scale(1, 1.2);
 							-webkit-transform: scale(1, 1.2);
-		.listaDias
-			display none
-			position relative
-			margin-bottom 100px
-			animation timeLine .5s 
-			-webkit-animation timeLine .5s
-			z-index 0
-			.event
-				font-weight 400
-				margin 10px auto 20px auto
-				position relative
-				width 95%
-				.upOuter
-					background gris
-					border-radius 5px
-					box-shadow 0 0 3px rgba(black,.8)
-					color white
-					padding 15px 20px 16px 15px
+		.listaEventos
+			.evento
+				.portada
+					margin 10px auto 20px auto
 					position relative
-					text-align center
-					text-shadow 1px 1px 0 rgba(black,.8)
-					&:after
-						content menu2
-						font-family icomoon
-						right 16px
-						position absolute
-						top 16px
-					.degradado
-						border-radius 5px
-						bottom 0 
-						left 0
-						position absolute
-						right 0
-						top 0
-						z-index 0
-						@css {
-							background: -moz-radial-gradient(center, ellipse cover,  rgba(0,0,0,0) 0%, rgba(0,0,0,0.7) 99%, rgba(0,0,0,0.7) 100%);
-							background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(0,0,0,0)), color-stop(99%,rgba(0,0,0,0.7)), color-stop(100%,rgba(0,0,0,0.7)));
-							background: -webkit-radial-gradient(center, ellipse cover,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.7) 99%,rgba(0,0,0,0.7) 100%);
-							background: -o-radial-gradient(center, ellipse cover,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.7) 99%,rgba(0,0,0,0.7) 100%);
-							background: -ms-radial-gradient(center, ellipse cover,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.7) 99%,rgba(0,0,0,0.7) 100%);
-							background: radial-gradient(ellipse at center,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.7) 99%,rgba(0,0,0,0.7) 100%);
-							filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#b3000000',GradientType=1 );
-						}
-					.detall
-						.place
-							font-size 12px
-							text-transform uppercase
-							position relative
-							z-index 5
-						.time
-							text-align left
-							position relative
-							z-index 1
-						.event
-							margin 16px auto 8px auto
-							position relative
-							z-index 1
-						.logo
-							position relative
-							z-index 1
-							&:after
-								content disco
-								font-family icomoon
-								font-size 3em
-				.downOuter
-					background negroOscuro
-					border-radius 0 0 5px 5px
-					margin -10px 0 0 0 
-					.downInner
-						margin 0 auto
-						padding 30px 12px 18px 12px
-						p
-							color rgba(white,.6)
-							font-size 18px
-							line-height 25px
-							margin 0 0 18px 0
-				#mainEvent
-					display none
-			.aleatorio
-				.upOuter
-					background naranja
-					.detall
-						.logo
-							&:after
-								content happy
-			.ball
-				.upOuter
-					background-image url(../img/eventos/ball.jpg)
-					background-position 0
-					background-repeat no-repeat
-					background-size 100% auto
-					.detall
-						.logo
-							&:after
-								content baile
-			.concierto
-				.upOuter
-					background-image url(../img/eventos/concierto.jpg)
-					background-position 0
-					background-repeat no-repeat
-					background-size 100% auto
-					.detall
-						.logo
-							&:after
-								content micro
-			.techno
-				.upOuter
-					background-image url(../img/eventos/techno.jpg)
-					background-position 0
-					background-repeat no-repeat
-					background-size 100% auto
-					.detall
-						.logo
-							&:after
-								content techno
+					width 95%
 	.noCalendario
 		position relative
 		z-index 5
