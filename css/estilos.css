@@ -336,7 +336,7 @@ footer .right .email:after {
 }
 .contenidos .calendario .listaEventos .evento .portada {
   border-radius: 5px;
-  box-shadow: 0 0 3px rgba(0,0,0,0.8);
+  box-shadow: 0 0 7px rgba(0,0,0,0.8);
   color: #fff;
   min-height: 100px;
   padding: 25px 20px;
@@ -370,6 +370,7 @@ background: -moz-radial-gradient(center, ellipse cover,  rgba(0,0,0,0.2) 0%, rgb
   position: relative;
 }
 .contenidos .calendario .listaEventos .evento .portada .detallePortada .desplegar:after {
+  color: #808080;
   content: "\e120";
   font-family: icomoon;
   position: absolute;
