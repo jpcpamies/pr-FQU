@@ -91,21 +91,23 @@ footer
 			color texto
 			position relative
 			z-index 5
-			.detall
+			.detalleEvento
 				font-weight 400
 				padding 25px 0 30px 0 
-				.logo
+				.logoEvento
 					float left
 					padding 5px 20px 0 20px
 					&:after
 						content micro
 						font-family icomoon
-				.place
+				.sitioEvento
 					color rgba(white,.5)
 					font-size 12px
 					margin 3px 0 0 60px
 					text-align left
 					text-transform uppercase
+				.tituloEvento
+					margin 0 40px 0 60px
 			.tituloOuter
 				display none
 				height auto
@@ -159,22 +161,64 @@ footer
 		.listaEventos
 			.evento
 				margin 10px auto 20px auto
-				position relative
 				width 95%
 				.portada
-					background gris
+					background rosa
 					border-radius 5px
 					box-shadow 0 0 3px rgba(black,.8)
 					color white
-					padding 15px 20px 16px 15px
-					.desplegar
-						&:after 
-							content menu
-							font-family icomoon
-							// font-size 20px
+					padding 20px
+					position relative
+					.degradado
+						border-radius 5px
+						bottom 0 
+						left 0
+						position absolute
+						right 0
+						top 0
+						z-index 0
+						@css {
+							background: -moz-radial-gradient(center, ellipse cover,  rgba(0,0,0,0) 0%, rgba(0,0,0,0.7) 99%, rgba(0,0,0,0.7) 100%);
+							background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(0,0,0,0)), color-stop(99%,rgba(0,0,0,0.7)), color-stop(100%,rgba(0,0,0,0.7)));
+							background: -webkit-radial-gradient(center, ellipse cover,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.7) 99%,rgba(0,0,0,0.7) 100%);
+							background: -o-radial-gradient(center, ellipse cover,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.7) 99%,rgba(0,0,0,0.7) 100%);
+							background: -ms-radial-gradient(center, ellipse cover,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.7) 99%,rgba(0,0,0,0.7) 100%);
+							background: radial-gradient(ellipse at center,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.7) 99%,rgba(0,0,0,0.7) 100%);
+							filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#b3000000',GradientType=1 );
+						}
+					.detallePortada
+						font-weight 400
+						position relative
+						.desplegar
+							&:after 
+								content menu
+								font-family icomoon
+								position absolute
+								right 12px
+								top 12px 
+						.horaEvento
+							font-size 16px
+							position relative
+							z-index 1
+						.logoEvento
+							left 20px
 							position absolute
-							right 12px
-							top 12px 
+							top 50px
+							&:after
+								content disco
+								font-family icomoon
+								font-size 1.5em
+						.sitioEvento
+							color rgba(white,.5)
+							font-size 12px
+							margin 3px 0 0 62px
+							text-align left
+							text-transform uppercase
+							position relative
+						.tituloEvento
+							margin -23px 40px 0 62px
+							position relative
+							top 0
 	.noCalendario
 		position relative
 		z-index 5
