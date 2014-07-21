@@ -162,10 +162,11 @@ footer
 			// Tipos de evento
 			.techno
 				.portada
-					background-image url(../img/eventos/techno.jpg)
-					background-position 0 30%
-					background-repeat no-repeat
-					background-size 100% auto
+					.fondo
+						background-image url(../img/eventos/techno.jpg)
+						background-position 0 30%
+						background-repeat no-repeat
+						background-size 100% auto
 					.logoEvento
 						&:after
 							content sport
@@ -173,10 +174,11 @@ footer
 					background #090718
 			.concierto
 				.portada
-					background-image url(../img/eventos/concierto.jpg)
-					background-position 0 0
-					background-repeat no-repeat
-					background-size 100% auto
+					.fondo
+						background-image url(../img/eventos/concierto.jpg)
+						background-position 0 0
+						background-repeat no-repeat
+						background-size 100% auto
 					.logoEvento
 						&:after
 							content micro
@@ -200,7 +202,7 @@ footer
 						position absolute
 						right 0
 						top 0
-						z-index 0
+						z-index 1
 						@css {
 							background: -moz-radial-gradient(center, ellipse cover,  rgba(0,0,0,0.2) 0%, rgba(0,0,0,1) 100%);
 							background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(0,0,0,0.2)), color-stop(100%,rgba(0,0,0,1)));
@@ -214,6 +216,7 @@ footer
 					.detallePortada
 						font-weight 400
 						position relative
+						z-index 2
 						.desplegar
 							&:after 
 								color gray
@@ -222,20 +225,20 @@ footer
 								position absolute
 								right 12px
 								top 12px 
+								z-index 3
 						.horaEvento
 							font-size 16px
 							position relative
-							z-index 1
+							z-index 3
 						.logoEvento
 							left 30px
 							position absolute
 							top 50px
+							z-index 3
 							&:after
-								// content disco
 								font-family icomoon
 								font-size 1em
 						.sitioEvento
-							color rgba(white,.8)
 							font-size .6em
 							font-weight bolder
 							margin 3px 0 0 62px
@@ -243,11 +246,20 @@ footer
 							text-align left
 							text-transform uppercase
 						.tituloEvento
-							font-size .9em
+							font-size 1em
 							font-weight bolder
 							margin -23px 40px 0 62px
 							position relative
 							top 0
+							z-index 3
+					.fondo
+						border-radius 5px
+						bottom 0 
+						left 0
+						position absolute
+						right 0
+						top 0
+						z-index 0
 				.contenidoEvento
 					border-radius 0 0 5px 5px
 					margin -10px 0 0 0 
