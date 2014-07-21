@@ -159,14 +159,33 @@ footer
 							-ms-transform: scale(1, 1.2);
 							-webkit-transform: scale(1, 1.2);
 		.listaEventos
+			// Tipos de evento
+			.baile
+				.portada
+					background azul
+					.logoEvento
+						&:after
+							content sport
+				.contenidoEvento
+					background verdeOscuro
+			.concierto
+				.portada
+					background verde
+					.logoEvento
+						&:after
+							content micro
+				.contenidoEvento
+					background verdeOscuro
+			// Tipos de evento
 			.evento
 				margin 10px auto 20px auto
 				width 95%
 				.portada
-					background rosa
+					// background rosa
 					border-radius 5px
 					box-shadow 0 0 3px rgba(black,.8)
 					color white
+					min-height 100px
 					padding 20px
 					position relative
 					.degradado
@@ -201,24 +220,36 @@ footer
 							position relative
 							z-index 1
 						.logoEvento
-							left 20px
+							left 30px
 							position absolute
 							top 50px
 							&:after
-								content disco
+								// content disco
 								font-family icomoon
-								font-size 1.5em
+								font-size 1em
 						.sitioEvento
-							color rgba(white,.5)
+							color rgba(white,.8)
 							font-size 12px
 							margin 3px 0 0 62px
+							position relative
 							text-align left
 							text-transform uppercase
-							position relative
 						.tituloEvento
 							margin -23px 40px 0 62px
 							position relative
 							top 0
+				.contenidoEvento
+					// background negroOscuro
+					border-radius 0 0 5px 5px
+					margin -10px 0 0 0 
+					.cajonInner
+						margin 0 auto
+						padding 30px 12px 18px 12px
+						p
+							color rgba(white,.6)
+							font-size 18px
+							line-height 25px
+							margin 0 9px 18px 9px
 	.noCalendario
 		position relative
 		z-index 5

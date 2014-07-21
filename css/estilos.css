@@ -306,15 +306,33 @@ footer .right .email:after {
   -ms-transform: scale(1, 1.2);
   -webkit-transform: scale(1, 1.2);
 }
+.contenidos .calendario .listaEventos .baile .portada {
+  background: #92ccfd;
+}
+.contenidos .calendario .listaEventos .baile .portada .logoEvento:after {
+  content: "\e283";
+}
+.contenidos .calendario .listaEventos .baile .contenidoEvento {
+  background: #a01157;
+}
+.contenidos .calendario .listaEventos .concierto .portada {
+  background: #80b21e;
+}
+.contenidos .calendario .listaEventos .concierto .portada .logoEvento:after {
+  content: "\e06f";
+}
+.contenidos .calendario .listaEventos .concierto .contenidoEvento {
+  background: #a01157;
+}
 .contenidos .calendario .listaEventos .evento {
   margin: 10px auto 20px auto;
   width: 95%;
 }
 .contenidos .calendario .listaEventos .evento .portada {
-  background: #f95d49;
   border-radius: 5px;
   box-shadow: 0 0 3px rgba(0,0,0,0.8);
   color: #fff;
+  min-height: 100px;
   padding: 20px;
   position: relative;
 }
@@ -358,27 +376,40 @@ background: -moz-radial-gradient(center, ellipse cover,  rgba(0,0,0,0) 0%, rgba(
   z-index: 1;
 }
 .contenidos .calendario .listaEventos .evento .portada .detallePortada .logoEvento {
-  left: 20px;
+  left: 30px;
   position: absolute;
   top: 50px;
 }
 .contenidos .calendario .listaEventos .evento .portada .detallePortada .logoEvento:after {
-  content: "\e135";
   font-family: icomoon;
-  font-size: 1.5em;
+  font-size: 1em;
 }
 .contenidos .calendario .listaEventos .evento .portada .detallePortada .sitioEvento {
-  color: rgba(255,255,255,0.5);
+  color: rgba(255,255,255,0.8);
   font-size: 12px;
   margin: 3px 0 0 62px;
+  position: relative;
   text-align: left;
   text-transform: uppercase;
-  position: relative;
 }
 .contenidos .calendario .listaEventos .evento .portada .detallePortada .tituloEvento {
   margin: -23px 40px 0 62px;
   position: relative;
   top: 0;
+}
+.contenidos .calendario .listaEventos .evento .contenidoEvento {
+  border-radius: 0 0 5px 5px;
+  margin: -10px 0 0 0;
+}
+.contenidos .calendario .listaEventos .evento .contenidoEvento .cajonInner {
+  margin: 0 auto;
+  padding: 30px 12px 18px 12px;
+}
+.contenidos .calendario .listaEventos .evento .contenidoEvento .cajonInner p {
+  color: rgba(255,255,255,0.6);
+  font-size: 18px;
+  line-height: 25px;
+  margin: 0 9px 18px 9px;
 }
 .contenidos .noCalendario {
   position: relative;
