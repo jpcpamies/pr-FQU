@@ -163,10 +163,11 @@ footer
 			.techno
 				.portada
 					.fondo
-						background-image url(../img/eventos/techno.jpg)
+						background-image url(../img/eventos/techno2.jpg)
 						background-position 0 30%
 						background-repeat no-repeat
 						background-size 100% auto
+						-webkit-filter: brightness(0.6);
 					.logoEvento
 						&:after
 							content sport
@@ -175,10 +176,11 @@ footer
 			.concierto
 				.portada
 					.fondo
-						background-image url(../img/eventos/concierto.jpg)
+						background-image url(../img/eventos/concierto2.jpg)
 						background-position 0 0
 						background-repeat no-repeat
 						background-size 100% auto
+						-webkit-filter: brightness(0.6);
 					.logoEvento
 						&:after
 							content micro
@@ -204,13 +206,13 @@ footer
 						top 0
 						z-index 1
 						@css {
-							background: -moz-radial-gradient(center, ellipse cover,  rgba(0,0,0,0.2) 0%, rgba(0,0,0,1) 100%);
-							background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(0,0,0,0.2)), color-stop(100%,rgba(0,0,0,1)));
-							background: -webkit-radial-gradient(center, ellipse cover,  rgba(0,0,0,0.2) 0%,rgba(0,0,0,1) 100%);
-							background: -o-radial-gradient(center, ellipse cover,  rgba(0,0,0,0.2) 0%,rgba(0,0,0,1) 100%);
-							background: -ms-radial-gradient(center, ellipse cover,  rgba(0,0,0,0.2) 0%,rgba(0,0,0,1) 100%);
-							background: radial-gradient(ellipse at center,  rgba(0,0,0,0.2) 0%,rgba(0,0,0,1) 100%);
-							filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#33000000', endColorstr='#000000',GradientType=1 );
+							background: -moz-radial-gradient(center, ellipse cover,  rgba(255,255,255,0) 0%, rgba(126,126,126,0.4) 86%, rgba(107,107,107,0.4) 99%); /* FF3.6+ */
+							background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(255,255,255,0)), color-stop(86%,rgba(126,126,126,0.4)), color-stop(99%,rgba(107,107,107,0.4))); /* Chrome,Safari4+ */
+							background: -webkit-radial-gradient(center, ellipse cover,  rgba(255,255,255,0) 0%,rgba(126,126,126,0.4) 86%,rgba(107,107,107,0.4) 99%); /* Chrome10+,Safari5.1+ */
+							background: -o-radial-gradient(center, ellipse cover,  rgba(255,255,255,0) 0%,rgba(126,126,126,0.4) 86%,rgba(107,107,107,0.4) 99%); /* Opera 12+ */
+							background: -ms-radial-gradient(center, ellipse cover,  rgba(255,255,255,0) 0%,rgba(126,126,126,0.4) 86%,rgba(107,107,107,0.4) 99%); /* IE10+ */
+							background: radial-gradient(ellipse at center,  rgba(255,255,255,0) 0%,rgba(126,126,126,0.4) 86%,rgba(107,107,107,0.4) 99%); /* W3C */
+							filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#666b6b6b',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 
 						}
 					.detallePortada
@@ -247,7 +249,7 @@ footer
 							text-transform uppercase
 						.tituloEvento
 							font-size 1em
-							font-weight bolder
+							// font-weight bolder
 							margin -23px 40px 0 62px
 							position relative
 							top 0

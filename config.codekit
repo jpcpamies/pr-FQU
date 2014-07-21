@@ -193,13 +193,24 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/eventos\/concierto.jpg": {
+	"\/img\/eventos\/concierto.jpge.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 393534,
-		"inputAbbreviatedPath": "\/img\/eventos\/concierto.jpg",
-		"outputAbbreviatedPath": "\/img\/eventos\/concierto.jpg",
+		"inputAbbreviatedPath": "\/img\/eventos\/concierto.jpge.jpg",
+		"outputAbbreviatedPath": "\/img\/eventos\/concierto.jpge.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/eventos\/concierto2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 31602,
+		"inputAbbreviatedPath": "\/img\/eventos\/concierto2.jpg",
+		"outputAbbreviatedPath": "\/img\/eventos\/concierto2.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -211,6 +222,17 @@
 		"initialSize": 127517,
 		"inputAbbreviatedPath": "\/img\/eventos\/techno.jpg",
 		"outputAbbreviatedPath": "\/img\/eventos\/techno.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/eventos\/techno2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 30021,
+		"inputAbbreviatedPath": "\/img\/eventos\/techno2.jpg",
+		"outputAbbreviatedPath": "\/img\/eventos\/techno2.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
