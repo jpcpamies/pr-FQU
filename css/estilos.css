@@ -311,7 +311,7 @@ footer .right .email:after {
   background-position: 0 30%;
   background-repeat: no-repeat;
   background-size: 100% auto;
-  -webkit-filter: brightness(0.6);
+  -webkit-filter: brightness(0.6) grayscale(0.2);
 }
 .contenidos .calendario .listaEventos .techno .portada .logoEvento:after {
   content: "\e283";
@@ -324,7 +324,7 @@ footer .right .email:after {
   background-position: 0 0;
   background-repeat: no-repeat;
   background-size: 100% auto;
-  -webkit-filter: brightness(0.6);
+  -webkit-filter: brightness(0.6) grayscale(0.2);
 }
 .contenidos .calendario .listaEventos .concierto .portada .logoEvento:after {
   content: "\e06f";
@@ -339,46 +339,23 @@ footer .right .email:after {
 .contenidos .calendario .listaEventos .evento .portada {
   border-radius: 5px;
   box-shadow: 0 0 7px rgba(0,0,0,0.8);
-  color: #fff;
+  color: rgba(255,255,255,0.8);
   min-height: 100px;
   padding: 25px 20px;
   position: relative;
 }
-.contenidos .calendario .listaEventos .evento .portada .degradado {
-  border-radius: 5px;
-  bottom: 0;
-  left: 0;
-  position: absolute;
-  right: 0;
-  top: 0;
-  z-index: 1;
-background: -moz-radial-gradient(center, ellipse cover,  rgba(255,255,255,0) 0%, rgba(126,126,126,0.4) 86%, rgba(107,107,107,0.4) 99%); /* FF3.6+ */
-							background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(255,255,255,0)), color-stop(86%,rgba(126,126,126,0.4)), color-stop(99%,rgba(107,107,107,0.4))); /* Chrome,Safari4+ */
-							background: -webkit-radial-gradient(center, ellipse cover,  rgba(255,255,255,0) 0%,rgba(126,126,126,0.4) 86%,rgba(107,107,107,0.4) 99%); /* Chrome10+,Safari5.1+ */
-							background: -o-radial-gradient(center, ellipse cover,  rgba(255,255,255,0) 0%,rgba(126,126,126,0.4) 86%,rgba(107,107,107,0.4) 99%); /* Opera 12+ */
-							background: -ms-radial-gradient(center, ellipse cover,  rgba(255,255,255,0) 0%,rgba(126,126,126,0.4) 86%,rgba(107,107,107,0.4) 99%); /* IE10+ */
-							background: radial-gradient(ellipse at center,  rgba(255,255,255,0) 0%,rgba(126,126,126,0.4) 86%,rgba(107,107,107,0.4) 99%); /* W3C */
-							filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#666b6b6b',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
-}
-background: -moz-radial-gradient(center, ellipse cover,  rgba(255,255,255,0) 0%, rgba(126,126,126,0.4) 86%, rgba(107,107,107,0.4) 99%); /* FF3.6+ */
-							background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(255,255,255,0)), color-stop(86%,rgba(126,126,126,0.4)), color-stop(99%,rgba(107,107,107,0.4))); /* Chrome,Safari4+ */
-							background: -webkit-radial-gradient(center, ellipse cover,  rgba(255,255,255,0) 0%,rgba(126,126,126,0.4) 86%,rgba(107,107,107,0.4) 99%); /* Chrome10+,Safari5.1+ */
-							background: -o-radial-gradient(center, ellipse cover,  rgba(255,255,255,0) 0%,rgba(126,126,126,0.4) 86%,rgba(107,107,107,0.4) 99%); /* Opera 12+ */
-							background: -ms-radial-gradient(center, ellipse cover,  rgba(255,255,255,0) 0%,rgba(126,126,126,0.4) 86%,rgba(107,107,107,0.4) 99%); /* IE10+ */
-							background: radial-gradient(ellipse at center,  rgba(255,255,255,0) 0%,rgba(126,126,126,0.4) 86%,rgba(107,107,107,0.4) 99%); /* W3C */
-							filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#666b6b6b',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 .contenidos .calendario .listaEventos .evento .portada .detallePortada {
   font-weight: 400;
   position: relative;
   z-index: 2;
 }
 .contenidos .calendario .listaEventos .evento .portada .detallePortada .desplegar:after {
-  color: #808080;
+  color: #121314;
   content: "\e120";
   font-family: icomoon;
   position: absolute;
-  right: 12px;
-  top: 12px;
+  right: -6px;
+  top: -12px;
   z-index: 3;
 }
 .contenidos .calendario .listaEventos .evento .portada .detallePortada .horaEvento {
@@ -387,9 +364,9 @@ background: -moz-radial-gradient(center, ellipse cover,  rgba(255,255,255,0) 0%,
   z-index: 3;
 }
 .contenidos .calendario .listaEventos .evento .portada .detallePortada .logoEvento {
-  left: 30px;
+  left: 10px;
   position: absolute;
-  top: 50px;
+  top: 30px;
   z-index: 3;
 }
 .contenidos .calendario .listaEventos .evento .portada .detallePortada .logoEvento:after {
@@ -397,6 +374,7 @@ background: -moz-radial-gradient(center, ellipse cover,  rgba(255,255,255,0) 0%,
   font-size: 1em;
 }
 .contenidos .calendario .listaEventos .evento .portada .detallePortada .sitioEvento {
+  color: #b6b6b6;
   font-size: 0.6em;
   font-weight: bolder;
   margin: 3px 0 0 62px;
