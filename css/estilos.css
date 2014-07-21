@@ -338,7 +338,7 @@ footer .right .email:after {
 }
 .contenidos .calendario .listaEventos .evento .portada {
   border-radius: 5px;
-  box-shadow: 0 0 7px rgba(0,0,0,0.8);
+  box-shadow: 0 1px 3px rgba(0,0,0,0.8);
   color: rgba(255,255,255,0.8);
   min-height: 100px;
   padding: 25px 20px;
@@ -355,6 +355,7 @@ footer .right .email:after {
   font-family: icomoon;
   position: absolute;
   right: -6px;
+  text-shadow: 0 1px 0 rgba(255,255,255,0.3);
   top: -12px;
   z-index: 3;
 }
@@ -1110,16 +1111,9 @@ background: -moz-linear-gradient(left,  rgba(18,19,20,1) 0%, rgba(18,19,20,1) 39
   }
 }
 @media screen and (min-width: 450px) {
-  .contenidos .calendario .listaDias {
-    position: relative;
-    z-index: 5;
-  }
-  .contenidos .calendario .listaDias .event {
+  .contenidos .calendario .listaEventos .evento {
     margin: 10px auto 20px auto;
     width: 80%;
-  }
-  .contenidos .calendario .listaDias .event .downOuter .downInner {
-    padding: 30px 18px 18px 18px;
   }
   .contenidos .noCalendario .vistaMovil .contieneColaboradores .colaboradores .logoOuter {
     padding: 0 20px 30px 20px;
