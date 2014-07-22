@@ -617,22 +617,33 @@
 		left 0
 		z-index 2
 		.degradadoInner
-			background rgba(red,.5)
 			width 100%
 			height 100%
+			@css {
+				background: -moz-linear-gradient(left,  rgba(18,19,20,1) 0%, rgba(18,19,20,1) 39%, rgba(18,19,20,0) 100%);
+				background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(18,19,20,1)), color-stop(39%,rgba(18,19,20,1)), color-stop(100%,rgba(18,19,20,0)));
+				background: -webkit-linear-gradient(left,  rgba(18,19,20,1) 0%,rgba(18,19,20,1) 39%,rgba(18,19,20,0) 100%);
+				background: -o-linear-gradient(left,  rgba(18,19,20,1) 0%,rgba(18,19,20,1) 39%,rgba(18,19,20,0) 100%);
+				background: -ms-linear-gradient(left,  rgba(18,19,20,1) 0%,rgba(18,19,20,1) 39%,rgba(18,19,20,0) 100%);
+				background: linear-gradient(to right,  rgba(18,19,20,1) 0%,rgba(18,19,20,1) 39%,rgba(18,19,20,0) 100%);
+				filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#121314', endColorstr='#00121314',GradientType=1 );
+
+
+			}
 	.social
 		position relative
-		z-index 5
 		.twitter
 			text-align center
 			position relative
 			top 100px
 			left -50px
+			z-index 5
 		.facebook
 			text-align center
 			position relative
 			top 72px
 			left 60px
+			z-index 5
 	.titulo
 		color texto
 		font-size 24px
