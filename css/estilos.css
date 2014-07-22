@@ -119,40 +119,6 @@ a:active {
   transition: all 0.5s ease;
   -webkit-transition: all 0.5s ease;
 }
-footer {
-  background: #98cb6a;
-  color: #fff;
-  overflow: hidden;
-  padding: 20px;
-  position: relative;
-  z-index: 5;
-}
-footer img {
-  float: left;
-  height: 50px;
-  vertical-align: middle;
-  width: auto;
-}
-footer .right {
-  float: right;
-  margin: 8px 0 0 0;
-  vertical-align: bottom;
-}
-footer .right span {
-  display: inline-block;
-  font-weight: 400;
-}
-footer .right span:after {
-  content: " |";
-}
-footer .right .email {
-  display: inline-block;
-}
-footer .right .email:after {
-  content: "\e60d";
-  font-family: icomoon;
-  vertical-align: bottom;
-}
 .contenidos {
   display: block;
   margin-left: 0;
@@ -766,25 +732,71 @@ background: -moz-linear-gradient(top,  rgba(247,247,247,0) 0%, rgba(175,175,175,
   -ms-transform: scale(1, 1.2);
   -webkit-transform: scale(1, 1.2);
 }
+.footer {
+  background: #98cb6a;
+  color: #fff;
+  overflow: hidden;
+  padding: 20px;
+  position: relative;
+  z-index: 5;
+}
+.footer img {
+  float: left;
+  height: 50px;
+  vertical-align: middle;
+  width: auto;
+}
+.footer .right {
+  float: right;
+  margin: 8px 0 0 0;
+  vertical-align: bottom;
+}
+.footer .right span {
+  display: inline-block;
+  font-weight: 400;
+}
+.footer .right span:after {
+  content: " |";
+}
+.footer .right .email {
+  display: inline-block;
+}
+.footer .right .email:after {
+  content: "\e60d";
+  font-family: icomoon;
+  vertical-align: bottom;
+}
 .header {
+  width: 100%;
   height: 500px;
   overflow: hidden;
   position: relative;
-  width: 100%;
+}
+.header .logo {
+  position: relative;
+  text-align: center;
+  top: 30px;
   z-index: 5;
 }
-.header .heroOuter {
-  height: 100%;
-  width: 100%;
+.header .logo img {
+  width: 200px;
 }
-.header .heroOuter .hero {
-  background: #484645;
-  height: 100%;
+.header .muralOuter {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+}
+.header .muralOuter .mural {
   width: 100%;
+  height: 100%;
+  background: #808080;
   animation: animacion 150s infinite;
   -webkit-animation: animacion 150s infinite;
 }
-.header .heroOuter .hero .heroInner {
+.header .muralOuter .mural .muralInner {
   margin: -50px 0 0 0;
   height: 250%;
   width: 250%;
@@ -799,46 +811,43 @@ background: -moz-linear-gradient(top,  rgba(247,247,247,0) 0%, rgba(175,175,175,
   -ms-transform: scale(1, 2, 3, 4);
   -webkit-transform: scale(1, 2, 3, 4);
 }
-.header .logoOuter h1 {
-  color: #fff;
-  font-size: 24px;
-  font-weight: 400;
-  letter-spacing: 1px;
-  line-height: 1.3em;
-  text-align: center;
-  text-transform: uppercase;
-}
-.header .logoOuter h1 span {
-  font-weight: 700;
-}
-.header .logoOuter .degradado {
+.header .degradado {
   position: absolute;
   top: 0;
   right: 0;
   bottom: 0;
   left: 0;
-background: -moz-linear-gradient(left,  rgba(18,19,20,1) 0%, rgba(18,19,20,1) 39%, rgba(18,19,20,0) 100%);
-				background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(18,19,20,1)), color-stop(39%,rgba(18,19,20,1)), color-stop(100%,rgba(18,19,20,0)));
-				background: -webkit-linear-gradient(left,  rgba(18,19,20,1) 0%,rgba(18,19,20,1) 39%,rgba(18,19,20,0) 100%);
-				background: -o-linear-gradient(left,  rgba(18,19,20,1) 0%,rgba(18,19,20,1) 39%,rgba(18,19,20,0) 100%);
-				background: -ms-linear-gradient(left,  rgba(18,19,20,1) 0%,rgba(18,19,20,1) 39%,rgba(18,19,20,0) 100%);
-				background: linear-gradient(to right,  rgba(18,19,20,1) 0%,rgba(18,19,20,1) 39%,rgba(18,19,20,0) 100%);
-				filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#121314', endColorstr='#00121314',GradientType=1 );
+  z-index: 2;
 }
-background: -moz-linear-gradient(left,  rgba(18,19,20,1) 0%, rgba(18,19,20,1) 39%, rgba(18,19,20,0) 100%);
-				background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(18,19,20,1)), color-stop(39%,rgba(18,19,20,1)), color-stop(100%,rgba(18,19,20,0)));
-				background: -webkit-linear-gradient(left,  rgba(18,19,20,1) 0%,rgba(18,19,20,1) 39%,rgba(18,19,20,0) 100%);
-				background: -o-linear-gradient(left,  rgba(18,19,20,1) 0%,rgba(18,19,20,1) 39%,rgba(18,19,20,0) 100%);
-				background: -ms-linear-gradient(left,  rgba(18,19,20,1) 0%,rgba(18,19,20,1) 39%,rgba(18,19,20,0) 100%);
-				background: linear-gradient(to right,  rgba(18,19,20,1) 0%,rgba(18,19,20,1) 39%,rgba(18,19,20,0) 100%);
-				filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#121314', endColorstr='#00121314',GradientType=1 );
-.header .logoOuter .logoInner {
-  padding: 45px 0 30px 0;
+.header .degradado .degradadoInner {
+  background: rgba(255,0,0,0.5);
+  width: 100%;
+  height: 100%;
 }
-.header .logoOuter .logoInner figure img {
-  display: block;
-  margin: 0 auto;
-  width: 220px;
+.header .social {
+  position: relative;
+  z-index: 5;
+}
+.header .social .twitter {
+  text-align: center;
+  position: relative;
+  top: 100px;
+  left: -50px;
+}
+.header .social .facebook {
+  text-align: center;
+  position: relative;
+  top: 72px;
+  left: 60px;
+}
+.header .titulo {
+  color: rgba(255,255,255,0.8);
+  font-size: 24px;
+  position: relative;
+  text-align: center;
+  text-transform: uppercase;
+  top: 50px;
+  z-index: 5;
 }
 .llamadaLabel {
   background: #80b21e;
