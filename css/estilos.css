@@ -775,7 +775,7 @@ background: -moz-linear-gradient(top,  rgba(247,247,247,0) 0%, rgba(175,175,175,
 .header .logo {
   position: relative;
   text-align: center;
-  top: 30px;
+  top: 50px;
   z-index: 5;
 }
 .header .logo img {
@@ -860,7 +860,7 @@ background: -moz-linear-gradient(left,  rgba(18,19,20,1) 0%, rgba(18,19,20,1) 39
   position: relative;
   text-align: center;
   text-transform: uppercase;
-  top: 50px;
+  top: 70px;
   z-index: 5;
 }
 .llamadaLabel {
