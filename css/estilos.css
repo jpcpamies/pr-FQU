@@ -328,17 +328,18 @@ a:active {
 .contenidos .calendario .listaEventos .evento .portada .detallePortada .horaEvento {
   font-size: 16px;
   position: relative;
+  top: -10px;
   z-index: 3;
 }
 .contenidos .calendario .listaEventos .evento .portada .detallePortada .logoEvento {
   left: 10px;
   position: absolute;
-  top: 30px;
+  top: 20px;
   z-index: 3;
 }
 .contenidos .calendario .listaEventos .evento .portada .detallePortada .logoEvento:after {
   font-family: icomoon;
-  font-size: 1em;
+  font-size: 1.1em;
 }
 .contenidos .calendario .listaEventos .evento .portada .detallePortada .sitioEvento {
   color: #b6b6b6;
@@ -353,6 +354,7 @@ a:active {
   font-size: 1em;
   margin: -23px 40px 0 62px;
   position: relative;
+  text-transform: uppercase;
   top: 0;
   z-index: 3;
 }
