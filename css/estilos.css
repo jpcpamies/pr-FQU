@@ -1292,7 +1292,6 @@ background: -moz-linear-gradient(left,  rgba(18,19,20,1) 0%, rgba(18,19,20,1) 39
     width: 100%;
   }
   .contenidos .noCalendario {
-    background: #f00;
     bottom: 0;
     left: 0;
     margin: 85px 420px 0 80px;
