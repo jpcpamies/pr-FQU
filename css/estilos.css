@@ -425,7 +425,7 @@ a:active {
   text-transform: uppercase;
 }
 .contenidos .calendario .listaEventos .evento .portada .detallePortada .tituloEvento {
-  font-size: 1em;
+  font-size: 0.85em;
   font-style: italic;
   margin: -23px 40px 0 62px;
   position: relative;
@@ -1279,9 +1279,6 @@ background: -moz-linear-gradient(left,  rgba(18,19,20,1) 0%, rgba(18,19,20,1) 39
   }
 }
 @media screen and (min-width: 770px) {
-  footer {
-    display: none;
-  }
   .contenidos {
     bottom: 0;
     left: 80px;
@@ -1686,6 +1683,9 @@ background: -moz-linear-gradient(top,  rgba(247,247,247,0) 0%, rgba(175,175,175,
     position: absolute;
     right: 0;
     top: 0;
+  }
+  .footer {
+    display: none;
   }
   .header {
     border-bottom: 5px solid #80b21e;
