@@ -133,19 +133,6 @@
 							-webkit-transform: scale(1, 1.2);
 		.listaEventos
 			// Tipos de evento
-			.techno
-				.portada
-					.fondo
-						background-image url(../img/eventos/techno2.jpg)
-						background-position 0 30%
-						background-repeat no-repeat
-						background-size 100% auto
-						-webkit-filter: brightness(0.6)grayscale(0.2);
-					.logoEvento
-						&:after
-							content sport
-				.contenidoEvento
-					background #090718
 			.concierto
 				.portada
 					.fondo
@@ -159,13 +146,29 @@
 							content micro
 				.contenidoEvento
 					background #1c0d04
+			.baile
+				.portada
+					.logoEvento
+						&:after
+							content pubillas
+				.contenidoEvento
+					background #1c0d04
+			.bous
+				.portada
+					.logoEvento
+						&:after
+							content entrada
+				.contenidoEvento
+					background #1c0d04
 			// Tipos de evento
 			.evento
 				margin 10px auto 20px auto
 				width 95%
 				.portada
+					border-top 3px solid verde
+					background white
 					border-radius 5px
-					box-shadow 0 1px 3px rgba(black,.8)
+					box-shadow 0 1px 2px rgba(black,.5)
 					color texto
 					min-height 100px
 					padding 25px 20px
@@ -176,20 +179,22 @@
 						z-index 2
 						.desplegar
 							&:after 
-								color negroOscuro
+								color gray
 								content menu
 								font-family icomoon
 								position absolute
 								right -6px
-								text-shadow 0 1px 0 rgba(white,.3)
+								// text-shadow 0 1px 0 rgba(white,.3)
 								top -12px 
 								z-index 3
 						.horaEvento
+							color negroInterface
 							font-size 16px
 							position relative
 							top -10px
 							z-index 3
 						.logoEvento
+							color verde
 							left 10px
 							position absolute
 							top 20px
@@ -206,7 +211,9 @@
 							text-align left
 							text-transform uppercase
 						.tituloEvento
+							color rgba(black,.65)
 							font-size 1em
+							font-style italic
 							margin -23px 40px 0 62px
 							position relative
 							text-transform uppercase
