@@ -380,6 +380,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/pintura.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 136974,
+		"inputAbbreviatedPath": "\/img\/pintura.jpg",
+		"outputAbbreviatedPath": "\/img\/pintura.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/pintura.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 189475,
+		"inputAbbreviatedPath": "\/img\/pintura.png",
+		"outputAbbreviatedPath": "\/img\/pintura.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/pubilles\/pubilla1.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
