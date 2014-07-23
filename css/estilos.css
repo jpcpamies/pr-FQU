@@ -844,14 +844,14 @@ background: -moz-linear-gradient(left,  rgba(18,19,20,1) 0%, rgba(18,19,20,1) 39
   text-align: center;
   position: relative;
   top: 100px;
-  left: -50px;
+  left: -45px;
   z-index: 5;
 }
 .header .social .facebook {
   text-align: center;
   position: relative;
   top: 72px;
-  left: 60px;
+  left: 55px;
   z-index: 5;
 }
 .header .titulo {
