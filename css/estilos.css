@@ -272,30 +272,24 @@ a:active {
   -ms-transform: scale(1, 1.2);
   -webkit-transform: scale(1, 1.2);
 }
+.contenidos .calendario .listaEventos .concierto .portada .detallePortada .horaEvento {
+  color: #fff;
+}
+.contenidos .calendario .listaEventos .concierto .portada .detallePortada .logoEvento:after {
+  content: "\e06f";
+}
 .contenidos .calendario .listaEventos .concierto .portada .fondo {
-  background-image: url("../img/eventos/concierto2.jpg");
+  background-image: url("../img/eventos/techno.jpg");
   background-position: 0 0;
   background-repeat: no-repeat;
   background-size: 100% auto;
-  -webkit-filter: brightness(0.6) grayscale(0.2);
-}
-.contenidos .calendario .listaEventos .concierto .portada .logoEvento:after {
-  content: "\e06f";
-}
-.contenidos .calendario .listaEventos .concierto .contenidoEvento {
-  background: #1c0d04;
+  -webkit-filter: brightness(0.8) grayscale(0.1);
 }
 .contenidos .calendario .listaEventos .baile .portada .logoEvento:after {
   content: "\e60f";
 }
-.contenidos .calendario .listaEventos .baile .contenidoEvento {
-  background: #1c0d04;
-}
 .contenidos .calendario .listaEventos .bous .portada .logoEvento:after {
   content: "\e602";
-}
-.contenidos .calendario .listaEventos .bous .contenidoEvento {
-  background: #1c0d04;
 }
 .contenidos .calendario .listaEventos .evento {
   margin: 10px auto 20px auto;
@@ -372,6 +366,7 @@ a:active {
   z-index: 0;
 }
 .contenidos .calendario .listaEventos .evento .contenidoEvento {
+  background: #222326;
   border-radius: 0 0 5px 5px;
   margin: -10px 0 0 0;
 }

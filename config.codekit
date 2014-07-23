@@ -193,13 +193,13 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/eventos\/concierto.jpge.jpg": {
+	"\/img\/eventos\/concierto.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 393534,
-		"inputAbbreviatedPath": "\/img\/eventos\/concierto.jpge.jpg",
-		"outputAbbreviatedPath": "\/img\/eventos\/concierto.jpge.jpg",
+		"inputAbbreviatedPath": "\/img\/eventos\/concierto.jpg",
+		"outputAbbreviatedPath": "\/img\/eventos\/concierto.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

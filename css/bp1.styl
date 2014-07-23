@@ -135,31 +135,29 @@
 			// Tipos de evento
 			.concierto
 				.portada
+					.detallePortada
+						.horaEvento
+							color white
+						.logoEvento
+							&:after
+								content micro
 					.fondo
-						background-image url(../img/eventos/concierto2.jpg)
+						background-image url(../img/eventos/techno.jpg)
 						background-position 0 0
 						background-repeat no-repeat
 						background-size 100% auto
-						-webkit-filter: brightness(0.6)grayscale(0.2);
-					.logoEvento
-						&:after
-							content micro
-				.contenidoEvento
-					background #1c0d04
+						-webkit-filter: brightness(0.8)grayscale(0.1);
+					
 			.baile
 				.portada
 					.logoEvento
 						&:after
 							content pubillas
-				.contenidoEvento
-					background #1c0d04
 			.bous
 				.portada
 					.logoEvento
 						&:after
 							content entrada
-				.contenidoEvento
-					background #1c0d04
 			// Tipos de evento
 			.evento
 				margin 10px auto 20px auto
@@ -228,6 +226,7 @@
 						top 0
 						z-index 0
 				.contenidoEvento
+					background negroInterface
 					border-radius 0 0 5px 5px
 					margin -10px 0 0 0 
 					.contenidoEventoInner
