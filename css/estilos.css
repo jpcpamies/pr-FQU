@@ -272,31 +272,113 @@ a:active {
   -ms-transform: scale(1, 1.2);
   -webkit-transform: scale(1, 1.2);
 }
+.contenidos .calendario .listaEventos .especial .portada .detallePortada .desplegar:after {
+  color: #121314;
+  text-shadow: 0 1px 0 rgba(255,255,255,0.3);
+}
+.contenidos .calendario .listaEventos .especial .portada .detallePortada .horaEvento {
+  color: #f2f2f2;
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.3);
+}
+.contenidos .calendario .listaEventos .especial .portada .detallePortada .logoEvento {
+  color: #f2f2f2;
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.3);
+}
+.contenidos .calendario .listaEventos .especial .portada .detallePortada .logoEvento:after {
+  content: "\e135";
+}
+.contenidos .calendario .listaEventos .especial .portada .detallePortada .sitioEvento {
+  color: #f2f2f2;
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.3);
+}
+.contenidos .calendario .listaEventos .especial .portada .detallePortada .tituloEvento {
+  color: #f2f2f2;
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.3);
+}
+.contenidos .calendario .listaEventos .especial .portada .fondo {
+  background-image: url("../img/eventos/concierto.jpg");
+  background-position: 0 30%;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  -webkit-filter: brightness(0.6) grayscale(0.3);
+}
+.contenidos .calendario .listaEventos .concierto .portada .detallePortada .desplegar:after {
+  color: #121314;
+  text-shadow: 0 1px 0 rgba(255,255,255,0.3);
+}
 .contenidos .calendario .listaEventos .concierto .portada .detallePortada .horaEvento {
-  color: #fff;
+  color: #f2f2f2;
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.3);
+}
+.contenidos .calendario .listaEventos .concierto .portada .detallePortada .logoEvento {
+  color: #f2f2f2;
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.3);
 }
 .contenidos .calendario .listaEventos .concierto .portada .detallePortada .logoEvento:after {
-  content: "\e06f";
+  content: "\e135";
+}
+.contenidos .calendario .listaEventos .concierto .portada .detallePortada .sitioEvento {
+  color: #f2f2f2;
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.3);
+}
+.contenidos .calendario .listaEventos .concierto .portada .detallePortada .tituloEvento {
+  color: #f2f2f2;
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.3);
 }
 .contenidos .calendario .listaEventos .concierto .portada .fondo {
   background-image: url("../img/eventos/techno.jpg");
-  background-position: 0 0;
+  background-position: 0 30%;
   background-repeat: no-repeat;
   background-size: 100% auto;
-  -webkit-filter: brightness(0.8) grayscale(0.1);
+  -webkit-filter: brightness(0.8) grayscale(0.4);
 }
-.contenidos .calendario .listaEventos .baile .portada .logoEvento:after {
+.contenidos .calendario .listaEventos .baile .portada {
+  border-top: 3px solid #80b21e;
+}
+.contenidos .calendario .listaEventos .baile .portada .detallePortada .desplegar:after {
+  color: #808080;
+}
+.contenidos .calendario .listaEventos .baile .portada .detallePortada .horaEvento {
+  color: #222326;
+}
+.contenidos .calendario .listaEventos .baile .portada .detallePortada .logoEvento {
+  color: #80b21e;
+}
+.contenidos .calendario .listaEventos .baile .portada .detallePortada .logoEvento:after {
   content: "\e60f";
 }
-.contenidos .calendario .listaEventos .bous .portada .logoEvento:after {
+.contenidos .calendario .listaEventos .baile .portada .detallePortada .sitioEvento {
+  color: #b6b6b6;
+}
+.contenidos .calendario .listaEventos .baile .portada .detallePortada .tituloEvento {
+  color: rgba(0,0,0,0.65);
+}
+.contenidos .calendario .listaEventos .bous .portada {
+  border-top: 3px solid #80b21e;
+}
+.contenidos .calendario .listaEventos .bous .portada .detallePortada .desplegar:after {
+  color: #808080;
+}
+.contenidos .calendario .listaEventos .bous .portada .detallePortada .horaEvento {
+  color: #222326;
+}
+.contenidos .calendario .listaEventos .bous .portada .detallePortada .logoEvento {
+  color: #80b21e;
+}
+.contenidos .calendario .listaEventos .bous .portada .detallePortada .logoEvento:after {
   content: "\e602";
+}
+.contenidos .calendario .listaEventos .bous .portada .detallePortada .sitioEvento {
+  color: #b6b6b6;
+}
+.contenidos .calendario .listaEventos .bous .portada .detallePortada .tituloEvento {
+  color: rgba(0,0,0,0.65);
 }
 .contenidos .calendario .listaEventos .evento {
   margin: 10px auto 20px auto;
   width: 95%;
 }
 .contenidos .calendario .listaEventos .evento .portada {
-  border-top: 3px solid #80b21e;
   background: #fff;
   border-radius: 5px;
   box-shadow: 0 1px 2px rgba(0,0,0,0.5);
@@ -311,7 +393,6 @@ a:active {
   z-index: 2;
 }
 .contenidos .calendario .listaEventos .evento .portada .detallePortada .desplegar:after {
-  color: #808080;
   content: "\e120";
   font-family: icomoon;
   position: absolute;
@@ -320,14 +401,12 @@ a:active {
   z-index: 3;
 }
 .contenidos .calendario .listaEventos .evento .portada .detallePortada .horaEvento {
-  color: #222326;
   font-size: 16px;
   position: relative;
   top: -10px;
   z-index: 3;
 }
 .contenidos .calendario .listaEventos .evento .portada .detallePortada .logoEvento {
-  color: #80b21e;
   left: 10px;
   position: absolute;
   top: 20px;
@@ -338,7 +417,6 @@ a:active {
   font-size: 1.1em;
 }
 .contenidos .calendario .listaEventos .evento .portada .detallePortada .sitioEvento {
-  color: #b6b6b6;
   font-size: 0.6em;
   font-weight: bolder;
   margin: 3px 0 0 62px;
@@ -347,7 +425,6 @@ a:active {
   text-transform: uppercase;
 }
 .contenidos .calendario .listaEventos .evento .portada .detallePortada .tituloEvento {
-  color: rgba(0,0,0,0.65);
   font-size: 1em;
   font-style: italic;
   margin: -23px 40px 0 62px;

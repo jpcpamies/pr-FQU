@@ -133,37 +133,102 @@
 							-webkit-transform: scale(1, 1.2);
 		.listaEventos
 			// Tipos de evento
+			.especial
+				.portada
+					.detallePortada
+						.desplegar
+							&:after 
+								color negroOscuro
+								text-shadow 0 1px 0 rgba(white,.3)
+						.horaEvento
+							color textoEvento
+							text-shadow 1px 1px 1px rgba(black,.3)
+						.logoEvento
+							color textoEvento
+							text-shadow 1px 1px 1px rgba(black,.3)
+							&:after
+								content disco
+
+						.sitioEvento
+							color textoEvento
+							text-shadow 1px 1px 1px rgba(black,.3)
+						.tituloEvento
+							color textoEvento
+							text-shadow 1px 1px 1px rgba(black,.3)
+					.fondo
+						background-image url(../img/eventos/concierto.jpg)
+						background-position 0 30%
+						background-repeat no-repeat
+						background-size 100% auto
+						-webkit-filter: brightness(0.6)grayscale(0.3);
 			.concierto
 				.portada
 					.detallePortada
+						.desplegar
+							&:after 
+								color negroOscuro
+								text-shadow 0 1px 0 rgba(white,.3)
 						.horaEvento
-							color white
+							color textoEvento
+							text-shadow 1px 1px 1px rgba(black,.3)
 						.logoEvento
+							color textoEvento
+							text-shadow 1px 1px 1px rgba(black,.3)
 							&:after
-								content micro
+								content disco
+
+						.sitioEvento
+							color textoEvento
+							text-shadow 1px 1px 1px rgba(black,.3)
+						.tituloEvento
+							color textoEvento
+							text-shadow 1px 1px 1px rgba(black,.3)
 					.fondo
 						background-image url(../img/eventos/techno.jpg)
-						background-position 0 0
+						background-position 0 30%
 						background-repeat no-repeat
 						background-size 100% auto
-						-webkit-filter: brightness(0.8)grayscale(0.1);
-					
+						-webkit-filter: brightness(0.8)grayscale(0.4);
 			.baile
 				.portada
-					.logoEvento
-						&:after
-							content pubillas
+					border-top 3px solid verde
+					.detallePortada
+						.desplegar
+							&:after 
+								color gray
+						.horaEvento
+							color negroInterface
+						.logoEvento
+							color verde
+							&:after
+								content pubillas
+						.sitioEvento
+							color #b6b6b6
+						.tituloEvento
+							color rgba(black,.65)
 			.bous
 				.portada
-					.logoEvento
-						&:after
-							content entrada
+					border-top 3px solid verde
+					.detallePortada
+						.desplegar
+							&:after 
+								color gray
+						.horaEvento
+							color negroInterface
+						.logoEvento
+							color verde
+							&:after
+								content entrada
+						.sitioEvento
+							color #b6b6b6
+						.tituloEvento
+							color rgba(black,.65)
 			// Tipos de evento
 			.evento
 				margin 10px auto 20px auto
 				width 95%
 				.portada
-					border-top 3px solid verde
+					// border-top 3px solid verde
 					background white
 					border-radius 5px
 					box-shadow 0 1px 2px rgba(black,.5)
@@ -177,22 +242,18 @@
 						z-index 2
 						.desplegar
 							&:after 
-								color gray
 								content menu
 								font-family icomoon
 								position absolute
 								right -6px
-								// text-shadow 0 1px 0 rgba(white,.3)
 								top -12px 
 								z-index 3
 						.horaEvento
-							color negroInterface
 							font-size 16px
 							position relative
 							top -10px
 							z-index 3
 						.logoEvento
-							color verde
 							left 10px
 							position absolute
 							top 20px
@@ -201,7 +262,6 @@
 								font-family icomoon
 								font-size 1.1em
 						.sitioEvento
-							color #b6b6b6
 							font-size .6em
 							font-weight bolder
 							margin 3px 0 0 62px
@@ -209,7 +269,6 @@
 							text-align left
 							text-transform uppercase
 						.tituloEvento
-							color rgba(black,.65)
 							font-size 1em
 							font-style italic
 							margin -23px 40px 0 62px
