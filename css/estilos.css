@@ -901,21 +901,21 @@ background: -moz-linear-gradient(top,  rgba(247,247,247,0) 0%, rgba(175,175,175,
 .header .degradado .degradadoInner {
   width: 100%;
   height: 100%;
-background: -moz-linear-gradient(top,  rgba(0,0,0,0) 0%, rgba(0,0,0,0) 32%, rgba(0,0,0,0.85) 99%, rgba(0,0,0,0.85) 100%);
-				background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0)), color-stop(32%,rgba(0,0,0,0)), color-stop(99%,rgba(0,0,0,0.85)), color-stop(100%,rgba(0,0,0,0.85)));
-				background: -webkit-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,0) 32%,rgba(0,0,0,0.85) 99%,rgba(0,0,0,0.85) 100%);
-				background: -o-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,0) 32%,rgba(0,0,0,0.85) 99%,rgba(0,0,0,0.85) 100%);
-				background: -ms-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,0) 32%,rgba(0,0,0,0.85) 99%,rgba(0,0,0,0.85) 100%);
-				background: linear-gradient(to bottom,  rgba(0,0,0,0) 0%,rgba(0,0,0,0) 32%,rgba(0,0,0,0.85) 99%,rgba(0,0,0,0.85) 100%);
-				filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#d9000000',GradientType=0 );
+background: -moz-linear-gradient(top,  rgba(0,0,0,0) 0%, rgba(0,0,0,0) 26%, rgba(0,0,0,0.7) 99%, rgba(0,0,0,0.7) 100%);
+				background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0)), color-stop(26%,rgba(0,0,0,0)), color-stop(99%,rgba(0,0,0,0.7)), color-stop(100%,rgba(0,0,0,0.7)));
+				background: -webkit-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,0) 26%,rgba(0,0,0,0.7) 99%,rgba(0,0,0,0.7) 100%);
+				background: -o-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,0) 26%,rgba(0,0,0,0.7) 99%,rgba(0,0,0,0.7) 100%);
+				background: -ms-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,0) 26%,rgba(0,0,0,0.7) 99%,rgba(0,0,0,0.7) 100%);
+				background: linear-gradient(to bottom,  rgba(0,0,0,0) 0%,rgba(0,0,0,0) 26%,rgba(0,0,0,0.7) 99%,rgba(0,0,0,0.7) 100%);
+				filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#b3000000',GradientType=0 );
 }
-background: -moz-linear-gradient(top,  rgba(0,0,0,0) 0%, rgba(0,0,0,0) 32%, rgba(0,0,0,0.85) 99%, rgba(0,0,0,0.85) 100%);
-				background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0)), color-stop(32%,rgba(0,0,0,0)), color-stop(99%,rgba(0,0,0,0.85)), color-stop(100%,rgba(0,0,0,0.85)));
-				background: -webkit-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,0) 32%,rgba(0,0,0,0.85) 99%,rgba(0,0,0,0.85) 100%);
-				background: -o-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,0) 32%,rgba(0,0,0,0.85) 99%,rgba(0,0,0,0.85) 100%);
-				background: -ms-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,0) 32%,rgba(0,0,0,0.85) 99%,rgba(0,0,0,0.85) 100%);
-				background: linear-gradient(to bottom,  rgba(0,0,0,0) 0%,rgba(0,0,0,0) 32%,rgba(0,0,0,0.85) 99%,rgba(0,0,0,0.85) 100%);
-				filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#d9000000',GradientType=0 );
+background: -moz-linear-gradient(top,  rgba(0,0,0,0) 0%, rgba(0,0,0,0) 26%, rgba(0,0,0,0.7) 99%, rgba(0,0,0,0.7) 100%);
+				background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0)), color-stop(26%,rgba(0,0,0,0)), color-stop(99%,rgba(0,0,0,0.7)), color-stop(100%,rgba(0,0,0,0.7)));
+				background: -webkit-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,0) 26%,rgba(0,0,0,0.7) 99%,rgba(0,0,0,0.7) 100%);
+				background: -o-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,0) 26%,rgba(0,0,0,0.7) 99%,rgba(0,0,0,0.7) 100%);
+				background: -ms-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,0) 26%,rgba(0,0,0,0.7) 99%,rgba(0,0,0,0.7) 100%);
+				background: linear-gradient(to bottom,  rgba(0,0,0,0) 0%,rgba(0,0,0,0) 26%,rgba(0,0,0,0.7) 99%,rgba(0,0,0,0.7) 100%);
+				filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#b3000000',GradientType=0 );
 .header .degradado2 {
   display: none;
 }
@@ -1310,7 +1310,7 @@ background: -moz-linear-gradient(top,  rgba(0,0,0,0) 0%, rgba(0,0,0,0) 32%, rgba
   .contenidos {
     bottom: 0;
     left: 80px;
-    position: absolute;
+    position: fixed;
     right: 0;
     top: 85px;
     width: 100%;
@@ -1325,335 +1325,13 @@ background: -moz-linear-gradient(top,  rgba(0,0,0,0) 0%, rgba(0,0,0,0) 32%, rgba
     top: 0;
     z-index: 0;
   }
-  .contenidos .noCalendario .vistaEscritorio {
+  .contenidos .noCalendario .noCalendarioInner {
     display: block;
     position: absolute;
     top: 0;
     right: 0;
     bottom: 0;
     left: 0;
-  }
-  .contenidos .noCalendario .vistaEscritorio .contienePubillas {
-    background: #fff;
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-  }
-  .contenidos .noCalendario .vistaEscritorio .contienePubillas .pubillas {
-    background: #fff;
-    bottom: 0;
-    color: rgba(0,0,0,0.75);
-    height: 100%;
-    position: relative;
-    top: 0;
-  }
-  .contenidos .noCalendario .vistaEscritorio .contienePubillas .pubillas .pubillasHeader {
-    background: #fff;
-    position: fixed;
-    width: 100%;
-    z-index: 5;
-  }
-  .contenidos .noCalendario .vistaEscritorio .contienePubillas .pubillas .pubillasHeader h3 {
-    font-size: 24px;
-    font-weight: 300;
-    left: 80px;
-    padding: 20px;
-    right: 0;
-    text-align: left;
-    top: 85px;
-  }
-  .contenidos .noCalendario .vistaEscritorio .contienePubillas .pubillas .pubillasOuter {
-    background: #fff;
-    font-size: 0;
-    padding: 90px 20px 40px 20px;
-    text-align: center;
-  }
-  .contenidos .noCalendario .vistaEscritorio .contienePubillas .pubillas .pubillasOuter .pubillasInner {
-    background: #fff;
-    display: inline-block;
-    margin: 10px 0;
-    position: relative;
-    width: 150px;
-  }
-  .contenidos .noCalendario .vistaEscritorio .contienePubillas .pubillas .pubillasOuter .pubillasInner img {
-    border-radius: 50%;
-    box-shadow: 0 0 3px rgba(0,0,0,0.3);
-    display: block;
-    margin: 0 auto;
-    width: 100px;
-  }
-  .contenidos .noCalendario .vistaEscritorio .contienePubillas .pubillas .pubillasOuter .pubillasInner .detall {
-    font-size: 14px;
-    font-weight: 300;
-    margin: 12px 0 20px 0;
-    padding: 0 5px;
-    text-align: center;
-  }
-  .contenidos .noCalendario .vistaEscritorio .contienePubillas .pubillas .pubillasOuter .pubillasInner .detall .nom {
-    font-weight: 400;
-  }
-  .contenidos .noCalendario .vistaEscritorio .contienePubillas .unaPubilla {
-    overflow: hidden;
-  }
-  .contenidos .noCalendario .vistaEscritorio .contienePubillas .unaPubilla .back {
-    color: #80b21e;
-    padding: 21px 0 25px 21px;
-  }
-  .contenidos .noCalendario .vistaEscritorio .contienePubillas .unaPubilla .back:last-child {
-    padding: 10px 0 45px 21px;
-  }
-  .contenidos .noCalendario .vistaEscritorio .contienePubillas .unaPubilla .back .backTo {
-    display: inline-block;
-    font-weight: 400;
-  }
-  .contenidos .noCalendario .vistaEscritorio .contienePubillas .unaPubilla .back .backTo span {
-    border-bottom: 1px solid;
-  }
-  .contenidos .noCalendario .vistaEscritorio .contienePubillas .unaPubilla .back .backTo:before {
-    content: "\e604";
-    font-family: icomoon;
-    margin-right: 5px;
-  }
-  .contenidos .noCalendario .vistaEscritorio .contienePubillas .unaPubilla .hero {
-    height: 400px;
-    position: relative;
-  }
-  .contenidos .noCalendario .vistaEscritorio .contienePubillas .unaPubilla .hero .detalle {
-    bottom: 30px;
-    color: #fff;
-    left: 10px;
-    padding: 0 20px;
-    position: absolute;
-    text-align: left;
-    text-shadow: 1px 1px 5px rgba(0,0,0,0.6);
-    width: 100%;
-    z-index: 3;
-  }
-  .contenidos .noCalendario .vistaEscritorio .contienePubillas .unaPubilla .hero .detalle .nombre {
-    font-size: 1.3em;
-    font-weight: 700;
-  }
-  .contenidos .noCalendario .vistaEscritorio .contienePubillas .unaPubilla .hero .detalle .club {
-    font-size: 0.9em;
-    font-weight: 400;
-  }
-  .contenidos .noCalendario .vistaEscritorio .contienePubillas .unaPubilla .hero .degradado {
-    bottom: 0;
-    height: 250px;
-    position: absolute;
-    width: 100%;
-    z-index: 1;
-background: -moz-linear-gradient(top,  rgba(247,247,247,0) 0%, rgba(175,175,175,0) 29%, rgba(2,2,2,0.68) 99%, rgba(0,0,0,0.68) 100%);
-								background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(247,247,247,0)), color-stop(29%,rgba(175,175,175,0)), color-stop(99%,rgba(2,2,2,0.68)), color-stop(100%,rgba(0,0,0,0.68)));
-								background: -webkit-linear-gradient(top,  rgba(247,247,247,0) 0%,rgba(175,175,175,0) 29%,rgba(2,2,2,0.68) 99%,rgba(0,0,0,0.68) 100%);
-								background: -o-linear-gradient(top,  rgba(247,247,247,0) 0%,rgba(175,175,175,0) 29%,rgba(2,2,2,0.68) 99%,rgba(0,0,0,0.68) 100%);
-								background: -ms-linear-gradient(top,  rgba(247,247,247,0) 0%,rgba(175,175,175,0) 29%,rgba(2,2,2,0.68) 99%,rgba(0,0,0,0.68) 100%);
-								background: linear-gradient(to bottom,  rgba(247,247,247,0) 0%,rgba(175,175,175,0) 29%,rgba(2,2,2,0.68) 99%,rgba(0,0,0,0.68) 100%);
-								filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00f7f7f7', endColorstr='#ad000000',GradientType=0 );
-  }
-background: -moz-linear-gradient(top,  rgba(247,247,247,0) 0%, rgba(175,175,175,0) 29%, rgba(2,2,2,0.68) 99%, rgba(0,0,0,0.68) 100%);
-								background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(247,247,247,0)), color-stop(29%,rgba(175,175,175,0)), color-stop(99%,rgba(2,2,2,0.68)), color-stop(100%,rgba(0,0,0,0.68)));
-								background: -webkit-linear-gradient(top,  rgba(247,247,247,0) 0%,rgba(175,175,175,0) 29%,rgba(2,2,2,0.68) 99%,rgba(0,0,0,0.68) 100%);
-								background: -o-linear-gradient(top,  rgba(247,247,247,0) 0%,rgba(175,175,175,0) 29%,rgba(2,2,2,0.68) 99%,rgba(0,0,0,0.68) 100%);
-								background: -ms-linear-gradient(top,  rgba(247,247,247,0) 0%,rgba(175,175,175,0) 29%,rgba(2,2,2,0.68) 99%,rgba(0,0,0,0.68) 100%);
-								background: linear-gradient(to bottom,  rgba(247,247,247,0) 0%,rgba(175,175,175,0) 29%,rgba(2,2,2,0.68) 99%,rgba(0,0,0,0.68) 100%);
-								filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00f7f7f7', endColorstr='#ad000000',GradientType=0 );
-  .contenidos .noCalendario .vistaEscritorio .contienePubillas .unaPubilla .hero .fotoOuter {
-    bottom: 0;
-    height: 400px;
-    position: absolute;
-    width: 100%;
-    z-index: 0;
-  }
-  .contenidos .noCalendario .vistaEscritorio .contienePubillas .unaPubilla .hero .fotoOuter .foto {
-    background-position: 10% 100%;
-    background-repeat: no-repeat;
-    background-size: auto 100%;
-    height: 100%;
-    width: 100%;
-    position: absolute;
-  }
-  .contenidos .noCalendario .vistaEscritorio .contienePubillas .unaPubilla .texto {
-    color: rgba(0,0,0,0.75);
-    font-family: 'Open Sans', sans-serif;
-    font-size: 17px;
-    line-height: 22px;
-    padding: 30px;
-    text-align: justify;
-  }
-  .contenidos .noCalendario .vistaEscritorio .contienePubillas .unaPubilla .texto p {
-    margin-bottom: 16px;
-  }
-  .contenidos .noCalendario .vistaEscritorio .contieneColaboradores .colaboradores h3 {
-    background: #808080;
-    color: #fff;
-    font-size: 24px;
-    font-weight: 300;
-    left: 80px;
-    padding: 20px;
-    position: fixed;
-    right: 0;
-    text-align: left;
-    top: 85px;
-  }
-  .contenidos .noCalendario .vistaEscritorio .contieneColaboradores .colaboradores .logoOuter {
-    padding: 90px 20px 30px 20px;
-    text-align: center;
-  }
-  .contenidos .noCalendario .vistaEscritorio .contieneColaboradores .colaboradores .logoOuter .logoInner {
-    display: inline-block;
-    padding: 15px;
-    vertical-align: top;
-    width: 70%;
-  }
-  .contenidos .noCalendario .vistaEscritorio .contieneColaboradores .colaboradores .logoOuter .logoInner img {
-    width: 100%;
-  }
-  .contenidos .noCalendario .vistaEscritorio .contieneInformacion .informacion {
-    position: relative;
-  }
-  .contenidos .noCalendario .vistaEscritorio .contieneInformacion .informacion .infoHeader {
-    color: rgba(0,0,0,0.75);
-    height: 68px;
-    width: 100%;
-  }
-  .contenidos .noCalendario .vistaEscritorio .contieneInformacion .informacion .infoHeader h2 {
-    background: #fff;
-    font-size: 24px;
-    font-weight: 300;
-    left: 80px;
-    padding: 20px;
-    position: fixed;
-    right: 0;
-    text-align: left;
-    top: 85px;
-    z-index: 50;
-  }
-  .contenidos .noCalendario .vistaEscritorio .contieneInformacion .informacion .infoOuter .infoInner {
-    border-bottom: 1px solid rgba(0,0,0,0.1);
-  }
-  .contenidos .noCalendario .vistaEscritorio .contieneInformacion .informacion .infoOuter .infoInner:last-child {
-    border-bottom: none;
-  }
-  .contenidos .noCalendario .vistaEscritorio .contieneInformacion .informacion .infoOuter .infoInner .checkInfo {
-    width: 100%;
-    height: 70px;
-    background: transparent;
-    position: relative;
-    z-index: 20;
-  }
-  .contenidos .noCalendario .vistaEscritorio .contieneInformacion .informacion .infoOuter .infoInner .checkInfo .puntos:after {
-    color: rgba(0,0,0,0.75);
-    content: "\e2aa";
-    font-family: icomoon;
-    position: absolute;
-    font-style: normal;
-    top: 20px;
-    right: 20px;
-    padding: 5px 0 5px 20px;
-  }
-  .contenidos .noCalendario .vistaEscritorio .contieneInformacion .informacion .infoOuter .infoInner .entrades {
-    margin: -70px 0 0 0;
-  }
-  .contenidos .noCalendario .vistaEscritorio .contieneInformacion .informacion .infoOuter .infoInner .entrades:before {
-    content: "\e602";
-    font-family: icomoon;
-    font-style: normal;
-    font-size: 18px;
-    left: 20px;
-    position: absolute;
-    top: 30px;
-  }
-  .contenidos .noCalendario .vistaEscritorio .contieneInformacion .informacion .infoOuter .infoInner .inscripcions {
-    margin: -70px 0 0 0;
-  }
-  .contenidos .noCalendario .vistaEscritorio .contieneInformacion .informacion .infoOuter .infoInner .inscripcions:before {
-    content: "\e601";
-    font-family: icomoon;
-    font-style: normal;
-    font-size: 18px;
-    left: 20px;
-    position: absolute;
-    top: 30px;
-  }
-  .contenidos .noCalendario .vistaEscritorio .contieneInformacion .informacion .infoOuter .infoInner .horario {
-    margin: -70px 0 0 0;
-  }
-  .contenidos .noCalendario .vistaEscritorio .contieneInformacion .informacion .infoOuter .infoInner .horario:before {
-    content: "\e605";
-    font-family: icomoon;
-    font-style: normal;
-    font-size: 18px;
-    left: 20px;
-    position: absolute;
-    top: 30px;
-  }
-  .contenidos .noCalendario .vistaEscritorio .contieneInformacion .informacion .infoOuter .infoInner .notes {
-    margin: -70px 0 0 0;
-  }
-  .contenidos .noCalendario .vistaEscritorio .contieneInformacion .informacion .infoOuter .infoInner .notes:before {
-    content: "\e608";
-    font-family: icomoon;
-    font-style: normal;
-    font-size: 18px;
-    left: 20px;
-    position: absolute;
-    top: 30px;
-  }
-  .contenidos .noCalendario .vistaEscritorio .contieneInformacion .informacion .infoOuter .infoInner .post {
-    color: rgba(0,0,0,0.75);
-    font-size: 16px;
-    font-style: italic;
-    line-height: 21px;
-    padding: 28px 0 28px 0;
-    position: relative;
-  }
-  .contenidos .noCalendario .vistaEscritorio .contieneInformacion .informacion .infoOuter .infoInner .post h4 {
-    margin: 0 78px 0 55px;
-  }
-  .contenidos .noCalendario .vistaEscritorio .contieneInformacion .informacion .infoOuter .infoInner .post .detallePost {
-    border-left: none;
-  }
-  .contenidos .noCalendario .vistaEscritorio .contieneInformacion .informacion .infoOuter .infoInner .post .detallePost h5 {
-    color: #000;
-    font-style: normal;
-    margin: 20px 20px 10px 55px;
-  }
-  .contenidos .noCalendario .vistaEscritorio .contieneInformacion .informacion .infoOuter .infoInner .post .detallePost h5:first-child {
-    margin: 40px 20px 10px 55px;
-  }
-  .contenidos .noCalendario .vistaEscritorio .contieneInformacion .informacion .infoOuter .infoInner .post .detallePost p {
-    color: rgba(0,0,0,0.6);
-    font-style: normal;
-    font-weight: 400;
-    margin: 0 20px 0 55px;
-  }
-  .contenidos .noCalendario .vistaEscritorio .contieneInformacion .informacion .infoOuter .infoInner .post .detallePost p:last-child {
-    margin: 0 20px 30px 55px;
-  }
-  .contenidos .noCalendario .vistaEscritorio .contieneInformacion .informacion .infoOuter .infoInner .post .detallePost p.detallePostPiscina {
-    margin: 20px 20px 30px 55px;
-  }
-  .contenidos .noCalendario .vistaEscritorio .contieneInformacion .informacion .infoOuter .infoInner .post .detallePost ul {
-    margin: 20px 20px 0 55px;
-  }
-  .contenidos .noCalendario .vistaEscritorio .contieneInformacion .informacion .infoOuter .infoInner .post .detallePost ul li {
-    color: rgba(0,0,0,0.75);
-    font-style: normal;
-    font-weight: 400;
-    list-style-type: circle;
-    margin: 0 0 10px 0;
-  }
-  .contenidos .noCalendario .vistaEscritorio .contieneInformacion .informacion .infoOuter .infoInner .post .detallePost ul li:last-child {
-    margin: 0 0 30px 0;
-  }
-  .contenidos .noCalendario .vistaEscritorio .contieneInformacion .informacion .infoOuter .infoInner .post:last-child {
-    border-bottom: none;
-  }
-  .contenidos .noCalendario .vistaMovil {
-    display: none;
   }
   .contenidos .calendario {
     bottom: 0;
@@ -1731,20 +1409,20 @@ background: -moz-linear-gradient(top,  rgba(247,247,247,0) 0%, rgba(175,175,175,
     width: 100%;
     height: 100%;
 background: -moz-linear-gradient(left,  rgba(0,0,0,0.85) 0%, rgba(0,0,0,0.1) 57%, rgba(0,0,0,0.05) 99%, rgba(0,0,0,0.05) 100%);
-background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(0,0,0,0.85)), color-stop(57%,rgba(0,0,0,0.1)), color-stop(99%,rgba(0,0,0,0.05)), color-stop(100%,rgba(0,0,0,0.05)));
-background: -webkit-linear-gradient(left,  rgba(0,0,0,0.85) 0%,rgba(0,0,0,0.1) 57%,rgba(0,0,0,0.05) 99%,rgba(0,0,0,0.05) 100%);
-background: -o-linear-gradient(left,  rgba(0,0,0,0.85) 0%,rgba(0,0,0,0.1) 57%,rgba(0,0,0,0.05) 99%,rgba(0,0,0,0.05) 100%);
-background: -ms-linear-gradient(left,  rgba(0,0,0,0.85) 0%,rgba(0,0,0,0.1) 57%,rgba(0,0,0,0.05) 99%,rgba(0,0,0,0.05) 100%);
-background: linear-gradient(to right,  rgba(0,0,0,0.85) 0%,rgba(0,0,0,0.1) 57%,rgba(0,0,0,0.05) 99%,rgba(0,0,0,0.05) 100%);
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d9000000', endColorstr='#0d000000',GradientType=1 );
+				background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(0,0,0,0.85)), color-stop(57%,rgba(0,0,0,0.1)), color-stop(99%,rgba(0,0,0,0.05)), color-stop(100%,rgba(0,0,0,0.05)));
+				background: -webkit-linear-gradient(left,  rgba(0,0,0,0.85) 0%,rgba(0,0,0,0.1) 57%,rgba(0,0,0,0.05) 99%,rgba(0,0,0,0.05) 100%);
+				background: -o-linear-gradient(left,  rgba(0,0,0,0.85) 0%,rgba(0,0,0,0.1) 57%,rgba(0,0,0,0.05) 99%,rgba(0,0,0,0.05) 100%);
+				background: -ms-linear-gradient(left,  rgba(0,0,0,0.85) 0%,rgba(0,0,0,0.1) 57%,rgba(0,0,0,0.05) 99%,rgba(0,0,0,0.05) 100%);
+				background: linear-gradient(to right,  rgba(0,0,0,0.85) 0%,rgba(0,0,0,0.1) 57%,rgba(0,0,0,0.05) 99%,rgba(0,0,0,0.05) 100%);
+				filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d9000000', endColorstr='#0d000000',GradientType=1 );
   }
 background: -moz-linear-gradient(left,  rgba(0,0,0,0.85) 0%, rgba(0,0,0,0.1) 57%, rgba(0,0,0,0.05) 99%, rgba(0,0,0,0.05) 100%);
-background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(0,0,0,0.85)), color-stop(57%,rgba(0,0,0,0.1)), color-stop(99%,rgba(0,0,0,0.05)), color-stop(100%,rgba(0,0,0,0.05)));
-background: -webkit-linear-gradient(left,  rgba(0,0,0,0.85) 0%,rgba(0,0,0,0.1) 57%,rgba(0,0,0,0.05) 99%,rgba(0,0,0,0.05) 100%);
-background: -o-linear-gradient(left,  rgba(0,0,0,0.85) 0%,rgba(0,0,0,0.1) 57%,rgba(0,0,0,0.05) 99%,rgba(0,0,0,0.05) 100%);
-background: -ms-linear-gradient(left,  rgba(0,0,0,0.85) 0%,rgba(0,0,0,0.1) 57%,rgba(0,0,0,0.05) 99%,rgba(0,0,0,0.05) 100%);
-background: linear-gradient(to right,  rgba(0,0,0,0.85) 0%,rgba(0,0,0,0.1) 57%,rgba(0,0,0,0.05) 99%,rgba(0,0,0,0.05) 100%);
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d9000000', endColorstr='#0d000000',GradientType=1 );
+				background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(0,0,0,0.85)), color-stop(57%,rgba(0,0,0,0.1)), color-stop(99%,rgba(0,0,0,0.05)), color-stop(100%,rgba(0,0,0,0.05)));
+				background: -webkit-linear-gradient(left,  rgba(0,0,0,0.85) 0%,rgba(0,0,0,0.1) 57%,rgba(0,0,0,0.05) 99%,rgba(0,0,0,0.05) 100%);
+				background: -o-linear-gradient(left,  rgba(0,0,0,0.85) 0%,rgba(0,0,0,0.1) 57%,rgba(0,0,0,0.05) 99%,rgba(0,0,0,0.05) 100%);
+				background: -ms-linear-gradient(left,  rgba(0,0,0,0.85) 0%,rgba(0,0,0,0.1) 57%,rgba(0,0,0,0.05) 99%,rgba(0,0,0,0.05) 100%);
+				background: linear-gradient(to right,  rgba(0,0,0,0.85) 0%,rgba(0,0,0,0.1) 57%,rgba(0,0,0,0.05) 99%,rgba(0,0,0,0.05) 100%);
+				filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d9000000', endColorstr='#0d000000',GradientType=1 );
   .header .logo {
     display: none;
   }
