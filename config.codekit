@@ -362,6 +362,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/logo\/logo_vertical.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4814,
+		"inputAbbreviatedPath": "\/img\/logo\/logo_vertical.png",
+		"outputAbbreviatedPath": "\/img\/logo\/logo_vertical.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/logo\/logo_vertical2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4299,
+		"inputAbbreviatedPath": "\/img\/logo\/logo_vertical2.png",
+		"outputAbbreviatedPath": "\/img\/logo\/logo_vertical2.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/logo\/logoRojo.png": {
 		"fileType": 32768,
 		"ignore": 0,

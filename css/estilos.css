@@ -191,7 +191,7 @@ a:active {
   background: #646669;
   box-shadow: 0 0 50px rgba(0,0,0,0.5) inset;
   border-top: 5px solid #80b21e;
-  color: rgba(255,255,255,0.8);
+  color: rgba(255,255,255,0.85);
   position: relative;
   z-index: 5;
 }
@@ -1684,12 +1684,12 @@ background: -moz-linear-gradient(left,  rgba(0,0,0,0.85) 0%, rgba(0,0,0,0.1) 57%
   }
   .menu ul .botonOuter .logo {
     position: absolute;
-    bottom: 20px;
-    left: 15px;
+    bottom: 22px;
+    left: 18px;
     opacity: 0.8;
   }
   .menu ul .botonOuter .logo img {
-    width: 50px;
+    width: 45px;
   }
   .menu ul .botonOuter .top {
     margin: 85px 0 0 0;
