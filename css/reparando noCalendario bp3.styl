@@ -1,0 +1,275 @@
+// ESTO NO SE BORRA HASTA QUE ESTÉ INTEGRADO EL NOCALENDARIO EN BP3
+
+.vistaEscritorio
+	display block
+	position absolute
+	top 0
+	right 0
+	bottom 0
+	left 0
+	.contienePubillas
+		background white
+		position absolute
+		top 0
+		right 0
+		bottom 0
+		left 0
+		.pubillas
+			background white
+			bottom 0
+			color texto2
+			height 100%
+			position relative 
+			top 0
+			.pubillasHeader
+				background white
+				position fixed
+				width 100%
+				z-index 5
+				h3
+					font-size 24px
+					font-weight 300
+					left 80px
+					padding 20px
+					right 0
+					text-align left
+					top 85px 
+			.pubillasOuter
+				background white
+				font-size 0
+				padding 90px 20px 40px 20px 
+				text-align center
+				.pubillasInner 
+					background white
+					display inline-block
+					margin 10px 0
+					position relative
+					width 150px
+					img
+						border-radius 50%
+						box-shadow 0 0 3px rgba(black,.3)
+						display block
+						margin 0 auto
+						width 100px
+					.detall
+						// background blue
+						font-size 14px
+						font-weight 300
+						margin 12px 0 20px 0 
+						padding 0 5px
+						text-align center
+						.nom
+							font-weight 400
+		.unaPubilla
+			overflow hidden
+			.back
+				color rgba(verde,1)
+				padding 21px 0 25px 21px
+				&:last-child 
+					padding 10px 0 45px 21px
+				.backTo
+					display inline-block
+					font-weight 400
+					span
+						border-bottom 1px solid
+					&:before
+						content back
+						font-family icomoon
+						margin-right 5px
+			.hero
+				height 400px
+				position relative
+				.detalle
+					bottom 30px
+					color white
+					left 10px
+					padding 0 20px
+					position absolute
+					text-align left
+					text-shadow 1px 1px 5px rgba(black,.6)
+					width 100%
+					z-index 3
+					.nombre
+						font-size 1.3em
+						font-weight 700
+					.club
+						font-size .9em
+						font-weight 400
+				.degradado
+					bottom 0
+					height 250px
+					position absolute
+					width 100%
+					z-index 1
+					@css {
+						background: -moz-linear-gradient(top,  rgba(247,247,247,0) 0%, rgba(175,175,175,0) 29%, rgba(2,2,2,0.68) 99%, rgba(0,0,0,0.68) 100%);
+						background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(247,247,247,0)), color-stop(29%,rgba(175,175,175,0)), color-stop(99%,rgba(2,2,2,0.68)), color-stop(100%,rgba(0,0,0,0.68)));
+						background: -webkit-linear-gradient(top,  rgba(247,247,247,0) 0%,rgba(175,175,175,0) 29%,rgba(2,2,2,0.68) 99%,rgba(0,0,0,0.68) 100%);
+						background: -o-linear-gradient(top,  rgba(247,247,247,0) 0%,rgba(175,175,175,0) 29%,rgba(2,2,2,0.68) 99%,rgba(0,0,0,0.68) 100%);
+						background: -ms-linear-gradient(top,  rgba(247,247,247,0) 0%,rgba(175,175,175,0) 29%,rgba(2,2,2,0.68) 99%,rgba(0,0,0,0.68) 100%);
+						background: linear-gradient(to bottom,  rgba(247,247,247,0) 0%,rgba(175,175,175,0) 29%,rgba(2,2,2,0.68) 99%,rgba(0,0,0,0.68) 100%);
+						filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00f7f7f7', endColorstr='#ad000000',GradientType=0 );
+
+					}
+				.fotoOuter
+					bottom 0
+					height 400px
+					position absolute
+					width 100%
+					z-index 0
+					.foto
+						background-position 10% 100%
+						background-repeat no-repeat
+						background-size auto 100%
+						height 100%
+						width 100%
+						position absolute
+			.texto
+				color texto2
+				font-family lectura
+				font-size 17px
+				line-height 22px
+				padding 30px
+				text-align justify
+				p
+					margin-bottom 16px
+	.contieneColaboradores
+		.colaboradores
+			h3
+				background #808080
+				color white
+				font-size 24px
+				font-weight 300
+				left 80px
+				padding 20px
+				position fixed
+				right 0
+				text-align left
+				top 85px 
+			.logoOuter
+				padding 90px 20px 30px 20px 
+				text-align center
+				.logoInner
+					display inline-block
+					padding 15px
+					vertical-align top
+					width 70%
+					img
+						width 100%
+	.contieneInformacion
+			.informacion
+				position relative
+				.infoHeader
+					color texto2
+					height 68px
+					width 100%
+					h2
+						background white
+						font-size 24px
+						font-weight 300
+						left 80px
+						padding 20px
+						position fixed
+						right 0
+						text-align left
+						top 85px 
+						z-index 50
+				.infoOuter
+					.infoInner
+						border-bottom 1px solid rgba(black,.1)
+						&:last-child
+							border-bottom none
+						.checkInfo
+							width 100%
+							height 70px 
+							background transparent
+							position relative
+							z-index 20
+							.puntos
+								&:after
+									color texto2
+									content menu2
+									font-family icomoon
+									position absolute
+									font-style normal
+									top 20px
+									right 20px
+									padding 5px 0 5px 20px
+						.entrades
+							margin -70px 0 0 0
+							&:before
+								content entrada
+								font-family icomoon
+								font-style normal
+								font-size 18px 
+								left 20px
+								position absolute
+								top 30px
+						.inscripcions
+							margin -70px 0 0 0
+							&:before
+								content calendario
+								font-family icomoon
+								font-style normal
+								font-size 18px 
+								left 20px
+								position absolute
+								top 30px
+						.horario
+							margin -70px 0 0 0
+							&:before
+								content reloj
+								font-family icomoon
+								font-style normal
+								font-size 18px 
+								left 20px
+								position absolute
+								top 30px
+						.notes
+							margin -70px 0 0 0
+							&:before
+								content nota
+								font-family icomoon
+								font-style normal
+								font-size 18px 
+								left 20px
+								position absolute
+								top 30px
+						.post
+							color texto2
+							font-size 16px
+							font-style italic
+							line-height 21px
+							padding 28px 0 28px 0
+							position relative
+							h4
+								margin 0 78px 0 55px
+							.detallePost
+								border-left none
+								h5
+									color rgba(black,1)
+									font-style normal
+									margin 20px 20px 10px 55px
+									&:first-child
+										margin 40px 20px 10px 55px
+								p
+									color rgba(black,.6)
+									font-style normal
+									font-weight 400
+									margin 0 20px 0 55px
+									&:last-child 
+										margin 0 20px 30px 55px
+								p.detallePostPiscina
+									margin 20px 20px 30px 55px
+								ul
+									margin 20px 20px 0 55px
+									li 
+										color texto2
+										font-style normal
+										font-weight 400
+										list-style-type circle
+										margin 0 0 10px 0
+										&:last-child 
+											margin 0 0 30px 0
+							&:last-child
+								border-bottom none

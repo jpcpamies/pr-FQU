@@ -131,6 +131,21 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/css\/reparando noCalendario bp3.styl": {
+		"debugStyle": 0,
+		"fileType": 8,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"importCSS": 0,
+		"inputAbbreviatedPath": "\/css\/reparando noCalendario bp3.styl",
+		"outputAbbreviatedPath": "\/css\/reparando noCalendario bp3.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"resolveRelativeURLS": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0
+		},
 	"\/css\/reset.styl": {
 		"debugStyle": 0,
 		"fileType": 8,
