@@ -23,162 +23,156 @@
 			right 0
 			bottom 0
 			left 0
-			.escritorioInner
+			.contienePubillas
+				background white
 				position absolute
 				top 0
 				right 0
 				bottom 0
 				left 0
-				.contienePubillas
+				.pubillas
 					background white
-					position absolute
-					top 0
-					right 0
 					bottom 0
-					left 0
-					.pubillas
+					color texto2
+					height 100%
+					position relative 
+					top 0
+					.pubillasHeader
 						background white
-						bottom 0
-						color texto2
-						height 100%
-						position relative 
-						top 0
-						.pubillasHeader
-							background white
-							position fixed
-							width 100%
-							z-index 5
-							h3
-								font-size 24px
-								font-weight 300
-								left 80px
-								padding 20px
-								right 0
-								text-align left
-								top 85px 
-						.pubillasOuter
-							background white
-							font-size 0
-							padding 90px 20px 40px 20px 
-							text-align center
-							.pubillasInner 
-								background white
-								display inline-block
-								margin 10px 0
-								position relative
-								width 150px
-								img
-									border-radius 50%
-									box-shadow 0 0 3px rgba(black,.3)
-									display block
-									margin 0 auto
-									width 100px
-								.detall
-									// background blue
-									font-size 14px
-									font-weight 300
-									margin 12px 0 20px 0 
-									padding 0 5px
-									text-align center
-									.nom
-										font-weight 400
-					.unaPubilla
-						overflow hidden
-						.back
-							color rgba(verde,1)
-							padding 21px 0 25px 21px
-							&:last-child 
-								padding 10px 0 45px 21px
-							.backTo
-								display inline-block
-								font-weight 400
-								span
-									border-bottom 1px solid
-								&:before
-									content back
-									font-family icomoon
-									margin-right 5px
-						.hero
-							height 400px
-							position relative
-							.detalle
-								bottom 30px
-								color white
-								left 10px
-								padding 0 20px
-								position absolute
-								text-align left
-								text-shadow 1px 1px 5px rgba(black,.6)
-								width 100%
-								z-index 3
-								.nombre
-									font-size 1.3em
-									font-weight 700
-								.club
-									font-size .9em
-									font-weight 400
-							.degradado
-								bottom 0
-								height 250px
-								position absolute
-								width 100%
-								z-index 1
-								@css {
-									background: -moz-linear-gradient(top,  rgba(247,247,247,0) 0%, rgba(175,175,175,0) 29%, rgba(2,2,2,0.68) 99%, rgba(0,0,0,0.68) 100%);
-									background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(247,247,247,0)), color-stop(29%,rgba(175,175,175,0)), color-stop(99%,rgba(2,2,2,0.68)), color-stop(100%,rgba(0,0,0,0.68)));
-									background: -webkit-linear-gradient(top,  rgba(247,247,247,0) 0%,rgba(175,175,175,0) 29%,rgba(2,2,2,0.68) 99%,rgba(0,0,0,0.68) 100%);
-									background: -o-linear-gradient(top,  rgba(247,247,247,0) 0%,rgba(175,175,175,0) 29%,rgba(2,2,2,0.68) 99%,rgba(0,0,0,0.68) 100%);
-									background: -ms-linear-gradient(top,  rgba(247,247,247,0) 0%,rgba(175,175,175,0) 29%,rgba(2,2,2,0.68) 99%,rgba(0,0,0,0.68) 100%);
-									background: linear-gradient(to bottom,  rgba(247,247,247,0) 0%,rgba(175,175,175,0) 29%,rgba(2,2,2,0.68) 99%,rgba(0,0,0,0.68) 100%);
-									filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00f7f7f7', endColorstr='#ad000000',GradientType=0 );
-
-								}
-							.fotoOuter
-								bottom 0
-								height 400px
-								position absolute
-								width 100%
-								z-index 0
-								.foto
-									background-position 10% 100%
-									background-repeat no-repeat
-									background-size auto 100%
-									height 100%
-									width 100%
-									position absolute
-						.texto
-							color texto2
-							font-family lectura
-							font-size 17px
-							line-height 22px
-							padding 30px
-							text-align justify
-							p
-								margin-bottom 16px
-				.contieneColaboradores
-					.colaboradores
+						position fixed
+						width 100%
+						z-index 5
 						h3
-							background #808080
-							color white
 							font-size 24px
 							font-weight 300
 							left 80px
 							padding 20px
-							position fixed
 							right 0
 							text-align left
 							top 85px 
-						.logoOuter
-							padding 90px 20px 30px 20px 
-							text-align center
-							.logoInner
-								display inline-block
-								padding 15px
-								vertical-align top
-								width 70%
-								img
-									width 100%
-				.contieneInformacion
+					.pubillasOuter
+						background white
+						font-size 0
+						padding 90px 20px 40px 20px 
+						text-align center
+						.pubillasInner 
+							background white
+							display inline-block
+							margin 10px 0
+							position relative
+							width 150px
+							img
+								border-radius 50%
+								box-shadow 0 0 3px rgba(black,.3)
+								display block
+								margin 0 auto
+								width 100px
+							.detall
+								// background blue
+								font-size 14px
+								font-weight 300
+								margin 12px 0 20px 0 
+								padding 0 5px
+								text-align center
+								.nom
+									font-weight 400
+				.unaPubilla
+					overflow hidden
+					.back
+						color rgba(verde,1)
+						padding 21px 0 25px 21px
+						&:last-child 
+							padding 10px 0 45px 21px
+						.backTo
+							display inline-block
+							font-weight 400
+							span
+								border-bottom 1px solid
+							&:before
+								content back
+								font-family icomoon
+								margin-right 5px
+					.hero
+						height 400px
+						position relative
+						.detalle
+							bottom 30px
+							color white
+							left 10px
+							padding 0 20px
+							position absolute
+							text-align left
+							text-shadow 1px 1px 5px rgba(black,.6)
+							width 100%
+							z-index 3
+							.nombre
+								font-size 1.3em
+								font-weight 700
+							.club
+								font-size .9em
+								font-weight 400
+						.degradado
+							bottom 0
+							height 250px
+							position absolute
+							width 100%
+							z-index 1
+							@css {
+								background: -moz-linear-gradient(top,  rgba(247,247,247,0) 0%, rgba(175,175,175,0) 29%, rgba(2,2,2,0.68) 99%, rgba(0,0,0,0.68) 100%);
+								background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(247,247,247,0)), color-stop(29%,rgba(175,175,175,0)), color-stop(99%,rgba(2,2,2,0.68)), color-stop(100%,rgba(0,0,0,0.68)));
+								background: -webkit-linear-gradient(top,  rgba(247,247,247,0) 0%,rgba(175,175,175,0) 29%,rgba(2,2,2,0.68) 99%,rgba(0,0,0,0.68) 100%);
+								background: -o-linear-gradient(top,  rgba(247,247,247,0) 0%,rgba(175,175,175,0) 29%,rgba(2,2,2,0.68) 99%,rgba(0,0,0,0.68) 100%);
+								background: -ms-linear-gradient(top,  rgba(247,247,247,0) 0%,rgba(175,175,175,0) 29%,rgba(2,2,2,0.68) 99%,rgba(0,0,0,0.68) 100%);
+								background: linear-gradient(to bottom,  rgba(247,247,247,0) 0%,rgba(175,175,175,0) 29%,rgba(2,2,2,0.68) 99%,rgba(0,0,0,0.68) 100%);
+								filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00f7f7f7', endColorstr='#ad000000',GradientType=0 );
+
+							}
+						.fotoOuter
+							bottom 0
+							height 400px
+							position absolute
+							width 100%
+							z-index 0
+							.foto
+								background-position 10% 100%
+								background-repeat no-repeat
+								background-size auto 100%
+								height 100%
+								width 100%
+								position absolute
+					.texto
+						color texto2
+						font-family lectura
+						font-size 17px
+						line-height 22px
+						padding 30px
+						text-align justify
+						p
+							margin-bottom 16px
+			.contieneColaboradores
+				.colaboradores
+					h3
+						background #808080
+						color white
+						font-size 24px
+						font-weight 300
+						left 80px
+						padding 20px
+						position fixed
+						right 0
+						text-align left
+						top 85px 
+					.logoOuter
+						padding 90px 20px 30px 20px 
+						text-align center
+						.logoInner
+							display inline-block
+							padding 15px
+							vertical-align top
+							width 70%
+							img
+								width 100%
+			.contieneInformacion
 					.informacion
 						position relative
 						.infoHeader
@@ -355,24 +349,44 @@
 	right 0
 	left 0
 	z-index 10
-	.logo
+	.degradado
+		display none
+	.degradado2
 		position absolute
-		top 10px
-		left 20px
+		top 0 
+		right 0
+		bottom 0 
+		left 0
+		z-index 1
+		.degradado2Inner
+			width 100%
+			height 100%
+			@css {
+				background: -moz-linear-gradient(left,  rgba(0,0,0,0.85) 0%, rgba(0,0,0,0.1) 57%, rgba(0,0,0,0.05) 99%, rgba(0,0,0,0.05) 100%);
+background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(0,0,0,0.85)), color-stop(57%,rgba(0,0,0,0.1)), color-stop(99%,rgba(0,0,0,0.05)), color-stop(100%,rgba(0,0,0,0.05)));
+background: -webkit-linear-gradient(left,  rgba(0,0,0,0.85) 0%,rgba(0,0,0,0.1) 57%,rgba(0,0,0,0.05) 99%,rgba(0,0,0,0.05) 100%);
+background: -o-linear-gradient(left,  rgba(0,0,0,0.85) 0%,rgba(0,0,0,0.1) 57%,rgba(0,0,0,0.05) 99%,rgba(0,0,0,0.05) 100%);
+background: -ms-linear-gradient(left,  rgba(0,0,0,0.85) 0%,rgba(0,0,0,0.1) 57%,rgba(0,0,0,0.05) 99%,rgba(0,0,0,0.05) 100%);
+background: linear-gradient(to right,  rgba(0,0,0,0.85) 0%,rgba(0,0,0,0.1) 57%,rgba(0,0,0,0.05) 99%,rgba(0,0,0,0.05) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d9000000', endColorstr='#0d000000',GradientType=1 );
+
+			}
+	.logo
+		display none
 		img 
+			position absolute
+			top -20px
+			left 20px
 			width 60px
+
 	.muralOuter
 		.mural
-			background gris
 			animation animacionTablet 150s infinite
 			-webkit-animation animacionTablet 150s infinite
 			.muralInner
 				margin -40px 0 0 0 
-				background-position 5px 7px
-				background-size 15% auto
-				transform: skew(0deg);
-				-ms-transform: skew(0deg);
-				-webkit-transform: skew(0deg);
+				background-position 0
+				background-size 10% auto
 	.social
 		.twitter
 			text-align center

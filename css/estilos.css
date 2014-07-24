@@ -465,33 +465,30 @@ a:active {
   position: relative;
   z-index: 5;
 }
-.contenidos .noCalendario .vistaEscritorio {
-  display: none;
-}
-.contenidos .noCalendario .vistaMovil .contienePubillas .pubillas {
+.contenidos .noCalendario .noCalendarioInner .contienePubillas .pubillas {
   background: #fff;
   color: rgba(0,0,0,0.75);
 }
-.contenidos .noCalendario .vistaMovil .contienePubillas .pubillas h3 {
+.contenidos .noCalendario .noCalendarioInner .contienePubillas .pubillas h3 {
   font-size: 24px;
   font-weight: 300;
   padding: 20px;
   text-align: center;
 }
-.contenidos .noCalendario .vistaMovil .contienePubillas .pubillas .pubillasOuter {
+.contenidos .noCalendario .noCalendarioInner .contienePubillas .pubillas .pubillasOuter {
   display: block;
   font-size: 0;
   margin: 0 auto;
   padding: 0 20px 20px 20px;
   text-align: center;
 }
-.contenidos .noCalendario .vistaMovil .contienePubillas .pubillas .pubillasOuter .pubillasInner {
+.contenidos .noCalendario .noCalendarioInner .contienePubillas .pubillas .pubillasOuter .pubillasInner {
   display: inline-block;
   margin: 10px 0;
   position: relative;
   width: 150px;
 }
-.contenidos .noCalendario .vistaMovil .contienePubillas .pubillas .pubillasOuter .pubillasInner img {
+.contenidos .noCalendario .noCalendarioInner .contienePubillas .pubillas .pubillasOuter .pubillasInner img {
   border-radius: 50%;
   box-shadow: 0 0 3px rgba(0,0,0,0.3);
   display: block;
@@ -499,40 +496,40 @@ a:active {
   width: 90px;
   height: auto;
 }
-.contenidos .noCalendario .vistaMovil .contienePubillas .pubillas .pubillasOuter .pubillasInner .detall {
+.contenidos .noCalendario .noCalendarioInner .contienePubillas .pubillas .pubillasOuter .pubillasInner .detall {
   font-size: 14px;
   font-weight: 300;
   margin: 12px 0 20px 0;
   padding: 0 5px;
   text-align: center;
 }
-.contenidos .noCalendario .vistaMovil .contienePubillas .pubillas .pubillasOuter .pubillasInner .detall .nom {
+.contenidos .noCalendario .noCalendarioInner .contienePubillas .pubillas .pubillasOuter .pubillasInner .detall .nom {
   font-weight: 400;
 }
-.contenidos .noCalendario .vistaMovil .contienePubillas .unaPubilla .back {
+.contenidos .noCalendario .noCalendarioInner .contienePubillas .unaPubilla .back {
   color: #80b21e;
   padding: 20px 0 25px 18px;
 }
-.contenidos .noCalendario .vistaMovil .contienePubillas .unaPubilla .back:last-child {
+.contenidos .noCalendario .noCalendarioInner .contienePubillas .unaPubilla .back:last-child {
   padding: 20px 0 45px 18px;
 }
-.contenidos .noCalendario .vistaMovil .contienePubillas .unaPubilla .back .backTo {
+.contenidos .noCalendario .noCalendarioInner .contienePubillas .unaPubilla .back .backTo {
   display: inline-block;
   font-weight: 400;
 }
-.contenidos .noCalendario .vistaMovil .contienePubillas .unaPubilla .back .backTo span {
+.contenidos .noCalendario .noCalendarioInner .contienePubillas .unaPubilla .back .backTo span {
   border-bottom: 1px solid;
 }
-.contenidos .noCalendario .vistaMovil .contienePubillas .unaPubilla .back .backTo:before {
+.contenidos .noCalendario .noCalendarioInner .contienePubillas .unaPubilla .back .backTo:before {
   content: "\e604";
   font-family: icomoon;
   margin-right: 5px;
 }
-.contenidos .noCalendario .vistaMovil .contienePubillas .unaPubilla .hero {
+.contenidos .noCalendario .noCalendarioInner .contienePubillas .unaPubilla .hero {
   height: 400px;
   position: relative;
 }
-.contenidos .noCalendario .vistaMovil .contienePubillas .unaPubilla .hero .detalle {
+.contenidos .noCalendario .noCalendarioInner .contienePubillas .unaPubilla .hero .detalle {
   bottom: 30px;
   color: #fff;
   padding: 0 20px;
@@ -542,15 +539,15 @@ a:active {
   width: 100%;
   z-index: 3;
 }
-.contenidos .noCalendario .vistaMovil .contienePubillas .unaPubilla .hero .detalle .nombre {
+.contenidos .noCalendario .noCalendarioInner .contienePubillas .unaPubilla .hero .detalle .nombre {
   font-size: 1.3em;
   font-weight: 700;
 }
-.contenidos .noCalendario .vistaMovil .contienePubillas .unaPubilla .hero .detalle .club {
+.contenidos .noCalendario .noCalendarioInner .contienePubillas .unaPubilla .hero .detalle .club {
   font-size: 0.9em;
   font-weight: 400;
 }
-.contenidos .noCalendario .vistaMovil .contienePubillas .unaPubilla .hero .degradado {
+.contenidos .noCalendario .noCalendarioInner .contienePubillas .unaPubilla .hero .degradado {
   bottom: 0;
   height: 250px;
   position: absolute;
@@ -571,14 +568,14 @@ background: -moz-linear-gradient(top,  rgba(247,247,247,0) 0%, rgba(175,175,175,
 								background: -ms-linear-gradient(top,  rgba(247,247,247,0) 0%,rgba(175,175,175,0) 29%,rgba(2,2,2,0.68) 99%,rgba(0,0,0,0.68) 100%);
 								background: linear-gradient(to bottom,  rgba(247,247,247,0) 0%,rgba(175,175,175,0) 29%,rgba(2,2,2,0.68) 99%,rgba(0,0,0,0.68) 100%);
 								filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00f7f7f7', endColorstr='#ad000000',GradientType=0 );
-.contenidos .noCalendario .vistaMovil .contienePubillas .unaPubilla .hero .fotoOuter {
+.contenidos .noCalendario .noCalendarioInner .contienePubillas .unaPubilla .hero .fotoOuter {
   bottom: 0;
   height: 400px;
   position: absolute;
   width: 100%;
   z-index: 0;
 }
-.contenidos .noCalendario .vistaMovil .contienePubillas .unaPubilla .hero .fotoOuter .foto {
+.contenidos .noCalendario .noCalendarioInner .contienePubillas .unaPubilla .hero .fotoOuter .foto {
   background-position: 50% 100%;
   background-repeat: no-repeat;
   background-size: auto 100%;
@@ -586,49 +583,49 @@ background: -moz-linear-gradient(top,  rgba(247,247,247,0) 0%, rgba(175,175,175,
   width: 100%;
   position: absolute;
 }
-.contenidos .noCalendario .vistaMovil .contienePubillas .unaPubilla .texto {
+.contenidos .noCalendario .noCalendarioInner .contienePubillas .unaPubilla .texto {
   color: rgba(0,0,0,0.75);
   font-family: 'Open Sans', sans-serif;
   font-size: 18px;
   line-height: 25px;
   padding: 25px;
 }
-.contenidos .noCalendario .vistaMovil .contienePubillas .unaPubilla .texto p {
+.contenidos .noCalendario .noCalendarioInner .contienePubillas .unaPubilla .texto p {
   margin: 18px 0;
 }
-.contenidos .noCalendario .vistaMovil .contieneInformacion .informacion {
+.contenidos .noCalendario .noCalendarioInner .contieneInformacion .informacion {
   background: #2a2c2f;
   position: relative;
 }
-.contenidos .noCalendario .vistaMovil .contieneInformacion .informacion .infoHeader {
+.contenidos .noCalendario .noCalendarioInner .contieneInformacion .informacion .infoHeader {
   color: rgba(255,255,255,0.8);
   height: 80px;
 }
-.contenidos .noCalendario .vistaMovil .contieneInformacion .informacion .infoHeader h2 {
+.contenidos .noCalendario .noCalendarioInner .contieneInformacion .informacion .infoHeader h2 {
   font-size: 21px;
   font-style: italic;
   letter-spacing: 1px;
   padding: 15px 0 0 30px;
   text-transform: uppercase;
 }
-.contenidos .noCalendario .vistaMovil .contieneInformacion .informacion .infoHeader h2 span {
+.contenidos .noCalendario .noCalendarioInner .contieneInformacion .informacion .infoHeader h2 span {
   display: block;
   font-size: 16px;
   letter-spacing: 0px;
   line-height: 21px;
   text-transform: lowercase;
 }
-.contenidos .noCalendario .vistaMovil .contieneInformacion .informacion .infoOuter .infoInner {
+.contenidos .noCalendario .noCalendarioInner .contieneInformacion .informacion .infoOuter .infoInner {
   border-bottom: 1px solid #2a2c2f;
 }
-.contenidos .noCalendario .vistaMovil .contieneInformacion .informacion .infoOuter .infoInner .checkInfo {
+.contenidos .noCalendario .noCalendarioInner .contieneInformacion .informacion .infoOuter .infoInner .checkInfo {
   width: 100%;
   height: 70px;
   background: transparent;
   position: relative;
   z-index: 20;
 }
-.contenidos .noCalendario .vistaMovil .contieneInformacion .informacion .infoOuter .infoInner .checkInfo .puntos:after {
+.contenidos .noCalendario .noCalendarioInner .contieneInformacion .informacion .infoOuter .infoInner .checkInfo .puntos:after {
   color: rgba(255,255,255,0.8);
   content: "\e2aa";
   font-family: icomoon;
@@ -638,10 +635,10 @@ background: -moz-linear-gradient(top,  rgba(247,247,247,0) 0%, rgba(175,175,175,
   right: 20px;
   padding: 5px 0 5px 20px;
 }
-.contenidos .noCalendario .vistaMovil .contieneInformacion .informacion .infoOuter .infoInner .entrades {
+.contenidos .noCalendario .noCalendarioInner .contieneInformacion .informacion .infoOuter .infoInner .entrades {
   margin: -70px 0 0 0;
 }
-.contenidos .noCalendario .vistaMovil .contieneInformacion .informacion .infoOuter .infoInner .entrades:before {
+.contenidos .noCalendario .noCalendarioInner .contieneInformacion .informacion .infoOuter .infoInner .entrades:before {
   content: "\e602";
   font-family: icomoon;
   font-style: normal;
@@ -650,10 +647,10 @@ background: -moz-linear-gradient(top,  rgba(247,247,247,0) 0%, rgba(175,175,175,
   position: absolute;
   top: 30px;
 }
-.contenidos .noCalendario .vistaMovil .contieneInformacion .informacion .infoOuter .infoInner .inscripcions {
+.contenidos .noCalendario .noCalendarioInner .contieneInformacion .informacion .infoOuter .infoInner .inscripcions {
   margin: -70px 0 0 0;
 }
-.contenidos .noCalendario .vistaMovil .contieneInformacion .informacion .infoOuter .infoInner .inscripcions:before {
+.contenidos .noCalendario .noCalendarioInner .contieneInformacion .informacion .infoOuter .infoInner .inscripcions:before {
   content: "\e601";
   font-family: icomoon;
   font-style: normal;
@@ -662,10 +659,10 @@ background: -moz-linear-gradient(top,  rgba(247,247,247,0) 0%, rgba(175,175,175,
   position: absolute;
   top: 30px;
 }
-.contenidos .noCalendario .vistaMovil .contieneInformacion .informacion .infoOuter .infoInner .horario {
+.contenidos .noCalendario .noCalendarioInner .contieneInformacion .informacion .infoOuter .infoInner .horario {
   margin: -70px 0 0 0;
 }
-.contenidos .noCalendario .vistaMovil .contieneInformacion .informacion .infoOuter .infoInner .horario:before {
+.contenidos .noCalendario .noCalendarioInner .contieneInformacion .informacion .infoOuter .infoInner .horario:before {
   content: "\e605";
   font-family: icomoon;
   font-style: normal;
@@ -674,10 +671,10 @@ background: -moz-linear-gradient(top,  rgba(247,247,247,0) 0%, rgba(175,175,175,
   position: absolute;
   top: 30px;
 }
-.contenidos .noCalendario .vistaMovil .contieneInformacion .informacion .infoOuter .infoInner .notes {
+.contenidos .noCalendario .noCalendarioInner .contieneInformacion .informacion .infoOuter .infoInner .notes {
   margin: -70px 0 0 0;
 }
-.contenidos .noCalendario .vistaMovil .contieneInformacion .informacion .infoOuter .infoInner .notes:before {
+.contenidos .noCalendario .noCalendarioInner .contieneInformacion .informacion .infoOuter .infoInner .notes:before {
   content: "\e608";
   font-family: icomoon;
   font-style: normal;
@@ -686,7 +683,7 @@ background: -moz-linear-gradient(top,  rgba(247,247,247,0) 0%, rgba(175,175,175,
   position: absolute;
   top: 30px;
 }
-.contenidos .noCalendario .vistaMovil .contieneInformacion .informacion .infoOuter .infoInner .post {
+.contenidos .noCalendario .noCalendarioInner .contieneInformacion .informacion .infoOuter .infoInner .post {
   background: #222326;
   color: rgba(255,255,255,0.7);
   font-size: 16px;
@@ -695,69 +692,69 @@ background: -moz-linear-gradient(top,  rgba(247,247,247,0) 0%, rgba(175,175,175,
   padding: 28px 0 28px 0;
   position: relative;
 }
-.contenidos .noCalendario .vistaMovil .contieneInformacion .informacion .infoOuter .infoInner .post h4 {
+.contenidos .noCalendario .noCalendarioInner .contieneInformacion .informacion .infoOuter .infoInner .post h4 {
   margin: 0 78px 0 55px;
 }
-.contenidos .noCalendario .vistaMovil .contieneInformacion .informacion .infoOuter .infoInner .post .detallePost {
+.contenidos .noCalendario .noCalendarioInner .contieneInformacion .informacion .infoOuter .infoInner .post .detallePost {
   border-left: none;
 }
-.contenidos .noCalendario .vistaMovil .contieneInformacion .informacion .infoOuter .infoInner .post .detallePost h5 {
+.contenidos .noCalendario .noCalendarioInner .contieneInformacion .informacion .infoOuter .infoInner .post .detallePost h5 {
   color: #fff;
   font-style: normal;
   margin: 20px 20px 10px 55px;
 }
-.contenidos .noCalendario .vistaMovil .contieneInformacion .informacion .infoOuter .infoInner .post .detallePost h5:first-child {
+.contenidos .noCalendario .noCalendarioInner .contieneInformacion .informacion .infoOuter .infoInner .post .detallePost h5:first-child {
   margin: 40px 20px 10px 55px;
 }
-.contenidos .noCalendario .vistaMovil .contieneInformacion .informacion .infoOuter .infoInner .post .detallePost p {
+.contenidos .noCalendario .noCalendarioInner .contieneInformacion .informacion .infoOuter .infoInner .post .detallePost p {
   color: rgba(255,255,255,0.6);
   font-style: normal;
   font-weight: 400;
   margin: 0 20px 0 55px;
 }
-.contenidos .noCalendario .vistaMovil .contieneInformacion .informacion .infoOuter .infoInner .post .detallePost p:last-child {
+.contenidos .noCalendario .noCalendarioInner .contieneInformacion .informacion .infoOuter .infoInner .post .detallePost p:last-child {
   margin: 0 20px 30px 55px;
 }
-.contenidos .noCalendario .vistaMovil .contieneInformacion .informacion .infoOuter .infoInner .post .detallePost p.detallePostPiscina {
+.contenidos .noCalendario .noCalendarioInner .contieneInformacion .informacion .infoOuter .infoInner .post .detallePost p.detallePostPiscina {
   margin: 20px 20px 30px 55px;
 }
-.contenidos .noCalendario .vistaMovil .contieneInformacion .informacion .infoOuter .infoInner .post .detallePost ul {
+.contenidos .noCalendario .noCalendarioInner .contieneInformacion .informacion .infoOuter .infoInner .post .detallePost ul {
   margin: 20px 20px 0 55px;
 }
-.contenidos .noCalendario .vistaMovil .contieneInformacion .informacion .infoOuter .infoInner .post .detallePost ul li {
+.contenidos .noCalendario .noCalendarioInner .contieneInformacion .informacion .infoOuter .infoInner .post .detallePost ul li {
   color: rgba(255,255,255,0.6);
   font-style: normal;
   font-weight: 400;
   list-style-type: circle;
   margin: 0 0 10px 0;
 }
-.contenidos .noCalendario .vistaMovil .contieneInformacion .informacion .infoOuter .infoInner .post .detallePost ul li:last-child {
+.contenidos .noCalendario .noCalendarioInner .contieneInformacion .informacion .infoOuter .infoInner .post .detallePost ul li:last-child {
   margin: 0 0 30px 0;
 }
-.contenidos .noCalendario .vistaMovil .contieneInformacion .informacion .infoOuter .infoInner .post:last-child {
+.contenidos .noCalendario .noCalendarioInner .contieneInformacion .informacion .infoOuter .infoInner .post:last-child {
   border-bottom: none;
 }
-.contenidos .noCalendario .vistaMovil .contieneColaboradores .colaboradores {
+.contenidos .noCalendario .noCalendarioInner .contieneColaboradores .colaboradores {
   background: #fff;
   color: rgba(0,0,0,0.7);
 }
-.contenidos .noCalendario .vistaMovil .contieneColaboradores .colaboradores h3 {
+.contenidos .noCalendario .noCalendarioInner .contieneColaboradores .colaboradores h3 {
   font-size: 24px;
   font-weight: 300;
   padding: 20px;
   text-align: center;
 }
-.contenidos .noCalendario .vistaMovil .contieneColaboradores .colaboradores .logoOuter {
+.contenidos .noCalendario .noCalendarioInner .contieneColaboradores .colaboradores .logoOuter {
   padding: 0 20px 30px 20px;
   text-align: center;
 }
-.contenidos .noCalendario .vistaMovil .contieneColaboradores .colaboradores .logoOuter .logoInner {
+.contenidos .noCalendario .noCalendarioInner .contieneColaboradores .colaboradores .logoOuter .logoInner {
   display: inline-block;
   padding: 15px;
   vertical-align: top;
   width: 60%;
 }
-.contenidos .noCalendario .vistaMovil .contieneColaboradores .colaboradores .logoOuter .logoInner img {
+.contenidos .noCalendario .noCalendarioInner .contieneColaboradores .colaboradores .logoOuter .logoInner img {
   width: 100%;
 }
 .decoracion .tituloOuter {
@@ -858,8 +855,8 @@ background: -moz-linear-gradient(top,  rgba(247,247,247,0) 0%, rgba(175,175,175,
 .header .logo {
   position: relative;
   text-align: center;
-  top: 50px;
-  z-index: 5;
+  top: 30px;
+  z-index: 3;
 }
 .header .logo img {
   width: 200px;
@@ -875,7 +872,6 @@ background: -moz-linear-gradient(top,  rgba(247,247,247,0) 0%, rgba(175,175,175,
 .header .muralOuter .mural {
   width: 100%;
   height: 100%;
-  background: #808080;
   animation: animacion 150s infinite;
   -webkit-animation: animacion 150s infinite;
 }
@@ -900,51 +896,79 @@ background: -moz-linear-gradient(top,  rgba(247,247,247,0) 0%, rgba(175,175,175,
   right: 0;
   bottom: 0;
   left: 0;
-  z-index: 2;
+  z-index: 1;
 }
 .header .degradado .degradadoInner {
   width: 100%;
   height: 100%;
-background: -moz-linear-gradient(left,  rgba(18,19,20,1) 0%, rgba(18,19,20,1) 39%, rgba(18,19,20,0) 100%);
-				background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(18,19,20,1)), color-stop(39%,rgba(18,19,20,1)), color-stop(100%,rgba(18,19,20,0)));
-				background: -webkit-linear-gradient(left,  rgba(18,19,20,1) 0%,rgba(18,19,20,1) 39%,rgba(18,19,20,0) 100%);
-				background: -o-linear-gradient(left,  rgba(18,19,20,1) 0%,rgba(18,19,20,1) 39%,rgba(18,19,20,0) 100%);
-				background: -ms-linear-gradient(left,  rgba(18,19,20,1) 0%,rgba(18,19,20,1) 39%,rgba(18,19,20,0) 100%);
-				background: linear-gradient(to right,  rgba(18,19,20,1) 0%,rgba(18,19,20,1) 39%,rgba(18,19,20,0) 100%);
-				filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#121314', endColorstr='#00121314',GradientType=1 );
+background: -moz-linear-gradient(top,  rgba(0,0,0,0) 0%, rgba(0,0,0,0) 32%, rgba(0,0,0,0.85) 99%, rgba(0,0,0,0.85) 100%);
+				background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0)), color-stop(32%,rgba(0,0,0,0)), color-stop(99%,rgba(0,0,0,0.85)), color-stop(100%,rgba(0,0,0,0.85)));
+				background: -webkit-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,0) 32%,rgba(0,0,0,0.85) 99%,rgba(0,0,0,0.85) 100%);
+				background: -o-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,0) 32%,rgba(0,0,0,0.85) 99%,rgba(0,0,0,0.85) 100%);
+				background: -ms-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,0) 32%,rgba(0,0,0,0.85) 99%,rgba(0,0,0,0.85) 100%);
+				background: linear-gradient(to bottom,  rgba(0,0,0,0) 0%,rgba(0,0,0,0) 32%,rgba(0,0,0,0.85) 99%,rgba(0,0,0,0.85) 100%);
+				filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#d9000000',GradientType=0 );
 }
-background: -moz-linear-gradient(left,  rgba(18,19,20,1) 0%, rgba(18,19,20,1) 39%, rgba(18,19,20,0) 100%);
-				background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(18,19,20,1)), color-stop(39%,rgba(18,19,20,1)), color-stop(100%,rgba(18,19,20,0)));
-				background: -webkit-linear-gradient(left,  rgba(18,19,20,1) 0%,rgba(18,19,20,1) 39%,rgba(18,19,20,0) 100%);
-				background: -o-linear-gradient(left,  rgba(18,19,20,1) 0%,rgba(18,19,20,1) 39%,rgba(18,19,20,0) 100%);
-				background: -ms-linear-gradient(left,  rgba(18,19,20,1) 0%,rgba(18,19,20,1) 39%,rgba(18,19,20,0) 100%);
-				background: linear-gradient(to right,  rgba(18,19,20,1) 0%,rgba(18,19,20,1) 39%,rgba(18,19,20,0) 100%);
-				filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#121314', endColorstr='#00121314',GradientType=1 );
+background: -moz-linear-gradient(top,  rgba(0,0,0,0) 0%, rgba(0,0,0,0) 32%, rgba(0,0,0,0.85) 99%, rgba(0,0,0,0.85) 100%);
+				background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0)), color-stop(32%,rgba(0,0,0,0)), color-stop(99%,rgba(0,0,0,0.85)), color-stop(100%,rgba(0,0,0,0.85)));
+				background: -webkit-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,0) 32%,rgba(0,0,0,0.85) 99%,rgba(0,0,0,0.85) 100%);
+				background: -o-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,0) 32%,rgba(0,0,0,0.85) 99%,rgba(0,0,0,0.85) 100%);
+				background: -ms-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,0) 32%,rgba(0,0,0,0.85) 99%,rgba(0,0,0,0.85) 100%);
+				background: linear-gradient(to bottom,  rgba(0,0,0,0) 0%,rgba(0,0,0,0) 32%,rgba(0,0,0,0.85) 99%,rgba(0,0,0,0.85) 100%);
+				filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#d9000000',GradientType=0 );
+.header .degradado2 {
+  display: none;
+}
 .header .social {
   position: relative;
 }
 .header .social .twitter {
   text-align: center;
   position: relative;
-  top: 100px;
+  top: 70px;
   left: -45px;
   z-index: 5;
 }
 .header .social .facebook {
   text-align: center;
   position: relative;
-  top: 72px;
+  top: 42px;
   left: 55px;
   z-index: 5;
 }
 .header .titulo {
-  color: rgba(255,255,255,0.8);
+  color: #fff;
   font-size: 24px;
   position: relative;
   text-align: center;
   text-transform: uppercase;
-  top: 70px;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.5);
+  top: 50px;
   z-index: 5;
+}
+.header .pintada .lateral {
+  position: absolute;
+  left: 0;
+  top: 150px;
+  width: 110%;
+  height: auto;
+  z-index: 4;
+}
+.header .pintada .up {
+  position: absolute;
+  right: -50px;
+  top: 150px;
+  width: 110%;
+  height: auto;
+  z-index: 4;
+}
+.header .pintada .down {
+  position: absolute;
+  left: 60%;
+  top: 150px;
+  width: 110%;
+  height: auto;
+  z-index: 4;
 }
 .llamadaLabel {
   background: #80b21e;
@@ -1309,14 +1333,7 @@ background: -moz-linear-gradient(left,  rgba(18,19,20,1) 0%, rgba(18,19,20,1) 39
     bottom: 0;
     left: 0;
   }
-  .contenidos .noCalendario .vistaEscritorio .escritorioInner {
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-  }
-  .contenidos .noCalendario .vistaEscritorio .escritorioInner .contienePubillas {
+  .contenidos .noCalendario .vistaEscritorio .contienePubillas {
     background: #fff;
     position: absolute;
     top: 0;
@@ -1324,7 +1341,7 @@ background: -moz-linear-gradient(left,  rgba(18,19,20,1) 0%, rgba(18,19,20,1) 39
     bottom: 0;
     left: 0;
   }
-  .contenidos .noCalendario .vistaEscritorio .escritorioInner .contienePubillas .pubillas {
+  .contenidos .noCalendario .vistaEscritorio .contienePubillas .pubillas {
     background: #fff;
     bottom: 0;
     color: rgba(0,0,0,0.75);
@@ -1332,13 +1349,13 @@ background: -moz-linear-gradient(left,  rgba(18,19,20,1) 0%, rgba(18,19,20,1) 39
     position: relative;
     top: 0;
   }
-  .contenidos .noCalendario .vistaEscritorio .escritorioInner .contienePubillas .pubillas .pubillasHeader {
+  .contenidos .noCalendario .vistaEscritorio .contienePubillas .pubillas .pubillasHeader {
     background: #fff;
     position: fixed;
     width: 100%;
     z-index: 5;
   }
-  .contenidos .noCalendario .vistaEscritorio .escritorioInner .contienePubillas .pubillas .pubillasHeader h3 {
+  .contenidos .noCalendario .vistaEscritorio .contienePubillas .pubillas .pubillasHeader h3 {
     font-size: 24px;
     font-weight: 300;
     left: 80px;
@@ -1347,63 +1364,63 @@ background: -moz-linear-gradient(left,  rgba(18,19,20,1) 0%, rgba(18,19,20,1) 39
     text-align: left;
     top: 85px;
   }
-  .contenidos .noCalendario .vistaEscritorio .escritorioInner .contienePubillas .pubillas .pubillasOuter {
+  .contenidos .noCalendario .vistaEscritorio .contienePubillas .pubillas .pubillasOuter {
     background: #fff;
     font-size: 0;
     padding: 90px 20px 40px 20px;
     text-align: center;
   }
-  .contenidos .noCalendario .vistaEscritorio .escritorioInner .contienePubillas .pubillas .pubillasOuter .pubillasInner {
+  .contenidos .noCalendario .vistaEscritorio .contienePubillas .pubillas .pubillasOuter .pubillasInner {
     background: #fff;
     display: inline-block;
     margin: 10px 0;
     position: relative;
     width: 150px;
   }
-  .contenidos .noCalendario .vistaEscritorio .escritorioInner .contienePubillas .pubillas .pubillasOuter .pubillasInner img {
+  .contenidos .noCalendario .vistaEscritorio .contienePubillas .pubillas .pubillasOuter .pubillasInner img {
     border-radius: 50%;
     box-shadow: 0 0 3px rgba(0,0,0,0.3);
     display: block;
     margin: 0 auto;
     width: 100px;
   }
-  .contenidos .noCalendario .vistaEscritorio .escritorioInner .contienePubillas .pubillas .pubillasOuter .pubillasInner .detall {
+  .contenidos .noCalendario .vistaEscritorio .contienePubillas .pubillas .pubillasOuter .pubillasInner .detall {
     font-size: 14px;
     font-weight: 300;
     margin: 12px 0 20px 0;
     padding: 0 5px;
     text-align: center;
   }
-  .contenidos .noCalendario .vistaEscritorio .escritorioInner .contienePubillas .pubillas .pubillasOuter .pubillasInner .detall .nom {
+  .contenidos .noCalendario .vistaEscritorio .contienePubillas .pubillas .pubillasOuter .pubillasInner .detall .nom {
     font-weight: 400;
   }
-  .contenidos .noCalendario .vistaEscritorio .escritorioInner .contienePubillas .unaPubilla {
+  .contenidos .noCalendario .vistaEscritorio .contienePubillas .unaPubilla {
     overflow: hidden;
   }
-  .contenidos .noCalendario .vistaEscritorio .escritorioInner .contienePubillas .unaPubilla .back {
+  .contenidos .noCalendario .vistaEscritorio .contienePubillas .unaPubilla .back {
     color: #80b21e;
     padding: 21px 0 25px 21px;
   }
-  .contenidos .noCalendario .vistaEscritorio .escritorioInner .contienePubillas .unaPubilla .back:last-child {
+  .contenidos .noCalendario .vistaEscritorio .contienePubillas .unaPubilla .back:last-child {
     padding: 10px 0 45px 21px;
   }
-  .contenidos .noCalendario .vistaEscritorio .escritorioInner .contienePubillas .unaPubilla .back .backTo {
+  .contenidos .noCalendario .vistaEscritorio .contienePubillas .unaPubilla .back .backTo {
     display: inline-block;
     font-weight: 400;
   }
-  .contenidos .noCalendario .vistaEscritorio .escritorioInner .contienePubillas .unaPubilla .back .backTo span {
+  .contenidos .noCalendario .vistaEscritorio .contienePubillas .unaPubilla .back .backTo span {
     border-bottom: 1px solid;
   }
-  .contenidos .noCalendario .vistaEscritorio .escritorioInner .contienePubillas .unaPubilla .back .backTo:before {
+  .contenidos .noCalendario .vistaEscritorio .contienePubillas .unaPubilla .back .backTo:before {
     content: "\e604";
     font-family: icomoon;
     margin-right: 5px;
   }
-  .contenidos .noCalendario .vistaEscritorio .escritorioInner .contienePubillas .unaPubilla .hero {
+  .contenidos .noCalendario .vistaEscritorio .contienePubillas .unaPubilla .hero {
     height: 400px;
     position: relative;
   }
-  .contenidos .noCalendario .vistaEscritorio .escritorioInner .contienePubillas .unaPubilla .hero .detalle {
+  .contenidos .noCalendario .vistaEscritorio .contienePubillas .unaPubilla .hero .detalle {
     bottom: 30px;
     color: #fff;
     left: 10px;
@@ -1414,43 +1431,43 @@ background: -moz-linear-gradient(left,  rgba(18,19,20,1) 0%, rgba(18,19,20,1) 39
     width: 100%;
     z-index: 3;
   }
-  .contenidos .noCalendario .vistaEscritorio .escritorioInner .contienePubillas .unaPubilla .hero .detalle .nombre {
+  .contenidos .noCalendario .vistaEscritorio .contienePubillas .unaPubilla .hero .detalle .nombre {
     font-size: 1.3em;
     font-weight: 700;
   }
-  .contenidos .noCalendario .vistaEscritorio .escritorioInner .contienePubillas .unaPubilla .hero .detalle .club {
+  .contenidos .noCalendario .vistaEscritorio .contienePubillas .unaPubilla .hero .detalle .club {
     font-size: 0.9em;
     font-weight: 400;
   }
-  .contenidos .noCalendario .vistaEscritorio .escritorioInner .contienePubillas .unaPubilla .hero .degradado {
+  .contenidos .noCalendario .vistaEscritorio .contienePubillas .unaPubilla .hero .degradado {
     bottom: 0;
     height: 250px;
     position: absolute;
     width: 100%;
     z-index: 1;
 background: -moz-linear-gradient(top,  rgba(247,247,247,0) 0%, rgba(175,175,175,0) 29%, rgba(2,2,2,0.68) 99%, rgba(0,0,0,0.68) 100%);
-									background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(247,247,247,0)), color-stop(29%,rgba(175,175,175,0)), color-stop(99%,rgba(2,2,2,0.68)), color-stop(100%,rgba(0,0,0,0.68)));
-									background: -webkit-linear-gradient(top,  rgba(247,247,247,0) 0%,rgba(175,175,175,0) 29%,rgba(2,2,2,0.68) 99%,rgba(0,0,0,0.68) 100%);
-									background: -o-linear-gradient(top,  rgba(247,247,247,0) 0%,rgba(175,175,175,0) 29%,rgba(2,2,2,0.68) 99%,rgba(0,0,0,0.68) 100%);
-									background: -ms-linear-gradient(top,  rgba(247,247,247,0) 0%,rgba(175,175,175,0) 29%,rgba(2,2,2,0.68) 99%,rgba(0,0,0,0.68) 100%);
-									background: linear-gradient(to bottom,  rgba(247,247,247,0) 0%,rgba(175,175,175,0) 29%,rgba(2,2,2,0.68) 99%,rgba(0,0,0,0.68) 100%);
-									filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00f7f7f7', endColorstr='#ad000000',GradientType=0 );
+								background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(247,247,247,0)), color-stop(29%,rgba(175,175,175,0)), color-stop(99%,rgba(2,2,2,0.68)), color-stop(100%,rgba(0,0,0,0.68)));
+								background: -webkit-linear-gradient(top,  rgba(247,247,247,0) 0%,rgba(175,175,175,0) 29%,rgba(2,2,2,0.68) 99%,rgba(0,0,0,0.68) 100%);
+								background: -o-linear-gradient(top,  rgba(247,247,247,0) 0%,rgba(175,175,175,0) 29%,rgba(2,2,2,0.68) 99%,rgba(0,0,0,0.68) 100%);
+								background: -ms-linear-gradient(top,  rgba(247,247,247,0) 0%,rgba(175,175,175,0) 29%,rgba(2,2,2,0.68) 99%,rgba(0,0,0,0.68) 100%);
+								background: linear-gradient(to bottom,  rgba(247,247,247,0) 0%,rgba(175,175,175,0) 29%,rgba(2,2,2,0.68) 99%,rgba(0,0,0,0.68) 100%);
+								filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00f7f7f7', endColorstr='#ad000000',GradientType=0 );
   }
 background: -moz-linear-gradient(top,  rgba(247,247,247,0) 0%, rgba(175,175,175,0) 29%, rgba(2,2,2,0.68) 99%, rgba(0,0,0,0.68) 100%);
-									background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(247,247,247,0)), color-stop(29%,rgba(175,175,175,0)), color-stop(99%,rgba(2,2,2,0.68)), color-stop(100%,rgba(0,0,0,0.68)));
-									background: -webkit-linear-gradient(top,  rgba(247,247,247,0) 0%,rgba(175,175,175,0) 29%,rgba(2,2,2,0.68) 99%,rgba(0,0,0,0.68) 100%);
-									background: -o-linear-gradient(top,  rgba(247,247,247,0) 0%,rgba(175,175,175,0) 29%,rgba(2,2,2,0.68) 99%,rgba(0,0,0,0.68) 100%);
-									background: -ms-linear-gradient(top,  rgba(247,247,247,0) 0%,rgba(175,175,175,0) 29%,rgba(2,2,2,0.68) 99%,rgba(0,0,0,0.68) 100%);
-									background: linear-gradient(to bottom,  rgba(247,247,247,0) 0%,rgba(175,175,175,0) 29%,rgba(2,2,2,0.68) 99%,rgba(0,0,0,0.68) 100%);
-									filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00f7f7f7', endColorstr='#ad000000',GradientType=0 );
-  .contenidos .noCalendario .vistaEscritorio .escritorioInner .contienePubillas .unaPubilla .hero .fotoOuter {
+								background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(247,247,247,0)), color-stop(29%,rgba(175,175,175,0)), color-stop(99%,rgba(2,2,2,0.68)), color-stop(100%,rgba(0,0,0,0.68)));
+								background: -webkit-linear-gradient(top,  rgba(247,247,247,0) 0%,rgba(175,175,175,0) 29%,rgba(2,2,2,0.68) 99%,rgba(0,0,0,0.68) 100%);
+								background: -o-linear-gradient(top,  rgba(247,247,247,0) 0%,rgba(175,175,175,0) 29%,rgba(2,2,2,0.68) 99%,rgba(0,0,0,0.68) 100%);
+								background: -ms-linear-gradient(top,  rgba(247,247,247,0) 0%,rgba(175,175,175,0) 29%,rgba(2,2,2,0.68) 99%,rgba(0,0,0,0.68) 100%);
+								background: linear-gradient(to bottom,  rgba(247,247,247,0) 0%,rgba(175,175,175,0) 29%,rgba(2,2,2,0.68) 99%,rgba(0,0,0,0.68) 100%);
+								filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00f7f7f7', endColorstr='#ad000000',GradientType=0 );
+  .contenidos .noCalendario .vistaEscritorio .contienePubillas .unaPubilla .hero .fotoOuter {
     bottom: 0;
     height: 400px;
     position: absolute;
     width: 100%;
     z-index: 0;
   }
-  .contenidos .noCalendario .vistaEscritorio .escritorioInner .contienePubillas .unaPubilla .hero .fotoOuter .foto {
+  .contenidos .noCalendario .vistaEscritorio .contienePubillas .unaPubilla .hero .fotoOuter .foto {
     background-position: 10% 100%;
     background-repeat: no-repeat;
     background-size: auto 100%;
@@ -1458,7 +1475,7 @@ background: -moz-linear-gradient(top,  rgba(247,247,247,0) 0%, rgba(175,175,175,
     width: 100%;
     position: absolute;
   }
-  .contenidos .noCalendario .vistaEscritorio .escritorioInner .contienePubillas .unaPubilla .texto {
+  .contenidos .noCalendario .vistaEscritorio .contienePubillas .unaPubilla .texto {
     color: rgba(0,0,0,0.75);
     font-family: 'Open Sans', sans-serif;
     font-size: 17px;
@@ -1466,10 +1483,10 @@ background: -moz-linear-gradient(top,  rgba(247,247,247,0) 0%, rgba(175,175,175,
     padding: 30px;
     text-align: justify;
   }
-  .contenidos .noCalendario .vistaEscritorio .escritorioInner .contienePubillas .unaPubilla .texto p {
+  .contenidos .noCalendario .vistaEscritorio .contienePubillas .unaPubilla .texto p {
     margin-bottom: 16px;
   }
-  .contenidos .noCalendario .vistaEscritorio .escritorioInner .contieneColaboradores .colaboradores h3 {
+  .contenidos .noCalendario .vistaEscritorio .contieneColaboradores .colaboradores h3 {
     background: #808080;
     color: #fff;
     font-size: 24px;
@@ -1481,28 +1498,28 @@ background: -moz-linear-gradient(top,  rgba(247,247,247,0) 0%, rgba(175,175,175,
     text-align: left;
     top: 85px;
   }
-  .contenidos .noCalendario .vistaEscritorio .escritorioInner .contieneColaboradores .colaboradores .logoOuter {
+  .contenidos .noCalendario .vistaEscritorio .contieneColaboradores .colaboradores .logoOuter {
     padding: 90px 20px 30px 20px;
     text-align: center;
   }
-  .contenidos .noCalendario .vistaEscritorio .escritorioInner .contieneColaboradores .colaboradores .logoOuter .logoInner {
+  .contenidos .noCalendario .vistaEscritorio .contieneColaboradores .colaboradores .logoOuter .logoInner {
     display: inline-block;
     padding: 15px;
     vertical-align: top;
     width: 70%;
   }
-  .contenidos .noCalendario .vistaEscritorio .escritorioInner .contieneColaboradores .colaboradores .logoOuter .logoInner img {
+  .contenidos .noCalendario .vistaEscritorio .contieneColaboradores .colaboradores .logoOuter .logoInner img {
     width: 100%;
   }
-  .contenidos .noCalendario .vistaEscritorio .escritorioInner .contieneInformacion .informacion {
+  .contenidos .noCalendario .vistaEscritorio .contieneInformacion .informacion {
     position: relative;
   }
-  .contenidos .noCalendario .vistaEscritorio .escritorioInner .contieneInformacion .informacion .infoHeader {
+  .contenidos .noCalendario .vistaEscritorio .contieneInformacion .informacion .infoHeader {
     color: rgba(0,0,0,0.75);
     height: 68px;
     width: 100%;
   }
-  .contenidos .noCalendario .vistaEscritorio .escritorioInner .contieneInformacion .informacion .infoHeader h2 {
+  .contenidos .noCalendario .vistaEscritorio .contieneInformacion .informacion .infoHeader h2 {
     background: #fff;
     font-size: 24px;
     font-weight: 300;
@@ -1514,20 +1531,20 @@ background: -moz-linear-gradient(top,  rgba(247,247,247,0) 0%, rgba(175,175,175,
     top: 85px;
     z-index: 50;
   }
-  .contenidos .noCalendario .vistaEscritorio .escritorioInner .contieneInformacion .informacion .infoOuter .infoInner {
+  .contenidos .noCalendario .vistaEscritorio .contieneInformacion .informacion .infoOuter .infoInner {
     border-bottom: 1px solid rgba(0,0,0,0.1);
   }
-  .contenidos .noCalendario .vistaEscritorio .escritorioInner .contieneInformacion .informacion .infoOuter .infoInner:last-child {
+  .contenidos .noCalendario .vistaEscritorio .contieneInformacion .informacion .infoOuter .infoInner:last-child {
     border-bottom: none;
   }
-  .contenidos .noCalendario .vistaEscritorio .escritorioInner .contieneInformacion .informacion .infoOuter .infoInner .checkInfo {
+  .contenidos .noCalendario .vistaEscritorio .contieneInformacion .informacion .infoOuter .infoInner .checkInfo {
     width: 100%;
     height: 70px;
     background: transparent;
     position: relative;
     z-index: 20;
   }
-  .contenidos .noCalendario .vistaEscritorio .escritorioInner .contieneInformacion .informacion .infoOuter .infoInner .checkInfo .puntos:after {
+  .contenidos .noCalendario .vistaEscritorio .contieneInformacion .informacion .infoOuter .infoInner .checkInfo .puntos:after {
     color: rgba(0,0,0,0.75);
     content: "\e2aa";
     font-family: icomoon;
@@ -1537,10 +1554,10 @@ background: -moz-linear-gradient(top,  rgba(247,247,247,0) 0%, rgba(175,175,175,
     right: 20px;
     padding: 5px 0 5px 20px;
   }
-  .contenidos .noCalendario .vistaEscritorio .escritorioInner .contieneInformacion .informacion .infoOuter .infoInner .entrades {
+  .contenidos .noCalendario .vistaEscritorio .contieneInformacion .informacion .infoOuter .infoInner .entrades {
     margin: -70px 0 0 0;
   }
-  .contenidos .noCalendario .vistaEscritorio .escritorioInner .contieneInformacion .informacion .infoOuter .infoInner .entrades:before {
+  .contenidos .noCalendario .vistaEscritorio .contieneInformacion .informacion .infoOuter .infoInner .entrades:before {
     content: "\e602";
     font-family: icomoon;
     font-style: normal;
@@ -1549,10 +1566,10 @@ background: -moz-linear-gradient(top,  rgba(247,247,247,0) 0%, rgba(175,175,175,
     position: absolute;
     top: 30px;
   }
-  .contenidos .noCalendario .vistaEscritorio .escritorioInner .contieneInformacion .informacion .infoOuter .infoInner .inscripcions {
+  .contenidos .noCalendario .vistaEscritorio .contieneInformacion .informacion .infoOuter .infoInner .inscripcions {
     margin: -70px 0 0 0;
   }
-  .contenidos .noCalendario .vistaEscritorio .escritorioInner .contieneInformacion .informacion .infoOuter .infoInner .inscripcions:before {
+  .contenidos .noCalendario .vistaEscritorio .contieneInformacion .informacion .infoOuter .infoInner .inscripcions:before {
     content: "\e601";
     font-family: icomoon;
     font-style: normal;
@@ -1561,10 +1578,10 @@ background: -moz-linear-gradient(top,  rgba(247,247,247,0) 0%, rgba(175,175,175,
     position: absolute;
     top: 30px;
   }
-  .contenidos .noCalendario .vistaEscritorio .escritorioInner .contieneInformacion .informacion .infoOuter .infoInner .horario {
+  .contenidos .noCalendario .vistaEscritorio .contieneInformacion .informacion .infoOuter .infoInner .horario {
     margin: -70px 0 0 0;
   }
-  .contenidos .noCalendario .vistaEscritorio .escritorioInner .contieneInformacion .informacion .infoOuter .infoInner .horario:before {
+  .contenidos .noCalendario .vistaEscritorio .contieneInformacion .informacion .infoOuter .infoInner .horario:before {
     content: "\e605";
     font-family: icomoon;
     font-style: normal;
@@ -1573,10 +1590,10 @@ background: -moz-linear-gradient(top,  rgba(247,247,247,0) 0%, rgba(175,175,175,
     position: absolute;
     top: 30px;
   }
-  .contenidos .noCalendario .vistaEscritorio .escritorioInner .contieneInformacion .informacion .infoOuter .infoInner .notes {
+  .contenidos .noCalendario .vistaEscritorio .contieneInformacion .informacion .infoOuter .infoInner .notes {
     margin: -70px 0 0 0;
   }
-  .contenidos .noCalendario .vistaEscritorio .escritorioInner .contieneInformacion .informacion .infoOuter .infoInner .notes:before {
+  .contenidos .noCalendario .vistaEscritorio .contieneInformacion .informacion .infoOuter .infoInner .notes:before {
     content: "\e608";
     font-family: icomoon;
     font-style: normal;
@@ -1585,7 +1602,7 @@ background: -moz-linear-gradient(top,  rgba(247,247,247,0) 0%, rgba(175,175,175,
     position: absolute;
     top: 30px;
   }
-  .contenidos .noCalendario .vistaEscritorio .escritorioInner .contieneInformacion .informacion .infoOuter .infoInner .post {
+  .contenidos .noCalendario .vistaEscritorio .contieneInformacion .informacion .infoOuter .infoInner .post {
     color: rgba(0,0,0,0.75);
     font-size: 16px;
     font-style: italic;
@@ -1593,46 +1610,46 @@ background: -moz-linear-gradient(top,  rgba(247,247,247,0) 0%, rgba(175,175,175,
     padding: 28px 0 28px 0;
     position: relative;
   }
-  .contenidos .noCalendario .vistaEscritorio .escritorioInner .contieneInformacion .informacion .infoOuter .infoInner .post h4 {
+  .contenidos .noCalendario .vistaEscritorio .contieneInformacion .informacion .infoOuter .infoInner .post h4 {
     margin: 0 78px 0 55px;
   }
-  .contenidos .noCalendario .vistaEscritorio .escritorioInner .contieneInformacion .informacion .infoOuter .infoInner .post .detallePost {
+  .contenidos .noCalendario .vistaEscritorio .contieneInformacion .informacion .infoOuter .infoInner .post .detallePost {
     border-left: none;
   }
-  .contenidos .noCalendario .vistaEscritorio .escritorioInner .contieneInformacion .informacion .infoOuter .infoInner .post .detallePost h5 {
+  .contenidos .noCalendario .vistaEscritorio .contieneInformacion .informacion .infoOuter .infoInner .post .detallePost h5 {
     color: #000;
     font-style: normal;
     margin: 20px 20px 10px 55px;
   }
-  .contenidos .noCalendario .vistaEscritorio .escritorioInner .contieneInformacion .informacion .infoOuter .infoInner .post .detallePost h5:first-child {
+  .contenidos .noCalendario .vistaEscritorio .contieneInformacion .informacion .infoOuter .infoInner .post .detallePost h5:first-child {
     margin: 40px 20px 10px 55px;
   }
-  .contenidos .noCalendario .vistaEscritorio .escritorioInner .contieneInformacion .informacion .infoOuter .infoInner .post .detallePost p {
+  .contenidos .noCalendario .vistaEscritorio .contieneInformacion .informacion .infoOuter .infoInner .post .detallePost p {
     color: rgba(0,0,0,0.6);
     font-style: normal;
     font-weight: 400;
     margin: 0 20px 0 55px;
   }
-  .contenidos .noCalendario .vistaEscritorio .escritorioInner .contieneInformacion .informacion .infoOuter .infoInner .post .detallePost p:last-child {
+  .contenidos .noCalendario .vistaEscritorio .contieneInformacion .informacion .infoOuter .infoInner .post .detallePost p:last-child {
     margin: 0 20px 30px 55px;
   }
-  .contenidos .noCalendario .vistaEscritorio .escritorioInner .contieneInformacion .informacion .infoOuter .infoInner .post .detallePost p.detallePostPiscina {
+  .contenidos .noCalendario .vistaEscritorio .contieneInformacion .informacion .infoOuter .infoInner .post .detallePost p.detallePostPiscina {
     margin: 20px 20px 30px 55px;
   }
-  .contenidos .noCalendario .vistaEscritorio .escritorioInner .contieneInformacion .informacion .infoOuter .infoInner .post .detallePost ul {
+  .contenidos .noCalendario .vistaEscritorio .contieneInformacion .informacion .infoOuter .infoInner .post .detallePost ul {
     margin: 20px 20px 0 55px;
   }
-  .contenidos .noCalendario .vistaEscritorio .escritorioInner .contieneInformacion .informacion .infoOuter .infoInner .post .detallePost ul li {
+  .contenidos .noCalendario .vistaEscritorio .contieneInformacion .informacion .infoOuter .infoInner .post .detallePost ul li {
     color: rgba(0,0,0,0.75);
     font-style: normal;
     font-weight: 400;
     list-style-type: circle;
     margin: 0 0 10px 0;
   }
-  .contenidos .noCalendario .vistaEscritorio .escritorioInner .contieneInformacion .informacion .infoOuter .infoInner .post .detallePost ul li:last-child {
+  .contenidos .noCalendario .vistaEscritorio .contieneInformacion .informacion .infoOuter .infoInner .post .detallePost ul li:last-child {
     margin: 0 0 30px 0;
   }
-  .contenidos .noCalendario .vistaEscritorio .escritorioInner .contieneInformacion .informacion .infoOuter .infoInner .post:last-child {
+  .contenidos .noCalendario .vistaEscritorio .contieneInformacion .informacion .infoOuter .infoInner .post:last-child {
     border-bottom: none;
   }
   .contenidos .noCalendario .vistaMovil {
@@ -1699,26 +1716,52 @@ background: -moz-linear-gradient(top,  rgba(247,247,247,0) 0%, rgba(175,175,175,
     left: 0;
     z-index: 10;
   }
-  .header .logo {
+  .header .degradado {
+    display: none;
+  }
+  .header .degradado2 {
     position: absolute;
-    top: 10px;
-    left: 20px;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+  }
+  .header .degradado2 .degradado2Inner {
+    width: 100%;
+    height: 100%;
+background: -moz-linear-gradient(left,  rgba(0,0,0,0.85) 0%, rgba(0,0,0,0.1) 57%, rgba(0,0,0,0.05) 99%, rgba(0,0,0,0.05) 100%);
+background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(0,0,0,0.85)), color-stop(57%,rgba(0,0,0,0.1)), color-stop(99%,rgba(0,0,0,0.05)), color-stop(100%,rgba(0,0,0,0.05)));
+background: -webkit-linear-gradient(left,  rgba(0,0,0,0.85) 0%,rgba(0,0,0,0.1) 57%,rgba(0,0,0,0.05) 99%,rgba(0,0,0,0.05) 100%);
+background: -o-linear-gradient(left,  rgba(0,0,0,0.85) 0%,rgba(0,0,0,0.1) 57%,rgba(0,0,0,0.05) 99%,rgba(0,0,0,0.05) 100%);
+background: -ms-linear-gradient(left,  rgba(0,0,0,0.85) 0%,rgba(0,0,0,0.1) 57%,rgba(0,0,0,0.05) 99%,rgba(0,0,0,0.05) 100%);
+background: linear-gradient(to right,  rgba(0,0,0,0.85) 0%,rgba(0,0,0,0.1) 57%,rgba(0,0,0,0.05) 99%,rgba(0,0,0,0.05) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d9000000', endColorstr='#0d000000',GradientType=1 );
+  }
+background: -moz-linear-gradient(left,  rgba(0,0,0,0.85) 0%, rgba(0,0,0,0.1) 57%, rgba(0,0,0,0.05) 99%, rgba(0,0,0,0.05) 100%);
+background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(0,0,0,0.85)), color-stop(57%,rgba(0,0,0,0.1)), color-stop(99%,rgba(0,0,0,0.05)), color-stop(100%,rgba(0,0,0,0.05)));
+background: -webkit-linear-gradient(left,  rgba(0,0,0,0.85) 0%,rgba(0,0,0,0.1) 57%,rgba(0,0,0,0.05) 99%,rgba(0,0,0,0.05) 100%);
+background: -o-linear-gradient(left,  rgba(0,0,0,0.85) 0%,rgba(0,0,0,0.1) 57%,rgba(0,0,0,0.05) 99%,rgba(0,0,0,0.05) 100%);
+background: -ms-linear-gradient(left,  rgba(0,0,0,0.85) 0%,rgba(0,0,0,0.1) 57%,rgba(0,0,0,0.05) 99%,rgba(0,0,0,0.05) 100%);
+background: linear-gradient(to right,  rgba(0,0,0,0.85) 0%,rgba(0,0,0,0.1) 57%,rgba(0,0,0,0.05) 99%,rgba(0,0,0,0.05) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d9000000', endColorstr='#0d000000',GradientType=1 );
+  .header .logo {
+    display: none;
   }
   .header .logo img {
+    position: absolute;
+    top: -20px;
+    left: 20px;
     width: 60px;
   }
   .header .muralOuter .mural {
-    background: #484645;
     animation: animacionTablet 150s infinite;
     -webkit-animation: animacionTablet 150s infinite;
   }
   .header .muralOuter .mural .muralInner {
     margin: -40px 0 0 0;
-    background-position: 5px 7px;
-    background-size: 15% auto;
-    transform: skew(0deg);
-    -ms-transform: skew(0deg);
-    -webkit-transform: skew(0deg);
+    background-position: 0;
+    background-size: 10% auto;
   }
   .header .social .twitter {
     text-align: center;

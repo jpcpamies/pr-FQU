@@ -303,6 +303,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/logo\/logo2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 38775,
+		"inputAbbreviatedPath": "\/img\/logo\/logo2.png",
+		"outputAbbreviatedPath": "\/img\/logo\/logo2.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/logo\/logo_reeson_blanco.png": {
 		"fileType": 32768,
 		"ignore": 0,
