@@ -37,7 +37,7 @@
 				&::-webkit-scrollbar
 					display none
 				li
-					background verde
+					background azul
 					border-radius 50%
 					display inline-block
 					height 50px
@@ -59,8 +59,8 @@
 							top 28px
 		.eventoActual
 			background grisEventoActual
-			box-shadow 0 0 50px rgba(black,.5) inset
-			border-top 5px solid verde
+			box-shadow 0 0 80px rgba(black,.7) inset
+			// border-top 5px solid azulOscuro
 			color rgba(white,.85)
 			position relative
 			z-index 5
@@ -191,7 +191,7 @@
 						-webkit-filter: brightness(0.8)grayscale(0.4);
 			.baile
 				.portada
-					border-top 3px solid verde
+					border-top 2px solid azulOscuro
 					.detallePortada
 						.desplegar
 							&:after 
@@ -199,7 +199,7 @@
 						.horaEvento
 							color negroInterface
 						.logoEvento
-							color verde
+							color azul
 							&:after
 								content pubillas
 						.sitioEvento
@@ -208,7 +208,7 @@
 							color rgba(black,.65)
 			.bous
 				.portada
-					border-top 3px solid verde
+					border-top 2px solid azulOscuro
 					.detallePortada
 						.desplegar
 							&:after 
@@ -216,7 +216,7 @@
 						.horaEvento
 							color negroInterface
 						.logoEvento
-							color verde
+							color azul
 							&:after
 								content entrada
 						.sitioEvento
@@ -231,7 +231,7 @@
 				margin 10px auto 15px auto
 				width 95%
 				&:nth-child(odd)
-					background #fcfff0
+					background #f2f7ff
 				.portada
 					border-radius 5px
 					color texto
@@ -301,7 +301,9 @@
 	.noCalendario
 		position relative
 		z-index 5
-		.noCalendarioInner
+		.vistaEscritorio
+			display none
+		.vistaMovil
 			.contienePubillas
 				.pubillas
 					background white
@@ -315,7 +317,7 @@
 						display block
 						font-size 0
 						margin 0 auto
-						padding 0 20px 20px 20px 
+						padding 0 10px 20px 10px 
 						text-align center
 						.pubillasInner 
 							// background red
@@ -328,8 +330,7 @@
 								box-shadow 0 0 3px rgba(black,.3)
 								display block
 								margin 0 auto
-								width 90px
-								height auto
+								width 100px
 							.detall
 								// background blue
 								font-size 14px
@@ -341,7 +342,7 @@
 									font-weight 400
 				.unaPubilla
 					.back
-						color rgba(verde,1)
+						color rgba(azul,1)
 						padding 20px 0 25px 18px
 						&:last-child 
 							padding 20px 0 45px 18px
@@ -524,8 +525,6 @@
 											margin 0 0 10px 0
 											&:last-child 
 												margin 0 0 30px 0
-								.semivisible
-									display none
 								&:last-child
 									border-bottom none
 			.contieneColaboradores
@@ -553,7 +552,7 @@
 		height auto
 		left 0
 		position absolute
-		top 435px
+		top 430px
 		width 100%
 		animation timeLineLento .8s 
 		-webkit-animation timeLineLento .8s
@@ -626,115 +625,36 @@
 				font-family icomoon
 				vertical-align bottom
 .header
-	width 100%
-	height 500px
+	height 500px 
 	overflow hidden
 	position relative
-	.logo
-		position relative
-		text-align center
-		top 30px
-		z-index 3
-		img 
-			width 200px
-	.muralOuter
-		position absolute
-		top 0 
-		right 0
-		bottom 0 
+	width 100%
+	.fondo
+		background #2b1d53
+		bottom 0
 		left 0
-		z-index 1
-		.mural
-			width 100%
-			height 100%
-			// background gray
-			animation animacion 150s infinite
-			-webkit-animation animacion 150s infinite
-			.muralInner
-				margin -50px 0 0 0 
-				height 250%
-				width 250%
-				background-image url(../img/pintura.png)
-				background-position 0
-				background-repeat repeat-x repeat-y 
-				background-size 45% auto
-				transform: skew(0deg, 10deg);
-				-ms-transform: skew(0deg, 10deg);
-				-webkit-transform: skew(0deg, 10deg);
-				transform: scale(1, 2, 3, 4);
-				-ms-transform: scale(1, 2, 3, 4);
-				-webkit-transform: scale(1, 2, 3, 4);
-	.degradado
 		position absolute
-		top 0 
 		right 0
-		bottom 0 
-		left 0
-		z-index 1
-		.degradadoInner
-			width 100%
-			height 100%
+		top 0
+		.fondoInner
+			height 250%
+			width 250%
+			position relative
+			top 0px
+			left -80%
 			@css {
-				background: -moz-linear-gradient(top,  rgba(0,0,0,0) 0%, rgba(0,0,0,0) 26%, rgba(0,0,0,0.7) 99%, rgba(0,0,0,0.7) 100%);
-				background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0)), color-stop(26%,rgba(0,0,0,0)), color-stop(99%,rgba(0,0,0,0.7)), color-stop(100%,rgba(0,0,0,0.7)));
-				background: -webkit-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,0) 26%,rgba(0,0,0,0.7) 99%,rgba(0,0,0,0.7) 100%);
-				background: -o-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,0) 26%,rgba(0,0,0,0.7) 99%,rgba(0,0,0,0.7) 100%);
-				background: -ms-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,0) 26%,rgba(0,0,0,0.7) 99%,rgba(0,0,0,0.7) 100%);
-				background: linear-gradient(to bottom,  rgba(0,0,0,0) 0%,rgba(0,0,0,0) 26%,rgba(0,0,0,0.7) 99%,rgba(0,0,0,0.7) 100%);
-				filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#b3000000',GradientType=0 );
+					background: rgb(215,81,93);
+					background: -moz-radial-gradient(center, ellipse cover,  rgba(215,81,93,1) 0%, rgba(215,81,93,1) 6%, rgba(43,29,83,1) 63%);
+					background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(215,81,93,1)), color-stop(6%,rgba(215,81,93,1)), color-stop(63%,rgba(43,29,83,1)));
+					background: -webkit-radial-gradient(center, ellipse cover,  rgba(215,81,93,1) 0%,rgba(215,81,93,1) 6%,rgba(43,29,83,1) 63%);
+					background: -o-radial-gradient(center, ellipse cover,  rgba(215,81,93,1) 0%,rgba(215,81,93,1) 6%,rgba(43,29,83,1) 63%);
+					background: -ms-radial-gradient(center, ellipse cover,  rgba(215,81,93,1) 0%,rgba(215,81,93,1) 6%,rgba(43,29,83,1) 63%);
+					background: radial-gradient(ellipse at center,  rgba(215,81,93,1) 0%,rgba(215,81,93,1) 6%,rgba(43,29,83,1) 63%);
+					filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d7515d', endColorstr='#2b1d53',GradientType=1 );
 
 			}
-	.degradado2
-		display none
-	.social
-		position relative
-		.twitter
-			text-align center
-			position relative
-			top 70px
-			left -45px
-			z-index 5
-		.facebook
-			text-align center
-			position relative
-			top 42px
-			left 55px
-			z-index 5
-	.titulo
-		color white
-		font-size 24px
-		position relative
-		text-align center
-		text-transform uppercase
-		text-shadow 1px 1px 3px rgba(black,.5)
-		top 50px
-		z-index 5
-		// span
-		// 	color verde
-	.pintada
-		.lateral
-			position absolute
-			left 0
-			top 150px
-			width 110%
-			height auto
-			z-index 4
-		.up
-			position absolute
-			right -50px
-			top 150px
-			width 110%
-			height auto
-			z-index 4
-		.down
-			position absolute
-			left 60%
-			top 150px
-			width 110%
-			height auto
-			z-index 4
 .llamadaLabel
-	background verde
+	background azul
 	float right
 	transition all .5s
 	-webkit-transition all .5s
@@ -812,18 +732,18 @@
 // ANIMACIONES
 @keyframes animacion
 	0%
-		transform translate(-150%, -150%)
-		-ms-transform translate(-150%, -150%)
-		-webkit-transform translate(-150%, -150%)
+		transform translate(-100%, -100%)
+		-ms-transform translate(-100%, -100%)
+		-webkit-transform translate(-100%, -100%)
 	50%
 		transform translate(40%, 10%)
 		-ms-transform translate(40%, 10%)
 		-webkit-transform translate(40%, 10%)
 
 	100%
-		transform translate(-150%, -150%)
-		-ms-transform translate(-150%, -150%)
-		-webkit-transform translate(-150%, -150%)
+		transform translate(-100%, -100%)
+		-ms-transform translate(-100%, -100%)
+		-webkit-transform translate(-100%, -100%)
 
 @keyframes timeLine
 	0%

@@ -163,7 +163,7 @@ a:active {
   display: none;
 }
 .contenidos .calendario .botonera ul li {
-  background: #80b21e;
+  background: #92ccfd;
   border-radius: 50%;
   display: inline-block;
   height: 50px;
@@ -189,8 +189,7 @@ a:active {
 }
 .contenidos .calendario .eventoActual {
   background: #646669;
-  box-shadow: 0 0 50px rgba(0,0,0,0.5) inset;
-  border-top: 5px solid #80b21e;
+  box-shadow: 0 0 80px rgba(0,0,0,0.7) inset;
   color: rgba(255,255,255,0.85);
   position: relative;
   z-index: 5;
@@ -333,7 +332,7 @@ a:active {
   -webkit-filter: brightness(0.8) grayscale(0.4);
 }
 .contenidos .calendario .listaEventos .baile .portada {
-  border-top: 3px solid #80b21e;
+  border-top: 2px solid azulOscuro;
 }
 .contenidos .calendario .listaEventos .baile .portada .detallePortada .desplegar:after {
   color: #808080;
@@ -342,7 +341,7 @@ a:active {
   color: #222326;
 }
 .contenidos .calendario .listaEventos .baile .portada .detallePortada .logoEvento {
-  color: #80b21e;
+  color: #92ccfd;
 }
 .contenidos .calendario .listaEventos .baile .portada .detallePortada .logoEvento:after {
   content: "\e60f";
@@ -354,7 +353,7 @@ a:active {
   color: rgba(0,0,0,0.65);
 }
 .contenidos .calendario .listaEventos .bous .portada {
-  border-top: 3px solid #80b21e;
+  border-top: 2px solid azulOscuro;
 }
 .contenidos .calendario .listaEventos .bous .portada .detallePortada .desplegar:after {
   color: #808080;
@@ -363,7 +362,7 @@ a:active {
   color: #222326;
 }
 .contenidos .calendario .listaEventos .bous .portada .detallePortada .logoEvento {
-  color: #80b21e;
+  color: #92ccfd;
 }
 .contenidos .calendario .listaEventos .bous .portada .detallePortada .logoEvento:after {
   content: "\e602";
@@ -382,7 +381,7 @@ a:active {
   width: 95%;
 }
 .contenidos .calendario .listaEventos .evento:nth-child(odd) {
-  background: #fcfff0;
+  background: #f2f7ff;
 }
 .contenidos .calendario .listaEventos .evento .portada {
   border-radius: 5px;
@@ -465,71 +464,73 @@ a:active {
   position: relative;
   z-index: 5;
 }
-.contenidos .noCalendario .noCalendarioInner .contienePubillas .pubillas {
+.contenidos .noCalendario .vistaEscritorio {
+  display: none;
+}
+.contenidos .noCalendario .vistaMovil .contienePubillas .pubillas {
   background: #fff;
   color: rgba(0,0,0,0.75);
 }
-.contenidos .noCalendario .noCalendarioInner .contienePubillas .pubillas h3 {
+.contenidos .noCalendario .vistaMovil .contienePubillas .pubillas h3 {
   font-size: 24px;
   font-weight: 300;
   padding: 20px;
   text-align: center;
 }
-.contenidos .noCalendario .noCalendarioInner .contienePubillas .pubillas .pubillasOuter {
+.contenidos .noCalendario .vistaMovil .contienePubillas .pubillas .pubillasOuter {
   display: block;
   font-size: 0;
   margin: 0 auto;
-  padding: 0 20px 20px 20px;
+  padding: 0 10px 20px 10px;
   text-align: center;
 }
-.contenidos .noCalendario .noCalendarioInner .contienePubillas .pubillas .pubillasOuter .pubillasInner {
+.contenidos .noCalendario .vistaMovil .contienePubillas .pubillas .pubillasOuter .pubillasInner {
   display: inline-block;
   margin: 10px 0;
   position: relative;
   width: 150px;
 }
-.contenidos .noCalendario .noCalendarioInner .contienePubillas .pubillas .pubillasOuter .pubillasInner img {
+.contenidos .noCalendario .vistaMovil .contienePubillas .pubillas .pubillasOuter .pubillasInner img {
   border-radius: 50%;
   box-shadow: 0 0 3px rgba(0,0,0,0.3);
   display: block;
   margin: 0 auto;
-  width: 90px;
-  height: auto;
+  width: 100px;
 }
-.contenidos .noCalendario .noCalendarioInner .contienePubillas .pubillas .pubillasOuter .pubillasInner .detall {
+.contenidos .noCalendario .vistaMovil .contienePubillas .pubillas .pubillasOuter .pubillasInner .detall {
   font-size: 14px;
   font-weight: 300;
   margin: 12px 0 20px 0;
   padding: 0 5px;
   text-align: center;
 }
-.contenidos .noCalendario .noCalendarioInner .contienePubillas .pubillas .pubillasOuter .pubillasInner .detall .nom {
+.contenidos .noCalendario .vistaMovil .contienePubillas .pubillas .pubillasOuter .pubillasInner .detall .nom {
   font-weight: 400;
 }
-.contenidos .noCalendario .noCalendarioInner .contienePubillas .unaPubilla .back {
-  color: #80b21e;
+.contenidos .noCalendario .vistaMovil .contienePubillas .unaPubilla .back {
+  color: #92ccfd;
   padding: 20px 0 25px 18px;
 }
-.contenidos .noCalendario .noCalendarioInner .contienePubillas .unaPubilla .back:last-child {
+.contenidos .noCalendario .vistaMovil .contienePubillas .unaPubilla .back:last-child {
   padding: 20px 0 45px 18px;
 }
-.contenidos .noCalendario .noCalendarioInner .contienePubillas .unaPubilla .back .backTo {
+.contenidos .noCalendario .vistaMovil .contienePubillas .unaPubilla .back .backTo {
   display: inline-block;
   font-weight: 400;
 }
-.contenidos .noCalendario .noCalendarioInner .contienePubillas .unaPubilla .back .backTo span {
+.contenidos .noCalendario .vistaMovil .contienePubillas .unaPubilla .back .backTo span {
   border-bottom: 1px solid;
 }
-.contenidos .noCalendario .noCalendarioInner .contienePubillas .unaPubilla .back .backTo:before {
+.contenidos .noCalendario .vistaMovil .contienePubillas .unaPubilla .back .backTo:before {
   content: "\e604";
   font-family: icomoon;
   margin-right: 5px;
 }
-.contenidos .noCalendario .noCalendarioInner .contienePubillas .unaPubilla .hero {
+.contenidos .noCalendario .vistaMovil .contienePubillas .unaPubilla .hero {
   height: 400px;
   position: relative;
 }
-.contenidos .noCalendario .noCalendarioInner .contienePubillas .unaPubilla .hero .detalle {
+.contenidos .noCalendario .vistaMovil .contienePubillas .unaPubilla .hero .detalle {
   bottom: 30px;
   color: #fff;
   padding: 0 20px;
@@ -539,15 +540,15 @@ a:active {
   width: 100%;
   z-index: 3;
 }
-.contenidos .noCalendario .noCalendarioInner .contienePubillas .unaPubilla .hero .detalle .nombre {
+.contenidos .noCalendario .vistaMovil .contienePubillas .unaPubilla .hero .detalle .nombre {
   font-size: 1.3em;
   font-weight: 700;
 }
-.contenidos .noCalendario .noCalendarioInner .contienePubillas .unaPubilla .hero .detalle .club {
+.contenidos .noCalendario .vistaMovil .contienePubillas .unaPubilla .hero .detalle .club {
   font-size: 0.9em;
   font-weight: 400;
 }
-.contenidos .noCalendario .noCalendarioInner .contienePubillas .unaPubilla .hero .degradado {
+.contenidos .noCalendario .vistaMovil .contienePubillas .unaPubilla .hero .degradado {
   bottom: 0;
   height: 250px;
   position: absolute;
@@ -568,14 +569,14 @@ background: -moz-linear-gradient(top,  rgba(247,247,247,0) 0%, rgba(175,175,175,
 								background: -ms-linear-gradient(top,  rgba(247,247,247,0) 0%,rgba(175,175,175,0) 29%,rgba(2,2,2,0.68) 99%,rgba(0,0,0,0.68) 100%);
 								background: linear-gradient(to bottom,  rgba(247,247,247,0) 0%,rgba(175,175,175,0) 29%,rgba(2,2,2,0.68) 99%,rgba(0,0,0,0.68) 100%);
 								filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00f7f7f7', endColorstr='#ad000000',GradientType=0 );
-.contenidos .noCalendario .noCalendarioInner .contienePubillas .unaPubilla .hero .fotoOuter {
+.contenidos .noCalendario .vistaMovil .contienePubillas .unaPubilla .hero .fotoOuter {
   bottom: 0;
   height: 400px;
   position: absolute;
   width: 100%;
   z-index: 0;
 }
-.contenidos .noCalendario .noCalendarioInner .contienePubillas .unaPubilla .hero .fotoOuter .foto {
+.contenidos .noCalendario .vistaMovil .contienePubillas .unaPubilla .hero .fotoOuter .foto {
   background-position: 50% 100%;
   background-repeat: no-repeat;
   background-size: auto 100%;
@@ -583,49 +584,49 @@ background: -moz-linear-gradient(top,  rgba(247,247,247,0) 0%, rgba(175,175,175,
   width: 100%;
   position: absolute;
 }
-.contenidos .noCalendario .noCalendarioInner .contienePubillas .unaPubilla .texto {
+.contenidos .noCalendario .vistaMovil .contienePubillas .unaPubilla .texto {
   color: rgba(0,0,0,0.75);
   font-family: 'Open Sans', sans-serif;
   font-size: 18px;
   line-height: 25px;
   padding: 25px;
 }
-.contenidos .noCalendario .noCalendarioInner .contienePubillas .unaPubilla .texto p {
+.contenidos .noCalendario .vistaMovil .contienePubillas .unaPubilla .texto p {
   margin: 18px 0;
 }
-.contenidos .noCalendario .noCalendarioInner .contieneInformacion .informacion {
+.contenidos .noCalendario .vistaMovil .contieneInformacion .informacion {
   background: #2a2c2f;
   position: relative;
 }
-.contenidos .noCalendario .noCalendarioInner .contieneInformacion .informacion .infoHeader {
+.contenidos .noCalendario .vistaMovil .contieneInformacion .informacion .infoHeader {
   color: rgba(255,255,255,0.8);
   height: 80px;
 }
-.contenidos .noCalendario .noCalendarioInner .contieneInformacion .informacion .infoHeader h2 {
+.contenidos .noCalendario .vistaMovil .contieneInformacion .informacion .infoHeader h2 {
   font-size: 21px;
   font-style: italic;
   letter-spacing: 1px;
   padding: 15px 0 0 30px;
   text-transform: uppercase;
 }
-.contenidos .noCalendario .noCalendarioInner .contieneInformacion .informacion .infoHeader h2 span {
+.contenidos .noCalendario .vistaMovil .contieneInformacion .informacion .infoHeader h2 span {
   display: block;
   font-size: 16px;
   letter-spacing: 0px;
   line-height: 21px;
   text-transform: lowercase;
 }
-.contenidos .noCalendario .noCalendarioInner .contieneInformacion .informacion .infoOuter .infoInner {
+.contenidos .noCalendario .vistaMovil .contieneInformacion .informacion .infoOuter .infoInner {
   border-bottom: 1px solid #2a2c2f;
 }
-.contenidos .noCalendario .noCalendarioInner .contieneInformacion .informacion .infoOuter .infoInner .checkInfo {
+.contenidos .noCalendario .vistaMovil .contieneInformacion .informacion .infoOuter .infoInner .checkInfo {
   width: 100%;
   height: 70px;
   background: transparent;
   position: relative;
   z-index: 20;
 }
-.contenidos .noCalendario .noCalendarioInner .contieneInformacion .informacion .infoOuter .infoInner .checkInfo .puntos:after {
+.contenidos .noCalendario .vistaMovil .contieneInformacion .informacion .infoOuter .infoInner .checkInfo .puntos:after {
   color: rgba(255,255,255,0.8);
   content: "\e2aa";
   font-family: icomoon;
@@ -635,10 +636,10 @@ background: -moz-linear-gradient(top,  rgba(247,247,247,0) 0%, rgba(175,175,175,
   right: 20px;
   padding: 5px 0 5px 20px;
 }
-.contenidos .noCalendario .noCalendarioInner .contieneInformacion .informacion .infoOuter .infoInner .entrades {
+.contenidos .noCalendario .vistaMovil .contieneInformacion .informacion .infoOuter .infoInner .entrades {
   margin: -70px 0 0 0;
 }
-.contenidos .noCalendario .noCalendarioInner .contieneInformacion .informacion .infoOuter .infoInner .entrades:before {
+.contenidos .noCalendario .vistaMovil .contieneInformacion .informacion .infoOuter .infoInner .entrades:before {
   content: "\e602";
   font-family: icomoon;
   font-style: normal;
@@ -647,10 +648,10 @@ background: -moz-linear-gradient(top,  rgba(247,247,247,0) 0%, rgba(175,175,175,
   position: absolute;
   top: 30px;
 }
-.contenidos .noCalendario .noCalendarioInner .contieneInformacion .informacion .infoOuter .infoInner .inscripcions {
+.contenidos .noCalendario .vistaMovil .contieneInformacion .informacion .infoOuter .infoInner .inscripcions {
   margin: -70px 0 0 0;
 }
-.contenidos .noCalendario .noCalendarioInner .contieneInformacion .informacion .infoOuter .infoInner .inscripcions:before {
+.contenidos .noCalendario .vistaMovil .contieneInformacion .informacion .infoOuter .infoInner .inscripcions:before {
   content: "\e601";
   font-family: icomoon;
   font-style: normal;
@@ -659,10 +660,10 @@ background: -moz-linear-gradient(top,  rgba(247,247,247,0) 0%, rgba(175,175,175,
   position: absolute;
   top: 30px;
 }
-.contenidos .noCalendario .noCalendarioInner .contieneInformacion .informacion .infoOuter .infoInner .horario {
+.contenidos .noCalendario .vistaMovil .contieneInformacion .informacion .infoOuter .infoInner .horario {
   margin: -70px 0 0 0;
 }
-.contenidos .noCalendario .noCalendarioInner .contieneInformacion .informacion .infoOuter .infoInner .horario:before {
+.contenidos .noCalendario .vistaMovil .contieneInformacion .informacion .infoOuter .infoInner .horario:before {
   content: "\e605";
   font-family: icomoon;
   font-style: normal;
@@ -671,10 +672,10 @@ background: -moz-linear-gradient(top,  rgba(247,247,247,0) 0%, rgba(175,175,175,
   position: absolute;
   top: 30px;
 }
-.contenidos .noCalendario .noCalendarioInner .contieneInformacion .informacion .infoOuter .infoInner .notes {
+.contenidos .noCalendario .vistaMovil .contieneInformacion .informacion .infoOuter .infoInner .notes {
   margin: -70px 0 0 0;
 }
-.contenidos .noCalendario .noCalendarioInner .contieneInformacion .informacion .infoOuter .infoInner .notes:before {
+.contenidos .noCalendario .vistaMovil .contieneInformacion .informacion .infoOuter .infoInner .notes:before {
   content: "\e608";
   font-family: icomoon;
   font-style: normal;
@@ -683,7 +684,7 @@ background: -moz-linear-gradient(top,  rgba(247,247,247,0) 0%, rgba(175,175,175,
   position: absolute;
   top: 30px;
 }
-.contenidos .noCalendario .noCalendarioInner .contieneInformacion .informacion .infoOuter .infoInner .post {
+.contenidos .noCalendario .vistaMovil .contieneInformacion .informacion .infoOuter .infoInner .post {
   background: #222326;
   color: rgba(255,255,255,0.7);
   font-size: 16px;
@@ -692,72 +693,69 @@ background: -moz-linear-gradient(top,  rgba(247,247,247,0) 0%, rgba(175,175,175,
   padding: 28px 0 28px 0;
   position: relative;
 }
-.contenidos .noCalendario .noCalendarioInner .contieneInformacion .informacion .infoOuter .infoInner .post h4 {
+.contenidos .noCalendario .vistaMovil .contieneInformacion .informacion .infoOuter .infoInner .post h4 {
   margin: 0 78px 0 55px;
 }
-.contenidos .noCalendario .noCalendarioInner .contieneInformacion .informacion .infoOuter .infoInner .post .detallePost {
+.contenidos .noCalendario .vistaMovil .contieneInformacion .informacion .infoOuter .infoInner .post .detallePost {
   border-left: none;
 }
-.contenidos .noCalendario .noCalendarioInner .contieneInformacion .informacion .infoOuter .infoInner .post .detallePost h5 {
+.contenidos .noCalendario .vistaMovil .contieneInformacion .informacion .infoOuter .infoInner .post .detallePost h5 {
   color: #fff;
   font-style: normal;
   margin: 20px 20px 10px 55px;
 }
-.contenidos .noCalendario .noCalendarioInner .contieneInformacion .informacion .infoOuter .infoInner .post .detallePost h5:first-child {
+.contenidos .noCalendario .vistaMovil .contieneInformacion .informacion .infoOuter .infoInner .post .detallePost h5:first-child {
   margin: 40px 20px 10px 55px;
 }
-.contenidos .noCalendario .noCalendarioInner .contieneInformacion .informacion .infoOuter .infoInner .post .detallePost p {
+.contenidos .noCalendario .vistaMovil .contieneInformacion .informacion .infoOuter .infoInner .post .detallePost p {
   color: rgba(255,255,255,0.6);
   font-style: normal;
   font-weight: 400;
   margin: 0 20px 0 55px;
 }
-.contenidos .noCalendario .noCalendarioInner .contieneInformacion .informacion .infoOuter .infoInner .post .detallePost p:last-child {
+.contenidos .noCalendario .vistaMovil .contieneInformacion .informacion .infoOuter .infoInner .post .detallePost p:last-child {
   margin: 0 20px 30px 55px;
 }
-.contenidos .noCalendario .noCalendarioInner .contieneInformacion .informacion .infoOuter .infoInner .post .detallePost p.detallePostPiscina {
+.contenidos .noCalendario .vistaMovil .contieneInformacion .informacion .infoOuter .infoInner .post .detallePost p.detallePostPiscina {
   margin: 20px 20px 30px 55px;
 }
-.contenidos .noCalendario .noCalendarioInner .contieneInformacion .informacion .infoOuter .infoInner .post .detallePost ul {
+.contenidos .noCalendario .vistaMovil .contieneInformacion .informacion .infoOuter .infoInner .post .detallePost ul {
   margin: 20px 20px 0 55px;
 }
-.contenidos .noCalendario .noCalendarioInner .contieneInformacion .informacion .infoOuter .infoInner .post .detallePost ul li {
+.contenidos .noCalendario .vistaMovil .contieneInformacion .informacion .infoOuter .infoInner .post .detallePost ul li {
   color: rgba(255,255,255,0.6);
   font-style: normal;
   font-weight: 400;
   list-style-type: circle;
   margin: 0 0 10px 0;
 }
-.contenidos .noCalendario .noCalendarioInner .contieneInformacion .informacion .infoOuter .infoInner .post .detallePost ul li:last-child {
+.contenidos .noCalendario .vistaMovil .contieneInformacion .informacion .infoOuter .infoInner .post .detallePost ul li:last-child {
   margin: 0 0 30px 0;
 }
-.contenidos .noCalendario .noCalendarioInner .contieneInformacion .informacion .infoOuter .infoInner .post .semivisible {
-  display: none;
-}
-.contenidos .noCalendario .noCalendarioInner .contieneInformacion .informacion .infoOuter .infoInner .post:last-child {
+.contenidos .noCalendario .vistaMovil .contieneInformacion .informacion .infoOuter .infoInner .post:last-child {
   border-bottom: none;
 }
-.contenidos .noCalendario .noCalendarioInner .contieneColaboradores .colaboradores {
+.contenidos .noCalendario .vistaMovil .contieneColaboradores .colaboradores {
   background: #fff;
   color: rgba(0,0,0,0.7);
 }
-.contenidos .noCalendario .noCalendarioInner .contieneColaboradores .colaboradores h3 {
+.contenidos .noCalendario .vistaMovil .contieneColaboradores .colaboradores h3 {
   font-size: 24px;
   font-weight: 300;
   padding: 20px;
   text-align: center;
 }
-.contenidos .noCalendario .noCalendarioInner .contieneColaboradores .colaboradores .logoOuter {
+.contenidos .noCalendario .vistaMovil .contieneColaboradores .colaboradores .logoOuter {
   padding: 0 20px 30px 20px;
   text-align: center;
 }
-.contenidos .noCalendario .noCalendarioInner .contieneColaboradores .colaboradores .logoOuter .logoInner {
+.contenidos .noCalendario .vistaMovil .contieneColaboradores .colaboradores .logoOuter .logoInner {
   display: inline-block;
   padding: 15px;
   vertical-align: top;
   width: 60%;
 }
-.contenidos .noCalendario .noCalendarioInner .contieneColaboradores .colaboradores .logoOuter .logoInner img {
+.contenidos .noCalendario .vistaMovil .contieneColaboradores .colaboradores .logoOuter .logoInner img {
   width: 100%;
 }
 .decoracion .tituloOuter {
@@ -765,7 +763,7 @@ background: -moz-linear-gradient(top,  rgba(247,247,247,0) 0%, rgba(175,175,175,
   height: auto;
   left: 0;
   position: absolute;
-  top: 435px;
+  top: 430px;
   width: 100%;
   animation: timeLineLento 0.8s;
   -webkit-animation: timeLineLento 0.8s;
@@ -850,131 +848,44 @@ background: -moz-linear-gradient(top,  rgba(247,247,247,0) 0%, rgba(175,175,175,
   vertical-align: bottom;
 }
 .header {
-  width: 100%;
   height: 500px;
   overflow: hidden;
   position: relative;
+  width: 100%;
 }
-.header .logo {
-  position: relative;
-  text-align: center;
-  top: 30px;
-  z-index: 3;
-}
-.header .logo img {
-  width: 200px;
-}
-.header .muralOuter {
-  position: absolute;
-  top: 0;
-  right: 0;
+.header .fondo {
+  background: #2b1d53;
   bottom: 0;
   left: 0;
-  z-index: 1;
+  position: absolute;
+  right: 0;
+  top: 0;
 }
-.header .muralOuter .mural {
-  width: 100%;
-  height: 100%;
-  animation: animacion 150s infinite;
-  -webkit-animation: animacion 150s infinite;
-}
-.header .muralOuter .mural .muralInner {
-  margin: -50px 0 0 0;
+.header .fondo .fondoInner {
   height: 250%;
   width: 250%;
-  background-image: url("../img/pintura.png");
-  background-position: 0;
-  background-repeat: repeat-x repeat-y;
-  background-size: 45% auto;
-  transform: skew(0deg, 10deg);
-  -ms-transform: skew(0deg, 10deg);
-  -webkit-transform: skew(0deg, 10deg);
-  transform: scale(1, 2, 3, 4);
-  -ms-transform: scale(1, 2, 3, 4);
-  -webkit-transform: scale(1, 2, 3, 4);
-}
-.header .degradado {
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  z-index: 1;
-}
-.header .degradado .degradadoInner {
-  width: 100%;
-  height: 100%;
-background: -moz-linear-gradient(top,  rgba(0,0,0,0) 0%, rgba(0,0,0,0) 26%, rgba(0,0,0,0.7) 99%, rgba(0,0,0,0.7) 100%);
-				background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0)), color-stop(26%,rgba(0,0,0,0)), color-stop(99%,rgba(0,0,0,0.7)), color-stop(100%,rgba(0,0,0,0.7)));
-				background: -webkit-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,0) 26%,rgba(0,0,0,0.7) 99%,rgba(0,0,0,0.7) 100%);
-				background: -o-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,0) 26%,rgba(0,0,0,0.7) 99%,rgba(0,0,0,0.7) 100%);
-				background: -ms-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,0) 26%,rgba(0,0,0,0.7) 99%,rgba(0,0,0,0.7) 100%);
-				background: linear-gradient(to bottom,  rgba(0,0,0,0) 0%,rgba(0,0,0,0) 26%,rgba(0,0,0,0.7) 99%,rgba(0,0,0,0.7) 100%);
-				filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#b3000000',GradientType=0 );
-}
-background: -moz-linear-gradient(top,  rgba(0,0,0,0) 0%, rgba(0,0,0,0) 26%, rgba(0,0,0,0.7) 99%, rgba(0,0,0,0.7) 100%);
-				background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0)), color-stop(26%,rgba(0,0,0,0)), color-stop(99%,rgba(0,0,0,0.7)), color-stop(100%,rgba(0,0,0,0.7)));
-				background: -webkit-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,0) 26%,rgba(0,0,0,0.7) 99%,rgba(0,0,0,0.7) 100%);
-				background: -o-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,0) 26%,rgba(0,0,0,0.7) 99%,rgba(0,0,0,0.7) 100%);
-				background: -ms-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,0) 26%,rgba(0,0,0,0.7) 99%,rgba(0,0,0,0.7) 100%);
-				background: linear-gradient(to bottom,  rgba(0,0,0,0) 0%,rgba(0,0,0,0) 26%,rgba(0,0,0,0.7) 99%,rgba(0,0,0,0.7) 100%);
-				filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#b3000000',GradientType=0 );
-.header .degradado2 {
-  display: none;
-}
-.header .social {
   position: relative;
+  top: 0px;
+  left: -80%;
+background: rgb(215,81,93);
+					background: -moz-radial-gradient(center, ellipse cover,  rgba(215,81,93,1) 0%, rgba(215,81,93,1) 6%, rgba(43,29,83,1) 63%);
+					background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(215,81,93,1)), color-stop(6%,rgba(215,81,93,1)), color-stop(63%,rgba(43,29,83,1)));
+					background: -webkit-radial-gradient(center, ellipse cover,  rgba(215,81,93,1) 0%,rgba(215,81,93,1) 6%,rgba(43,29,83,1) 63%);
+					background: -o-radial-gradient(center, ellipse cover,  rgba(215,81,93,1) 0%,rgba(215,81,93,1) 6%,rgba(43,29,83,1) 63%);
+					background: -ms-radial-gradient(center, ellipse cover,  rgba(215,81,93,1) 0%,rgba(215,81,93,1) 6%,rgba(43,29,83,1) 63%);
+					background: radial-gradient(ellipse at center,  rgba(215,81,93,1) 0%,rgba(215,81,93,1) 6%,rgba(43,29,83,1) 63%);
+					filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d7515d', endColorstr='#2b1d53',GradientType=1 );
 }
-.header .social .twitter {
-  text-align: center;
-  position: relative;
-  top: 70px;
-  left: -45px;
-  z-index: 5;
-}
-.header .social .facebook {
-  text-align: center;
-  position: relative;
-  top: 42px;
-  left: 55px;
-  z-index: 5;
-}
-.header .titulo {
-  color: #fff;
-  font-size: 24px;
-  position: relative;
-  text-align: center;
-  text-transform: uppercase;
-  text-shadow: 1px 1px 3px rgba(0,0,0,0.5);
-  top: 50px;
-  z-index: 5;
-}
-.header .pintada .lateral {
-  position: absolute;
-  left: 0;
-  top: 150px;
-  width: 110%;
-  height: auto;
-  z-index: 4;
-}
-.header .pintada .up {
-  position: absolute;
-  right: -50px;
-  top: 150px;
-  width: 110%;
-  height: auto;
-  z-index: 4;
-}
-.header .pintada .down {
-  position: absolute;
-  left: 60%;
-  top: 150px;
-  width: 110%;
-  height: auto;
-  z-index: 4;
-}
+background: rgb(215,81,93);
+					background: -moz-radial-gradient(center, ellipse cover,  rgba(215,81,93,1) 0%, rgba(215,81,93,1) 6%, rgba(43,29,83,1) 63%);
+					background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(215,81,93,1)), color-stop(6%,rgba(215,81,93,1)), color-stop(63%,rgba(43,29,83,1)));
+					background: -webkit-radial-gradient(center, ellipse cover,  rgba(215,81,93,1) 0%,rgba(215,81,93,1) 6%,rgba(43,29,83,1) 63%);
+					background: -o-radial-gradient(center, ellipse cover,  rgba(215,81,93,1) 0%,rgba(215,81,93,1) 6%,rgba(43,29,83,1) 63%);
+					background: -ms-radial-gradient(center, ellipse cover,  rgba(215,81,93,1) 0%,rgba(215,81,93,1) 6%,rgba(43,29,83,1) 63%);
+					background: radial-gradient(ellipse at center,  rgba(215,81,93,1) 0%,rgba(215,81,93,1) 6%,rgba(43,29,83,1) 63%);
+					filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d7515d', endColorstr='#2b1d53',GradientType=1 );
 .llamadaLabel {
-  background: #80b21e;
+  background: #92ccfd;
   float: right;
   transition: all 0.5s;
   -webkit-transition: all 0.5s;
@@ -1065,9 +976,9 @@ background: -moz-linear-gradient(top,  rgba(0,0,0,0) 0%, rgba(0,0,0,0) 26%, rgba
 }
 @-moz-keyframes animacion {
   0% {
-    transform: translate(-150%, -150%);
-    -ms-transform: translate(-150%, -150%);
-    -webkit-transform: translate(-150%, -150%);
+    transform: translate(-100%, -100%);
+    -ms-transform: translate(-100%, -100%);
+    -webkit-transform: translate(-100%, -100%);
   }
   50% {
     transform: translate(40%, 10%);
@@ -1075,16 +986,16 @@ background: -moz-linear-gradient(top,  rgba(0,0,0,0) 0%, rgba(0,0,0,0) 26%, rgba
     -webkit-transform: translate(40%, 10%);
   }
   100% {
-    transform: translate(-150%, -150%);
-    -ms-transform: translate(-150%, -150%);
-    -webkit-transform: translate(-150%, -150%);
+    transform: translate(-100%, -100%);
+    -ms-transform: translate(-100%, -100%);
+    -webkit-transform: translate(-100%, -100%);
   }
 }
 @-webkit-keyframes animacion {
   0% {
-    transform: translate(-150%, -150%);
-    -ms-transform: translate(-150%, -150%);
-    -webkit-transform: translate(-150%, -150%);
+    transform: translate(-100%, -100%);
+    -ms-transform: translate(-100%, -100%);
+    -webkit-transform: translate(-100%, -100%);
   }
   50% {
     transform: translate(40%, 10%);
@@ -1092,16 +1003,16 @@ background: -moz-linear-gradient(top,  rgba(0,0,0,0) 0%, rgba(0,0,0,0) 26%, rgba
     -webkit-transform: translate(40%, 10%);
   }
   100% {
-    transform: translate(-150%, -150%);
-    -ms-transform: translate(-150%, -150%);
-    -webkit-transform: translate(-150%, -150%);
+    transform: translate(-100%, -100%);
+    -ms-transform: translate(-100%, -100%);
+    -webkit-transform: translate(-100%, -100%);
   }
 }
 @-o-keyframes animacion {
   0% {
-    transform: translate(-150%, -150%);
-    -ms-transform: translate(-150%, -150%);
-    -webkit-transform: translate(-150%, -150%);
+    transform: translate(-100%, -100%);
+    -ms-transform: translate(-100%, -100%);
+    -webkit-transform: translate(-100%, -100%);
   }
   50% {
     transform: translate(40%, 10%);
@@ -1109,16 +1020,16 @@ background: -moz-linear-gradient(top,  rgba(0,0,0,0) 0%, rgba(0,0,0,0) 26%, rgba
     -webkit-transform: translate(40%, 10%);
   }
   100% {
-    transform: translate(-150%, -150%);
-    -ms-transform: translate(-150%, -150%);
-    -webkit-transform: translate(-150%, -150%);
+    transform: translate(-100%, -100%);
+    -ms-transform: translate(-100%, -100%);
+    -webkit-transform: translate(-100%, -100%);
   }
 }
 @keyframes animacion {
   0% {
-    transform: translate(-150%, -150%);
-    -ms-transform: translate(-150%, -150%);
-    -webkit-transform: translate(-150%, -150%);
+    transform: translate(-100%, -100%);
+    -ms-transform: translate(-100%, -100%);
+    -webkit-transform: translate(-100%, -100%);
   }
   50% {
     transform: translate(40%, 10%);
@@ -1126,9 +1037,9 @@ background: -moz-linear-gradient(top,  rgba(0,0,0,0) 0%, rgba(0,0,0,0) 26%, rgba
     -webkit-transform: translate(40%, 10%);
   }
   100% {
-    transform: translate(-150%, -150%);
-    -ms-transform: translate(-150%, -150%);
-    -webkit-transform: translate(-150%, -150%);
+    transform: translate(-100%, -100%);
+    -ms-transform: translate(-100%, -100%);
+    -webkit-transform: translate(-100%, -100%);
   }
 }
 @-moz-keyframes timeLine {
