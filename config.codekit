@@ -98,20 +98,14 @@
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0
 		},
-	"\/css\/estilos.styl": {
-		"debugStyle": 0,
-		"fileType": 8,
-		"ignore": 0,
+	"\/css\/estilos.css": {
+		"fileType": 16,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"importCSS": 0,
-		"inputAbbreviatedPath": "\/css\/estilos.styl",
-		"outputAbbreviatedPath": "\/css\/estilos.css",
+		"inputAbbreviatedPath": "\/css\/estilos.css",
+		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"resolveRelativeURLS": 0,
-		"shouldRunAutoprefixer": 0,
-		"shouldRunBless": 0
+		"outputPathIsSetByUser": 0
 		},
 	"\/css\/normalize.css": {
 		"fileType": 16,
@@ -380,6 +374,17 @@
 		"initialSize": 10005,
 		"inputAbbreviatedPath": "\/img\/logo\/logo_vertical2.png",
 		"outputAbbreviatedPath": "\/img\/logo\/logo_vertical2.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/logo\/logoBlanco.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 20910,
+		"inputAbbreviatedPath": "\/img\/logo\/logoBlanco.png",
+		"outputAbbreviatedPath": "\/img\/logo\/logoBlanco.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
