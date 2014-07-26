@@ -152,9 +152,9 @@
 					background blancoManchado
 					border-radius  0 0  10px 10px
 					border-top 1px solid borde
+					height 47px
 					padding 10px 0
 					position relative
-					height 47px
 					span
 						color texto2
 						font-size .8em
@@ -165,12 +165,85 @@
 							content menu
 							font-family icomoon
 							font-size 1.2em
+							left 10px
 							position relative
 							top 2px
-							left 10px
+				.desplegado
+					.contenido
+						background white
+						.texto
+							font-family lectura
+							font-size 18px 
+							line-height 25px
+							padding 9px 9px 35px 9px
+							p
+								padding 9px
+					.hero
+						width 100%
+						height 250px
+						position relative
+						.detalle
+							position relative
+							z-index 1
+							text-align center
+							color white
+							text-shadow 1px 1px 1px rgba(black,.8)
+							.logoEvento
+								&:before
+									position relative
+									top 75px
+									content '\e135'
+									font-family icomoon
+									font-size 3em
+							.noLogo
+								margin 0 auto
+								position relative
+								font-weight 400
+								top 90px
+								width 75%
+								.sitioEvento
+									font-size .75em
+									font-weight 300
+									margin-top 10px
+									text-transform uppercase
+						.imagen
+							-webkit-filter: brightness(0.8) grayscale(0.1);
+							background-image url(../img/eventos/techno.jpg)
+							background-position 0 0 
+							background-repeat no-repeat
+							background-size 100% auto
+							bottom 0
+							left 0
+							position absolute
+							right 0
+							top 0 
+							z-index 0
 				.plegado
 					background white
-			
+					padding 18px 0 18px 18px
+					font-size 18px
+					font-family lectura
+					.logoEvento
+						position relative
+						&:before
+							color texto2
+							position absolute
+							top 5px
+							left 10px
+							content '\e135'
+							font-family icomoon
+							font-size 2em
+					.sitioEvento
+						margin-left 70px
+						text-transform uppercase
+						font-size .75em
+						color grisMenu
+						margin-top 9px
+					.tituloEvento
+						margin-left 70px
+						border-bottom 1px solid rgba(borde,.5)
+						padding 0 10px 9px 0
+
 	.noCalendario
 		position relative
 		z-index 5

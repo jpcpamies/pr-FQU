@@ -296,9 +296,9 @@ a:active {
   background: #f8f8f8;
   border-radius: 0 0 10px 10px;
   border-top: 1px solid #dcdcdc;
+  height: 47px;
   padding: 10px 0;
   position: relative;
-  height: 47px;
 }
 .contenidos .calendario .listaEventos .evento .footerEvento span {
   color: rgba(0,0,0,0.75);
@@ -311,12 +311,96 @@ a:active {
   content: "\e120";
   font-family: icomoon;
   font-size: 1.2em;
+  left: 10px;
   position: relative;
   top: 2px;
-  left: 10px;
+}
+.contenidos .calendario .listaEventos .evento .desplegado .contenido {
+  background: #fff;
+}
+.contenidos .calendario .listaEventos .evento .desplegado .contenido .texto {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  line-height: 25px;
+  padding: 9px 9px 35px 9px;
+}
+.contenidos .calendario .listaEventos .evento .desplegado .contenido .texto p {
+  padding: 9px;
+}
+.contenidos .calendario .listaEventos .evento .desplegado .hero {
+  width: 100%;
+  height: 250px;
+  position: relative;
+}
+.contenidos .calendario .listaEventos .evento .desplegado .hero .detalle {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  color: #fff;
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.8);
+}
+.contenidos .calendario .listaEventos .evento .desplegado .hero .detalle .logoEvento:before {
+  position: relative;
+  top: 75px;
+  content: '\e135';
+  font-family: icomoon;
+  font-size: 3em;
+}
+.contenidos .calendario .listaEventos .evento .desplegado .hero .detalle .noLogo {
+  margin: 0 auto;
+  position: relative;
+  font-weight: 400;
+  top: 90px;
+  width: 75%;
+}
+.contenidos .calendario .listaEventos .evento .desplegado .hero .detalle .noLogo .sitioEvento {
+  font-size: 0.75em;
+  font-weight: 300;
+  margin-top: 10px;
+  text-transform: uppercase;
+}
+.contenidos .calendario .listaEventos .evento .desplegado .hero .imagen {
+  -webkit-filter: brightness(0.8) grayscale(0.1);
+  background-image: url("../img/eventos/techno.jpg");
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 0;
 }
 .contenidos .calendario .listaEventos .evento .plegado {
   background: #fff;
+  padding: 18px 0 18px 18px;
+  font-size: 18px;
+  font-family: 'Open Sans', sans-serif;
+}
+.contenidos .calendario .listaEventos .evento .plegado .logoEvento {
+  position: relative;
+}
+.contenidos .calendario .listaEventos .evento .plegado .logoEvento:before {
+  color: rgba(0,0,0,0.75);
+  position: absolute;
+  top: 5px;
+  left: 10px;
+  content: '\e135';
+  font-family: icomoon;
+  font-size: 2em;
+}
+.contenidos .calendario .listaEventos .evento .plegado .sitioEvento {
+  margin-left: 70px;
+  text-transform: uppercase;
+  font-size: 0.75em;
+  color: #a4a8aa;
+  margin-top: 9px;
+}
+.contenidos .calendario .listaEventos .evento .plegado .tituloEvento {
+  margin-left: 70px;
+  border-bottom: 1px solid rgba(220,220,220,0.5);
+  padding: 0 10px 9px 0;
 }
 .contenidos .noCalendario {
   position: relative;
