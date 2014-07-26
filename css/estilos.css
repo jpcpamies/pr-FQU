@@ -2031,6 +2031,16 @@ background: -moz-linear-gradient(top,  rgba(247,247,247,0) 0%, rgba(175,175,175,
   .contenidos .noCalendario .vistaEscritorio .escritorioInner .contieneInformacion .informacion .infoOuter .infoInner .post:last-child {
     border-bottom: none;
   }
+  .contenidos .noCalendario .vistaEscritorio .menuNavegacion {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    right: 420px;
+    height: 68px;
+    background: #f8f8f8;
+    border-top: 1px solid #dcdcdc;
+    z-index: 20;
+  }
   .contenidos .noCalendario .vistaMovil {
     display: none;
   }
