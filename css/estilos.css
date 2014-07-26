@@ -119,6 +119,9 @@ a:active {
   transition: all 0.5s ease;
   -webkit-transition: all 0.5s ease;
 }
+.left {
+  float: left;
+}
 .contenidos {
   display: block;
   margin-left: 0;
@@ -671,7 +674,6 @@ background: -moz-linear-gradient(top,  rgba(247,247,247,0) 0%, rgba(175,175,175,
   width: 200px;
 }
 .header {
-  background: #f00;
   height: 500px;
   overflow: hidden;
   position: relative;
