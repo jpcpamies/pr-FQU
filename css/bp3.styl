@@ -8,6 +8,7 @@
 	width 100%
 	.noCalendario
 		bottom 0 
+		border-right 1px solid borde
 		left 0
 		overflow-y auto
 		position fixed 
@@ -265,14 +266,64 @@
 									&:last-child
 										border-bottom none
 			.menuNavegacion
-				position fixed
-				left 0
-				bottom 0 
-				right 420px
-				height 68px
-				background blancoManchado
+				background rgba(white,.95)
 				border-top 1px solid borde
+				bottom 0 
+				height 48px
+				left 0
+				position fixed
+				right 420px
 				z-index 20
+				.boton
+					color grisMenu
+					display inline-block
+					width 24%
+					text-align center
+					max-width 150px
+					span
+						line-height 45px
+						font-size .8em
+						font-weight 400
+						margin-left 15px
+					.colaboradores
+						position relative
+						&:before
+							content '\f006'
+							font-family icomoon
+							font-size 1.2em
+							left -25px 
+							position absolute
+							top -13px
+					.contactar
+						position relative
+						&:before
+							content '\e603'
+							font-family icomoon
+							font-size 1.2em
+							left -25px 
+							position absolute
+							top -13px
+					.info
+						color azul
+						position relative
+						&:before
+							content '\e60c'
+							font-family icomoon
+							font-size 1.2em
+							left -25px 
+							position absolute
+							top -13px
+					.pubillas
+						position relative
+						&:before
+							content '\e102'
+							font-family icomoon
+							font-size 1.2em
+							left -25px 
+							position absolute
+							top -13px
+
+
 		.vistaMovil
 			display none
 	.calendario
