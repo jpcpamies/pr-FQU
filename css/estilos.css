@@ -2252,8 +2252,15 @@ background: -moz-linear-gradient(top,  rgba(247,247,247,0) 0%, rgba(175,175,175,
     position: fixed;
     z-index: 10;
   }
+  .header .sombra {
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 15;
+  }
   .header .degradado {
-    box-shadow: 0 0px 40px rgba(0,0,0,0.8) inset;
     background: #2b1d53;
     bottom: 0;
     left: 0;
