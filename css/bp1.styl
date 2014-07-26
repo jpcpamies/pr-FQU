@@ -134,7 +134,42 @@
 							transform: scale(1, 1.2);
 							-ms-transform: scale(1, 1.2);
 							-webkit-transform: scale(1, 1.2);
-		// .listaEventos
+		.listaEventos
+			.evento
+				width 92%
+				margin 10px auto 15px auto
+				.headerEvento
+					background blancoManchado
+					border-bottom 1px solid borde
+					border-radius 10px 10px 0 0 
+					padding 10px 0
+					text-align center 
+					span
+						color texto2
+						font-size 18px
+						font-weight 400
+				.footerEvento
+					background blancoManchado
+					border-radius  0 0  10px 10px
+					border-top 1px solid borde
+					padding 10px 0
+					position relative
+					height 47px
+					span
+						color texto2
+						font-size .8em
+						font-weight 400
+						position absolute
+						right 25px
+						&:after
+							content menu
+							font-family icomoon
+							font-size 1.2em
+							position relative
+							top 2px
+							left 10px
+				.plegado
+					background white
 			
 	.noCalendario
 		position relative
