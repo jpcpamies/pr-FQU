@@ -1,6 +1,6 @@
 {
 "CodeKitInfo": "This is a CodeKit 2.x project configuration file. It is designed to sync project settings across multiple machines. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. If you do so, you will likely cause CodeKit to crash. This file is not useful unless accompanied by the project that created it in CodeKit 2. This file is not backwards-compatible with CodeKit 1.x. For more information, see: http:\/\/incident57.com\/codekit",
-"creatorBuild": "17625",
+"creatorBuild": "17670",
 "files": {
 	"\/css\/bp1.css": {
 		"fileType": 16,
@@ -106,6 +106,21 @@
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
+		},
+	"\/css\/estilos.styl": {
+		"debugStyle": 0,
+		"fileType": 8,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"importCSS": 0,
+		"inputAbbreviatedPath": "\/css\/estilos.styl",
+		"outputAbbreviatedPath": "\/css\/estilos.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"resolveRelativeURLS": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0
 		},
 	"\/css\/normalize.css": {
 		"fileType": 16,
@@ -305,7 +320,7 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 25093,
+		"initialSize": 27074,
 		"inputAbbreviatedPath": "\/img\/logo\/logo.png",
 		"outputAbbreviatedPath": "\/img\/logo\/logo.png",
 		"outputPathIsOutsideProject": 0,
@@ -360,7 +375,7 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 7982,
+		"initialSize": 10150,
 		"inputAbbreviatedPath": "\/img\/logo\/logo_vertical.png",
 		"outputAbbreviatedPath": "\/img\/logo\/logo_vertical.png",
 		"outputPathIsOutsideProject": 0,
@@ -451,6 +466,17 @@
 		"initialSize": 189475,
 		"inputAbbreviatedPath": "\/img\/pintura.png",
 		"outputAbbreviatedPath": "\/img\/pintura.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/pintura2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 577366,
+		"inputAbbreviatedPath": "\/img\/pintura2.jpg",
+		"outputAbbreviatedPath": "\/img\/pintura2.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -649,6 +675,17 @@
 		"initialSize": 400449,
 		"inputAbbreviatedPath": "\/img\/pubilles\/pubillaGran2.png",
 		"outputAbbreviatedPath": "\/img\/pubilles\/pubillaGran2.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/rayos.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 17585,
+		"inputAbbreviatedPath": "\/img\/rayos.png",
+		"outputAbbreviatedPath": "\/img\/rayos.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

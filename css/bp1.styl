@@ -17,6 +17,7 @@
 			background negroInterface
 			border-left 5px solid rgba(negroOscuro,1)
 			border-right 5px solid rgba(negroOscuro,1)
+			// box-shadow 0 -1px 8px rgba(black,.7)
 			width 100%
 			height auto
 			position relative
@@ -37,7 +38,7 @@
 				&::-webkit-scrollbar
 					display none
 				li
-					background azul
+					background verde
 					border-radius 50%
 					display inline-block
 					height 50px
@@ -49,7 +50,7 @@
 					&:first-child
 						margin 0 20px 0 20px
 					a
-						color texto
+						color white
 						font-style italic
 						text-decoration none
 						span 
@@ -58,18 +59,19 @@
 							position absolute
 							top 28px
 		.eventoActual
-			background grisEventoActual
-			box-shadow 0 0 80px rgba(black,.7) inset
+			background #f2f2f2
+			box-shadow none
+			box-shadow 0 5px 8px rgba(black,.7) inset
 			// border-top 5px solid azulOscuro
-			color rgba(white,.85)
+			color texto2
 			position relative
 			z-index 5
 			.detalleEvento
 				font-weight 400
-				padding 25px 0 30px 0 
+				padding 30px 0 25px 0 
 				.logoEvento
 					float left
-					padding 5px 20px 0 20px
+					padding 5px 20px 0 30px
 					&:after
 						content micro
 						font-family icomoon
@@ -80,7 +82,7 @@
 					text-align left
 					text-transform uppercase
 				.tituloEvento
-					margin 0 40px 0 60px
+					margin 0 40px 0 70px
 			.tituloOuter
 				display none
 				height auto
@@ -132,6 +134,7 @@
 							-ms-transform: scale(1, 1.2);
 							-webkit-transform: scale(1, 1.2);
 		.listaEventos
+			margin 20px 0 0 0 
 			// Tipos de evento
 			.especial
 				.portada
@@ -191,7 +194,7 @@
 						-webkit-filter: brightness(0.8)grayscale(0.4);
 			.baile
 				.portada
-					border-top 2px solid azulOscuro
+					border-top 2px solid verde
 					.detallePortada
 						.desplegar
 							&:after 
@@ -199,7 +202,7 @@
 						.horaEvento
 							color negroInterface
 						.logoEvento
-							color azul
+							color verde
 							&:after
 								content pubillas
 						.sitioEvento
@@ -208,7 +211,7 @@
 							color rgba(black,.65)
 			.bous
 				.portada
-					border-top 2px solid azulOscuro
+					border-top 2px solid verde
 					.detallePortada
 						.desplegar
 							&:after 
@@ -216,7 +219,7 @@
 						.horaEvento
 							color negroInterface
 						.logoEvento
-							color azul
+							color verde
 							&:after
 								content entrada
 						.sitioEvento
@@ -227,11 +230,11 @@
 			.evento
 				background white
 				border-radius 5px
-				box-shadow 0 1px 2px rgba(black,.5)
+				box-shadow 0 1px 2px rgba(black,.3)
 				margin 10px auto 15px auto
 				width 95%
-				&:nth-child(odd)
-					background #f2f7ff
+				&:nth-child(even)
+					background #e0eae1
 				.portada
 					border-radius 5px
 					color texto
@@ -342,7 +345,7 @@
 									font-weight 400
 				.unaPubilla
 					.back
-						color rgba(azul,1)
+						color rgba(verde,1)
 						padding 20px 0 25px 18px
 						&:last-child 
 							padding 20px 0 45px 18px
@@ -624,37 +627,115 @@
 				content email
 				font-family icomoon
 				vertical-align bottom
+.logo
+	position relative
+	text-align center
+	top 50px
+	z-index 5
+	height 0
+	img 
+		width 200px
 .header
+	background red
 	height 500px 
 	overflow hidden
 	position relative
 	width 100%
-	.fondo
+	.efecto
+		position absolute
+		top 0 
+		right 0
+		bottom 0 
+		left 0
+		z-index 4
+		.rayo
+			width 100%
+			height 500px
+			animation animacion 22s infinite
+			-webkit-animation animacion 22s infinite
+			.rayoInner
+				background-image url(../img/rayos.png)
+				background-position 0 0
+				background-repeat repeat-x repeat-y
+				background-size 80% auto
+				width 100%
+				height 500px
+		.rayo2
+			// opacity 0
+			width 100%
+			height 500px
+			animation animacion2 42s infinite
+			-webkit-animation animacion2 42s infinite
+			.rayoInner
+				background-image url(../img/rayos.png)
+				background-position 0 0
+				background-repeat repeat-x repeat-y
+				background-size 80% auto
+				width 100%
+				height 500px
+		.rayo3
+			// opacity 0
+			width 100%
+			height 500px
+			animation animacion3 62s infinite
+			-webkit-animation animacion3 62s infinite
+			.rayoInner
+				background-image url(../img/rayos.png)
+				background-position 0 0
+				background-repeat repeat-x repeat-y
+				background-size 80% auto
+				width 100%
+				height 500px
+	.degradado
 		background #2b1d53
 		bottom 0
 		left 0
 		position absolute
 		right 0
 		top 0
-		.fondoInner
+		.marco
 			height 250%
-			width 250%
+			width 190%
 			position relative
-			top 0px
-			left -80%
+			top 80px
+			left -50%
 			@css {
-					background: rgb(215,81,93);
-					background: -moz-radial-gradient(center, ellipse cover,  rgba(215,81,93,1) 0%, rgba(215,81,93,1) 6%, rgba(43,29,83,1) 63%);
-					background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(215,81,93,1)), color-stop(6%,rgba(215,81,93,1)), color-stop(63%,rgba(43,29,83,1)));
-					background: -webkit-radial-gradient(center, ellipse cover,  rgba(215,81,93,1) 0%,rgba(215,81,93,1) 6%,rgba(43,29,83,1) 63%);
-					background: -o-radial-gradient(center, ellipse cover,  rgba(215,81,93,1) 0%,rgba(215,81,93,1) 6%,rgba(43,29,83,1) 63%);
-					background: -ms-radial-gradient(center, ellipse cover,  rgba(215,81,93,1) 0%,rgba(215,81,93,1) 6%,rgba(43,29,83,1) 63%);
-					background: radial-gradient(ellipse at center,  rgba(215,81,93,1) 0%,rgba(215,81,93,1) 6%,rgba(43,29,83,1) 63%);
-					filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d7515d', endColorstr='#2b1d53',GradientType=1 );
+				background: rgb(215,81,93);
+				background: -moz-radial-gradient(center, ellipse cover,  rgba(215,81,93,1) 0%, rgba(215,81,93,1) 23%, rgba(43,29,83,1) 71%, rgba(43,29,83,1) 71%);
+				background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(215,81,93,1)), color-stop(23%,rgba(215,81,93,1)), color-stop(71%,rgba(43,29,83,1)), color-stop(71%,rgba(43,29,83,1)));
+				background: -webkit-radial-gradient(center, ellipse cover,  rgba(215,81,93,1) 0%,rgba(215,81,93,1) 23%,rgba(43,29,83,1) 71%,rgba(43,29,83,1) 71%);
+				background: -o-radial-gradient(center, ellipse cover,  rgba(215,81,93,1) 0%,rgba(215,81,93,1) 23%,rgba(43,29,83,1) 71%,rgba(43,29,83,1) 71%);
+				background: -ms-radial-gradient(center, ellipse cover,  rgba(215,81,93,1) 0%,rgba(215,81,93,1) 23%,rgba(43,29,83,1) 71%,rgba(43,29,83,1) 71%);
+				background: radial-gradient(ellipse at center,  rgba(215,81,93,1) 0%,rgba(215,81,93,1) 23%,rgba(43,29,83,1) 71%,rgba(43,29,83,1) 71%);
+				filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d7515d', endColorstr='#2b1d53',GradientType=1 );
 
 			}
+	.social
+		position relative
+		.twitter
+			text-align center
+			position relative
+			top 100px
+			left -45px
+			z-index 5
+		.facebook
+			text-align center
+			position relative
+			top 72px
+			left 55px
+			z-index 5
+	.titulo
+		color white
+		font-size 24px
+		margin 200px 0 0 0 
+		position relative
+		text-align center
+		text-transform uppercase
+		text-shadow 1px 1px 1px rgba(black,.5)
+		top 70px
+		z-index 5
 .llamadaLabel
-	background azul
+	background verde
 	float right
 	transition all .5s
 	-webkit-transition all .5s
@@ -722,6 +803,7 @@
 #llamadaCalendario:checked ~ .llamadaLabel
 	background none
 #llamadaCalendario:checked ~ .llamadaLabel .boton 
+	color texto2
 	transform rotateZ(180deg)
 	-ms-transform rotateZ(180deg)
 	-webkit-transform rotateZ(180deg)
@@ -732,18 +814,81 @@
 // ANIMACIONES
 @keyframes animacion
 	0%
-		transform translate(-100%, -100%)
-		-ms-transform translate(-100%, -100%)
-		-webkit-transform translate(-100%, -100%)
-	50%
-		transform translate(40%, 10%)
-		-ms-transform translate(40%, 10%)
-		-webkit-transform translate(40%, 10%)
-
+		transform translate(0%, 0%)
+		-ms-transform translate(0%, 0%)
+		-webkit-transform translate(0%, 0%)
+		opacity 0
+	25%
+		transform translate(50%, 50%)
+		-ms-transform translate(50%, 50%)
+		-webkit-transform translate(50%, 50%)
+		opacity .3
+	80%
+		transform translate(100%, 100%)
+		-ms-transform translate(100%, 100%)
+		-webkit-transform translate(100%, 100%)
+		opacity .3
+	96%
+		opacity 0
+	97%
+		transform translate(0%, 0%)
+		-ms-transform translate(0%, 0%)
+		-webkit-transform translate(0%, 0%)
+		opacity 0
 	100%
-		transform translate(-100%, -100%)
-		-ms-transform translate(-100%, -100%)
-		-webkit-transform translate(-100%, -100%)
+		opacity 0
+
+@keyframes animacion2
+	0%
+		transform translate(0%, 0%)
+		-ms-transform translate(0%, 0%)
+		-webkit-transform translate(0%, 0%)
+		opacity 0
+	25%
+		transform translate(50%, 50%)
+		-ms-transform translate(50%, 50%)
+		-webkit-transform translate(50%, 50%)
+		opacity .3
+	80%
+		transform translate(100%, 100%)
+		-ms-transform translate(100%, 100%)
+		-webkit-transform translate(100%, 100%)
+		opacity .3
+	96%
+		opacity 0
+	97%
+		transform translate(0%, 0%)
+		-ms-transform translate(0%, 0%)
+		-webkit-transform translate(0%, 0%)
+		opacity 0
+	100%
+		opacity 0
+
+@keyframes animacion3
+	0%
+		transform translate(0%, 0%)
+		-ms-transform translate(0%, 0%)
+		-webkit-transform translate(0%, 0%)
+		opacity 0
+	25%
+		transform translate(50%, 50%)
+		-ms-transform translate(50%, 50%)
+		-webkit-transform translate(50%, 50%)
+		opacity .3
+	80%
+		transform translate(100%, 100%)
+		-ms-transform translate(100%, 100%)
+		-webkit-transform translate(100%, 100%)
+		opacity .3
+	96%
+		opacity 0
+	97%
+		transform translate(0%, 0%)
+		-ms-transform translate(0%, 0%)
+		-webkit-transform translate(0%, 0%)
+		opacity 0
+	100%
+		opacity 0
 
 @keyframes timeLine
 	0%
@@ -766,3 +911,8 @@
 		opacity 0
 	100%
 		opacity 1
+
+
+
+
+
