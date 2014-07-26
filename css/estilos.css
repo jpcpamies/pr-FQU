@@ -1698,7 +1698,7 @@ background: rgb(215,81,93);
 @media screen and (min-width: 770px) {
   .contenidos {
     bottom: 0;
-    left: 80px;
+    left: 0;
     position: fixed;
     right: 0;
     top: 85px;
@@ -1707,27 +1707,14 @@ background: rgb(215,81,93);
   .contenidos .noCalendario {
     bottom: 0;
     left: 0;
-    margin: 85px 420px 0 80px;
     overflow-y: auto;
     position: fixed;
-    right: 0;
-    top: 0;
+    right: 420px;
+    top: 85px;
     z-index: 0;
   }
   .contenidos .noCalendario .vistaEscritorio {
     display: block;
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-  }
-  .contenidos .noCalendario .vistaEscritorio .escritorioInner {
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
   }
   .contenidos .noCalendario .vistaEscritorio .escritorioInner .contienePubillas {
     background: #fff;
@@ -1911,21 +1898,23 @@ background: -moz-linear-gradient(top,  rgba(247,247,247,0) 0%, rgba(175,175,175,
     position: relative;
   }
   .contenidos .noCalendario .vistaEscritorio .escritorioInner .contieneInformacion .informacion .infoHeader {
+    background: #f8f8f8;
+    border-bottom: 1px solid #dcdcdc;
     color: rgba(0,0,0,0.75);
     height: 68px;
+    position: fixed;
     width: 100%;
+    z-index: 15;
   }
   .contenidos .noCalendario .vistaEscritorio .escritorioInner .contieneInformacion .informacion .infoHeader h2 {
-    background: #fff;
     font-size: 24px;
     font-weight: 300;
-    left: 80px;
-    padding: 20px;
-    position: fixed;
-    right: 0;
-    text-align: left;
-    top: 85px;
-    z-index: 50;
+    line-height: 68px;
+    margin-left: 20px;
+  }
+  .contenidos .noCalendario .vistaEscritorio .escritorioInner .contieneInformacion .informacion .infoOuter {
+    position: relative;
+    top: 68px;
   }
   .contenidos .noCalendario .vistaEscritorio .escritorioInner .contieneInformacion .informacion .infoOuter .infoInner {
     border-bottom: 1px solid rgba(0,0,0,0.1);
@@ -2260,130 +2249,6 @@ background: rgb(215,81,93);
   .llamadaLabel,
   .llamadaTitulo {
     display: none;
-  }
-  .menu {
-    background: #212121;
-    bottom: 0;
-    display: block;
-    left: 0;
-    position: fixed;
-    top: 85px;
-    width: 80px;
-    z-index: 20;
-  }
-  .menu ul {
-    color: rgba(255,255,255,0.8);
-    text-align: center;
-  }
-  .menu ul .botonOuter {
-    cursor: pointer;
-    height: 80px;
-  }
-  .menu ul .botonOuter .botonInner {
-    position: relative;
-    text-shadow: 0 2px 5px rgba(0,0,0,0.6);
-    width: 100%;
-  }
-  .menu ul .botonOuter .botonInner h3 {
-    bottom: 28px;
-    font-size: 0.55em;
-    position: relative;
-  }
-  .menu ul .botonOuter .botonInner .icono:after {
-    bottom: 24px;
-    display: block;
-    font-family: icomoon;
-    font-size: 2em;
-    left: 38%;
-    position: absolute;
-  }
-  .menu ul .botonOuter .botonInner .info {
-    color: #80b21e;
-    cursor: pointer;
-  }
-  .menu ul .botonOuter .botonInner .info:after {
-    content: "\e606";
-  }
-  .menu ul .botonOuter .botonInner .patro {
-    cursor: pointer;
-  }
-  .menu ul .botonOuter .botonInner .patro:after {
-    content: "\e2fe";
-  }
-  .menu ul .botonOuter .botonInner .pubilles {
-    cursor: pointer;
-  }
-  .menu ul .botonOuter .botonInner .pubilles:after {
-    content: "\e60f";
-  }
-  .menu ul .botonOuter .contactar {
-    color: rgba(255,255,255,0.8);
-    cursor: pointer;
-    position: absolute;
-    bottom: 150px;
-    left: 15px;
-    z-index: 500;
-  }
-  .menu ul .botonOuter .contactar h3 {
-    top: 48px;
-    font-size: 0.55em;
-    position: relative;
-  }
-  .menu ul .botonOuter .contactar:after {
-    bottom: 24px;
-    content: "\e60d";
-    display: block;
-    font-family: icomoon;
-  }
-  .menu ul .botonOuter .logo {
-    position: absolute;
-    top: 85%;
-    left: 15px;
-  }
-  .menu ul .botonOuter .logo img {
-    width: 50px;
-  }
-  .menu ul .botonOuter .marcador1 {
-    position: relative;
-  }
-  .menu ul .botonOuter .marcador1:after {
-    border-top: solid 10px transparent;
-    border-right: solid 10px transparent;
-    border-bottom: solid 10px transparent;
-    border-left: solid 10px #212121;
-    content: '';
-    position: absolute;
-    top: -50px;
-    right: -20px;
-  }
-  .menu ul .botonOuter .marcador2 {
-    position: relative;
-  }
-  .menu ul .botonOuter .marcador2:after {
-    border-top: solid 10px transparent;
-    border-right: solid 10px transparent;
-    border-bottom: solid 10px transparent;
-    border-left: solid 10px #212121;
-    content: '';
-    position: absolute;
-    top: -50px;
-    right: -20px;
-  }
-  .menu ul .botonOuter .marcador3 {
-    position: relative;
-  }
-  .menu ul .botonOuter .marcador3:after {
-    border-top: solid 10px transparent;
-    border-right: solid 10px transparent;
-    border-bottom: solid 10px transparent;
-    border-left: solid 10px #212121;
-    content: '';
-    position: absolute;
-    top: -50px;
-    right: -20px;
-  }
-  .menu ul .botonOuter .top {
-    margin: 85px 0 0 0;
   }
   .tituloOuter {
     animation: none;

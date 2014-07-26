@@ -1,7 +1,7 @@
 
 .contenidos
 	bottom 0 
-	left 80px
+	left 0
 	position fixed
 	right 0
 	top 85px
@@ -9,25 +9,14 @@
 	.noCalendario
 		bottom 0 
 		left 0
-		margin 85px 420px 0 80px 
 		overflow-y auto
 		position fixed 
-		right 0
-		top 0
+		right 420px
+		top 85px
 		z-index 0
 		.vistaEscritorio
 			display block
-			position absolute
-			top 0
-			right 0
-			bottom 0
-			left 0
 			.escritorioInner
-				position absolute
-				top 0
-				right 0
-				bottom 0
-				left 0
 				.contienePubillas
 					background white
 					position absolute
@@ -181,21 +170,21 @@
 					.informacion
 						position relative
 						.infoHeader
+							background blancoManchado
+							border-bottom 1px solid borde
 							color texto2
 							height 68px
+							position fixed
 							width 100%
+							z-index 15
 							h2
-								background white
 								font-size 24px
 								font-weight 300
-								left 80px
-								padding 20px
-								position fixed
-								right 0
-								text-align left
-								top 85px 
-								z-index 50
+								line-height 68px
+								margin-left 20px
 						.infoOuter
+							position relative
+							top 68px
 							.infoInner
 								border-bottom 1px solid rgba(black,.1)
 								&:last-child
@@ -473,108 +462,6 @@
 .llamadaLabel
 .llamadaTitulo
 	display none
-.menu
-	background menuLateral
-	bottom 0
-	display block
-	left 0 
-	position fixed
-	top 85px 
-	width 80px
-	z-index 20
-	ul
-		color rgba(white,.8)
-		text-align center
-		.botonOuter
-			cursor pointer
-			height 80px
-			.botonInner
-				position relative
-				text-shadow 0 2px 5px rgba(black,.6)
-				width 100%
-				h3 
-					bottom 28px
-					font-size .55em
-					position relative
-				.icono
-					&:after
-						bottom 24px
-						display block
-						font-family icomoon
-						font-size 2em
-						left 38%
-						position absolute
-				.info
-					color verde
-					cursor pointer
-					&:after
-						content info
-				.patro
-					cursor pointer
-					&:after
-						content colaboradores
-				.pubilles
-					cursor pointer
-					&:after
-						content pubillas
-			.contactar
-				color rgba(white,.8)
-				cursor pointer
-				position absolute
-				bottom 150px
-				left 15px
-				z-index 500
-				h3
-					top 48px
-					font-size .55em
-					position relative
-				&:after
-					bottom 24px
-					content email
-					display block
-					font-family icomoon
-			.logo
-				position absolute
-				top 85%
-				left 15px
-				// opacity .8
-				img
-					width 50px
-			.marcador1
-				position relative
-				&:after
-					border-top solid 10px transparent
-					border-right solid 10px transparent
-					border-bottom solid 10px transparent
-					border-left solid 10px menuLateral
-					content ''
-					position absolute
-					top -50px
-					right -20px
-			.marcador2
-				position relative
-				&:after
-					border-top solid 10px transparent
-					border-right solid 10px transparent
-					border-bottom solid 10px transparent
-					border-left solid 10px menuLateral
-					content ''
-					position absolute
-					top -50px
-					right -20px
-			.marcador3
-				position relative
-				&:after
-					border-top solid 10px transparent
-					border-right solid 10px transparent
-					border-bottom solid 10px transparent
-					border-left solid 10px menuLateral
-					content ''
-					position absolute
-					top -50px
-					right -20px
-			.top
-				margin 85px 0 0 0 
 .tituloOuter
 	animation none
 	-webkit-animation none
