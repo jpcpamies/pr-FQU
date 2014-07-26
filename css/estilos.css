@@ -282,7 +282,7 @@ a:active {
 }
 .contenidos .calendario .listaEventos .evento .headerEvento {
   background: #f8f8f8;
-  border-bottom: 1px solid #dcdcdc;
+  border-bottom: 3px solid #177dd4;
   border-radius: 10px 10px 0 0;
   padding: 10px 0;
   text-align: center;
@@ -371,6 +371,15 @@ a:active {
   right: 0;
   top: 0;
   z-index: 0;
+}
+.contenidos .calendario .listaEventos .evento .desplegado .hero .sombra {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+  box-shadow: 0 -100px 100px rgba(0,0,0,0.5) inset;
 }
 .contenidos .calendario .listaEventos .evento .plegado {
   background: #fff;
