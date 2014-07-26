@@ -136,9 +136,10 @@ a:active {
   -webkit-transition: all 0.5s;
 }
 .contenidos .calendario .botonera {
-  background: #222326;
-  border-left: 5px solid #121314;
-  border-right: 5px solid #121314;
+  background: #fff;
+  border: 1px solid #dcdcdc;
+  border-left: 5px solid #cfcfcf;
+  border-right: 5px solid #cfcfcf;
   width: 100%;
   height: auto;
   position: relative;
@@ -147,7 +148,7 @@ a:active {
 .contenidos .calendario .botonera:after {
   border-bottom: 37px solid transparent;
   border-left: 10px solid transparent;
-  border-right: 8px solid #121314;
+  border-right: 8px solid #cfcfcf;
   border-top: 37px solid transparent;
   content: '';
   position: absolute;
@@ -163,7 +164,7 @@ a:active {
   display: none;
 }
 .contenidos .calendario .botonera ul li {
-  background: #80b21e;
+  background: #177dd4;
   border-radius: 50%;
   display: inline-block;
   height: 50px;
@@ -188,7 +189,7 @@ a:active {
   top: 28px;
 }
 .contenidos .calendario .eventoActual {
-  background: #f2f2f2;
+  background: #eff3f6;
   box-shadow: none;
   box-shadow: 0 5px 8px rgba(0,0,0,0.7) inset;
   color: rgba(0,0,0,0.75);
@@ -978,7 +979,7 @@ background: rgb(215,81,93);
   z-index: 5;
 }
 .llamadaLabel {
-  background: #80b21e;
+  background: #177dd4;
   float: right;
   transition: all 0.5s;
   -webkit-transition: all 0.5s;
@@ -1006,7 +1007,8 @@ background: rgb(215,81,93);
   line-height: 80px;
 }
 .llamadaTitulo {
-  background: #2a2c2f;
+  background: #eff3f6;
+  border-bottom: 1px solid #dcdcdc;
   font-weight: 400;
   height: 80px;
   width: 100%;
@@ -1016,7 +1018,7 @@ background: rgb(215,81,93);
   z-index: 5;
 }
 .llamadaTitulo h2 {
-  color: rgba(255,255,255,0.8);
+  color: rgba(0,0,0,0.75);
   font-size: 21px;
   font-style: italic;
   letter-spacing: 1px;

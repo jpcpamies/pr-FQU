@@ -98,15 +98,6 @@
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0
 		},
-	"\/css\/estilos.css": {
-		"fileType": 16,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/css\/estilos.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/css\/estilos.styl": {
 		"debugStyle": 0,
 		"fileType": 8,
@@ -140,6 +131,21 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/css\/reparando noCalendario bp3.styl": {
+		"debugStyle": 0,
+		"fileType": 8,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"importCSS": 0,
+		"inputAbbreviatedPath": "\/css\/reparando noCalendario bp3.styl",
+		"outputAbbreviatedPath": "\/css\/reparando noCalendario bp3.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"resolveRelativeURLS": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0
+		},
 	"\/css\/reset.styl": {
 		"debugStyle": 0,
 		"fileType": 8,
@@ -155,65 +161,38 @@
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0
 		},
-	"\/html-parts\/galeriaPubilles.html": {
+	"\/html-parts\/contieneColaboradores.html": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/html-parts\/galeriaPubilles.html",
+		"inputAbbreviatedPath": "\/html-parts\/contieneColaboradores.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/html-parts\/galeriaSalutacions.html": {
+	"\/html-parts\/contieneInformacion.html": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/html-parts\/galeriaSalutacions.html",
+		"inputAbbreviatedPath": "\/html-parts\/contieneInformacion.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/html-parts\/informacio.html": {
+	"\/html-parts\/contienePubillas.html": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/html-parts\/informacio.html",
+		"inputAbbreviatedPath": "\/html-parts\/contienePubillas.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/html-parts\/listaPubillas.html": {
+	"\/html-parts\/unaPubilla.html": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/html-parts\/listaPubillas.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/html-parts\/patrocinadores.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/html-parts\/patrocinadores.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/html-parts\/personalitats\/alcaldesa.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/html-parts\/personalitats\/alcaldesa.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/html-parts\/pubilles\/postPubilla.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/html-parts\/pubilles\/postPubilla.html",
+		"inputAbbreviatedPath": "\/html-parts\/unaPubilla.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -240,6 +219,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/eventos\/concierto2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 31602,
+		"inputAbbreviatedPath": "\/img\/eventos\/concierto2.jpg",
+		"outputAbbreviatedPath": "\/img\/eventos\/concierto2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/eventos\/techno.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -247,6 +237,17 @@
 		"initialSize": 127517,
 		"inputAbbreviatedPath": "\/img\/eventos\/techno.jpg",
 		"outputAbbreviatedPath": "\/img\/eventos\/techno.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/eventos\/techno2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 30021,
+		"inputAbbreviatedPath": "\/img\/eventos\/techno2.jpg",
+		"outputAbbreviatedPath": "\/img\/eventos\/techno2.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -269,6 +270,17 @@
 		"initialSize": 26034,
 		"inputAbbreviatedPath": "\/img\/logo\/animalons.png",
 		"outputAbbreviatedPath": "\/img\/logo\/animalons.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/logo\/energy.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 54267,
+		"inputAbbreviatedPath": "\/img\/logo\/energy.png",
+		"outputAbbreviatedPath": "\/img\/logo\/energy.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -306,6 +318,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/logo\/logo2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 38775,
+		"inputAbbreviatedPath": "\/img\/logo\/logo2.png",
+		"outputAbbreviatedPath": "\/img\/logo\/logo2.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/logo\/logo_reeson_blanco.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4843,
+		"inputAbbreviatedPath": "\/img\/logo\/logo_reeson_blanco.png",
+		"outputAbbreviatedPath": "\/img\/logo\/logo_reeson_blanco.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/logo\/logo_reeson_negro.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -313,6 +347,50 @@
 		"initialSize": 4642,
 		"inputAbbreviatedPath": "\/img\/logo\/logo_reeson_negro.png",
 		"outputAbbreviatedPath": "\/img\/logo\/logo_reeson_negro.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/logo\/logo_reeson_vertical.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3867,
+		"inputAbbreviatedPath": "\/img\/logo\/logo_reeson_vertical.png",
+		"outputAbbreviatedPath": "\/img\/logo\/logo_reeson_vertical.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/logo\/logo_vertical.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 10150,
+		"inputAbbreviatedPath": "\/img\/logo\/logo_vertical.png",
+		"outputAbbreviatedPath": "\/img\/logo\/logo_vertical.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/logo\/logo_vertical2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 10005,
+		"inputAbbreviatedPath": "\/img\/logo\/logo_vertical2.png",
+		"outputAbbreviatedPath": "\/img\/logo\/logo_vertical2.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/logo\/logoBlanco.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 62221,
+		"inputAbbreviatedPath": "\/img\/logo\/logoBlanco.png",
+		"outputAbbreviatedPath": "\/img\/logo\/logoBlanco.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -339,6 +417,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/logo\/logoVerdeBlanco.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 36056,
+		"inputAbbreviatedPath": "\/img\/logo\/logoVerdeBlanco.png",
+		"outputAbbreviatedPath": "\/img\/logo\/logoVerdeBlanco.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/logo\/ulldeclinic.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -346,6 +435,39 @@
 		"initialSize": 30141,
 		"inputAbbreviatedPath": "\/img\/logo\/ulldeclinic.png",
 		"outputAbbreviatedPath": "\/img\/logo\/ulldeclinic.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/pintura.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 136974,
+		"inputAbbreviatedPath": "\/img\/pintura.jpg",
+		"outputAbbreviatedPath": "\/img\/pintura.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/pintura.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 189475,
+		"inputAbbreviatedPath": "\/img\/pintura.png",
+		"outputAbbreviatedPath": "\/img\/pintura.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/pintura2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 577366,
+		"inputAbbreviatedPath": "\/img\/pintura2.jpg",
+		"outputAbbreviatedPath": "\/img\/pintura2.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -515,6 +637,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/pubilles\/pubillaGran1.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 274204,
+		"inputAbbreviatedPath": "\/img\/pubilles\/pubillaGran1.png",
+		"outputAbbreviatedPath": "\/img\/pubilles\/pubillaGran1.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/pubilles\/pubillaGran2.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -522,6 +655,28 @@
 		"initialSize": 40609,
 		"inputAbbreviatedPath": "\/img\/pubilles\/pubillaGran2.jpg",
 		"outputAbbreviatedPath": "\/img\/pubilles\/pubillaGran2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/pubilles\/pubillaGran2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 400449,
+		"inputAbbreviatedPath": "\/img\/pubilles\/pubillaGran2.png",
+		"outputAbbreviatedPath": "\/img\/pubilles\/pubillaGran2.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/rayos.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 17585,
+		"inputAbbreviatedPath": "\/img\/rayos.png",
+		"outputAbbreviatedPath": "\/img\/rayos.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -601,6 +756,17 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/js\/min\/main-min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/min\/main-min.js",
+		"outputAbbreviatedPath": "\/js\/min\/min\/main-min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
 	"\/js\/vendor\/jquery-1.10.1.min-ck.js": {
 		"fileType": 64,
 		"ignore": 0,
@@ -640,17 +806,6 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/vendor\/modernizr-2.6.2-respond-1.1.0.min.js",
 		"outputAbbreviatedPath": "\/js\/vendor\/min\/modernizr-2.6.2-respond-1.1.0.min-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/js\/vendor\/scrolltop.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/js\/vendor\/scrolltop.js",
-		"outputAbbreviatedPath": "\/js\/vendor\/min\/scrolltop-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
