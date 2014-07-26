@@ -395,6 +395,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/logo\/logoPlano.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 23453,
+		"inputAbbreviatedPath": "\/img\/logo\/logoPlano.png",
+		"outputAbbreviatedPath": "\/img\/logo\/logoPlano.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/logo\/logoRojo.png": {
 		"fileType": 32768,
 		"ignore": 0,

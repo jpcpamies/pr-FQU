@@ -465,6 +465,22 @@ a:active {
   line-height: 25px;
   margin: 0 9px 18px 9px;
 }
+.contenidos .calendario .listaEventos .finDia {
+  width: 120px;
+  height: 200px;
+  position: relative;
+  opacity: 0.5;
+  margin: 0 auto;
+  top: 50px;
+}
+.contenidos .calendario .listaEventos .finDia .finDiaInner {
+  background-image: url("../img/logo/logoPlano.png");
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: 150px auto;
+  width: 150px;
+  height: 150px;
+}
 .contenidos .noCalendario {
   position: relative;
   z-index: 5;
