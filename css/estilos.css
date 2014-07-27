@@ -958,9 +958,6 @@ background: rgb(215,81,93);
 #eventoDesplegado {
   display: none;
 }
-#eventoDesplegado:checked ~ .evento .desplegado {
-  display: block;
-}
 #eventoDesplegado:checked ~ .evento .plegado {
   display: none;
 }
