@@ -201,7 +201,7 @@ a:active {
 }
 .contenidos .calendario .eventoActual .detalleEvento {
   font-weight: 400;
-  padding: 30px 0 25px 0;
+  padding: 30px 0 30px 0;
 }
 .contenidos .calendario .eventoActual .detalleEvento .logoEvento {
   float: left;
@@ -212,14 +212,14 @@ a:active {
   font-family: icomoon;
 }
 .contenidos .calendario .eventoActual .detalleEvento .sitioEvento {
-  color: rgba(255,255,255,0.5);
+  color: rgba(0,0,0,0.5);
   font-size: 12px;
-  margin: 3px 0 0 60px;
+  margin: 5px 0 0 75px;
   text-align: left;
   text-transform: uppercase;
 }
 .contenidos .calendario .eventoActual .detalleEvento .tituloEvento {
-  margin: 0 40px 0 70px;
+  margin: 0 40px 0 75px;
 }
 .contenidos .calendario .eventoActual .tituloOuter {
   display: none;
@@ -993,6 +993,9 @@ background: rgb(215,81,93);
 }
 #eventoDesplegado:checked ~ .evento .plegado {
   display: none;
+}
+#eventoDesplegado:checked ~ .evento .footerEvento span {
+  color: #177dd4;
 }
 #llamadaCalendario {
   display: none;
