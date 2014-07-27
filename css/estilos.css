@@ -88,7 +88,7 @@ body {
   width: 100%;
 }
 ::selection {
-  background: #80b21e;
+  background: #177dd4;
   color: #fff;
 }
 a:link {
@@ -325,7 +325,7 @@ a:active {
   font-family: 'Open Sans', sans-serif;
   font-size: 17px;
   line-height: 24px;
-  padding: 9px 9px 35px 9px;
+  padding: 17px 17px 35px 17px;
 }
 .contenidos .calendario .listaEventos .contieneEvento .evento .desplegado .contenido .texto p {
   padding: 9px;
@@ -357,13 +357,13 @@ a:active {
   width: 75%;
 }
 .contenidos .calendario .listaEventos .contieneEvento .evento .desplegado .hero .detalle .noLogo .sitioEvento {
-  font-size: 0.75em;
+  font-size: 12px;
   font-weight: 300;
-  margin-top: 10px;
+  margin-top: 7px;
   text-transform: uppercase;
 }
 .contenidos .calendario .listaEventos .contieneEvento .evento .desplegado .hero .imagen {
-  -webkit-filter: brightness(0.8) grayscale(0.1);
+  -webkit-filter: grayscale(0.4);
   background-image: url("../img/eventos/techno.jpg");
   background-position: 0 0;
   background-repeat: no-repeat;
@@ -389,6 +389,7 @@ a:active {
   padding: 18px 0 18px 18px;
   font-size: 18px;
   font-family: 'Open Sans', sans-serif;
+  vertical-align: 25px;
 }
 .contenidos .calendario .listaEventos .contieneEvento .evento .plegado .logoEvento {
   position: relative;
@@ -405,13 +406,13 @@ a:active {
 .contenidos .calendario .listaEventos .contieneEvento .evento .plegado .sitioEvento {
   margin-left: 70px;
   text-transform: uppercase;
-  font-size: 0.75em;
+  font-size: 12px;
   color: #a4a8aa;
   margin-top: 0px;
 }
 .contenidos .calendario .listaEventos .contieneEvento .evento .plegado .tituloEvento {
   margin: 0 10px 0 70px;
-  padding: 0 10px 9px 0;
+  padding: 0 10px 5px 0;
 }
 .contenidos .noCalendario {
   position: relative;
