@@ -141,8 +141,8 @@ a:active {
 .contenidos .calendario .botonera {
   background: #fff;
   border: 1px solid #dcdcdc;
-  border-left: 5px solid #cfcfcf;
-  border-right: 5px solid #cfcfcf;
+  border-left: 5px solid #c2c2c2;
+  border-right: 5px solid #c2c2c2;
   width: 100%;
   height: auto;
   position: relative;
@@ -151,7 +151,7 @@ a:active {
 .contenidos .calendario .botonera:after {
   border-bottom: 37px solid transparent;
   border-left: 10px solid transparent;
-  border-right: 8px solid #cfcfcf;
+  border-right: 8px solid #c2c2c2;
   border-top: 37px solid transparent;
   content: '';
   position: absolute;
