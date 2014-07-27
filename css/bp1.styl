@@ -170,6 +170,7 @@
 								position relative
 								top 2px
 					.desplegado
+						display none
 						.contenido
 							background white
 							.texto
@@ -741,6 +742,10 @@
 
 
 #eventoDesplegado 
+	display none
+#eventoDesplegado:checked ~ .evento .desplegado
+	display block
+#eventoDesplegado:checked ~ .evento .plegado
 	display none
 // ====================
 #llamadaCalendario

@@ -315,6 +315,9 @@ a:active {
   position: relative;
   top: 2px;
 }
+.contenidos .calendario .listaEventos .contieneEvento .evento .desplegado {
+  display: none;
+}
 .contenidos .calendario .listaEventos .contieneEvento .evento .desplegado .contenido {
   background: #fff;
 }
@@ -983,6 +986,12 @@ background: rgb(215,81,93);
   overflow: hidden;
 }
 #eventoDesplegado {
+  display: none;
+}
+#eventoDesplegado:checked ~ .evento .desplegado {
+  display: block;
+}
+#eventoDesplegado:checked ~ .evento .plegado {
   display: none;
 }
 #llamadaCalendario {
