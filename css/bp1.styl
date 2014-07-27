@@ -603,41 +603,13 @@
 		left 0
 		z-index 4
 		.rayo
-			width 100%
-			height 500px
-			animation animacion 22s infinite
-			-webkit-animation animacion 22s infinite
+			animation animacion 5s infinite
+			-webkit-animation animacion 5s infinite
 			.rayoInner
 				background-image url(../img/rayos.png)
 				background-position 0 0
 				background-repeat repeat-x repeat-y
-				background-size 80% auto
-				width 100%
-				height 500px
-		.rayo2
-			// opacity 0
-			width 100%
-			height 500px
-			animation animacion2 42s infinite
-			-webkit-animation animacion2 42s infinite
-			.rayoInner
-				background-image url(../img/rayos.png)
-				background-position 0 0
-				background-repeat repeat-x repeat-y
-				background-size 80% auto
-				width 100%
-				height 500px
-		.rayo3
-			// opacity 0
-			width 100%
-			height 500px
-			animation animacion3 62s infinite
-			-webkit-animation animacion3 62s infinite
-			.rayoInner
-				background-image url(../img/rayos.png)
-				background-position 0 0
-				background-repeat repeat-x repeat-y
-				background-size 80% auto
+				background-size 100% auto
 				width 100%
 				height 500px
 	.degradado
@@ -739,7 +711,6 @@
 .wraper
 	overflow hidden
 
-// Acciones CHECKBOX
 
 
 #eventoDesplegado 
@@ -776,8 +747,6 @@
 #llamadaCalendario:checked ~ .llamadaTitulo
 	margin-left -100%
 
-
-// ANIMACIONES
 @keyframes animacion
 	0%
 		transform translate(0%, 0%)
@@ -785,99 +754,26 @@
 		-webkit-transform translate(0%, 0%)
 		opacity 0
 	25%
-		transform translate(50%, 50%)
-		-ms-transform translate(50%, 50%)
-		-webkit-transform translate(50%, 50%)
+		opacity .4
+	50%
 		opacity .3
-	80%
-		transform translate(100%, 100%)
-		-ms-transform translate(100%, 100%)
-		-webkit-transform translate(100%, 100%)
-		opacity .3
-	96%
+	75%
+		opacity .2
+	95%
+		transform translate(100%, 110%)
+		-ms-transform translate(100%, 110%)
+		-webkit-transform translate(100%, 110%)
+		opacity .4
+	95%
+		transform translate(100%, 110%)
+		-ms-transform translate(100%, 110%)
+		-webkit-transform translate(100%, 110%)
 		opacity 0
-	97%
+	100%
 		transform translate(0%, 0%)
 		-ms-transform translate(0%, 0%)
 		-webkit-transform translate(0%, 0%)
 		opacity 0
-	100%
-		opacity 0
-
-@keyframes animacion2
-	0%
-		transform translate(0%, 0%)
-		-ms-transform translate(0%, 0%)
-		-webkit-transform translate(0%, 0%)
-		opacity 0
-	25%
-		transform translate(50%, 50%)
-		-ms-transform translate(50%, 50%)
-		-webkit-transform translate(50%, 50%)
-		opacity .3
-	80%
-		transform translate(100%, 100%)
-		-ms-transform translate(100%, 100%)
-		-webkit-transform translate(100%, 100%)
-		opacity .3
-	96%
-		opacity 0
-	97%
-		transform translate(0%, 0%)
-		-ms-transform translate(0%, 0%)
-		-webkit-transform translate(0%, 0%)
-		opacity 0
-	100%
-		opacity 0
-
-@keyframes animacion3
-	0%
-		transform translate(0%, 0%)
-		-ms-transform translate(0%, 0%)
-		-webkit-transform translate(0%, 0%)
-		opacity 0
-	25%
-		transform translate(50%, 50%)
-		-ms-transform translate(50%, 50%)
-		-webkit-transform translate(50%, 50%)
-		opacity .3
-	80%
-		transform translate(100%, 100%)
-		-ms-transform translate(100%, 100%)
-		-webkit-transform translate(100%, 100%)
-		opacity .3
-	96%
-		opacity 0
-	97%
-		transform translate(0%, 0%)
-		-ms-transform translate(0%, 0%)
-		-webkit-transform translate(0%, 0%)
-		opacity 0
-	100%
-		opacity 0
-
-@keyframes timeLine
-	0%
-		opacity 0
-	100%
-		opacity 1
-
-@keyframes timeLineLento
-	0%
-		opacity 0
-	90%
-		opacity 0
-	100%
-		opacity 1
-
-
-	0%
-		opacity 0
-	90%
-		opacity 0
-	100%
-		opacity 1
-
 
 
 
