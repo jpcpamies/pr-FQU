@@ -603,11 +603,10 @@
 		left 0
 		z-index 4
 		.rayo
-			animation animacion 5s infinite
-			-webkit-animation animacion 5s infinite
+			opacity .2
 			.rayoInner
 				background-image url(../img/rayos.png)
-				background-position 0 0
+				background-position -50% -50%
 				background-repeat repeat-x repeat-y
 				background-size 100% auto
 				width 100%
@@ -747,34 +746,31 @@
 #llamadaCalendario:checked ~ .llamadaTitulo
 	margin-left -100%
 
-@keyframes animacion
-	0%
-		transform translate(0%, 0%)
-		-ms-transform translate(0%, 0%)
-		-webkit-transform translate(0%, 0%)
-		opacity 0
-	25%
-		opacity .4
-	50%
-		opacity .3
-	75%
-		opacity .2
-	95%
-		transform translate(100%, 110%)
-		-ms-transform translate(100%, 110%)
-		-webkit-transform translate(100%, 110%)
-		opacity .4
-	95%
-		transform translate(100%, 110%)
-		-ms-transform translate(100%, 110%)
-		-webkit-transform translate(100%, 110%)
-		opacity 0
-	100%
-		transform translate(0%, 0%)
-		-ms-transform translate(0%, 0%)
-		-webkit-transform translate(0%, 0%)
-		opacity 0
-
+// @keyframes animacion
+// 	0%
+// 		transform translate(-50%, -50%)
+// 		-ms-transform translate(-50%, -50%)
+// 		-webkit-transform translate(-50%, -50%)
+// 		opacity 1
+// 	25%
+// 		opacity 1
+// 	75%
+// 		transform translate(-50%, -50%)
+// 		-ms-transform translate(-50%, -50%)
+// 		-webkit-transform translate(-50%, -50%)
+// 		opacity 1
+// 	95%
+// 		transform translate(100%, 100%)
+// 		-ms-transform translate(100%, 100%)
+// 		-webkit-transform translate(100%, 100%)
+// 		opacity .4
+// 	95%
+// 		opacity 0
+// 	100%
+// 		transform translate(-50%, -50%)
+// 		-ms-transform translate(-50%, -50%)
+// 		-webkit-transform translate(-50%, -50%)
+// 		opacity 0
 
 
 
