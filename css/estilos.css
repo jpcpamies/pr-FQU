@@ -448,7 +448,8 @@ a:active {
   box-shadow: 0 0 3px rgba(0,0,0,0.3);
   display: block;
   margin: 0 auto;
-  width: 100px;
+  width: 90px;
+  height: auto;
 }
 .contenidos .noCalendario .vistaMovil .contienePubillas .pubillas .pubillasOuter .pubillasInner .detall {
   font-size: 14px;
@@ -461,7 +462,7 @@ a:active {
   font-weight: 400;
 }
 .contenidos .noCalendario .vistaMovil .contienePubillas .unaPubilla .back {
-  color: #80b21e;
+  color: rgba(0,0,0,0.75);
   padding: 20px 0 25px 18px;
 }
 .contenidos .noCalendario .vistaMovil .contienePubillas .unaPubilla .back:last-child {
