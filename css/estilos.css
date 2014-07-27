@@ -282,7 +282,7 @@ a:active {
 }
 .contenidos .calendario .listaEventos .contieneEvento .evento .headerEvento {
   background: #f8f8f8;
-  border-bottom: 3px solid #177dd4;
+  border-bottom: 1px solid #dcdcdc;
   border-radius: 10px 10px 0 0;
   padding: 10px 0;
   text-align: center;
@@ -301,7 +301,7 @@ a:active {
   position: relative;
 }
 .contenidos .calendario .listaEventos .contieneEvento .evento .footerEvento span {
-  color: rgba(0,0,0,0.75);
+  color: #177dd4;
   font-size: 0.8em;
   font-weight: 400;
   position: absolute;
@@ -407,11 +407,10 @@ a:active {
   text-transform: uppercase;
   font-size: 0.75em;
   color: #a4a8aa;
-  margin-top: 9px;
+  margin-top: 0px;
 }
 .contenidos .calendario .listaEventos .contieneEvento .evento .plegado .tituloEvento {
-  margin-left: 70px;
-  border-bottom: 1px solid rgba(220,220,220,0.5);
+  margin: 0 10px 0 70px;
   padding: 0 10px 9px 0;
 }
 .contenidos .noCalendario {
@@ -995,7 +994,7 @@ background: rgb(215,81,93);
   display: none;
 }
 #eventoDesplegado:checked ~ .evento .footerEvento span {
-  color: #177dd4;
+  color: rgba(0,0,0,0.75);
 }
 #llamadaCalendario {
   display: none;
