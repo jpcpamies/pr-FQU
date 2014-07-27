@@ -135,122 +135,124 @@
 							-ms-transform: scale(1, 1.2);
 							-webkit-transform: scale(1, 1.2);
 		.listaEventos
-			.evento
+			.contieneEvento
 				width 92%
 				margin 10px auto 15px auto
-				.headerEvento
-					background blancoManchado
-					border-bottom 3px solid azul
-					border-radius 10px 10px 0 0 
-					padding 10px 0
-					text-align center 
-					span
-						color texto2
-						font-size 18px
-						font-weight 400
-				.footerEvento
-					background blancoManchado
-					border-radius  0 0  10px 10px
-					border-top 1px solid borde
-					height 47px
-					padding 10px 0
-					position relative
-					span
-						color texto2
-						font-size .8em
-						font-weight 400
-						position absolute
-						right 25px
-						&:after
-							content menu
-							font-family icomoon
-							font-size 1.2em
-							left 10px
-							position relative
-							top 2px
-				.desplegado
-					.contenido
-						background white
-						.texto
-							font-family lectura
-							font-size 18px 
-							line-height 25px
-							padding 9px 9px 35px 9px
-							p
-								padding 9px
-					.hero
-						width 100%
-						height 250px
-						position relative
-						.detalle
-							position relative
-							z-index 1
-							text-align center
-							color white
-							text-shadow 1px 1px 1px rgba(black,.8)
-							.logoEvento
-								&:before
-									position relative
-									top 75px
-									content '\e135'
-									font-family icomoon
-									font-size 3em
-							.noLogo
-								margin 0 auto
-								position relative
-								font-weight 400
-								top 90px
-								width 75%
-								.sitioEvento
-									font-size .75em
-									font-weight 300
-									margin-top 10px
-									text-transform uppercase
-						.imagen
-							-webkit-filter: brightness(0.8) grayscale(0.1);
-							background-image url(../img/eventos/techno.jpg)
-							background-position 0 0 
-							background-repeat no-repeat
-							background-size 100% auto
-							bottom 0
-							left 0
-							position absolute
-							right 0
-							top 0 
-							z-index 0
-						.sombra
-							position absolute
-							top 0
-							right 0
-							bottom 0
-							left 0
-							z-index 1
-							box-shadow 0 -100px 100px rgba(black,.5) inset
-				.plegado
-					background white
-					padding 18px 0 18px 18px
-					font-size 18px
-					font-family lectura
-					.logoEvento
-						position relative
-						&:before
+				.evento
+					.headerEvento
+						background blancoManchado
+						border-bottom 3px solid azul
+						border-radius 10px 10px 0 0 
+						padding 10px 0
+						text-align center 
+						span
 							color texto2
+							font-size 18px
+							font-weight 400
+					.footerEvento
+						background blancoManchado
+						border-radius  0 0  10px 10px
+						border-top 1px solid borde
+						height 47px
+						padding 10px 0
+						position relative
+						span
+							color texto2
+							font-size .8em
+							font-weight 400
 							position absolute
-							top 5px
-							left 10px
-							content '\e135'
-							font-family icomoon
-							font-size 2em
-					.sitioEvento
-						margin-left 70px
-						text-transform uppercase
-						font-size .75em
-						color grisMenu
-						margin-top 9px
-					.tituloEvento
-						margin-left 70px
-						border-bottom 1px solid rgba(borde,.5)
-						padding 0 10px 9px 0
+							right 25px
+							&:after
+								content menu
+								font-family icomoon
+								font-size 1.2em
+								left 10px
+								position relative
+								top 2px
+					.desplegado
+						.contenido
+							background white
+							.texto
+								font-family lectura
+								font-size 17px 
+								line-height 24px
+								padding 9px 9px 35px 9px
+								p
+									padding 9px
+						.hero
+							width 100%
+							height 250px
+							position relative
+							.detalle
+								position relative
+								z-index 1
+								text-align center
+								color white
+								text-shadow 1px 1px 1px rgba(black,.8)
+								.logoEvento
+									&:before
+										position relative
+										top 75px
+										content '\e135'
+										font-family icomoon
+										font-size 3em
+								.noLogo
+									margin 0 auto
+									position relative
+									font-weight 400
+									top 90px
+									width 75%
+									.sitioEvento
+										font-size .75em
+										font-weight 300
+										margin-top 10px
+										text-transform uppercase
+							.imagen
+								-webkit-filter: brightness(0.8) grayscale(0.1);
+								background-image url(../img/eventos/techno.jpg)
+								background-position 0 0 
+								background-repeat no-repeat
+								background-size 100% auto
+								bottom 0
+								left 0
+								position absolute
+								right 0
+								top 0 
+								z-index 0
+							.sombra
+								position absolute
+								top 0
+								right 0
+								bottom 0
+								left 0
+								z-index 1
+								box-shadow 0 -100px 100px rgba(black,.5) inset
+					.plegado
+						background white
+						padding 18px 0 18px 18px
+						font-size 18px
+						font-family lectura
+						.logoEvento
+							position relative
+							&:before
+								color texto2
+								position absolute
+								top 5px
+								left 10px
+								content '\e135'
+								font-family icomoon
+								font-size 2em
+						.sitioEvento
+							margin-left 70px
+							text-transform uppercase
+							font-size .75em
+							color grisMenu
+							margin-top 9px
+						.tituloEvento
+							margin-left 70px
+							border-bottom 1px solid rgba(borde,.5)
+							padding 0 10px 9px 0
+				
 
 	.noCalendario
 		position relative
@@ -736,6 +738,11 @@
 	overflow hidden
 
 // Acciones CHECKBOX
+
+
+#eventoDesplegado 
+	display none
+// ====================
 #llamadaCalendario
 	display none
 #llamadaCalendario:checked ~ footer

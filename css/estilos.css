@@ -276,23 +276,23 @@ a:active {
   -ms-transform: scale(1, 1.2);
   -webkit-transform: scale(1, 1.2);
 }
-.contenidos .calendario .listaEventos .evento {
+.contenidos .calendario .listaEventos .contieneEvento {
   width: 92%;
   margin: 10px auto 15px auto;
 }
-.contenidos .calendario .listaEventos .evento .headerEvento {
+.contenidos .calendario .listaEventos .contieneEvento .evento .headerEvento {
   background: #f8f8f8;
   border-bottom: 3px solid #177dd4;
   border-radius: 10px 10px 0 0;
   padding: 10px 0;
   text-align: center;
 }
-.contenidos .calendario .listaEventos .evento .headerEvento span {
+.contenidos .calendario .listaEventos .contieneEvento .evento .headerEvento span {
   color: rgba(0,0,0,0.75);
   font-size: 18px;
   font-weight: 400;
 }
-.contenidos .calendario .listaEventos .evento .footerEvento {
+.contenidos .calendario .listaEventos .contieneEvento .evento .footerEvento {
   background: #f8f8f8;
   border-radius: 0 0 10px 10px;
   border-top: 1px solid #dcdcdc;
@@ -300,14 +300,14 @@ a:active {
   padding: 10px 0;
   position: relative;
 }
-.contenidos .calendario .listaEventos .evento .footerEvento span {
+.contenidos .calendario .listaEventos .contieneEvento .evento .footerEvento span {
   color: rgba(0,0,0,0.75);
   font-size: 0.8em;
   font-weight: 400;
   position: absolute;
   right: 25px;
 }
-.contenidos .calendario .listaEventos .evento .footerEvento span:after {
+.contenidos .calendario .listaEventos .contieneEvento .evento .footerEvento span:after {
   content: "\e120";
   font-family: icomoon;
   font-size: 1.2em;
@@ -315,51 +315,51 @@ a:active {
   position: relative;
   top: 2px;
 }
-.contenidos .calendario .listaEventos .evento .desplegado .contenido {
+.contenidos .calendario .listaEventos .contieneEvento .evento .desplegado .contenido {
   background: #fff;
 }
-.contenidos .calendario .listaEventos .evento .desplegado .contenido .texto {
+.contenidos .calendario .listaEventos .contieneEvento .evento .desplegado .contenido .texto {
   font-family: 'Open Sans', sans-serif;
-  font-size: 18px;
-  line-height: 25px;
+  font-size: 17px;
+  line-height: 24px;
   padding: 9px 9px 35px 9px;
 }
-.contenidos .calendario .listaEventos .evento .desplegado .contenido .texto p {
+.contenidos .calendario .listaEventos .contieneEvento .evento .desplegado .contenido .texto p {
   padding: 9px;
 }
-.contenidos .calendario .listaEventos .evento .desplegado .hero {
+.contenidos .calendario .listaEventos .contieneEvento .evento .desplegado .hero {
   width: 100%;
   height: 250px;
   position: relative;
 }
-.contenidos .calendario .listaEventos .evento .desplegado .hero .detalle {
+.contenidos .calendario .listaEventos .contieneEvento .evento .desplegado .hero .detalle {
   position: relative;
   z-index: 1;
   text-align: center;
   color: #fff;
   text-shadow: 1px 1px 1px rgba(0,0,0,0.8);
 }
-.contenidos .calendario .listaEventos .evento .desplegado .hero .detalle .logoEvento:before {
+.contenidos .calendario .listaEventos .contieneEvento .evento .desplegado .hero .detalle .logoEvento:before {
   position: relative;
   top: 75px;
   content: '\e135';
   font-family: icomoon;
   font-size: 3em;
 }
-.contenidos .calendario .listaEventos .evento .desplegado .hero .detalle .noLogo {
+.contenidos .calendario .listaEventos .contieneEvento .evento .desplegado .hero .detalle .noLogo {
   margin: 0 auto;
   position: relative;
   font-weight: 400;
   top: 90px;
   width: 75%;
 }
-.contenidos .calendario .listaEventos .evento .desplegado .hero .detalle .noLogo .sitioEvento {
+.contenidos .calendario .listaEventos .contieneEvento .evento .desplegado .hero .detalle .noLogo .sitioEvento {
   font-size: 0.75em;
   font-weight: 300;
   margin-top: 10px;
   text-transform: uppercase;
 }
-.contenidos .calendario .listaEventos .evento .desplegado .hero .imagen {
+.contenidos .calendario .listaEventos .contieneEvento .evento .desplegado .hero .imagen {
   -webkit-filter: brightness(0.8) grayscale(0.1);
   background-image: url("../img/eventos/techno.jpg");
   background-position: 0 0;
@@ -372,7 +372,7 @@ a:active {
   top: 0;
   z-index: 0;
 }
-.contenidos .calendario .listaEventos .evento .desplegado .hero .sombra {
+.contenidos .calendario .listaEventos .contieneEvento .evento .desplegado .hero .sombra {
   position: absolute;
   top: 0;
   right: 0;
@@ -381,16 +381,16 @@ a:active {
   z-index: 1;
   box-shadow: 0 -100px 100px rgba(0,0,0,0.5) inset;
 }
-.contenidos .calendario .listaEventos .evento .plegado {
+.contenidos .calendario .listaEventos .contieneEvento .evento .plegado {
   background: #fff;
   padding: 18px 0 18px 18px;
   font-size: 18px;
   font-family: 'Open Sans', sans-serif;
 }
-.contenidos .calendario .listaEventos .evento .plegado .logoEvento {
+.contenidos .calendario .listaEventos .contieneEvento .evento .plegado .logoEvento {
   position: relative;
 }
-.contenidos .calendario .listaEventos .evento .plegado .logoEvento:before {
+.contenidos .calendario .listaEventos .contieneEvento .evento .plegado .logoEvento:before {
   color: rgba(0,0,0,0.75);
   position: absolute;
   top: 5px;
@@ -399,14 +399,14 @@ a:active {
   font-family: icomoon;
   font-size: 2em;
 }
-.contenidos .calendario .listaEventos .evento .plegado .sitioEvento {
+.contenidos .calendario .listaEventos .contieneEvento .evento .plegado .sitioEvento {
   margin-left: 70px;
   text-transform: uppercase;
   font-size: 0.75em;
   color: #a4a8aa;
   margin-top: 9px;
 }
-.contenidos .calendario .listaEventos .evento .plegado .tituloEvento {
+.contenidos .calendario .listaEventos .contieneEvento .evento .plegado .tituloEvento {
   margin-left: 70px;
   border-bottom: 1px solid rgba(220,220,220,0.5);
   padding: 0 10px 9px 0;
@@ -981,6 +981,9 @@ background: rgb(215,81,93);
 }
 .wraper {
   overflow: hidden;
+}
+#eventoDesplegado {
+  display: none;
 }
 #llamadaCalendario {
   display: none;
