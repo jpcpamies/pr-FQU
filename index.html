@@ -14,8 +14,9 @@
 		
 		<link rel="stylesheet" href="css/normalize.min.css" />
 	    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,900italic|Oswald:400,700|Open+Sans:300' rel='stylesheet' type='text/css'>
+	    <link rel="stylesheet" href="http://i.icomoon.io/public/temp/b2f869df5f/UntitledProject2/style.css">
 	    <link rel="stylesheet" href="css/estilos.css" />
-	    <link rel="stylesheet" href="http://i.icomoon.io/public/temp/71ad023b73/UntitledProject2/style.css">
+
 	    <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
 	</head>
 	<body>
@@ -23,9 +24,8 @@
 		<div class="wraper">	
 			<div class="logo"><img src="img/logo/logoBlanco.png" alt="logo Festes Quinquennals Ulldecona" /></div>		
 			<header class="header">
+				<div class="sombra"></div>
 				<div class="efecto"><div class="rayo"><div class="rayoInner"></div></div></div>
-				<div class="efecto"><div class="rayo2"><div class="rayoInner"></div></div></div>
-				<div class="efecto"><div class="rayo3"><div class="rayoInner"></div></div></div>
 				<div class="degradado"><div class="marco"></div></div>
 				<div class="fondo"><div class="fondoInner"></div></div>
 				<h1 class='titulo'>Festes Quinquennals<br>Ulldecona 2014</h1>
@@ -37,18 +37,8 @@
 			<input type="checkbox" id='llamadaCalendario' />
 			<label for="llamadaCalendario" class="llamadaLabel"><div class="boton"><span class="flecha"></span></div></label>
 			<div class="llamadaTitulo"><h2>Programa de Festes<span>Estigues al dia de tot</span></h2></div>
-			<nav class="menu">
-			    <ul>
-					<li class="botonOuter" onclick="inyectarPubillas()"><div class="botonInner  top"><h3 class='icono pubilles'>Pubilles</h3></div></li>
-					<li class="botonOuter" onclick="inyectarInfo()"><div class="botonInner marcador2"><h3 class='icono info'>Informació</h3></div></li>
-					<li class="botonOuter" onclick="inyectarColaboradores()"><div class="botonInner "><h3 class='icono patro'>Colaboradors</h3></div></li>
-					<li class="botonOuter"><a href="mailto:reesongroup@gmail.com"><div class="contactar"><h3>Contactar</h3></div></li></a>
-					<li class="botonOuter"><div class="logo"><img src="img/logo/logo_reeson_vertical.png" alt=""></div></li>
-			    </ul>
-			</nav>
 			<div class="decoracion">
 				<div class="tituloOuter"><div class="tituloInner"><p><span>Ara mateix</span> s'està fent</p></div></div>
-				<!-- <div class="lineaOuter"><div class="linea"></div></div> -->
 			</div>
 			<div class="contenidos">
 				<section class="calendario">
@@ -80,281 +70,49 @@
 						</div>
 					    <div class="listaEventos">
 					    	<div class="dia1">
-					    		<div class="evento baile">
-						    		<div class="portada" onclick="slideToggle('dia1e1')">
-						    			<div class="fondo"></div>
-						    			<div class="detallePortada">
-						    				<div class="desplegar"></div>
-											<!-- EVENTO ACTUAL -->
-											<div class="horaEvento"><span>00:00</span></div>
+
+								<div class="contieneEvento">
+									<div class="evento" onclick="slideToggle('dia1e1')">
+										<div class="headerEvento">
+											<span class="hora">23:30</span>
+										</div>
+										<div class="desplegado invisible" id='dia1e1'>
+											<div class="hero">
+												<div class="imagen"></div>
+												<div class="sombra"></div>
+												<div class="detalle">
+													<div class="logoEvento"></div>
+													<div class="noLogo">
+														<div class="tituloEvento"><p>La nit dels 80 una sessió musical, per a totes les edats</p></div>
+														<div class="sitioEvento"><p>Bar Valberde</p></div>
+													</div>
+												</div>
+											</div>
+											<div class="contenido">
+												<div class="texto">
+													<p>Gran Festa Imagina Ràdio a la pista del poliesportiu. Primer escalfarem motors amb una sessió musical, per a totes les edats, amb els temes més estiuencs.</p>
+								                    <p>Tot seguit, Concert Tribut al pop-rock espanyol dels 80’s-90’s amb un repertori de les millors cançons d’aquesta època amb Bogus Band: Mecano, Hombres G, Nacha Pop, Miguel Bosé, Tino Casal, Danza Invisible, Los Secretos, Los Pecos, Tequila, Los Rebeldes, Miguel Ríos, Loquillo, Ràdio Futura ... Remataran la nit els dj’s d’Imagina Ràdio, amb una selecció musical, fins que surti el sol.</p>
+								                    <p>A més, tota la màgia de les Festes d’Imagina Ràdio, amb performance, animació, visuals, fluorescències, marxandatge i pluja de regals tota la nit.
+								                    Si te’n recordes d’aquesta música, has de venir... no te’n penediràs!!!</p>
+								                    <p>Idea i producció artística: Imagina Ràdio</p>
+								                    <p>Amb la col·laboració de: La Veu de l’Ebre i Canal T.E.</p>
+												</div>
+											</div>
+										</div>
+										<div class="plegado">
 											<div class="logoEvento"></div>
-											<div class="tituloEvento"><p>La nit dels 80 </p></div>
+											<div class="tituloEvento"><p>La nit dels 80 una sessió musical, per a totes les edats, amb els tem</p></div>
 											<div class="sitioEvento"><p>Bar Valberde</p></div>
-											<!-- /EVENTO ACTUAL -->
 										</div>
-						    		</div>
-						    		<div class="contenidoEvento">
-							    		<div id='dia1e1' class="contenidoEventoInner invisible">
-						    				<p>Gran Festa Imagina Ràdio a la pista del poliesportiu. Primer escalfarem motors amb una sessió musical, per a totes les edats, amb els temes més estiuencs.</p>
-						                    <p>Tot seguit, Concert Tribut al pop-rock espanyol dels 80’s-90’s amb un repertori de les millors cançons d’aquesta època amb Bogus Band: Mecano, Hombres G, Nacha Pop, Miguel Bosé, Tino Casal, Danza Invisible, Los Secretos, Los Pecos, Tequila, Los Rebeldes, Miguel Ríos, Loquillo, Ràdio Futura ... Remataran la nit els dj’s d’Imagina Ràdio, amb una selecció musical, fins que surti el sol.</p>
-						                    <p>A més, tota la màgia de les Festes d’Imagina Ràdio, amb performance, animació, visuals, fluorescències, marxandatge i pluja de regals tota la nit.
-						                    Si te’n recordes d’aquesta música, has de venir... no te’n penediràs!!!</p>
-						                    <p>Idea i producció artística: Imagina Ràdio</p>
-						                    <p>Amb la col·laboració de: La Veu de l’Ebre i Canal T.E.</p>
-						                    <p>Organitza: Ajuntament d’Ulldecona.</p>
-							    		</div>
-						    		</div>
-								</div>
-								<div class="evento bous">
-						    		<div class="portada" onclick="slideToggle('dia1e2')">
-						    			<div class="fondo"></div>
-						    			<div class="detallePortada">
-						    				<div class="desplegar"></div>
-											<!-- EVENTO ACTUAL -->
-											<div class="horaEvento"><span>00:00</span></div>
-											<div class="logoEvento"></div>
-											<div class="tituloEvento"><p>La nit dels 80 Gran Festa Imagina</p></div>
-											<div class="sitioEvento"><p>pista del poliesportiu</p></div>
-											<!-- /EVENTO ACTUAL -->
+										<div class="footerEvento">
+											<!-- <span class="detalle">Detall</span> -->
 										</div>
-						    		</div>
-						    		<div class="contenidoEvento">
-							    		<div id='dia1e2' class="contenidoEventoInner invisible">
-						    				<p>Gran Festa Imagina Ràdio a la pista del poliesportiu. Primer escalfarem motors amb una sessió musical, per a totes les edats, amb els temes més estiuencs.</p>
-						                    <p>Tot seguit, Concert Tribut al pop-rock espanyol dels 80’s-90’s amb un repertori de les millors cançons d’aquesta època amb Bogus Band: Mecano, Hombres G, Nacha Pop, Miguel Bosé, Tino Casal, Danza Invisible, Los Secretos, Los Pecos, Tequila, Los Rebeldes, Miguel Ríos, Loquillo, Ràdio Futura ... Remataran la nit els dj’s d’Imagina Ràdio, amb una selecció musical, fins que surti el sol.</p>
-						                    <p>A més, tota la màgia de les Festes d’Imagina Ràdio, amb performance, animació, visuals, fluorescències, marxandatge i pluja de regals tota la nit.
-						                    Si te’n recordes d’aquesta música, has de venir... no te’n penediràs!!!</p>
-						                    <p>Idea i producció artística: Imagina Ràdio</p>
-						                    <p>Amb la col·laboració de: La Veu de l’Ebre i Canal T.E.</p>
-						                    <p>Organitza: Ajuntament d’Ulldecona.</p>
-							    		</div>
-						    		</div>
+									</div>
 								</div>
-					    		<div class="evento concierto">
-						    		<div class="portada" onclick="slideToggle('dia1set1')">
-						    			<div class="fondo"></div>
-						    			<div class="detallePortada">
-						    				<div class="desplegar"></div>
-											<!-- EVENTO ACTUAL -->
-											<div class="horaEvento"><span>20:30</span></div>
-											<div class="logoEvento"></div>
-											<div class="tituloEvento"><p>musical, fins que surti el sol</p></div>
-											<div class="sitioEvento"><p>La Lluna</p></div>
-											<!-- /EVENTO ACTUAL -->
-										</div>
-						    		</div>
-						    		<div class="contenidoEvento">
-							    		<div id='dia1set1' class="contenidoEventoInner invisible">
-						    				<p>Gran Festa Imagina Ràdio a la pista del poliesportiu. Primer escalfarem motors amb una sessió musical, per a totes les edats, amb els temes més estiuencs.</p>
-						                    <p>Tot seguit, Concert Tribut al pop-rock espanyol dels 80’s-90’s amb un repertori de les millors cançons d’aquesta època amb Bogus Band: Mecano, Hombres G, Nacha Pop, Miguel Bosé, Tino Casal, Danza Invisible, Los Secretos, Los Pecos, Tequila, Los Rebeldes, Miguel Ríos, Loquillo, Ràdio Futura ... Remataran la nit els dj’s d’Imagina Ràdio, amb una selecció musical, fins que surti el sol.</p>
-						                    <p>A més, tota la màgia de les Festes d’Imagina Ràdio, amb performance, animació, visuals, fluorescències, marxandatge i pluja de regals tota la nit.
-						                    Si te’n recordes d’aquesta música, has de venir... no te’n penediràs!!!</p>
-						                    <p>Idea i producció artística: Imagina Ràdio</p>
-						                    <p>Amb la col·laboració de: La Veu de l’Ebre i Canal T.E.</p>
-						                    <p>Organitza: Ajuntament d’Ulldecona.</p>
-							    		</div>
-						    		</div>
-								</div>
-								<div class="evento baile">
-						    		<div class="portada" onclick="slideToggle('dia1set2')">
-						    			<div class="fondo"></div>
-						    			<div class="detallePortada">
-						    				<div class="desplegar"></div>
-											<!-- EVENTO ACTUAL -->
-											<div class="horaEvento"><span>00:00</span></div>
-											<div class="logoEvento"></div>
-											<div class="tituloEvento"><p>La nit dels 80 </p></div>
-											<div class="sitioEvento"><p>Bar Valberde</p></div>
-											<!-- /EVENTO ACTUAL -->
-										</div>
-						    		</div>
-						    		<div class="contenidoEvento">
-							    		<div id='dia1set2' class="contenidoEventoInner invisible">
-						    				<p>Gran Festa Imagina Ràdio a la pista del poliesportiu. Primer escalfarem motors amb una sessió musical, per a totes les edats, amb els temes més estiuencs.</p>
-						                    <p>Tot seguit, Concert Tribut al pop-rock espanyol dels 80’s-90’s amb un repertori de les millors cançons d’aquesta època amb Bogus Band: Mecano, Hombres G, Nacha Pop, Miguel Bosé, Tino Casal, Danza Invisible, Los Secretos, Los Pecos, Tequila, Los Rebeldes, Miguel Ríos, Loquillo, Ràdio Futura ... Remataran la nit els dj’s d’Imagina Ràdio, amb una selecció musical, fins que surti el sol.</p>
-						                    <p>A més, tota la màgia de les Festes d’Imagina Ràdio, amb performance, animació, visuals, fluorescències, marxandatge i pluja de regals tota la nit.
-						                    Si te’n recordes d’aquesta música, has de venir... no te’n penediràs!!!</p>
-						                    <p>Idea i producció artística: Imagina Ràdio</p>
-						                    <p>Amb la col·laboració de: La Veu de l’Ebre i Canal T.E.</p>
-						                    <p>Organitza: Ajuntament d’Ulldecona.</p>
-							    		</div>
-						    		</div>
-								</div>
-								<div class="evento bous">
-						    		<div class="portada" onclick="slideToggle('dia1set3')">
-						    			<div class="fondo"></div>
-						    			<div class="detallePortada">
-						    				<div class="desplegar"></div>
-											<!-- EVENTO ACTUAL -->
-											<div class="horaEvento"><span>00:00</span></div>
-											<div class="logoEvento"></div>
-											<div class="tituloEvento"><p>La nit dels 80 Gran Festa Imagina</p></div>
-											<div class="sitioEvento"><p>pista del poliesportiu</p></div>
-											<!-- /EVENTO ACTUAL -->
-										</div>
-						    		</div>
-						    		<div class="contenidoEvento">
-							    		<div id='dia1set3' class="contenidoEventoInner invisible">
-						    				<p>Gran Festa Imagina Ràdio a la pista del poliesportiu. Primer escalfarem motors amb una sessió musical, per a totes les edats, amb els temes més estiuencs.</p>
-						                    <p>Tot seguit, Concert Tribut al pop-rock espanyol dels 80’s-90’s amb un repertori de les millors cançons d’aquesta època amb Bogus Band: Mecano, Hombres G, Nacha Pop, Miguel Bosé, Tino Casal, Danza Invisible, Los Secretos, Los Pecos, Tequila, Los Rebeldes, Miguel Ríos, Loquillo, Ràdio Futura ... Remataran la nit els dj’s d’Imagina Ràdio, amb una selecció musical, fins que surti el sol.</p>
-						                    <p>A més, tota la màgia de les Festes d’Imagina Ràdio, amb performance, animació, visuals, fluorescències, marxandatge i pluja de regals tota la nit.
-						                    Si te’n recordes d’aquesta música, has de venir... no te’n penediràs!!!</p>
-						                    <p>Idea i producció artística: Imagina Ràdio</p>
-						                    <p>Amb la col·laboració de: La Veu de l’Ebre i Canal T.E.</p>
-						                    <p>Organitza: Ajuntament d’Ulldecona.</p>
-							    		</div>
-						    		</div>
-								</div>
-								<div class="evento baile">
-						    		<div class="portada" onclick="slideToggle('dia1set1')">
-						    			<div class="fondo"></div>
-						    			<div class="detallePortada">
-						    				<div class="desplegar"></div>
-											<!-- EVENTO ACTUAL -->
-											<div class="horaEvento"><span>20:30</span></div>
-											<div class="logoEvento"></div>
-											<div class="tituloEvento"><p>musical, fins que surti el sol</p></div>
-											<div class="sitioEvento"><p>La Lluna</p></div>
-											<!-- /EVENTO ACTUAL -->
-										</div>
-						    		</div>
-						    		<div class="contenidoEvento">
-							    		<div id='dia1set1' class="contenidoEventoInner invisible">
-						    				<p>Gran Festa Imagina Ràdio a la pista del poliesportiu. Primer escalfarem motors amb una sessió musical, per a totes les edats, amb els temes més estiuencs.</p>
-						                    <p>Tot seguit, Concert Tribut al pop-rock espanyol dels 80’s-90’s amb un repertori de les millors cançons d’aquesta època amb Bogus Band: Mecano, Hombres G, Nacha Pop, Miguel Bosé, Tino Casal, Danza Invisible, Los Secretos, Los Pecos, Tequila, Los Rebeldes, Miguel Ríos, Loquillo, Ràdio Futura ... Remataran la nit els dj’s d’Imagina Ràdio, amb una selecció musical, fins que surti el sol.</p>
-						                    <p>A més, tota la màgia de les Festes d’Imagina Ràdio, amb performance, animació, visuals, fluorescències, marxandatge i pluja de regals tota la nit.
-						                    Si te’n recordes d’aquesta música, has de venir... no te’n penediràs!!!</p>
-						                    <p>Idea i producció artística: Imagina Ràdio</p>
-						                    <p>Amb la col·laboració de: La Veu de l’Ebre i Canal T.E.</p>
-						                    <p>Organitza: Ajuntament d’Ulldecona.</p>
-							    		</div>
-						    		</div>
-								</div>
-								<div class="evento baile">
-						    		<div class="portada" onclick="slideToggle('dia1set2')">
-						    			<div class="fondo"></div>
-						    			<div class="detallePortada">
-						    				<div class="desplegar"></div>
-											<!-- EVENTO ACTUAL -->
-											<div class="horaEvento"><span>00:00</span></div>
-											<div class="logoEvento"></div>
-											<div class="tituloEvento"><p>La nit dels 80 </p></div>
-											<div class="sitioEvento"><p>Bar Valberde</p></div>
-											<!-- /EVENTO ACTUAL -->
-										</div>
-						    		</div>
-						    		<div class="contenidoEvento">
-							    		<div id='dia1set2' class="contenidoEventoInner invisible">
-						    				<p>Gran Festa Imagina Ràdio a la pista del poliesportiu. Primer escalfarem motors amb una sessió musical, per a totes les edats, amb els temes més estiuencs.</p>
-						                    <p>Tot seguit, Concert Tribut al pop-rock espanyol dels 80’s-90’s amb un repertori de les millors cançons d’aquesta època amb Bogus Band: Mecano, Hombres G, Nacha Pop, Miguel Bosé, Tino Casal, Danza Invisible, Los Secretos, Los Pecos, Tequila, Los Rebeldes, Miguel Ríos, Loquillo, Ràdio Futura ... Remataran la nit els dj’s d’Imagina Ràdio, amb una selecció musical, fins que surti el sol.</p>
-						                    <p>A més, tota la màgia de les Festes d’Imagina Ràdio, amb performance, animació, visuals, fluorescències, marxandatge i pluja de regals tota la nit.
-						                    Si te’n recordes d’aquesta música, has de venir... no te’n penediràs!!!</p>
-						                    <p>Idea i producció artística: Imagina Ràdio</p>
-						                    <p>Amb la col·laboració de: La Veu de l’Ebre i Canal T.E.</p>
-						                    <p>Organitza: Ajuntament d’Ulldecona.</p>
-							    		</div>
-						    		</div>
-								</div>
-								<div class="evento bous">
-						    		<div class="portada" onclick="slideToggle('dia1set3')">
-						    			<div class="fondo"></div>
-						    			<div class="detallePortada">
-						    				<div class="desplegar"></div>
-											<!-- EVENTO ACTUAL -->
-											<div class="horaEvento"><span>00:00</span></div>
-											<div class="logoEvento"></div>
-											<div class="tituloEvento"><p>La nit dels 80 Gran Festa Imagina</p></div>
-											<div class="sitioEvento"><p>pista del poliesportiu</p></div>
-											<!-- /EVENTO ACTUAL -->
-										</div>
-						    		</div>
-						    		<div class="contenidoEvento">
-							    		<div id='dia1set3' class="contenidoEventoInner invisible">
-						    				<p>Gran Festa Imagina Ràdio a la pista del poliesportiu. Primer escalfarem motors amb una sessió musical, per a totes les edats, amb els temes més estiuencs.</p>
-						                    <p>Tot seguit, Concert Tribut al pop-rock espanyol dels 80’s-90’s amb un repertori de les millors cançons d’aquesta època amb Bogus Band: Mecano, Hombres G, Nacha Pop, Miguel Bosé, Tino Casal, Danza Invisible, Los Secretos, Los Pecos, Tequila, Los Rebeldes, Miguel Ríos, Loquillo, Ràdio Futura ... Remataran la nit els dj’s d’Imagina Ràdio, amb una selecció musical, fins que surti el sol.</p>
-						                    <p>A més, tota la màgia de les Festes d’Imagina Ràdio, amb performance, animació, visuals, fluorescències, marxandatge i pluja de regals tota la nit.
-						                    Si te’n recordes d’aquesta música, has de venir... no te’n penediràs!!!</p>
-						                    <p>Idea i producció artística: Imagina Ràdio</p>
-						                    <p>Amb la col·laboració de: La Veu de l’Ebre i Canal T.E.</p>
-						                    <p>Organitza: Ajuntament d’Ulldecona.</p>
-							    		</div>
-						    		</div>
-								</div>
-								<div class="evento especial">
-						    		<div class="portada" onclick="slideToggle('dia1set1')">
-						    			<div class="fondo"></div>
-						    			<div class="detallePortada">
-						    				<div class="desplegar"></div>
-											<!-- EVENTO ACTUAL -->
-											<div class="horaEvento"><span>20:30</span></div>
-											<div class="logoEvento"></div>
-											<div class="tituloEvento"><p>musical, fins que surti el sol</p></div>
-											<div class="sitioEvento"><p>La Lluna</p></div>
-											<!-- /EVENTO ACTUAL -->
-										</div>
-						    		</div>
-						    		<div class="contenidoEvento">
-							    		<div id='dia1set1' class="contenidoEventoInner invisible">
-						    				<p>Gran Festa Imagina Ràdio a la pista del poliesportiu. Primer escalfarem motors amb una sessió musical, per a totes les edats, amb els temes més estiuencs.</p>
-						                    <p>Tot seguit, Concert Tribut al pop-rock espanyol dels 80’s-90’s amb un repertori de les millors cançons d’aquesta època amb Bogus Band: Mecano, Hombres G, Nacha Pop, Miguel Bosé, Tino Casal, Danza Invisible, Los Secretos, Los Pecos, Tequila, Los Rebeldes, Miguel Ríos, Loquillo, Ràdio Futura ... Remataran la nit els dj’s d’Imagina Ràdio, amb una selecció musical, fins que surti el sol.</p>
-						                    <p>A més, tota la màgia de les Festes d’Imagina Ràdio, amb performance, animació, visuals, fluorescències, marxandatge i pluja de regals tota la nit.
-						                    Si te’n recordes d’aquesta música, has de venir... no te’n penediràs!!!</p>
-						                    <p>Idea i producció artística: Imagina Ràdio</p>
-						                    <p>Amb la col·laboració de: La Veu de l’Ebre i Canal T.E.</p>
-						                    <p>Organitza: Ajuntament d’Ulldecona.</p>
-							    		</div>
-						    		</div>
-								</div>
-								<div class="evento baile">
-						    		<div class="portada" onclick="slideToggle('dia1set2')">
-						    			<div class="fondo"></div>
-						    			<div class="detallePortada">
-						    				<div class="desplegar"></div>
-											<!-- EVENTO ACTUAL -->
-											<div class="horaEvento"><span>00:00</span></div>
-											<div class="logoEvento"></div>
-											<div class="tituloEvento"><p>La nit dels 80 </p></div>
-											<div class="sitioEvento"><p>Bar Valberde</p></div>
-											<!-- /EVENTO ACTUAL -->
-										</div>
-						    		</div>
-						    		<div class="contenidoEvento">
-							    		<div id='dia1set2' class="contenidoEventoInner invisible">
-						    				<p>Gran Festa Imagina Ràdio a la pista del poliesportiu. Primer escalfarem motors amb una sessió musical, per a totes les edats, amb els temes més estiuencs.</p>
-						                    <p>Tot seguit, Concert Tribut al pop-rock espanyol dels 80’s-90’s amb un repertori de les millors cançons d’aquesta època amb Bogus Band: Mecano, Hombres G, Nacha Pop, Miguel Bosé, Tino Casal, Danza Invisible, Los Secretos, Los Pecos, Tequila, Los Rebeldes, Miguel Ríos, Loquillo, Ràdio Futura ... Remataran la nit els dj’s d’Imagina Ràdio, amb una selecció musical, fins que surti el sol.</p>
-						                    <p>A més, tota la màgia de les Festes d’Imagina Ràdio, amb performance, animació, visuals, fluorescències, marxandatge i pluja de regals tota la nit.
-						                    Si te’n recordes d’aquesta música, has de venir... no te’n penediràs!!!</p>
-						                    <p>Idea i producció artística: Imagina Ràdio</p>
-						                    <p>Amb la col·laboració de: La Veu de l’Ebre i Canal T.E.</p>
-						                    <p>Organitza: Ajuntament d’Ulldecona.</p>
-							    		</div>
-						    		</div>
-								</div>
-								<div class="evento bous">
-						    		<div class="portada" onclick="slideToggle('dia1set3')">
-						    			<div class="fondo"></div>
-						    			<div class="detallePortada">
-						    				<div class="desplegar"></div>
-											<!-- EVENTO ACTUAL -->
-											<div class="horaEvento"><span>00:00</span></div>
-											<div class="logoEvento"></div>
-											<div class="tituloEvento"><p>La nit dels 80 Gran Festa Imagina</p></div>
-											<div class="sitioEvento"><p>pista del poliesportiu</p></div>
-											<!-- /EVENTO ACTUAL -->
-										</div>
-						    		</div>
-						    		<div class="contenidoEvento">
-							    		<div id='dia1set3' class="contenidoEventoInner invisible">
-						    				<p>Gran Festa Imagina Ràdio a la pista del poliesportiu. Primer escalfarem motors amb una sessió musical, per a totes les edats, amb els temes més estiuencs.</p>
-						                    <p>Tot seguit, Concert Tribut al pop-rock espanyol dels 80’s-90’s amb un repertori de les millors cançons d’aquesta època amb Bogus Band: Mecano, Hombres G, Nacha Pop, Miguel Bosé, Tino Casal, Danza Invisible, Los Secretos, Los Pecos, Tequila, Los Rebeldes, Miguel Ríos, Loquillo, Ràdio Futura ... Remataran la nit els dj’s d’Imagina Ràdio, amb una selecció musical, fins que surti el sol.</p>
-						                    <p>A més, tota la màgia de les Festes d’Imagina Ràdio, amb performance, animació, visuals, fluorescències, marxandatge i pluja de regals tota la nit.
-						                    Si te’n recordes d’aquesta música, has de venir... no te’n penediràs!!!</p>
-						                    <p>Idea i producció artística: Imagina Ràdio</p>
-						                    <p>Amb la col·laboració de: La Veu de l’Ebre i Canal T.E.</p>
-						                    <p>Organitza: Ajuntament d’Ulldecona.</p>
-							    		</div>
-						    		</div>
-								</div>
+
+								<!-- Este deu estaral final de cada dia -->
+								<div class="finDia"><div class="finDiaInner"></div></div>
+								<!--/ Este deu estaral final de cada dia -->
 							</div>
 					    </div>
 					</div>
@@ -431,6 +189,98 @@
 								        </div>
 							    </section>
 							</div>
+							<!-- <div class="contienePubillas">
+							    <section class="pubillas">
+							        <div class="infoHeader"><h2>Pubilles Festes Quinquennals 2014</h2></div>
+							        <div class="pubillasOuter">
+							            <article class="pubillasInner">
+							                <a href="#" class="enlace"></a>
+							                <figure><img src="img/pubilles/pubilla1.jpg" width="100px" height="100px"></figure> 
+							                <div class="detall">
+							                    <div class="nom"><p>Simina Alexandra Crisan</p></div>
+							                    <div class="club"><p>Club Twirling La Vie d’Ulldecona</p></div>
+							                </div>
+							            </article>
+							            <article class="pubillasInner">
+							                <a href="#" class="enlace"></a>
+							                <figure><img src="img/pubilles/pubilla2.jpg" width="100px" height="100px"></figure> 
+							                <div class="detall">
+							                    <div class="nom"><p>Simina Alexandra Crisan</p></div>
+							                    <div class="club"><p>Club Twirling La Vie d’Ulldecona</p></div>
+							                </div>
+							            </article>
+							            <article class="pubillasInner">
+							                <a href="#" class="enlace"></a>
+							                <figure><img src="img/pubilles/pubilla3.jpg" width="100px" height="100px"></figure> 
+							                <div class="detall">
+							                    <div class="nom"><p>Simina Alexandra Crisan</p></div>
+							                    <div class="club"><p>Club Twirling La Vie d’Ulldecona</p></div>
+							                </div>
+							            </article>
+							            <article class="pubillasInner">
+							                <a href="#" class="enlace"></a>
+							                <figure><img src="img/pubilles/pubilla4.jpg" width="100px" height="100px"></figure> 
+							                <div class="detall">
+							                    <div class="nom"><p>Simina Alexandra Crisan</p></div>
+							                    <div class="club"><p>Club Twirling La Vie d’Ulldecona</p></div>
+							                </div>
+							            </article>
+							            <article class="pubillasInner">
+							                <a href="#" class="enlace"></a>
+							                <figure><img src="img/pubilles/pubilla5.jpg" width="100px" height="100px"></figure> 
+							                <div class="detall">
+							                    <div class="nom"><p>Simina Alexandra Crisan</p></div>
+							                    <div class="club"><p>Club Twirling La Vie d’Ulldecona</p></div>
+							                </div>
+							            </article>
+							            <article class="pubillasInner">
+							                <a href="#" class="enlace"></a>
+							                <figure><img src="img/pubilles/pubilla6.jpg" width="100px" height="100px"></figure> 
+							                <div class="detall">
+							                    <div class="nom"><p>Simina Alexandra Crisan</p></div>
+							                    <div class="club"><p>Club Twirling La Vie d’Ulldecona</p></div>
+							                </div>
+							            </article>
+							            <article class="pubillasInner">
+							                <a href="#" class="enlace"></a>
+							                <figure><img src="img/pubilles/pubilla7.jpg" width="100px" height="100px"></figure> 
+							                <div class="detall">
+							                    <div class="nom"><p>Simina Alexandra Crisan</p></div>
+							                    <div class="club"><p>Club Twirling La Vie d’Ulldecona</p></div>
+							                </div>
+							            </article>
+							        </div>
+							    </section>
+							    <div class="unaPubilla">
+							        <div class="back"><div class="backTo"><span>Pubillas</span></div></div>
+							        <div class="hero">
+							            <div class="fotoOuter">
+							                <div class="foto" style="background-image:url(../img/pubilles/pubillaGran1.png);"></div>
+							            </div>
+							            <div class="degradado"></div>
+							            <div class="detalle">
+							                <div class="nombre">Simina Alexandra Crisan</div>
+							                <div class="club">Penya Barcelonista d'Ulldecona</div>
+							            </div>
+							        </div>
+							        <div class="texto">
+							            <p>Hola falduts i faldudes!</p>
+							            <p>Ja tenim les festes d’Ulldecona aquí, i un any més, totes les pubilles estem preparades i, sobretot, molt nervioses, per a representar de la millor manera possible les diferents entitats del poble.</p>
+							            <p>Farem que estes festes siguin inoblidables i les gaudirem al màxim, començant per la nit del pregó i posant el punt i final amb els focs artificials.</p>
+							            <p>Una d’estes pubilles sereé jo, Simina. Tinc disset anys, acabo de cursar1r de Batxillerat en la modalitat Artística a Tortosa i de cara al futur m’agradaria estudiar a la universitat de Belles Arts. Sóc de nacionalitat romanesa, però porto tretze anys vivint a Ulldecona, i em considero una falduda més del poble, ja que sempre m’he sentit molt a gust aquí.</p>
+							            <p>Com a pubilla representaré a la Penya Barcelonista d’Ulldecona, i agraeixo a la entitat que m’hagin donat la oportunitat de viure les festes d’una manera diferent, ja que des de ben petita he participat als seus concursos de dibuix i, fins i tot, he guanyat alguns premis.</p>
+							            <p>Durant estes festes, jo seré una de les protagonistes, per això us invito a tots a que vingueu al nostre poble i que tots junts poguéssim gaudir de les tardes de bous, les nits d’orquestra, la pujada al Castell i tots els altres actes que es faran durant tota la setmana.</p>
+							            <p>Xaleu al màxim durant les Festes 2013!</p>
+							        </div>  
+							        <div class="back"><div class="backTo"><span>Pubillas</span></div></div>
+							    </div>
+							</div> -->
+						</div>
+						<div class="menuNavegacion">
+							<div class="boton"><span class="pubillas">Pubilles</span></div>
+							<div class="boton"><span class="info">Informació</span></div>
+							<div class="boton"><span class="colaboradores">Colaboradors</span></div>
+							<div class="boton"><span class="contactar">Contactar</span></div>
 						</div>
 					</div>
 					<div class="vistaMovil">
@@ -628,8 +478,14 @@
 		<script>
 		    window.jQuery || document.write('<script src="js/vendor/jquery-1.10.1.min.js"><\/script>')
 		</script>
-		<script src="js/main.js"></script>
+		<script src="js/main-ck.js"></script>
 		<script>
+
+		
+
+
+
+
 		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
 		  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
