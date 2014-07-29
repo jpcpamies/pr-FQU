@@ -286,11 +286,22 @@ a:active {
   border-radius: 10px 10px 0 0;
   padding: 10px 0;
   text-align: center;
+  position: relative;
 }
 .contenidos .calendario .listaEventos .contieneEvento .evento .headerEvento span {
   color: rgba(0,0,0,0.75);
   font-size: 18px;
   font-weight: 400;
+}
+.contenidos .calendario .listaEventos .contieneEvento .evento .headerEvento span:after {
+  color: #177dd4;
+  content: "\e120";
+  font-family: icomoon;
+  font-size: 1.2em;
+  font-weight: 400;
+  position: absolute;
+  right: 16px;
+  top: 10px;
 }
 .contenidos .calendario .listaEventos .contieneEvento .evento .footerEvento {
   background: #f8f8f8;
@@ -298,22 +309,7 @@ a:active {
   border-top: 1px solid #dcdcdc;
   height: 47px;
   padding: 10px 0;
-  position: relative;
-}
-.contenidos .calendario .listaEventos .contieneEvento .evento .footerEvento span {
-  color: #177dd4;
-  font-size: 0.8em;
-  font-weight: 400;
-  position: absolute;
-  right: 25px;
-}
-.contenidos .calendario .listaEventos .contieneEvento .evento .footerEvento span:after {
-  content: "\e120";
-  font-family: icomoon;
-  font-size: 1.2em;
-  left: 10px;
-  position: relative;
-  top: 2px;
+span
 }
 .contenidos .calendario .listaEventos .contieneEvento .evento .desplegado {
   display: none;
@@ -883,7 +879,7 @@ background: rgb(215,81,93);
   position: relative;
   top: 72px;
   left: 55px;
-  z-index: 5;
+  z-index: 52;
 }
 .header .titulo {
   color: #fff;
@@ -954,15 +950,6 @@ background: rgb(215,81,93);
 }
 .wraper {
   overflow: hidden;
-}
-#eventoDesplegado {
-  display: none;
-}
-#eventoDesplegado:checked ~ .evento .plegado {
-  display: none;
-}
-#eventoDesplegado:checked ~ .evento .footerEvento span {
-  color: rgba(0,0,0,0.75);
 }
 #llamadaCalendario {
   display: none;

@@ -146,30 +146,28 @@
 						border-radius 10px 10px 0 0 
 						padding 10px 0
 						text-align center 
+						position relative
 						span
 							color texto2
 							font-size 18px
 							font-weight 400
+							&:after
+								color azul
+								content menu
+								font-family icomoon
+								font-size 1.2em
+								font-weight 400
+								position absolute
+								right 16px
+								top 10px
 					.footerEvento
 						background blancoManchado
 						border-radius  0 0  10px 10px
 						border-top 1px solid borde
 						height 47px
 						padding 10px 0
-						position relative
+						
 						span
-							color azul
-							font-size .8em
-							font-weight 400
-							position absolute
-							right 25px
-							&:after
-								content menu
-								font-family icomoon
-								font-size 1.2em
-								left 10px
-								position relative
-								top 2px
 					.desplegado
 						display none
 						.contenido
@@ -648,7 +646,7 @@
 			position relative
 			top 72px
 			left 55px
-			z-index 5
+			z-index 52
 	.titulo
 		color white
 		font-size 24px
@@ -709,15 +707,6 @@
 	display none
 .wraper
 	overflow hidden
-
-
-
-#eventoDesplegado 
-	display none
-#eventoDesplegado:checked ~ .evento .plegado
-	display none
-#eventoDesplegado:checked ~ .evento .footerEvento span
-	color texto2
 // ====================
 #llamadaCalendario
 	display none
